@@ -4,7 +4,7 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 import platform
 import sys, os
-
+import aiohttp
 import datetime, json
 import math
 
