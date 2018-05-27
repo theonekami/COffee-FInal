@@ -98,12 +98,12 @@ async def dab(ctx, *, args='1'):
         await asyncio.sleep(0.5)  ##        """The first command in the process of making it YUNo?"""
 
 
-##@client.command()
-##async def cat(ctx):
-##    em = discord.Embed(title="Cat Pix")
-##    async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
-##        await em.set_image(url=res.url)
-##    await ctx.send(embed= em)
+@client.command()
+async def cat(ctx):
+    em = discord.Embed(title="Cat Pix")
+    async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
+        await em.set_image(url=res.url)
+    await ctx.send(embed= em)
 
 
 @client.command() 
