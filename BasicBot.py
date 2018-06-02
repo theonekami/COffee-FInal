@@ -57,6 +57,11 @@ async def pick(ctx, *, args):
     x = random.choice(y.split(','))
     await ctx.send('Umm..I Picked: ' + x)
 
+@client.command()
+async def cat(ctx):
+    async aiohttp.get("http://thecatapi.com/api/images/get") as res:
+        ctx.send(res.url())
+    
 
 @client.command()
 async def roll(ctx, *, args):
@@ -109,7 +114,7 @@ async def cat(ctx):
 
 @client.command() 
 async def docs(ctx):
-    x = '\nHere are the main docs\n\nhttps://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit# \n\n\nhttps://docs.google.com/document/d/1ULrJfzj9rd7Pd7SHX_0pgcrXLLR77q5qvGk04OSZteQ/edit \n\n\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q8S6n0yA/edit\n https://docs.google.com/document/d/1IieJwLf7mGsBjMlmEYO2A4J3lYNcHEEm7aZ-NQEscJY/edit?usp=drivesdk '  ####        for i in digits:
+    x = '\nHere are the main docs\n\nhttps://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit# \n\n\nhttps://docs.google.com/document/d/1ULrJfzj9rd7Pd7SHX_0pgcrXLLR77q5qvGk04OSZteQ/edit \n\n\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q8S6n0yA/edit\nhttps://docs.google.com/document/d/1IieJwLf7mGsBjMlmEYO2A4J3lYNcHEEm7aZ-NQEscJY/edit\n'  ####        for i in digits:
     await ctx.author.send(x)
     await ctx.send("Look into your dms....")
 
@@ -149,7 +154,7 @@ async def draw(ctx, args=None):
 
 @client.command()
 async def help(ctx):
-    y = '```Hey , you used my help command\nHow do you do\nI use four prefixes !,?,Yuno,yuno\nCommands:\n        Basic Dnd Stuff: \n\n                Roll: !roll <no of dice>d<no of sides>+<modifier>\n                       Rolls a die with the given nNo. of sides and given No of dice\n                       example yuno roll 2d8+35\n\n                Pick: !pick choice a,choice b,choice c....\n                        Picks a choice from the given choices\n\n                Calc: !calc<equation>\t\n                        Calculate an equation, even throws an divide by zero error\n                        \n        Fun Stuff:\n\n                Kill: Kills a charecter. because i LOVE YOU                        \n\n                Quote: Yuno tells her lovely words REEEE\n\n                Draw: yuno draw/yuno draw face\n                         Draws a card . if you specify face it will draw a face card.\n                         face cards include the bloody jokers\n\n                dab: guess...\n```'
+    y = '```Hey , you used my help command\nHow do you do\nI use four prefixes !,?,CC,cc\nCommands:\n        Basic Dnd Stuff: \n\n                Roll: !roll <no of dice>d<no of sides>+<modifier>\n                       Rolls a die with the given nNo. of sides and given No of dice\n                       example yuno roll 2d8+35\n\n                Pick: !pick choice a,choice b,choice c....\n                        Picks a choice from the given choices\n\n                Calc: !calc<equation>\t\n                        Calculate an equation, even throws an divide by zero error\n                        \n        Fun Stuff:\n\n                Kill: Kills a charecter. because i LOVE YOU                        \n\n                Quote: Yuno tells her lovely words REEEE\n\n                Draw: yuno draw/yuno draw face\n                         Draws a card . if you specify face it will draw a face card.\n                         face cards include the bloody jokers\n\n                dab: guess...\n```'
     await ctx.send(y)
 
 
