@@ -59,8 +59,9 @@ async def pick(ctx, *, args):
 
 @client.command()
 async def cat(ctx):
-    async aiohttp.get("http://thecatapi.com/api/images/get") as res:
-        ctx.send(res.url())
+    async with aiohttp.ClientSession() as session:
+        async with session.get('http://thecatapi.com/api/images/get') as resp:
+            ctx.send(resp.url)
     
 
 @client.command()
