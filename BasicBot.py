@@ -112,9 +112,9 @@ async def cat(ctx):
 async def dog(ctx):
     em = discord.Embed(title="Doggo Pix")
     async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
-        x= await res.text()
+        x= json.loads(await res.text())
     res.close()
-    em.set_image(url=json/loads(x)['message'])
+    em.set_image(url=x['message'])
     await ctx.send(embed= em)
 
 
