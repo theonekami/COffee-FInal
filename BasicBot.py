@@ -57,11 +57,13 @@ async def pick(ctx, *, args):
     x = random.choice(y.split(','))
     await ctx.send('Umm..I Picked: ' + x)
 
-##@client.command()
-##async def cat(ctx):
-##    
-##    
+@client.command()
+async def cat(ctx):
+   async with aiohttp.ClientSession() as session:
+       async with session.get('http://httpbin.org/get') as resp:
+           print(resp.status) 
 
+    
 @client.command()
 async def roll(ctx, *, args):
     'Rolls a dice. Formatted as  <no od dice>d<no of sides> eg. 3d10'
