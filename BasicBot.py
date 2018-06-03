@@ -8,6 +8,8 @@ import aiohttp
 import datetime, json
 import random
 import math
+import requests
+
 
 
 def basic_check(ctx):  ##for funsies
@@ -19,7 +21,6 @@ def basic_check(ctx):  ##for funsies
 
 client=commands.Bot( command_prefix=('?', '!', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
-async res = aiohttp.ClientSession()
 
 
 client.remove_command('help')
@@ -59,8 +60,8 @@ async def pick(ctx, *, args):
 
 @client.command()
 async def cat(ctx):
-    async with res.get('http://httpbin.org/get') as resp:
-        print(resp.status) 
+    res= request.get("http://thecatapi.com/api/images/get")
+    ctx.send(res.url())
 
     
 @client.command()
