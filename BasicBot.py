@@ -109,8 +109,8 @@ async def cat(ctx):
     await ctx.send(embed= em)
 
 @client.command()
-async def cat(ctx):
-    em = discord.Embed(title="Cat Pix")
+async def dog(ctx):
+    em = discord.Embed(title="Doggo Pix")
     async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
         em.set_image(url=res.message)
     res.close()
