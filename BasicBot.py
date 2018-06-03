@@ -104,7 +104,7 @@ async def dab(ctx, *, args='1'):
 async def cat(ctx):
     em = discord.Embed(title="Cat Pix")
     async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
-        await em.set_image(url=res.url)
+        em.set_image(url=res.url)
     res.close()
     await ctx.send(embed= em)
 
