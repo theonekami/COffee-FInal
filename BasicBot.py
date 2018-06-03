@@ -19,7 +19,7 @@ def basic_check(ctx):  ##for funsies
 
 client=commands.Bot( command_prefix=('?', '!', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
-
+res = aiohttp.Clientsession()
 
 
 client.remove_command('help')
@@ -59,9 +59,8 @@ async def pick(ctx, *, args):
 
 @client.command()
 async def cat(ctx):
-   async with aiohttp.ClientSession() as session:
-       async with session.get('http://httpbin.org/get') as resp:
-           print(resp.status) 
+    async with res.get('http://httpbin.org/get') as resp:
+        print(resp.status) 
 
     
 @client.command()
