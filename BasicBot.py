@@ -58,11 +58,6 @@ async def pick(ctx, *, args):
     x = random.choice(y.split(','))
     await ctx.send('Umm..I Picked: ' + x)
 
-@client.command()
-async def cat(ctx):
-    res= request.get("http://thecatapi.com/api/images/get")
-    ctx.send(res.url())
-
     
 @client.command()
 async def roll(ctx, *, args):
@@ -110,6 +105,7 @@ async def cat(ctx):
     em = discord.Embed(title="Cat Pix")
     async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
         await em.set_image(url=res.url)
+    res.close()
     await ctx.send(embed= em)
 
 
