@@ -114,7 +114,7 @@ async def dog(ctx):
     async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
         x= await res.text()
     res.close()
-    em.set_image(url=x.message)
+    em.set_image(url=json/loads(x)['message'])
     await ctx.send(embed= em)
 
 
