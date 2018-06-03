@@ -19,7 +19,7 @@ def basic_check(ctx):  ##for funsies
 
 client=commands.Bot( command_prefix=('?', '!', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
-res = aiohttp.ClientSession()
+async res = aiohttp.ClientSession()
 
 
 client.remove_command('help')
