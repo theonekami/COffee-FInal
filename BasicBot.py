@@ -156,7 +156,11 @@ async def draw(ctx, args=None):
     await ctx.send(embed=em)
 
 
-
+@client.command()
+async def time(ctx):
+    dt=datetime.datetime.now()
+    x=str(dt.hour)+":"+str(dt.min)
+    ctx.send(x)
 
 @client.command()
 async def help(ctx):
