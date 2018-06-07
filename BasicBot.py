@@ -164,7 +164,7 @@ async def time(ctx):
     singa_time=dt+datetime.timedelta(hours=8)
     b_time=dt+datetime.timedelta(hours=1)
     a_time=dt+datetime.timedelta(hours=10)
-    x="\n"+"GMT: "+dt.strftime("%H:%M")+"\nBritish Time: "+b_time.strftime("%H:%M")+"\nIndian Time: " +i_time+"\nSingapore and Phillpines Time: "+singa_time.strftime("%H:%M")+"\n Australia Time :"+a_time.strftime("%H:%M")   
+    x="\n"+"GMT: "+dt.strftime("%H:%M")+"\nBritish Time: "+b_time.strftime("%H:%M")+"\nIndian Time: " +i_time.strftime("%H:%M")+"\nSingapore and Phillpines Time: "+singa_time.strftime("%H:%M")+"\n Australia Time :"+a_time.strftime("%H:%M")   
     await ctx.send(x)
 
 @client.command()
