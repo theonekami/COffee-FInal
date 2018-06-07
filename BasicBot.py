@@ -158,18 +158,12 @@ async def draw(ctx, args=None):
 
 @client.command()
 async def time(ctx):
-    dt=datetime.datetime.now()
-    gt= str(dt.hour)+":"+str(dt.minute)
-    m=dt.minute+30
-    if( r>60):
-        r-=60
-    h=dt.hour+5
-    if(h>24):
-        h>=
-    i_time=str(dt.hour+5)+":"+str()+"(GMT+5:30)"
-    singa_time= str(dt.hour+8)+":"+str(dt.minute)+"(GMT+8:00)"
-    b_time=str(dt.hour+1)+":"+str(dt.minute)+"(GMT+1)"
-    x="\n"+"GMT: "+gt+"\nBritish Time: "+b_time+"\nIndian Time: " +i_time+"\nSingapore and Phillpines Time: "+singa_time    
+    dt=datetime.time.now()
+    
+    i_time=dt+datetime.timedelta(hours=5,minutes=30)
+    singa_time=dt+datetime.timedelta(hours=8)
+    b_time=dt+datetime.timedelta(hours=1)
+    x="\n"+"GMT: "+dt.strftime("%H:%M")+"\nBritish Time: "+b_time.strftime("%H:%M")+"\nIndian Time: " +i_time+"\nSingapore and Phillpines Time: "+singa_time.strftime("%H:%M")   
     await ctx.send(x)
 
 @client.command()
