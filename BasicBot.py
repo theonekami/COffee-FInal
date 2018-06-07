@@ -158,7 +158,7 @@ async def draw(ctx, args=None):
 
 @client.command()
 async def time(ctx):
-    dt=datetime.time.now()
+    dt=datetime.datetime.now()
     
     i_time=dt+datetime.timedelta(hours=5,minutes=30)
     singa_time=dt+datetime.timedelta(hours=8)
