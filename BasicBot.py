@@ -48,6 +48,10 @@ async def on_member_join(member):
 async def hi(ctx):
     await ctx.send("I'm not crazy. My reality is just different than yours.")
 
+@client.command()
+async def age(ctx):
+    ctx.server.created_at
+    await ctx.send("I'm not crazy. My reality is just different than yours.")
 
 @client.command()
 async def pick(ctx, *, args):
