@@ -50,8 +50,8 @@ async def hi(ctx):
 
 @client.command()
 async def age(ctx):
-    ctx.server.created_at
-    await ctx.send("I'm not crazy. My reality is just different than yours.")
+    x= ctx.guild.created_at()
+    await ctx.send(x)
 
 @client.command()
 async def pick(ctx, *, args):
