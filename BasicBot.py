@@ -50,7 +50,7 @@ async def hi(ctx):
 
 @client.command()
 async def age(ctx):
-    x= ctx.guild.created_at()
+    x= ctx.guild.created_at
     await ctx.send(x.strftime(("%D")))
 
 @client.command()
