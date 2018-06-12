@@ -51,7 +51,10 @@ async def hi(ctx):
 @client.command()
 async def age(ctx):
     x= ctx.guild.created_at
-    await ctx.send(x.strftime(("%D")))
+    y= datetime.datetime.now()
+    z=y-x
+    s= "This server was created at" + x.strftime(("%d %m %y")) + "\n that makes the age" +str(z.days)
+    await ctx.send(s)
 
 @client.command()
 async def pick(ctx, *, args):
