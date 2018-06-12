@@ -41,8 +41,8 @@ async def on_member_join(member):
     for i in member.guild.channels:
         if i.name == 'lobby':
             x = i
-        y="Hello" + member.mention()+"It's a wonderful chance to meet you, welcome to this dimension. I am Coffee. Use CC docs to see the rps we have planned"
-    await ctx.send(y)
+    y="Hello" + member.mention()+"It's a wonderful chance to meet you, welcome to this dimension. I am Coffee. Use CC docs to see the rps we have planned"
+    await client.send_message(x,y)
             
 @client.command()
 async def hi(ctx):
@@ -119,7 +119,7 @@ async def dog(ctx):
 @client.command() 
 async def docs(ctx):
     em = discord.Embed(title="Docs")
-    em.add_field(name="Starless" ,value="Here are the main docs\n\nhttps://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit# \n\n\nhttps://docs.google.com/document/d/1ULrJfzj9rd7Pd7SHX_0pgcrXLLR77q5qvGk04OSZteQ/edit \n\n\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q8S6n0yA/edit\nhttps://docs.google.com/document/d/1IieJwLf7mGsBjMlmEYO2A4J3lYNcHEEm7aZ-NQEscJY/edit \n'")
+    em.add_field(name="Starless" ,value="Main doc: https://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit# \n\n\nhttps://docs.google.com/document/d/1ULrJfzj9rd7Pd7SHX_0pgcrXLLR77q5qvGk04OSZteQ/edit \n\n\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q8S6n0yA/edit\nhttps://docs.google.com/document/d/1IieJwLf7mGsBjMlmEYO2A4J3lYNcHEEm7aZ-NQEscJY/edit \n'")
     x = """
 """ '\nHere are the main docs\n\nhttps://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit# \n\n\nhttps://docs.google.com/document/d/1ULrJfzj9rd7Pd7SHX_0pgcrXLLR77q5qvGk04OSZteQ/edit \n\n\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q8S6n0yA/edit\nhttps://docs.google.com/document/d/1IieJwLf7mGsBjMlmEYO2A4J3lYNcHEEm7aZ-NQEscJY/edit \n'  ####        for i in digits:
     await ctx.author.send(embed=em)
