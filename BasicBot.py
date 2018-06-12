@@ -53,7 +53,8 @@ async def age(ctx):
     x= ctx.guild.created_at
     y= datetime.datetime.now()
     z=y-x
-    s= "This server was created at" + x.strftime(("%d %m %y")) + "\n that makes the age" +str(z.days)
+    q=z//30
+    s= "This server was created at" + x.strftime(("%d %m %y")) + "\n that makes the age " +str(q)+" months"
     await ctx.send(s)
 
 @client.command()
