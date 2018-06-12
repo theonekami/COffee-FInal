@@ -41,7 +41,7 @@ async def on_member_join(member):
     for i in member.guild.channels:
         if i.name == 'lobby':
             x = i
-    y="Hello" + member.mention()+"It's a wonderful chance to meet you, welcome to this dimension. I am Coffee. Use CC docs to see the rps we have planned"
+    y="Hello" + member.mention+"It's a wonderful chance to meet you, welcome to this dimension. I am Coffee. Use CC docs to see the rps we have planned"
     await client.send_message(x,y)
             
 @client.command()
