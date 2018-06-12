@@ -30,7 +30,7 @@ client.remove_command('help')
 async def on_ready():
     print('You are running BasicBot v2.1')
     print('Created by Kaminolucky')
-
+        
 ##    await client.user.edit(username='Coffee Cat')
     return await client.change_presence(activity=discord.Game(name='Rolling the dice,picking the lovers'))
 
@@ -41,7 +41,7 @@ async def on_member_join(member):
     for i in member.guild.channels:
         if i.name == 'lobby':
             x = i
-    y="Hello" + member.mention+"It's a wonderful chance to meet you, welcome to this dimension. I am Coffee. Use CC docs to see the rps we have planned"
+    y="Hello" + member.mention+"It's a wonderful chance to meet you, welcome to this dimension. I am Coffee. \nUse CC docs to see the rps we have planned"
     await x.send(y)
             
 @client.command()
@@ -51,10 +51,12 @@ async def hi(ctx):
 @client.command()
 async def age(ctx):
     x= ctx.guild.created_at
+    da = datetime.timedelta(days=8)
     y= datetime.datetime.now()
-    z=y-x
-    q=z.days//30
-    s= "This server was created at" + x.strftime(("%d %m %y")) + "\n that makes the age " +str(q)+" months"
+    d=datetime.timedelta(days=y.day)
+    z=y.month-x.month
+    
+    s= "This server was created at" + x.strftime(("%d %m %y")) + "\n that makes the age " +str(z)+" months and " +str(da.days +d.days)
     await ctx.send(s)
 
 @client.command()
