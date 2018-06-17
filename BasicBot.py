@@ -54,8 +54,7 @@ async def age(ctx):
     da = datetime.timedelta(days=8)
     y= datetime.datetime.now()
     d=datetime.timedelta(days=y.day)
-    z=y.month-x.month
-    
+    z=x.month-y.month
     s= "This server was created at" + x.strftime(("%d %m %y")) + "\n that makes the age " +str(z)+" months and " +str(da.days +d.days)
     await ctx.send(s)
 
@@ -180,7 +179,8 @@ async def time(ctx):
     singa_time=dt+datetime.timedelta(hours=8)
     b_time=dt+datetime.timedelta(hours=1)
     a_time=dt+datetime.timedelta(hours=10)
-    x="\n"+"GMT: "+dt.strftime("%H:%M")+"\nBritish Time: "+b_time.strftime("%H:%M")+"\nIndian Time: " +i_time.strftime("%H:%M")+"\nSingapore and Phillpines Time: "+singa_time.strftime("%H:%M")+"\n Australia Time :"+a_time.strftime("%H:%M")   
+    est=dt-datetime.timedelta(hours=8)
+    x="\n"+"GMT: "+dt.strftime("%H:%M")+"\n EST: "+est+"\nBritish Time: "+b_time.strftime("%H:%M")+"\nIndian Time: " +i_time.strftime("%H:%M")+"\nSingapore and Phillpines Time: "+singa_time.strftime("%H:%M")+"\nAustralia Time :"+a_time.strftime("%H:%M")   
     await ctx.send(x)
 
 @client.command()
