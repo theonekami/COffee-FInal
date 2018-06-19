@@ -197,7 +197,7 @@ async def time(ctx):
 
 @client.command()
 async def help(ctx):
-    x= discord.Embed(Title= "HELP")
+    x= discord.Embed(title= "HELP")
     x.add_field(name="Help",value="Syntax: !help \nUse: Displays this message", inline=False)
     x.add_field(name="Hi",value="Syntax: !hi \nUse: To test if the bot is on or not", inline=False)
     x.add_field(name="Pick",value="Syntax: !pick choice a, choice b....,choice n \nUse: To pick out of the given choices", inline=False)
