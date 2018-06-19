@@ -212,7 +212,6 @@ async def help(ctx):
     await ctx.send(embed=x)
 
 
-        if(args == None):
 @client.command()
 async def test(ctx):
     'Test command...If yu use this i will HUNT YOU DOWN'
