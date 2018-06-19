@@ -149,7 +149,7 @@ Inventory: \nhttps://docs.google.com/document/d/1ULrJfzj9rd7Pd7SHX_0pgcrXLLR77q5
 Shops:\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q8S6n0yA/edit
 \n https://docs.google.com/document/d/1IieJwLf7mGsBjMlmEYO2A4J3lYNcHEEm7aZ-NQEscJY/edit 
 """
-    em.add_field(name="Starless" value= s)
+    em.add_field(name="Starless", value = s)
     await ctx.author.send(embed=em)
     await ctx.send("Look into your dms....")
 
