@@ -103,7 +103,7 @@ async def dab(ctx, *, args='1'):
         print('hey there')
         y = 1
     for i in range(y):  ##@client.command(pass_context=True)
-        await ctx.send('*dabs*')  ##async def quote(ctx):
+        await ctx.send(':dab:')  ##async def quote(ctx):
         await asyncio.sleep(0.5)  ##        """The first command in the process of making it YUNo?"""
 
 
@@ -197,31 +197,22 @@ async def time(ctx):
 
 @client.command()
 async def help(ctx):
-    y = '```Hey , you used my help command\nHow do you do\nI use four prefixes !,?,CC,cc\nCommands:\n        Basic Dnd Stuff: \n\n                Roll: !roll <no of dice>d<no of sides>+<modifier>\n                       Rolls a die with the given nNo. of sides and given No of dice\n                       example yuno roll 2d8+35\n\n                Pick: !pick choice a,choice b,choice c....\n                        Picks a choice from the given choices\n\n                Calc: !calc<equation>\t\n                        Calculate an equation, even throws an divide by zero error\n                        \n        Fun Stuff:\n\n                Kill: Kills a charecter. because i LOVE YOU                        \n\n                Quote: Yuno tells her lovely words REEEE\n\n                Draw: yuno draw/yuno draw face\n                         Draws a card . if you specify face it will draw a face card.\n                         face cards include the bloody jokers\n\n                dab: guess...\n```'
-    await ctx.send(y)
+    x= Discord.Embed(Title= "HELP")
+    x.add_field(name="Help",content="Syntax: !help \nUse: Displays this message")
+    x.add_field(name="Hi",content="Syntax: !hi \nUse: To test if the bot is on or not")
+    x.add_field(name="Pick",content="Syntax: !pick choice a, choice b....,choice n \nUse: To pick out of the given choices")
+    x.add_field(name="Roll",content="Syntax: !roll <no of dice>d<no of sides> \nUse: To roll dice. \nEg !roll 1d20")
+    x.add_field(name="Dab",content="Syntax: !dab \nUse: GUESS YOU BLOODY BISHES")
+    x.add_field(name="Cat",content="Syntax: !cat \nUse: Cat Pix ^-^")
+    x.add_field(name="Dog",content="Syntax: !dog \nUse: DOGGO")
+    x.add_field(name="Docs",content="Syntax:!docs \nUse: Shows the docs of all the rps in this server")
+    x.add_field(name="Starless",content="Syntax: !sl \nUse: Shows docs relavent to sl")
+    x.add_field(name="Calc",content="Syntax: !calc <expresion> \nUse: Calculates yoru expression, us +, -, *, / \n Eg !calc 3+2*3")
+    x.add_field(name="Time",content="Syntax: !time \nUse: tells time in diffrent regions, if you region is not there pm kami")
+    await ctx.send(embed=x)
 
 
-@client.command(pass_context=True)
-async def quote(ctx):
-        """The first command in the process of making it YUNo?"""
-        w=json.load(open("quotes.json"))
-        x=str(random.choice(w))
-        y=str(ctx.message.author.nick)
-        x=x.replace("[user]",y)
-        await ctx.send(x)
-
-@client.command(pass_context = True)
-async def kill(ctx,*, args=None):
-        "Yuno will perform a kill of LOVE~"
         if(args == None):
-                await client.say("I can't kill you Darling~")
-                return
-        w=json.load(open("yuno kill.json"))
-        y=random.choice(w)
-        em=discord.Embed()
-        em.set_image(url=y)
-        await ctx.send(embed = em)
-
 @client.command()
 async def test(ctx):
     'Test command...If yu use this i will HUNT YOU DOWN'
