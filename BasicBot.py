@@ -137,7 +137,21 @@ https://docs.google.com/document/d/14OTbOugCFiI0qwtVxo9eQsbRY1ogQ5hsN7IbWMVZ3TQ/
     await ctx.author.send(embed=em)
     await ctx.send("Look into your dms....")
 
+@client.command() 
+async def sl(ctx):
+    em = discord.Embed(title="Docs")
+    s="""
+Main doc:\n https://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit# 
 
+Inventory: \nhttps://docs.google.com/document/d/1ULrJfzj9rd7Pd7SHX_0pgcrXLLR77q5qvGk04OSZteQ/edit 
+
+
+Shops:\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q8S6n0yA/edit
+\n https://docs.google.com/document/d/1IieJwLf7mGsBjMlmEYO2A4J3lYNcHEEm7aZ-NQEscJY/edit 
+"""
+    em.add_field(name="Starless" value= s)
+    await ctx.author.send(embed=em)
+    await ctx.send("Look into your dms....")
 
 
 
