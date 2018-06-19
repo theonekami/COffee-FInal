@@ -128,7 +128,7 @@ async def dog(ctx):
 @client.command() 
 async def docs(ctx):
     em = discord.Embed(title="Docs")
-    em.add_field(name="Starless" ,value="Main doc: https://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit#'")
+    em.add_field(name="Starless" ,value="https://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit#'")
     cq="""
 https://docs.google.com/document/d/14OTbOugCFiI0qwtVxo9eQsbRY1ogQ5hsN7IbWMVZ3TQ/edit#heading=h.wc2ek914tv85
 """
