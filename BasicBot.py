@@ -21,7 +21,7 @@ def basic_check(ctx):  ##for funsies
 
 client=commands.Bot( command_prefix=('?', '!', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
-
+races= ["Human", "Dwarf","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","Tortle","Lizardfolk","Kobold","Kenku","Halfling","Goblin","Gensai","Elemental","aasimar","Tiefling,","Thrikeen","Void"]
 
 client.remove_command('help')
 
@@ -63,6 +63,12 @@ async def pick(ctx, *, args):
     'A pick device. Uses a list so i think any number of arguments can work'
     y = str(args)
     x = random.choice(y.split(','))
+    await ctx.send('Umm..I Picked: ' + x)
+
+@client.command()
+async def randrace(ctx):
+    'A pick device. Uses a list so i think any number of arguments can work'
+    x = random.choice(races)
     await ctx.send('Umm..I Picked: ' + x)
 
     
