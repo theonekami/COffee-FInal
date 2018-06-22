@@ -23,6 +23,8 @@ client=commands.Bot( command_prefix=('?', '!', 'cc ', 'Cc ','CC ', 'Coffee ','Co
 
 races= ["Human", "Dwarf","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","Tortle","Lizardfolk","Kobold","Kenku","Halfling","Goblin","Gensai","Elemental","aasimar","Tiefling,","Thrikeen","Void"]
 
+patron= ["Warden","Maiden","Bard","BattleBorn","Satan","Leviathan","Beelzebub","Lillth","Gaia","Kronos","Prom","Atlas"]
+
 client.remove_command('help')
 
 
@@ -66,9 +68,19 @@ async def pick(ctx, *, args):
     await ctx.send('Umm..I Picked: ' + x)
 
 @client.command()
-async def randrace(ctx):
+async def randrace(ctx,args=1):
     'A pick device. Uses a list so i think any number of arguments can work'
-    x = random.choice(races)
+    x=""
+    for i in range(0,args):
+        x += random.choice(races)
+    await ctx.send('Umm..I Picked: ' + x)
+
+@client.command()
+async def randrace(ctx,args=1):
+    'A pick device. Uses a list so i think any number of arguments can work'
+    x=""
+    for i in range(0,args):
+        x += random.choice(patron)
     await ctx.send('Umm..I Picked: ' + x)
 
     
