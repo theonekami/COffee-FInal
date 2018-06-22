@@ -72,7 +72,7 @@ async def randrace(ctx,args=1):
     'A pick device. Uses a list so i think any number of arguments can work'
     x=""
     for i in range(0,args):
-        x += random.choice(races)+ " "
+        x += random.choice(races)+ ","
     await ctx.send('Umm..I Picked: ' + x)
 
 @client.command()
@@ -80,7 +80,7 @@ async def randpatron(ctx,args=1):
     'A pick device. Uses a list so i think any number of arguments can work'
     x=""
     for i in range(0,args):
-        x += random.choice(patron)+" "
+        x += random.choice(patron)+","
     await ctx.send('Umm..I Picked: ' + x)
 
     
