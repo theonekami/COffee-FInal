@@ -10,7 +10,10 @@ import random
 import math
 import requests
 
-
+##to do:
+##    message delete
+##    discord stroage
+    
 
 def basic_check(ctx):  ##for funsies
     if (ctx.author == ctx.guild.owner) or (ctx.author == BOSS):
@@ -230,12 +233,10 @@ async def help(ctx):
     await ctx.send(embed=x)
 
 
-@client.command()
-async def test(ctx):
-    'Test command...If yu use this i will HUNT YOU DOWN'
-    zek = client.get_user(205656697992118272)
-    print(zek.relationship.type)
 
+@client.command()
+async def test(ctx, *,args):
+    await ctx.guild.create_text_channel(args)
 
 @client.command()
 async def ships(ctx):
