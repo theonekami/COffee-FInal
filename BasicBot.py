@@ -260,7 +260,7 @@ async def ships(ctx):
 async def mute(ctx,args):
     for i in ctx.guild.members:
         if(i.mentioned_in(ctx.message)):
-            await i.edit(mute=True)
+            await i.VoiceState.mute=True
     await ctx.send("Muted Get REKT")
 
     
