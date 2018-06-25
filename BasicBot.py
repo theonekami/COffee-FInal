@@ -273,7 +273,7 @@ async def ban(ctx,args):
 
 @client.command()
 @commands.check(basic_check)
-async def ban(ctx,args):
+async def unban(ctx,args):
     x= discord.User(id= 230263648134627331)
     await ctx.guild.unban(x)
     await ctx.send("Unbanned")
