@@ -260,7 +260,7 @@ async def ships(ctx):
 async def mute(ctx,args):
     x=discord.Role()
     for i in ctx.guild.roles:
-        if( i.name="Locked"):
+        if( i.name=="Locked"):
             x=i
     for i in ctx.guild.members:
         if(i.mentioned_in(ctx.message)):
@@ -272,7 +272,7 @@ async def mute(ctx,args):
 async def unmute(ctx,args):
     x=discord.Role()
     for i in ctx.guild.roles:
-        if( i.name="Locked"):
+        if( i.name=="Locked"):
             x=i
     for i in ctx.guild.members:
         if(i.mentioned_in(ctx.message)):
