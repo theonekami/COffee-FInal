@@ -14,7 +14,7 @@ import requests
 ##    message delete
 ##    discord stroage
 
-BOSS=discord.user(256390874848690176)
+BOSS=discord.User(256390874848690176)
 
 def basic_check(ctx):  ##for funsies
     if (ctx.author == ctx.guild.owner) or (ctx.author == BOSS):
