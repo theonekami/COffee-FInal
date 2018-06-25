@@ -254,6 +254,14 @@ async def ships(ctx):
     \nhttps://docs.google.com/document/d/1ZRUoxHeY8bKjp0eCOvo6ilu-7O03CwTd2ikRv2iUs9I/edit
         """
         await ctx.send(x)
+
+@client.command(basic_check(ctx))
+async def mute(ctx,args):
+        for i in ctx.guild.members():
+            if(i.mentioned_in(args)):
+                await i.edit(mute=True)
+        await ctx.send("Muted Get REKT")
+
     
 
 client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DdwY-w.l_CjW6tratHXia6MUJ-xll3Ti5Q')
