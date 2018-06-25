@@ -258,10 +258,26 @@ async def ships(ctx):
 @client.command()
 @commands.check(basic_check)
 async def mute(ctx,args):
+    x=discord.Role()
+    for i in ctx.guild.roles:
+        if( i.name="Locked"):
+            x=i
     for i in ctx.guild.members:
         if(i.mentioned_in(ctx.message)):
-            await i.add_roles("Locked")
+            await i.add_roles(x)
     await ctx.send("Muted Get REKT")
+
+@client.command()
+@commands.check(basic_check)
+async def unmute(ctx,args):
+    x=discord.Role()
+    for i in ctx.guild.roles:
+        if( i.name="Locked"):
+            x=i
+    for i in ctx.guild.members:
+        if(i.mentioned_in(ctx.message)):
+            await i.remove_roles(x)
+    await ctx.send("Unmuted")
 
 @client.command()
 @commands.check(basic_check)
