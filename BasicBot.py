@@ -265,7 +265,7 @@ async def ships(ctx):
 
 @client.command()
 @commands.check(basic_check)
-async def kick(ctx,args):
+async def ban(ctx,args):
     for i in ctx.guild.members:
         if(i.mentioned_in(ctx.message)):
             await i.ban()
