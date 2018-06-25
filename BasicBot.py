@@ -13,10 +13,17 @@ import requests
 ##to do:
 ##    message delete
 ##    discord stroage
-    
+
+BOSS=discord.user(256390874848690176)
 
 def basic_check(ctx):  ##for funsies
     if (ctx.author == ctx.guild.owner) or (ctx.author == BOSS):
+        return True
+    else:
+        return False
+
+def show_check(ctx,args):
+    if((args=="Show" or args=="show" || args=="s")and(basic_check(ctx))):
         return True
     else:
         return False
@@ -147,16 +154,18 @@ async def dog(ctx):
 
 
 @client.command() 
-async def docs(ctx):
+async def docs(ctx,args=None):
     em = discord.Embed(title="Docs")
     em.add_field(name="Starless" ,value="https://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit#'")
     cq="""
 https://docs.google.com/document/d/14OTbOugCFiI0qwtVxo9eQsbRY1ogQ5hsN7IbWMVZ3TQ/edit#heading=h.wc2ek914tv85
 """
     em.add_field(name="Conquest" ,value = cq)
-
-    await ctx.author.send(embed=em)
-    await ctx.send("Look into your dms....")
+    if(show_check(ctx,args)):
+        await ctx.send(embed=em)
+    else:
+        await ctx.author.send(embed=em)
+        await ctx.send("Look into your dms....")
 
 @client.command() 
 async def sl(ctx):
