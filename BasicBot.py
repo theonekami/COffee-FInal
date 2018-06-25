@@ -255,7 +255,8 @@ async def ships(ctx):
         """
         await ctx.send(x)
 
-@client.command(basic_check)
+@client.command()
+@commands.check(basic_check)
 async def mute(ctx,args):
     for i in ctx.guild.members():
         if(i.mentioned_in(args)):
