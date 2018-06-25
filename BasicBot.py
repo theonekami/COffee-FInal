@@ -258,7 +258,7 @@ async def ships(ctx):
 @client.command()
 @commands.check(basic_check)
 async def mute(ctx,args):
-    for i in ctx.guild.members():
+    for i in ctx.guild.members:
         if(i.mentioned_in(args)):
             await i.edit(mute=True)
     await ctx.send("Muted Get REKT")
