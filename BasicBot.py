@@ -255,13 +255,21 @@ async def ships(ctx):
         """
         await ctx.send(x)
 
+##@client.command()
+##@commands.check(basic_check)
+##async def mute(ctx,args):
+##    for i in ctx.guild.members:
+##        if(i.mentioned_in(ctx.message)):
+##            await i.add_roles()
+##    await ctx.send("Muted Get REKT")
+
 @client.command()
 @commands.check(basic_check)
-async def mute(ctx,args):
+async def kick(ctx,args):
     for i in ctx.guild.members:
         if(i.mentioned_in(ctx.message)):
-            await i.add_roles(["Muted"])
-    await ctx.send("Muted Get REKT")
+            await i.ban()
+    await ctx.send("Banned")
 
     
 
