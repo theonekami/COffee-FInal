@@ -258,7 +258,6 @@ async def ships(ctx):
 @client.command()
 @commands.check(basic_check)
 async def mute(ctx,args):
-    x=discord.Role()
     for i in ctx.guild.roles:
         if( i.name=="Locked"):
             x=i
@@ -270,7 +269,6 @@ async def mute(ctx,args):
 @client.command()
 @commands.check(basic_check)
 async def unmute(ctx,args):
-    x=discord.Role()
     for i in ctx.guild.roles:
         if( i.name=="Locked"):
             x=i
