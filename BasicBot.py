@@ -23,7 +23,7 @@ def basic_check(ctx):  ##for funsies
         return False
 
 def show_check(ctx,args):
-    if((args=="Show" or args=="show" || args=="s")and(basic_check(ctx))):
+    if((args=="Show" or args=="show" or args=="s")and(basic_check(ctx))):
         return True
     else:
         return False
