@@ -217,11 +217,12 @@ async def time(ctx):
     dt=datetime.datetime.now()
     
     i_time=dt+datetime.timedelta(hours=5,minutes=30)
+    x_time=dt-datetime.timedelta(hours=5)    
     singa_time=dt+datetime.timedelta(hours=8)
     b_time=dt+datetime.timedelta(hours=1)
     a_time=dt+datetime.timedelta(hours=10)
     est=dt-datetime.timedelta(hours=8)
-    x="\n"+"GMT: "+dt.strftime("%H:%M")+"\nEST: "+est.strftime("%H:%M")+"\nBritish Time: "+b_time.strftime("%H:%M")+"\nIndian Time: " +i_time.strftime("%H:%M")+"\nSingapore and Phillpines Time: "+singa_time.strftime("%H:%M")+"\nAustralia Time: "+a_time.strftime("%H:%M")   
+    x="\n"+"GMT: "+dt.strftime("%H:%M")+"\nEST: "+est.strftime("%H:%M")+"\nBritish Time: "+b_time.strftime("%H:%M")+"\nIndian Time: " +i_time.strftime("%H:%M")+"\nSingapore and Phillpines Time: "+singa_time.strftime("%H:%M")+"\nAustralia Time: "+a_time.strftime("%H:%M")+ "\nTexas Time: "+x_time.strftime("%H:%M")   
     await ctx.send(x)
 
 @client.command()
