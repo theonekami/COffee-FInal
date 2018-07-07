@@ -239,6 +239,7 @@ async def help(ctx):
     x.add_field(name="Starless",value="Syntax: !sl \nUse: Shows docs relavent to sl", inline=False)
     x.add_field(name="Calc",value="Syntax: !calc <expresion> \nUse: Calculates yoru expression, us +, -, *, / \n Eg !calc 3+2*3", inline=False)
     x.add_field(name="Time",value="Syntax: !time \nUse: tells time in diffrent regions, if you region is not there pm kami", inline=False)
+    x.add_field(name="role",value="Syntax: !<> \nUse: tells time in diffrent regions, if you region is not there pm kami", inline=False)
     await ctx.send(embed=x)
 
 
