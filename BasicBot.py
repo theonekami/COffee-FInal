@@ -270,7 +270,7 @@ async def ungamenight(ctx):
         if( i.name=="GameNight"):
             x=i
     await ctx.author.remove_roles(x)
-    await ctx.send("Unmuted")
+    await ctx.send("Un game nighted")
 
 
 @client.command()
