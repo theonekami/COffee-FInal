@@ -257,6 +257,16 @@ async def ships(ctx):
         await ctx.send(x)
 
 @client.command()
+async def gamenight(ctx,args):
+    for i in ctx.guild.roles:
+        if( i.name=="GameNight!"):
+            x=i
+
+    await ctx.author.add_roles(x)
+    await ctx.send("You have the Gamenight Role! have fun")
+
+
+@client.command()
 @commands.check(basic_check)
 async def mute(ctx,args):
     for i in ctx.guild.roles:
