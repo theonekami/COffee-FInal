@@ -267,7 +267,7 @@ async def gamenight(ctx):
 @client.command()
 async def ungamenight(ctx):
     for i in ctx.guild.roles:
-        if( i.name=="GameNight"):
+        if( i.name=="GameNight!"):
             x=i
     await ctx.author.remove_roles(x)
     await ctx.send("Un game nighted")
