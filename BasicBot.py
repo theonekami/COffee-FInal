@@ -272,6 +272,37 @@ async def ungamenight(ctx):
     await ctx.author.remove_roles(x)
     await ctx.send("Un game nighted")
 
+@client.command()
+async def dreamers(ctx):
+    for i in ctx.guild.roles:
+        if( i.name=="Dreamers"):
+            x=i
+    await ctx.author.add_roles(x)
+    await ctx.send("You have the Dreamers Role! have fun")
+
+@client.command()
+async def undreamers(ctx):
+    for i in ctx.guild.roles:
+        if( i.name=="Dreamers"):
+            x=i
+    await ctx.author.remove_roles(x)
+    await ctx.send("Un dreamer'ed")
+
+@client.command()
+async def conquest(ctx):
+    for i in ctx.guild.roles:
+        if( i.name=="Conquest"):
+            x=i
+    await ctx.author.add_roles(x)
+    await ctx.send("You have the cq Role! have fun")
+
+@client.command()
+async def unconquest(ctx):
+    for i in ctx.guild.roles:
+        if( i.name=="Conquest"):
+            x=i
+    await ctx.author.remove_roles(x)
+    await ctx.send("Un cq'd")
 
 @client.command()
 @commands.check(basic_check)
