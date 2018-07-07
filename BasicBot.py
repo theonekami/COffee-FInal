@@ -257,7 +257,7 @@ async def ships(ctx):
         await ctx.send(x)
 
 @client.command()
-async def gamenight(ctx,args):
+async def gamenight(ctx):
     for i in ctx.guild.roles:
         if( i.name=="GameNight!"):
             x=i
