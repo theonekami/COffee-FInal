@@ -290,6 +290,22 @@ async def undreamers(ctx):
     await ctx.send("Un dreamer'ed")
 
 @client.command()
+async def hnf(ctx):
+    for i in ctx.guild.roles:
+        if( i.name=="h&f"):
+            x=i
+    await ctx.author.add_roles(x)
+    await ctx.send("You have the Health and fitness Role! have fun")
+
+@client.command()
+async def unhnf(ctx):
+    for i in ctx.guild.roles:
+        if( i.name=="h&f"):
+            x=i
+    await ctx.author.remove_roles(x)
+    await ctx.send("Un h&f'd")
+
+@client.command()
 async def conquest(ctx):
     for i in ctx.guild.roles:
         if( i.name=="Conquest"):
