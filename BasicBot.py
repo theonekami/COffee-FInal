@@ -63,11 +63,12 @@ async def hi(ctx):
 @client.command()
 async def age(ctx):
     x= ctx.guild.created_at
-    da = datetime.timedelta(days=8)
     y= datetime.datetime.now()
-    d=datetime.timedelta(days=y.day)
-    z=x.month-y.month
-    s= "This server was created at" + x.strftime(("%d %m %y")) + "\n that makes the age " +str(z)+" months and " +str(da.days +d.days)
+##    d=datetime.timedelta(days=y.day)
+    z=y-x
+    m=z.days//30
+    d=z.days%30
+    s= "This server was created at" + x.strftime(("%d %m %y")) + "\n that makes the age " +str(m)+" months and " +str(d) + "days"
     await ctx.send(s)
 
 @client.command()
@@ -258,106 +259,6 @@ async def ships(ctx):
         """
         await ctx.send(x)
 
-##@client.command()
-##async def gamenight(ctx):
-##    for i in ctx.guild.roles:
-##        if( i.name=="GameNight!"):
-##            x=i
-##    await ctx.author.add_roles(x)
-##    await ctx.send("You have the Gamenight Role! have fun")
-##
-##@client.command()
-##async def ungamenight(ctx):
-##    for i in ctx.guild.roles:
-##        if( i.name=="GameNight!"):
-##            x=i
-##    await ctx.author.remove_roles(x)
-##    await ctx.send("Un game nighted")
-##
-##@client.command()
-##async def dreamers(ctx):
-##    for i in ctx.guild.roles:
-##        if( i.name=="Dreamers"):
-##            x=i
-##    await ctx.author.add_roles(x)
-##    await ctx.send("You have the Dreamers Role! have fun")
-##
-##@client.command()
-##async def undreamers(ctx):
-##    for i in ctx.guild.roles:
-##        if( i.name=="Dreamers"):
-##            x=i
-##    await ctx.author.remove_roles(x)
-##    await ctx.send("Un dreamer'ed")
-##
-##@client.command()
-##async def hnf(ctx):
-##    for i in ctx.guild.roles:
-##        if( i.name=="h&f"):
-##            x=i
-##    await ctx.author.add_roles(x)
-##    await ctx.send("You have the Health and fitness Role! have fun")
-##
-##@client.command()
-##async def unhnf(ctx):
-##    for i in ctx.guild.roles:
-##        if( i.name=="h&f"):
-##            x=i
-##    await ctx.author.remove_roles(x)
-##    await ctx.send("Un h&f'd")
-##
-##@client.command()
-##async def conquest(ctx):
-##    for i in ctx.guild.roles:
-##        if( i.name=="Conquest"):
-##            x=i
-##    await ctx.author.add_roles(x)
-##    await ctx.send("You have the cq Role! have fun")
-##
-##@client.command()
-##async def unconquest(ctx):
-##    for i in ctx.guild.roles:
-##        if( i.name=="Conquest"):
-##            x=i
-##    await ctx.author.remove_roles(x)
-##    await ctx.send("Un cq'd")
-##
-##@client.command()
-##@commands.check(basic_check)
-##async def mute(ctx,args):
-##    for i in ctx.guild.roles:
-##        if( i.name=="Locked"):
-##            x=i
-##    for i in ctx.guild.members:
-##        if(i.mentioned_in(ctx.message)):
-##            await i.add_roles(x)
-##    await ctx.send("Muted Get REKT")
-##
-##@client.command()
-##@commands.check(basic_check)
-##async def unmute(ctx,args):
-##    for i in ctx.guild.roles:
-##        if( i.name=="Locked"):
-##            x=i
-##    for i in ctx.guild.members:
-##        if(i.mentioned_in(ctx.message)):
-##            await i.remove_roles(x)
-##    await ctx.send("Unmuted")
-##
-##@client.command()
-##@commands.check(basic_check)
-##async def ban(ctx,args):
-##    for i in ctx.guild.members:
-##        if(i.mentioned_in(ctx.message)):
-##            await i.ban()
-##    await ctx.send("Banned")
-##
-##@client.command()
-##@commands.check(basic_check)
-##async def unban(ctx,args):
-##    x= discord.User(id= 230263648134627331)
-##    await ctx.guild.unban(x)
-##    await ctx.send("Unbanned")
 
     
 
