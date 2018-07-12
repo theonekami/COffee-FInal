@@ -119,4 +119,4 @@ class Role_Commands:
                 
 
 def setup(bot):
-    bot.add_cog(Role_Command(bot))
+    bot.add_cog(Role_Commands(bot))
