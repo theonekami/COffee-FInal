@@ -215,16 +215,26 @@ async def draw(ctx, args=None):
 
 @client.command()
 async def time(ctx):
-    dt=datetime.datetime.now()
+    em=discord.Embed(title="Time")
     
+    dt=datetime.datetime.now()
     i_time=dt+datetime.timedelta(hours=5,minutes=30)
     x_time=dt-datetime.timedelta(hours=5)    
     singa_time=dt+datetime.timedelta(hours=8)
     b_time=dt+datetime.timedelta(hours=1)
     a_time=dt+datetime.timedelta(hours=10)
     est=dt-datetime.timedelta(hours=8)
-    x="\n"+"GMT: "+dt.strftime("%T || %D")+"\nEST: "+est.strftime("%T || %D")+"\nBritish Time: "+b_time.strftime("%T || %D")+"\nIndian Time: " +i_time.strftime("%T || %D")+"\nSingapore and Phillpines Time: "+singa_time.strftime("%T || %D")+"\nAustralia Time: "+a_time.strftime("%T || %D")+ "\nTexas Time: "+x_time.strftime("%T || %D")   
-    await ctx.send(x)
+
+    em.add_field(name="GMT",value=dt.strftime("%T || %D"),inline=False)
+    em.add_field(name="EST",value=est.strftime("%T || %D"),inline=False)
+    em.add_field(name="BRITAIN",value=b_time.strftime("%T || %D"),inline=False)
+    em.add_field(name="INDIA",value=i_time.strftime("%T || %D"),inline=False)
+    em.add_field(name="SINGAPORE AND PHILPPINES",value=singa_time.strftime("%T || %D"),inline=False)
+    em.add_field(name="AUSTRALIA",value=a_time.strftime("%T || %D"),inline=False)
+    em.add_field(name="TEXAS",value=x_time.strftime("%T || %D"),inline=False)
+
+
+    await ctx.send(embed=em)
 
 @client.command()
 async def help(ctx):
