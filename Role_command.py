@@ -16,7 +16,7 @@ class Role_Commands:
         self.bot=bot
 
     @commands.command()
-    async def gamenight(ctx):
+    async def gamenight(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="GameNight!"):
                 x=i
@@ -24,7 +24,7 @@ class Role_Commands:
         await ctx.send("You have the Gamenight Role! have fun")
 
     @commands.command()
-    async def ungamenight(ctx):
+    async def ungamenight(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="GameNight!"):
                 x=i
@@ -32,7 +32,7 @@ class Role_Commands:
         await ctx.send("Un game nighted")
 
     @commands.command()
-    async def dreamers(ctx):
+    async def dreamers(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="Dreamers"):
                 x=i
@@ -40,7 +40,7 @@ class Role_Commands:
         await ctx.send("You have the Dreamers Role! have fun")
 
     @commands.command()
-    async def undreamers(ctx):
+    async def undreamers(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="Dreamers"):
                 x=i
@@ -48,7 +48,7 @@ class Role_Commands:
         await ctx.send("Un dreamer'ed")
 
     @commands.command()
-    async def hnf(ctx):
+    async def hnf(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="h&f"):
                 x=i
@@ -56,7 +56,7 @@ class Role_Commands:
         await ctx.send("You have the Health and fitness Role! have fun")
 
     @commands.command()
-    async def unhnf(ctx):
+    async def unhnf(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="h&f"):
                 x=i
@@ -64,7 +64,7 @@ class Role_Commands:
         await ctx.send("Un h&f'd")
 
     @commands.command()
-    async def conquest(ctx):
+    async def conquest(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="Conquest"):
                 x=i
@@ -72,7 +72,7 @@ class Role_Commands:
         await ctx.send("You have the cq Role! have fun")
 
     @commands.command()
-    async def unconquest(ctx):
+    async def unconquest(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="Conquest"):
                 x=i
@@ -81,7 +81,7 @@ class Role_Commands:
 
     @commands.command()
     @commands.check(basic_check)
-    async def mute(ctx,args):
+    async def mute(self,ctx,args):
         for i in ctx.guild.roles:
             if( i.name=="Locked"):
                 x=i
@@ -92,7 +92,7 @@ class Role_Commands:
 
     @commands.command()
     @commands.check(basic_check)
-    async def unmute(ctx,args):
+    async def unmute(self,ctx,args):
         for i in ctx.guild.roles:
             if( i.name=="Locked"):
                 x=i
@@ -101,20 +101,6 @@ class Role_Commands:
                 await i.remove_roles(x)
         await ctx.send("Unmuted")
 
-    @commands.command()
-    @commands.check(basic_check)
-    async def ban(ctx,args):
-        for i in ctx.guild.members:
-            if(i.mentioned_in(ctx.message)):
-                await i.ban()
-        await ctx.send("Banned")
-
-    @commands.command()
-    @commands.check(basic_check)
-    async def unban(ctx,args):
-        x= discord.User(id= 230263648134627331)
-        await ctx.guild.unban(x)
-        await ctx.send("Unbanned") 
 
                 
 
