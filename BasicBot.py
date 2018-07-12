@@ -64,11 +64,10 @@ async def hi(ctx):
 async def age(ctx):
     x= ctx.guild.created_at
     y= datetime.datetime.now()
-##    d=datetime.timedelta(days=y.day)
     z=y-x
     m=z.days//30
-    d=z.days%30
-    s= "This server was created at" + x.strftime(("%d %m %y")) + "\n that makes the age " +str(m)+" months and " +str(d) + "days"
+    d=z.days%30-2
+    s= "This server was created at " + x.strftime(("%d %m %y")) + "\n that makes the age " +str(m)+" months and " +str(d) + "days"
     await ctx.send(s)
 
 @client.command()
