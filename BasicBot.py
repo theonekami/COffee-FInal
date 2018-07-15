@@ -215,18 +215,18 @@ async def draw(ctx, args=None):
 
 @client.command()
 @commands.check(basic_check)
-async def rproom(self,ctx):
+async def rproom(ctx):
     y=None
     for i in ctx.guild.categories:
         i.name="roleplays"
         y=i
     await ctx.guild.create_text_channel("room_2",category=y)
+    await ctx.send("Channel created. Have fun")
 
 
 @client.command()
 async def time(ctx):
     em=discord.Embed(title="Time")
-    
     dt=datetime.datetime.now()
     i_time=dt+datetime.timedelta(hours=5,minutes=30)
     x_time=dt-datetime.timedelta(hours=5)    
