@@ -225,16 +225,6 @@ async def rproom(ctx):
 
 @client.command()
 @commands.check(basic_check)
-async def rproom(ctx):
-    y=None
-    for i in ctx.guild.categories:
-        if( i.name=="roleplays"):
-            y=i
-    await ctx.guild.create_text_channel("room_2",category=y)
-    await ctx.send("Channel created. Have fun")
-
-@client.command()
-@commands.check(basic_check)
 async def deleterproom(ctx):
     y=None
     for i in ctx.guild.text_channels:
