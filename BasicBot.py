@@ -218,11 +218,30 @@ async def draw(ctx, args=None):
 async def rproom(ctx):
     y=None
     for i in ctx.guild.categories:
-        i.name="roleplays"
-        y=i
+        if( i.name=="roleplays"):
+            y=i
     await ctx.guild.create_text_channel("room_2",category=y)
     await ctx.send("Channel created. Have fun")
 
+@client.command()
+@commands.check(basic_check)
+async def rproom(ctx):
+    y=None
+    for i in ctx.guild.categories:
+        if( i.name=="roleplays"):
+            y=i
+    await ctx.guild.create_text_channel("room_2",category=y)
+    await ctx.send("Channel created. Have fun")
+
+@client.command()
+@commands.check(basic_check)
+async def deleteroom(ctx):
+    y=None
+    for i in ctx.guild.text_channels:
+        if( i.name=="room_2"):
+            y=i
+    y.delete()
+    await ctx.author.send("Channel Killed!")
 
 @client.command()
 async def time(ctx):
