@@ -230,7 +230,7 @@ async def deleterproom(ctx):
     for i in ctx.guild.text_channels:
         if( i.name=="room_2"):
             y=i
-    y.delete()
+    await y.delete()
     await ctx.author.send("Channel Killed!")
 
 @client.command()
