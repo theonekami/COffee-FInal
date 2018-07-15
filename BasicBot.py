@@ -218,7 +218,7 @@ async def draw(ctx, args=None):
 async def rproom(ctx):
     y=None
     for i in ctx.guild.categories:
-        if( i.name=="ROLEPLAYS"):
+        if( i.id=377792065192460289):
             y=i
     await ctx.guild.create_text_channel("room_2",category=y)
     await ctx.send("Channel created. Have fun")
@@ -228,7 +228,7 @@ async def rproom(ctx):
 async def deleterproom(ctx):
     y=None
     for i in ctx.guild.text_channels:
-        if( i.id==377792065192460289):
+        if( i.name=="room_2"):
             y=i
     await y.delete()
     await ctx.author.send("Channel Killed!")
