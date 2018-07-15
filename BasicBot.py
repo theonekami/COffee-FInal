@@ -235,7 +235,7 @@ async def rproom(ctx):
 
 @client.command()
 @commands.check(basic_check)
-async def deleteroom(ctx):
+async def deleterproom(ctx):
     y=None
     for i in ctx.guild.text_channels:
         if( i.name=="room_2"):
