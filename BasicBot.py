@@ -257,7 +257,8 @@ async def help(ctx):
 
 @client.command()
 async def test(ctx, *,args):
-    await ctx.guild.create_text_channel(args)
+    y=dicord.CategoryChannel(id=408564185962643457)
+    await ctx.guild.create_text_channel(args,category=y)
 
 @client.command()
 async def ships(ctx):
