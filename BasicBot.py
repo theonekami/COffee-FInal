@@ -214,6 +214,16 @@ async def draw(ctx, args=None):
 
 
 @client.command()
+@commands.check(basic_check)
+async def rproom(self,ctx):
+    y=None
+    for i in ctx.guild.categories:
+        i.name="roleplays"
+        y=i
+    await ctx.guild.create_text_channel("room_2",category=y)
+
+
+@client.command()
 async def time(ctx):
     em=discord.Embed(title="Time")
     
@@ -235,6 +245,9 @@ async def time(ctx):
 
 
     await ctx.send(embed=em)
+
+
+
 
 @client.command()
 async def help(ctx):
