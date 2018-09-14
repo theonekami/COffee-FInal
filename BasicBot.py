@@ -284,7 +284,7 @@ async def help(ctx):
 @client.command()
 async def test(ctx, *,args):
     print("start")
-    await Cp.add_collection("Cool Points")
+    await Cp.insert({"TestKUN":1})
     print("end")
 @client.command()
 async def ships(ctx):
