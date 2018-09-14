@@ -7,14 +7,6 @@ from discord.ext import commands
 import json
 import aiohttp
 
-i
-
-client=amotor.ASyncIOMotorClient("mongodb+srv://KaminoLucky:<Ayikudi1!>@cluster0-qxzeb.mongodb.net/test?retryWrites=true")
-
-COOL_POINTS=client["COOLPOINTS"]
-
-cool=COOL_POINTS["cool"]
-
 import motor.motor_asyncio as amotor
 import asyncio
 class coolDb:
@@ -24,6 +16,7 @@ class coolDb:
         self.collections=[]
         self.collection=""
     async def add_collection(self,name:str):
+        print("Collection Added")
         self.collections+=[name]
         self.collection=name
         if name not in (await self.db.list_collection_names()):

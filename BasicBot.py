@@ -9,6 +9,9 @@ import datetime, json
 import random
 import math
 import requests
+import dat
+
+#once upon a time a NErd said "Nah your include will not be hbig....Please kill him for me"
 
 ##to do:
 ##    message delete
@@ -27,6 +30,7 @@ def show_check(ctx,args):
     else:
         return False
 
+Cp=dat.coolDb()
 
 client=commands.Bot( command_prefix=('?', '!', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
@@ -279,7 +283,7 @@ async def help(ctx):
 
 @client.command()
 async def test(ctx, *,args):
-    await ctx.guild.create_text_channel(args,category=ctx.guild.categories[0])
+    await Cp.add_collection("Cool Points")
 
 @client.command()
 async def ships(ctx):
