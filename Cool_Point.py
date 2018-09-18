@@ -28,5 +28,10 @@ class Cool_Point:
         self.Cp.insert(kwargs={str(ctx.message.mentions[0].id):1})
         await ctx.send("Addded to"+ ctx.message.mentions[0].name)
 
+    @cp.command(name="top")
+    async def cp_top(self, ctx):
+        await ctx.send(self.Cp.print_db)
+
+
 def setup(bot):
     bot.add_cog(Cool_Point(bot))
