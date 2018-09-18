@@ -30,7 +30,7 @@ def show_check(ctx,args):
     else:
         return False
 
-Cp=dat.coolDb()
+
 
 client=commands.Bot( command_prefix=('?', '!', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
@@ -285,9 +285,9 @@ async def help(ctx):
 @client.command()
 async def test(ctx):
     print("start")
-    
     await ctx.send(Cp.collection)
     print("end")
+
     
 @client.command()
 async def ships(ctx):
