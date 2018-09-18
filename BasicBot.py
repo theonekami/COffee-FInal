@@ -46,6 +46,7 @@ async def on_ready():
     print('You are running BasicBot v2.1')
     print('Created by Kaminolucky')
     client.load_extension("Role_command")
+    Cp.set_collection("Coolpoints")
         
 ##    await client.user.edit(username='Coffee Cat')
     return await client.change_presence(activity=discord.Game(name='Rolling the dice,picking the lovers'))
@@ -284,6 +285,7 @@ async def help(ctx):
 @client.command()
 async def test(ctx):
     print("start")
+    
     await ctx.send(Cp.collection)
     print("end")
     
