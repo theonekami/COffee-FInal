@@ -46,6 +46,7 @@ class coolDb:
         for i in (await self.find()):
             temp=[]
             for x in i.keys():
-                if i!="_id":temp+=[x+":"+str(i[x])]
+                if i!="_id":
+                    temp+=[x+":"+str(i[x])]
             res+=[",".join(temp)]
         return "\n".join(res)
