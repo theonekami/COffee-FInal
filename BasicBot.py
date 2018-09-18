@@ -284,8 +284,9 @@ async def help(ctx):
 @client.command()
 async def test(ctx, *,args):
     print("start")
-    await Cp.insert(1)
+    await ctx.send(Cp.collection())
     print("end")
+    
 @client.command()
 async def ships(ctx):
         x="""
