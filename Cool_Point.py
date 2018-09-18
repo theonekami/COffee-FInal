@@ -21,12 +21,12 @@ class Cool_Point:
 
     @commands.group(invoke_without_command=True)
     async def cp(self,ctx):
-        ctx.send("So, ....wheres the suffix")
+        await ctx.send("So, ....wheres the suffix")
 
     @cp.command(name="add")
     async def cp_add(self, ctx):
         self.Cp.insert({str(ctx.message.mentions[0]):1})
-                
+        await ctx.send("Addded to" ctx.message.mentions[0])
 
 def setup(bot):
     bot.add_cog(Cool_Point(bot))
