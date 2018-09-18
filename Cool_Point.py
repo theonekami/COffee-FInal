@@ -11,11 +11,13 @@ def basic_check(ctx):  ##for funsies
     else:
         return False
 
-Cp=dat.coolDb()
+
 
 class Cool_Point:
     def __init__(self, bot):
         self.bot=bot
+        self.Cp=dat.coolDb()
+        self.Cp.set_collection("Coolpoints")
 
     @commands.groups(invoke_without_command=True)
     async def cp(self,ctx):
@@ -23,9 +25,8 @@ class Cool_Point:
 
     @cp.command(name="add")
     async def cp_add(self, ctx):
-        Cp.insert({str(ctx.message.mentions[0]):1})
+        self.Cp.insert({str(ctx.message.mentions[0]):1})
                 
 
 def setup(bot):
-    Cp.set_collection("Coolpoints")
     bot.add_cog(Cool_Point(bot))
