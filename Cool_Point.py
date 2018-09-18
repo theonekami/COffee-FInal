@@ -19,7 +19,7 @@ class Cool_Point:
         self.Cp=dat.coolDb()
         self.Cp.set_collection("Coolpoints")
 
-    @command.groups(invoke_without_command=True)
+    @commands.group(invoke_without_command=True)
     async def cp(self,ctx):
         ctx.send("So, ....wheres the suffix")
 
