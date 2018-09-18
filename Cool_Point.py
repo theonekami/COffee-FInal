@@ -25,7 +25,7 @@ class Cool_Point:
 
     @cp.command(name="add")
     async def cp_add(self, ctx):
-        self.Cp.insert(kwargs={str(ctx.message.mentions[0].id):1})
+        await self.Cp.insert(kwargs={str(ctx.message.mentions[0].id):1})
         await ctx.send("Addded to"+ ctx.message.mentions[0].name)
 
     @cp.command(name="top")
