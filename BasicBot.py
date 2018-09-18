@@ -282,9 +282,9 @@ async def help(ctx):
 
 
 @client.command()
-async def test(ctx, *,args):
+async def test(ctx, *):
     print("start")
-    await ctx.send(Cp.collection())
+    await ctx.send(Cp.collection)
     print("end")
     
 @client.command()
