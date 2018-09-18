@@ -30,7 +30,7 @@ class Cool_Point:
 
     @cp.command(name="top")
     async def cp_top(self, ctx):
-        await ctx.send(self.Cp.print_db)
+        await ctx.send(self.Cp.print_db())
 
 
 def setup(bot):
