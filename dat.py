@@ -28,10 +28,7 @@ class coolDb:
         self.collection=name
     async def insert(self,**kwargs):
         print("inserted")
-        x=dict()
-        for i,j in kwargs:
-            x[i]=j
-        await self.db[self.collection].insert_one(x)
+        await self.db[self.collection].insert_one(kwargs)
     async def insert_many(self,*items):
         for i in items:
             await self.insert(**i)
