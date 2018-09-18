@@ -17,7 +17,7 @@ class Cool_Point:
     def __init__(self, bot):
         self.bot=bot
         self.Cp=dat.coolDb()
-        self.Cp.set_collection("Coolpoints")
+        self.Cp.set_collection("Cool Points")
 
     @commands.group(invoke_without_command=True)
     async def cp(self,ctx):

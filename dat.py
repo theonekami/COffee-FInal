@@ -11,7 +11,7 @@ import motor.motor_asyncio as amotor
 import asyncio
 class coolDb:
     def __init__(self):
-        self.client=amotor.AsyncIOMotorClient("mongodb+srv://KaminoLucky:<Ayikudi1!>@cluster0-qxzeb.mongodb.net/test?retryWrites=true") #insert your own link here
+        self.client=amotor.AsyncIOMotorClient("mongodb+srv://KaminoLucky:sAyikudi@cluster0-qxzeb.mongodb.net/test?retryWrites=true") #insert your own link here
         self.db=self.client['COOLPOINTS']
         self.collections=[]
         self.collection=""
