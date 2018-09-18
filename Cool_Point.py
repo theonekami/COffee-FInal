@@ -24,14 +24,20 @@ class Cool_Point:
         await ctx.send("So, ....wheres the suffix")
 
     @cp.command(name="add")
-    async def cp_add(self, ctx):
+    async def cp_add(self, ctx, args):
         x=ctx.message.mentions[0].id
+##        await self.Cp.find(x)
         await self.Cp.insert(x = (ctx.message.mentions[0].name, 1))
         await ctx.send("Addded to"+ ctx.message.mentions[0].name)
 
     @cp.command(name="top")
     async def cp_top(self, ctx):
         await ctx.send(await self.Cp.print_db())
+
+    @cp.command(name="find")
+    async def cp_find(self, ctx):
+        x= await self.Cp.find(ctx.message.mentions[0])
+        await ctx.send(x)
 
 
 def setup(bot):
