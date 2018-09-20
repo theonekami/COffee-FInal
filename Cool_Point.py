@@ -36,7 +36,9 @@ class Cool_Point:
 
     @cp.command(name="find")
     async def cp_find(self, ctx):
-        x= await self.Cp.find(y=ctx.message.mentions[0].id)
+        x= await self.Cp.find()
+        for i in x:
+            print(x[2])
         await ctx.send(x)
 
 
