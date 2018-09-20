@@ -38,7 +38,7 @@ class Cool_Point:
     async def cp_find(self, ctx):
         x= await self.Cp.find()
         for i in x:
-            print(x[2])
+            print(x[0])
         await ctx.send(x)
 
 
