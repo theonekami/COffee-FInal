@@ -59,8 +59,10 @@ async def on_member_join(member):
         if i.name == 'lobby':
             x = i
     y="Hello" + member.mention+"It's a wonderful chance to meet you, welcome to this Rp Server. I am Coffee. use !help to see commands"
-    
+    em = discord.Embed(title="New Face")
+    em.set_image(url=member.avatar_url)
     await x.send(y)
+    await x.send(embed=em)
             
 @client.command()
 async def hi(ctx):
@@ -197,7 +199,7 @@ Shops:\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q
 ##    'Calcs a given expression, someone needs to see how far this goes tho'  ##        for i in ctx.server.members:
 ##    try:  ##            if(i.mentioned_in(args)):
 ##        x = eval(args)  ##                y=i
-##    except ZeroDivisionError:  ##        await client.send_message(y,x[0])
+##    except ZeroDivisionError :  ##        await client.send_message(y,x[0])
 ##        x = 'Bish , you just divided by zero'  ##
 ##    await ctx.send('Result: ' + str(x))
 
