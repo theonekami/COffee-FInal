@@ -37,7 +37,7 @@ class Cool_Point:
     @cp.command(name="find")
     async def cp_find(self, ctx):
         x= await self.Cp.find()
-        await ctx.send(x)
+        await ctx.send(type(x))
 
 
 def setup(bot):
