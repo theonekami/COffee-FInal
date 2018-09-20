@@ -40,7 +40,7 @@ class coolDb:
         for doc in await cursor.to_list(length=length):
             doc.setdefault("")
             res.append(doc)
-        return cursor
+        return res
     async def print_db(self):
         res=[]
         for i in (await self.find()):
