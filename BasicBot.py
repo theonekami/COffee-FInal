@@ -307,7 +307,7 @@ async def ban(ctx):
 @commands.check(basic_check)
 async def unban(ctx):
     x= "BeGONe THOT!!!!"
-    await ctx.send(reverse(x))
+    await ctx.send("!!!!TOHT eNOGeB")
 
 ##@client.command()
 ##async def ask(ctx,*,args):
