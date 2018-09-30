@@ -291,6 +291,12 @@ async def test(ctx):
     await ctx.send(Cp.collection)
     print("end")
 
+
+@client.command()
+async def pfp(ctx):
+    x= ctx.message.mentions[0]
+    em = discord.Embed(title="Old Face")
+    em.set_image(url=x.avatar_url)    
     
 @client.command()
 async def ships(ctx):
