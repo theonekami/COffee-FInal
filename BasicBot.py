@@ -297,7 +297,7 @@ async def pfp(ctx):
     x= ctx.message.mentions[0]
     em = discord.Embed(title="Old Face")
     em.set_image(url=x.avatar_url)
-    await ctx.say(embed=em)
+    await ctx.send(embed=em)
     
 @client.command()
 async def ships(ctx):
