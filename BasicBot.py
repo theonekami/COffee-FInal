@@ -165,10 +165,8 @@ async def dog(ctx):
 async def docs(ctx,args=None):
     em = discord.Embed(title="Docs")
     em.add_field(name="Starless" ,value="https://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit#'")
-    cq="""
-https://docs.google.com/document/d/14OTbOugCFiI0qwtVxo9eQsbRY1ogQ5hsN7IbWMVZ3TQ/edit#heading=h.wc2ek914tv85
-"""
-    em.add_field(name="Conquest" ,value = cq)
+    world= "https://docs.google.com/document/d/1NHoizFrN5MFiqWZKv1g7aHSiVfZbbT-NJAppnBj9e14/edit"
+    em.add_field(name="World Eaters" ,value = world)
     if(show_check(ctx,args)):
         await ctx.send(embed=em)
     else:
@@ -304,6 +302,16 @@ async def pfp(ctx):
 async def ban(ctx):
     x= "BeGONe THOT!!!!"
     await ctx.send(x)
+
+@client.command()
+@commands.check(basic_check)
+async def ban(ctx):
+    x= "BeGONe THOT!!!!"
+    await ctx.send(x.reverse())
+
+##@client.command()
+##async def ask(ctx,*,args):
+##    picks= ["Yes","No","Maybe","Definte Maybe"]
     
 @client.command()
 async def ships(ctx):
