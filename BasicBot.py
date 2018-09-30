@@ -280,7 +280,7 @@ async def help(ctx):
     x.add_field(name="Starless",value="Syntax: !sl \nUse: Shows docs relavent to sl", inline=False)
     x.add_field(name="Calc",value="Syntax: !calc <expresion> \nUse: Calculates yoru expression, us +, -, *, / \n Eg !calc 3+2*3", inline=False)
     x.add_field(name="Time",value="Syntax: !time \nUse: tells time in diffrent regions, if you region is not there pm kami", inline=False)
-    x.add_field(name="role",value="Syntax: !<> \nUse: tells time in diffrent regions, if you region is not there pm kami", inline=False)
+    x.add_field(name="role",value="Syntax: !<> \nUse: Assigns the said role. use !rolename to geet the role", inline=False)
     await ctx.send(embed=x)
 
 
@@ -298,6 +298,12 @@ async def pfp(ctx):
     em = discord.Embed(title="Old Face")
     em.set_image(url=x.avatar_url)
     await ctx.send(embed=em)
+
+@client.command()
+@commands.check(basic_check)
+async def ban(ctx):
+    x= "BeGONe THOT!!!!"
+    await ctx.send(x)
     
 @client.command()
 async def ships(ctx):
