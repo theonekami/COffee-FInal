@@ -291,6 +291,7 @@ async def test(ctx):
 
 
 @client.command()
+@commands.check(basic_check)
 async def pfp(ctx):
     x= ctx.message.mentions[0]
     em = discord.Embed(title="Old Face")
