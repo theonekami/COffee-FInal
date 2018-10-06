@@ -130,7 +130,7 @@ async def roll(ctx, *, args):
 @client.command()
 async def dab(ctx, *, args='1'):
     'Guess what this does'
-    em=discord.Emoji(id=498126660546068482, name="dab")
+    #em=discord.Emoji(id=498126660546068482, name="dab")
     print('dab')
     try:
         y = int(args)
