@@ -130,6 +130,7 @@ async def roll(ctx, *, args):
 @client.command()
 async def dab(ctx, *, args='1'):
     'Guess what this does'
+    em=discord.Emoji(id=498126660546068482, name="dab")
     print('dab')
     try:
         y = int(args)
@@ -139,7 +140,7 @@ async def dab(ctx, *, args='1'):
         print('hey there')
         y = 1
     for i in range(y):  ##@client.command(pass_context=True)
-        await ctx.send(':dab:')  ##async def quote(ctx):
+        await ctx.send("\n {498126660546068482}")  ##async def quote(ctx):
         await asyncio.sleep(0.5)  ##        """The first command in the process of making it YUNo?"""
 
 
