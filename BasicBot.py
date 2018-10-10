@@ -134,8 +134,8 @@ async def dab(ctx, *, args='1'):
     print('dab')
     try:
         y = int(args)
-        if y > 10:
-            y = 10
+        if y > 13:
+            y = 13
     except discord.ext.commands.errors.MissingRequiredArgument:
         print('hey there')
         y = 1
