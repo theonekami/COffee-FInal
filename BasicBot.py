@@ -140,7 +140,7 @@ async def dab(ctx, *, args='1'):
         print('hey there')
         y = 1
     for i in range(y):  ##@client.command(pass_context=True)
-        await ctx.send(" \:dab:")  ##async def quote(ctx):
+        await ctx.send(" <:dab:407026257969152031>")  ##async def quote(ctx):
         await asyncio.sleep(0.5)  ##        """The first command in the process of making it YUNo?"""
 
 
