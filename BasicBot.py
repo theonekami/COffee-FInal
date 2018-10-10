@@ -79,9 +79,7 @@ async def age(ctx):
     x= ctx.guild.created_at
     y= datetime.datetime.now()
     z=y-x
-    m=z.days//30
-    d=z.days%30-2
-    s= "This server was created at " + x.strftime(("%d %m %y")) + "\nThat makes the age " +str(m)+" months and " +str(d) + " days"
+    s= "This server was created at " + x.strftime(("%d %m %y")) + "\nThat makes the age " +str(z.days) + " days"
     await ctx.send(s)
 
 @client.command()
@@ -214,23 +212,6 @@ async def calc(ctx, *, args):  ##        y=""
 
 
 @client.command()
-async def draw(ctx, args=None):
-    if (args == 'Face') or (args == 'face') or (args == 'f'):
-        x = 18
-    else:
-        x = 54
-    y = random.randint(1, x)
-    if (y == 17) and ((args == 'Face') or (args == 'face') or (args == 'f')):
-        y = 53
-    elif (y == 18) and ((args == 'Face') or (args == 'face') or (args == 'f')):
-        y = 54
-    deck = ('https://www.random.org/playing-cards/' + str(y)) + '.png'
-    em = discord.Embed(title='The Card Has been Drawn')
-    em.set_image(url=deck)
-    await ctx.send(embed=em)
-
-
-@client.command()
 @commands.check(basic_check)
 async def rproom(ctx):
     y=None
@@ -310,6 +291,12 @@ async def pfp(ctx):
     await ctx.send(embed=em)
 
 @client.command()
+async def avatar(ctx):
+    em = discord.Embed(title="Old Face")
+    em.set_image(url=ctx.message.author.avatar_url)
+    await ctx.send(embed=em)
+
+@client.command()
 @commands.check(basic_check)
 async def ban(ctx):
     x= "BeGONe THOT!!!!"
@@ -332,6 +319,28 @@ async def ships(ctx):
 
     \nhttps://docs.google.com/document/d/1ZRUoxHeY8bKjp0eCOvo6ilu-7O03CwTd2ikRv2iUs9I/edit
         """
+        await ctx.send(x)
+
+@client.command()
+async def status(ctx):
+        x="""
+SO a quicke from me since i know most of you are sleeping. 
+In the 11 months i've been here there have been sad times, happy times, Angry times, laughing times,
+
+Gay times ,straight times, Meem times, Serious times, 
+
+Times which made you Go all "FUCK THIS FUCK THAT FUCK EveRYTHING" and times which made you go "I will give you my BLOOOD"
+
+Times when you said stuff like "KAmi YOU B" or "Everyone Agree that hope is GOd" 
+
+All These times, i've cherished with you all
+
+So in that Note i wanna say
+
+
+
+WE ARE LESS THAN A MONTH TOWARDS OUR 1 YEAR ANNVERSARY. I SWEAR TO GODS IF YOU ARE NOT THERE ON THE 8TH OF NOVEMEBER i HAVE FULL LEGAL RIGHTS TO SPAM PING YOU TILL YOU ARE HERE AM I CLEAR
+"""
         await ctx.send(x)
 
 
