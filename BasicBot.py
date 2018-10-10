@@ -18,6 +18,12 @@ import dat
 ##    discord stroage
 
 
+def Kami_check(ctx):  ##for funsies
+    if (ctx.author.id == 256390874848690176):
+        return True
+    else:
+        return False
+
 def basic_check(ctx):  ##for funsies
     if (ctx.author == ctx.guild.owner) or (ctx.author.id == 256390874848690176):
         return True
@@ -126,6 +132,10 @@ async def roll(ctx, *, args):
     res += str(eval(y))
     await ctx.send(res)
 
+@client.command()
+@commands.check(Kami_check)
+async def leave(ctx):
+    await ctx.guild.leave()
 
 @client.command()
 async def dab(ctx, *, args='1'):
