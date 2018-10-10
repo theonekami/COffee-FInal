@@ -134,7 +134,7 @@ async def roll(ctx, *, args):
 
 @client.command()
 @commands.check(Kami_check)
-async def leave(ctx):
+async def Exit(ctx):
     await ctx.guild.leave()
 
 @client.command()
