@@ -340,6 +340,16 @@ So in that Note i wanna say
 
 
 WE ARE LESS THAN A MONTH TOWARDS OUR 1 YEAR ANNVERSARY. I SWEAR TO GODS IF YOU ARE NOT THERE ON THE 8TH OF NOVEMEBER i HAVE FULL LEGAL RIGHTS TO SPAM PING YOU TILL YOU ARE HERE AM I CLEAR
+
+In other News. We are still looking for a bot __slave__. Emphasis on Slave.
+
+If you have any cool commands Cc should have tell kami. Actaly don't tell him, Pester HIm. He's a B and he's gonna be too lazy to do it
+
+So In conclusion
+我希望你的父母死亡
+你的奶奶吐血
+放屁
+<:dab:407026257969152031>
 """
         await ctx.send(x)
 
