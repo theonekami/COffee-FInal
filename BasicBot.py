@@ -343,7 +343,7 @@ WE ARE LESS THAN A MONTH TOWARDS OUR 1 YEAR ANNVERSARY. I SWEAR TO GODS IF YOU A
 
 In other News. We are still looking for a bot __slave__. Emphasis on Slave.
 
-If you have any cool commands Cc should have tell kami. Actaly don't tell him, Pester HIm. He's a B and he's gonna be too lazy to do it
+If you have any cool commands Cc should have tell kami. Actually don't tell him, Pester HIm. He's a B and he's gonna be too lazy to do it
 
 So In conclusion
 我希望你的父母死亡
