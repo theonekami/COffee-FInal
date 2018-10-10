@@ -192,15 +192,15 @@ Shops:\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q
 
 
 
-##async def sendmsg(ctx,*,args):
-##@client.command()  ##        x=args.split(',')
-##async def calc(ctx, *, args):  ##        y=""
-##    'Calcs a given expression, someone needs to see how far this goes tho'  ##        for i in ctx.server.members:
-##    try:  ##            if(i.mentioned_in(args)):
-##        x = eval(args)  ##                y=i
-##    except ZeroDivisionError :  ##        await client.send_message(y,x[0])
-##        x = 'Bish , you just divided by zero'  ##
-##    await ctx.send('Result: ' + str(x))
+async def sendmsg(ctx,*,args):
+@client.command()  ##        x=args.split(',')
+async def calc(ctx, *, args):  ##        y=""
+    'Calcs a given expression, someone needs to see how far this goes tho'  ##        for i in ctx.server.members:
+    try:  ##            if(i.mentioned_in(args)):
+        x = eval(args)  ##                y=i
+    except ZeroDivisionError :  ##        await client.send_message(y,x[0])
+        x = 'Bish , you just divided by zero'  ##
+    await ctx.send('Result: ' + str(x))
 
 
 @client.command()
