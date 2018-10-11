@@ -156,8 +156,8 @@ async def dab(ctx, *, args='1'):
 @client.command()
 async def bad(ctx, *, args='1'):
     'Guess what this does'
-    bad=["<:dab:407026257969152031>"
-"<:hope:497948063973769256>"
+    bad=["<:dab:407026257969152031>",
+"<:hope:497948063973769256>",
          ":thinking:"]
     try:
         y = int(args)
