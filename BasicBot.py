@@ -89,6 +89,8 @@ async def pick(ctx, *, args):
     x = random.choice(y.split(','))
     await ctx.send('Umm..I Picked: ' + x)
 
+
+
 @client.command()
 async def randrace(ctx,args=1):
     'A pick device. Uses a list so i think any number of arguments can work'
@@ -146,9 +148,26 @@ async def dab(ctx, *, args='1'):
             y = 13
     except discord.ext.commands.errors.MissingRequiredArgument:
         print('hey there')
-        y = 1
+        y = 1 
     for i in range(y):  ##@client.command(pass_context=True)
         await ctx.send(" <:dab:407026257969152031>")  ##async def quote(ctx):
+        await asyncio.sleep(0.5)  ##        """The first command in the process of making it YUNo?"""
+
+@client.command()
+async def bad(ctx, *, args='1'):
+    'Guess what this does'
+    bad=["<:dab:407026257969152031>"
+"<:hope:497948063973769256>"
+         ":thinking:"]
+    try:
+        y = int(args)
+        if y > 5:
+            y = 5
+    except discord.ext.commands.errors.MissingRequiredArgument:
+        print('hey there')
+        y = 1 
+    for i in range(y):  ##@client.command(pass_context=True)
+        await ctx.send(random.choice(bad))  ##async def quote(ctx):
         await asyncio.sleep(0.5)  ##        """The first command in the process of making it YUNo?"""
 
 
