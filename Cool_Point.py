@@ -11,12 +11,12 @@ def basic_check(ctx):  ##for funsies
     else:
         return False
 
-store=discord.TextChannel(id=500209038533984276)
 
 class Cool_Point:
     def __init__(self, bot):
         self.bot=bot
-        
+        store=bot.get_channel(id=500209038533984276)
+
     @commands.group(invoke_without_command=True)
     async def cp(self,ctx):
         await ctx.send("So, ....wheres the suffix")
