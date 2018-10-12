@@ -11,36 +11,19 @@ def basic_check(ctx):  ##for funsies
     else:
         return False
 
-
+store=discord.TextChannel(id=500209038533984276)
 
 class Cool_Point:
     def __init__(self, bot):
         self.bot=bot
-        self.Cp=dat.coolDb()
-        self.Cp.set_collection("Cool Points")
-
+        
     @commands.group(invoke_without_command=True)
     async def cp(self,ctx):
         await ctx.send("So, ....wheres the suffix")
-
-    @cp.command(name="add")
-    async def cp_add(self, ctx, args):
-        x=ctx.message.mentions[0].id
-##        await self.Cp.find(x)
-        await self.Cp.insert(x = (ctx.message.mentions[0].name, 1))
-        await ctx.send("Addded to"+ ctx.message.mentions[0].name)
-
-    @cp.command(name="top")
-    async def cp_top(self, ctx):
-        await ctx.send(await self.Cp.print_db())
-
-    @cp.command(name="find")
-    async def cp_find(self, ctx):
-        x= await self.Cp.find()
-        for i in x:
-            print(x[0f])
-        await ctx.send(x)
-
+##
+##    @cp.command(name="add")
+##    async def cp_add(self, ctx, args):
+##        hm
 
 def setup(bot):
     bot.add_cog(Cool_Point(bot))
