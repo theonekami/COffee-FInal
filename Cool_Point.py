@@ -18,7 +18,7 @@ class Cool_Point:
         self.store=bot.get_channel(id=500209038533984276)
 
     @commands.command()
-    async def test(self, ctx, args):
+    async def kek(self, ctx, args):
         await self.store.send(args)
     
     @commands.group(invoke_without_command=True)
