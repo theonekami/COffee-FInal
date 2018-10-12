@@ -15,8 +15,12 @@ def basic_check(ctx):  ##for funsies
 class Cool_Point:
     def __init__(self, bot):
         self.bot=bot
-        store=bot.get_channel(id=500209038533984276)
+        self.store=bot.get_channel(id=500209038533984276)
 
+    @commands.command()
+    async def test(self, ctx, args):
+        await self.store.send(args)
+    
     @commands.group(invoke_without_command=True)
     async def cp(self,ctx):
         await ctx.send("So, ....wheres the suffix")
