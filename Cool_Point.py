@@ -17,17 +17,20 @@ class Cool_Point:
         self.bot=bot
         self.store=bot.get_channel(id=500209038533984276)
 
-    @commands.command()
-    async def kek(self, ctx, args):
-        await self.store.send(args)
-    
+##    @commands.command()
+##    async def kek(self, ctx, args):
+##        await self.store.send(args)
+##    
     @commands.group(invoke_without_command=True)
     async def cp(self,ctx):
         await ctx.send("So, ....wheres the suffix")
-##
-##    @cp.command(name="add")
-##    async def cp_add(self, ctx, args):
-##        hm
+
+    @cp.command(name="add")
+    async def cp_add(self, ctx, args):
+        person=ctx.message.mentions[0]
+        msg=str(person.id) + str(person.name)+str(args)
+        await self.store.send(msg)
+        
 
 def setup(bot):
     bot.add_cog(Cool_Point(bot))
