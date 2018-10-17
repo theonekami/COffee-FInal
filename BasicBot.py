@@ -304,9 +304,8 @@ async def help(ctx):
 
 @client.command()
 async def test(ctx):
-    print("start")
-    await ctx.send(Cp.collection)
-    print("end")
+    for i in client.guilds:
+        await ctx.send(i.name)
 
 
 @client.command()
@@ -383,4 +382,4 @@ So In conclusion
 
     
 
-client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DdwY-w.l_CjW6tratHXia6MUJ-xll3Ti5Q')
+client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DqjXwA.UdnS9TxwQaJQcuUsHCeeTSsUo5A')
