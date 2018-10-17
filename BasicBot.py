@@ -307,6 +307,10 @@ async def test(ctx):
     for i in client.guilds:
         await ctx.send(i.name)
 
+@client.command()
+async def rtfm(ctx):
+    await ctx.send("https://discordpy.readthedocs.org/en/rewrite")
+
 
 @client.command()
 @commands.check(basic_check)
