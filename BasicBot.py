@@ -16,7 +16,7 @@ import dat
 ##to do:
 ##    message delete
 ##    discord stroage
-bot_admin_discriminators = [3952, 2995, 1881] # These users have access to the bot's admin functions on all servers
+bot_admin_discriminators = [256390874848690176,131205596732063744] # These users have access to the bot's admin functions on all servers
 
 def value_in_list(ls, val): # ls: a list; val: a value
     for test_value in ls:
@@ -25,13 +25,13 @@ def value_in_list(ls, val): # ls: a list; val: a value
     return False
 
 def gadmin_ck(ctx): # Check if user is a global bot admin
-    return value_in_list(bot_admin_discriminators, ctx.author.discriminator)
+    return value_in_list(bot_admin_discriminators, ctx.author)
 
 def Kami_check(ctx):  ##for funsies
     return (ctx.author.id == 256390874848690176) 
 
 def basic_check(ctx):  ##for funsies
-    return ((ctx.author == ctx.guild.owner) or (ctx.author.id == 256390874848690176) or (gadmin_ck(ctx)))
+    return ((ctx.author == ctx.guild.owner) or (gadmin_ck(ctx)))
 
 def show_check(ctx,args):
     return ((args=="Show" or args=="show" or args=="s")and(basic_check(ctx)))     
