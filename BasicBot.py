@@ -266,8 +266,8 @@ async def time(ctx):
     x_time=dt-datetime.timedelta(hours=5)    
     singa_time=dt+datetime.timedelta(hours=8)
     b_time=dt+datetime.timedelta(hours=1)
-    a_time=dt+datetime.timedelta(hours=10)
-    est=dt-datetime.timedelta(hours=8)
+    a_time=dt+datetime.timedelta(hours=11)
+    est=dt-datetime.timedelta(hours=6)
 
     em.add_field(name="GMT",value=dt.strftime("%T || %D"),inline=False)
     em.add_field(name="EST",value=est.strftime("%T || %D"),inline=False)
