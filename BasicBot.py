@@ -309,7 +309,7 @@ async def in_guilds(ctx):
 async def test(ctx):
     await ctx.send("Input meem me")
     x= await client.wait_for("message",timeout=60.0)
-    await ctx.send(x)
+    await ctx.send(str(x))
 
 @client.command()
 async def rtfm(ctx):
