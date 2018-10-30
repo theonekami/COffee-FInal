@@ -301,9 +301,15 @@ async def help(ctx):
 
 
 @client.command()
-async def test(ctx):
+async def in_guilds(ctx):
     for i in client.guilds:
         await ctx.send(i.name)
+
+@client.command()
+async def test(ctx):
+    await ctx.send("Input meem me")
+    x= await client.wait_for("message",timeout=60.0)
+    await ctx.send(x)
 
 @client.command()
 async def rtfm(ctx):
