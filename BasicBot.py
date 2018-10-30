@@ -353,7 +353,7 @@ async def ships(ctx):
 
     \nhttps://docs.google.com/document/d/1ZRUoxHeY8bKjp0eCOvo6ilu-7O03CwTd2ikRv2iUs9I/edit
         """
-        await ctx.send(x)
+        await ctx.send(x.content)
 
 @client.command()
 async def status(ctx):
