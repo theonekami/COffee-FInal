@@ -28,7 +28,10 @@ def gadmin_ck(ctx): # Check if user is a global bot admin
     return value_in_list(bot_admin_discriminators, ctx.author.id)
 
 def Kami_check(ctx):  ##for funsies
-    return (ctx.author.id == 256390874848690176) 
+    if (ctx.author.id == 256390874848690176) :
+        return True
+    else:
+        return False
 
 def basic_check(ctx):  ##for funsies
     return ((ctx.author == ctx.guild.owner) or (gadmin_ck(ctx)))
