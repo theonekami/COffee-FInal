@@ -71,6 +71,7 @@ async def on_member_join(member):
     y="Hello" + member.mention+"It's a wonderful chance to meet you, welcome to this Rp Server. I am Coffee. use !help to see commands"
     em = discord.Embed(title="New Face")
     em.set_image(url=member.avatar_url)
+    await member.addrole("Locked")
     await x.send(y)
     await x.send(embed=em)
             
@@ -403,4 +404,4 @@ So In conclusion
 
     
 
-client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DsCsiQ.y6pp1eo8jkKPzdsaBro8e2EbkYI')
+client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DsCuBA.xjWKAimwZsBYVfVdkhnnWG95ZtE')
