@@ -313,7 +313,7 @@ async def in_guilds(ctx):
 
 
 @client.command()
-@commands.check(Kami_Check)
+@commands.check(Kami_check)
 async def test(ctx):
 ##    await ctx.send("Input meem me")
 ##    x= await client.wait_for("message",timeout=60.0, check=room)
