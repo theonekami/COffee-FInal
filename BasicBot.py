@@ -34,7 +34,10 @@ def basic_check(ctx):  ##for funsies
     return ((ctx.author == ctx.guild.owner) or (gadmin_ck(ctx)))
 
 def show_check(ctx,args):
-    return ((args=="Show" or args=="show" or args=="s")and(basic_check(ctx)))     
+    return ((args=="Show" or args=="show" or args=="s")and(basic_check(ctx)))
+
+##def room_check(ctx):
+##    
 
 client=commands.Bot( command_prefix=('?', '!', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
@@ -308,7 +311,7 @@ async def in_guilds(ctx):
 @client.command()
 async def test(ctx):
     await ctx.send("Input meem me")
-    x= await client.wait_for("message",timeout=60.0)
+    x= await client.wait_for("message",timeout=60.0, check=room)
     await ctx.send(x.content)
 
 @client.command()
