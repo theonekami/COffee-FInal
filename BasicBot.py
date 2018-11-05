@@ -404,4 +404,4 @@ So In conclusion
 
     
 
-client.run('NDA3MDY0OTIyMTU4MjY4NDE2.DsCwuA.m51ZHuHCjjV-bXS6G3FBN010o1s')
+client.run(os.environ["TOKEN"])
