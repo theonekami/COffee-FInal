@@ -369,7 +369,8 @@ async def avatar(ctx):
 @commands.check(basic_check)
 async def ban(ctx):
     x= "BeGONe THOT!!!!"
-    await ctx.guild.ban(ctx.message.mentions)
+    for i in ctx.message.mentions:
+        await ctx.guild.ban(i)
     await ctx.send(x)
     
 
