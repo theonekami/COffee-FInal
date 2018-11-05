@@ -8,7 +8,7 @@ def basic_check(ctx):  ##for funsies
     p=ctx.author
     for i in p.roles:
         if i.name=="Moderator":
-            return true
+            return True
     if (p == ctx.guild.owner) or (p == 256390874848690176) or (ctx.author):
         return True
     else:
