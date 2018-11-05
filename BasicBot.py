@@ -378,6 +378,9 @@ async def ban(ctx):
 @commands.check(basic_check)
 async def unban(ctx):
     x= "BeGONe THOT!!!!"
+    y=client.get_user(id=225097558295445504)
+
+    await ctx.guild.unban(y)
     await ctx.send("!!!!TOHT eNOGeB")
 
 ##@client.command()
