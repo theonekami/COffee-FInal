@@ -49,7 +49,7 @@ races= ["Human", "Dwarf","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","T
 
 patron= ["Warden","Maiden","Bard","BattleBorn","Satan","Leviathan","Beelzebub","Lillth","Gaia","Kronos","Prom","Atlas"]
 
-home=client.get_channel(508811672970985475)
+home=client.get_channel(id=508811672970985475)
 
 
 client.remove_command('help')
@@ -107,7 +107,7 @@ async def pick(ctx, *, args):
 @client.command()
 @commands.check(Kami_check)
 async def heal(ctx):
-    x="Minions Victim "
+    x="Minions Victim"
     for i in range(0,40):
         for j in ctx.guild.members:
             if j.nick==x+" #"+str(i):
