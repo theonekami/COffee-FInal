@@ -94,6 +94,16 @@ async def pick(ctx, *, args):
     x = random.choice(y.split(','))
     await ctx.send('Umm..I Picked: ' + x)
 
+@client.command()
+@commands.check(Kami_check)
+async def heal(ctx):
+    x="Minions Victim "
+    for i in range(0,len(ctx,guild.members)+1):
+        for j in ctx.guild.members:
+            if j.nick==x+" #"+str(i):
+                await j.edit(nick=None)
+    await ctx.send("Let the Mistakes of one god, never haunt you anymore")
+    
 
 
 @client.command()
