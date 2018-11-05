@@ -42,7 +42,7 @@ def show_check(ctx,args):
 ##def room_check(ctx):
 ##    
 
-client=commands.Bot( command_prefix=('?', '!', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
+client=commands.Bot( command_prefix=('?', '!','.', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
 races= ["Human", "Dwarf","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","Tortle","Lizardfolk","Kobold","Kenku","Halfling","Goblin","Gensai","Elemental","aasimar","Tiefling,","Thrikeen","Void"]
 
@@ -57,6 +57,7 @@ async def on_ready():
     print('Created by Kaminolucky')
     client.load_extension("Role_command")
     client.load_extension("Cool_Point")
+    client.load_extension("Magic")
         
 ##    await client.user.edit(username='Coffee Cat')
     return await client.change_presence(activity=discord.Game(name='Rolling the dice,picking the lovers'))
@@ -77,7 +78,7 @@ async def on_member_join(member):
             
 @client.command()
 async def hi(ctx):
-    await ctx.send("I'm not crazy. My reality is just different than yours.")
+    await ctx.send("I'm... Scared")
 
 @client.command()
 async def age(ctx):
