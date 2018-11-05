@@ -5,7 +5,11 @@ import aiohttp
 
 
 def basic_check(ctx):  ##for funsies
-    if (ctx.author == ctx.guild.owner) or (ctx.author.id == 256390874848690176):
+    p=ctx.author
+    for i in p.roles:
+        if i.name=="Moderator":
+            return true
+    if (p == ctx.guild.owner) or (p == 256390874848690176) or (ctx.author):
         return True
     else:
         return False
