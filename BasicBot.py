@@ -42,13 +42,15 @@ def show_check(ctx,args):
 ##def room_check(ctx):
 ##    
 
-home=get_channel(508811672970985475)
 
 client=commands.Bot( command_prefix=('?', '!','.', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
 races= ["Human", "Dwarf","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","Tortle","Lizardfolk","Kobold","Kenku","Halfling","Goblin","Gensai","Elemental","aasimar","Tiefling,","Thrikeen","Void"]
 
 patron= ["Warden","Maiden","Bard","BattleBorn","Satan","Leviathan","Beelzebub","Lillth","Gaia","Kronos","Prom","Atlas"]
+
+home=client.get_channel(508811672970985475)
+
 
 client.remove_command('help')
 
