@@ -49,7 +49,7 @@ races= ["Human", "Dwarf","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","T
 
 patron= ["Warden","Maiden","Bard","BattleBorn","Satan","Leviathan","Beelzebub","Lillth","Gaia","Kronos","Prom","Atlas"]
 
-home=client.get_channel(id=508811672970985475)
+#home=client.get_channel(id=508811672970985475)
 
 
 client.remove_command('help')
@@ -63,7 +63,7 @@ async def on_ready():
     client.load_extension("Magic")
 ##    client.load_extension("Cool_Point")
     
-    await home.send("I am REBORN")
+   #await home.send("I am REBORN")
 ##    await client.user.edit(username='Coffee Cat')
     return await client.change_presence(activity=discord.Game(name='Afraid and cold'))
 
