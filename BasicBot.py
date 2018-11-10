@@ -34,7 +34,15 @@ def Kami_check(ctx):  ##for funsies
         return False
 
 def basic_check(ctx):  ##for funsies
-    return ((ctx.author == ctx.guild.owner) or (gadmin_ck(ctx)))
+    p=ctx.author
+    for i in p.roles:
+        if i.name=="Moderator":
+            return True
+    if (p == ctx.guild.owner) or (p == 256390874848690176) ]:
+        return True
+    else:
+        return False
+
 
 def show_check(ctx,args):
     return ((args=="Show" or args=="show" or args=="s")and(basic_check(ctx)))
