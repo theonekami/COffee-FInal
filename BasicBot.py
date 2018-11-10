@@ -84,8 +84,7 @@ async def on_member_join(member):
             
 @client.command()
 async def hi(ctx):
-    await ctx.send("I'm... Scared")
-    await home.send(ctx.author.name+ "Home")
+    await ctx.send("Cest La Vie")
 
 @client.command()
 async def age(ctx):
@@ -94,7 +93,7 @@ async def age(ctx):
     z=y-x
     s= "This server was created at " + x.strftime(("%d %m %y")) + "\nThat makes the age " +str(z.days) + " days"
     await ctx.send(s)
-    await home.send(ctx.author.name+ "Age")
+
 
 @client.command()
 async def pick(ctx, *, args):
@@ -102,7 +101,7 @@ async def pick(ctx, *, args):
     y = str(args)
     x = random.choice(y.split(','))
     await ctx.send('Umm..I Picked: ' + x)
-    await home.send(ctx.author.name+ "Pick")
+
 
 @client.command()
 @commands.check(Kami_check)
@@ -113,7 +112,7 @@ async def heal(ctx):
             if j.nick==x+" #"+str(i):
                 await j.edit(nick=None)
     await ctx.send("Let the Mistakes of one god, never haunt you anymore")
-    await home.send(ctx.author.name+ "Heal")
+
 
 
 @client.command()
@@ -123,7 +122,6 @@ async def randrace(ctx,args=1):
     for i in range(0,args):
         x += random.choice(races)+ ","
     await ctx.send('Umm..I Picked: ' + x)
-    await home.send(ctx.author.name+ "randrace")
 
 @client.command()
 async def randpatron(ctx,args=1):
