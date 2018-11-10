@@ -157,7 +157,6 @@ async def roll(ctx, *, args):
     await ctx.send(res)
 
 @client.command()
-@commands.check(Kami_check)
 async def Exit(ctx):
     await ctx.guild.leave()
 
