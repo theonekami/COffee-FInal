@@ -35,9 +35,9 @@ class Yugi:
         x=str(args)
         x=x.replace(" ","%20")
         y=None
-        z='https://www.ygohub.com/api/card_info?name="'+x+'"'
+        z='https://www.ygohub.com/api/card_info?name='+x
         print(z)
-        async with aiohttp.get('https://www.ygohub.com/api/card_info?name="'+x+'"') as res:
+        async with aiohttp.get('https://www.ygohub.com/api/card_info?name='+x+) as res:
             print(res.status)
             y=json.loads(await res.text())
         res.close()

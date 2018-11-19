@@ -38,7 +38,7 @@ def basic_check(ctx):  ##for funsies
     for i in p.roles:
         if i.name=="Moderator":
             return True
-    if (p == ctx.guild.owner) or (p == 256390874848690176):
+    if (p == ctx.guild.owner) or (p.id == 256390874848690176):
         return True
     else:
         return False
@@ -231,7 +231,7 @@ async def dog(ctx):
 @client.command() 
 async def docs(ctx,args=None):
     em = discord.Embed(title="Docs")
-    em.add_field(name="Starless" ,value="https://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit#'")
+    em.add_field(name="Starless" ,value="https://docs.google.com/document/d/1dYwKxoP0o1WVeSyb8ptrrmm7of73YHb7Ru97pGBJX9I/edit'")
     world= "https://docs.google.com/document/d/1NHoizFrN5MFiqWZKv1g7aHSiVfZbbT-NJAppnBj9e14/edit"
     em.add_field(name="World Eaters" ,value = world)
     if(show_check(ctx,args)):
@@ -244,7 +244,7 @@ async def docs(ctx,args=None):
 async def sl(ctx):
     em = discord.Embed(title="Docs")
     s="""
-Main doc:\n https://docs.google.com/document/d/1QM77dBRFlyKUdzJytyxbBh6osvd629B-QOyRDBm3Kiw/edit# 
+Main doc:\nhttps://docs.google.com/document/d/1dYwKxoP0o1WVeSyb8ptrrmm7of73YHb7Ru97pGBJX9I/edit
 
 Inventory: \nhttps://docs.google.com/document/d/1ULrJfzj9rd7Pd7SHX_0pgcrXLLR77q5qvGk04OSZteQ/edit 
 
