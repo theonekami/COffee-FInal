@@ -73,4 +73,4 @@ class Yugi:
 
 def setup(bot):
     bot.add_cog(Magic(bot))
-   # bot.add_cog(HS(bot))
+   bot.add_cog(Yugi(bot))
