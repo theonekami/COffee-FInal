@@ -31,7 +31,7 @@ class Yugi:
         self.bot=bot
 
     @commands.command()
-    async def card(self,ctx,*,args):
+    async def ycard(self,ctx,*,args):
         x=str(args)
         x=x.replace(" ","%20")
         y=None
