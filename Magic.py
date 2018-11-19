@@ -26,6 +26,29 @@ class Magic:
         except:
             await ctx.send("Card name " + str(args) + " not found")
 
+class Yugi:
+    def __init__(self, bot):
+        self.bot=bot
+
+    @commands.command()
+    async def card(self,ctx,*,args):
+        x=str(args)
+        x=x.replace(" ","%20")
+        y=None
+        z='https://www.ygohub.com/api/card_info?name="'+x+'"'
+        print(z)
+        async with aiohttp.get(z) as res:
+            print(res.status)
+            y=json.loads(await res.text())
+        res.close()
+        try:
+                
+            em = discord.Embed(title=y['cards'][0]['name'])
+            em.set_image(url=y['cards'][len(y['cards'])-1]["image_path"])
+            await ctx.send(embed= em)
+        except:
+            await ctx.send("Card name " + str(args) + " not found")
+
 
 ##class HS:
 ##    def __init__(self, bot):
