@@ -69,6 +69,7 @@ async def on_ready():
     print('Created by Kaminolucky')
     client.load_extension("Role_command")
     client.load_extension("Magic")
+    client.load_extension("Net_command")
 ##    client.load_extension("Cool_Point")
     
    #await home.send("I am REBORN")
@@ -111,15 +112,15 @@ async def pick(ctx, *, args):
     await ctx.send('Umm..I Picked: ' + x)
 
 
-@client.command()
-@commands.check(Kami_check)
-async def heal(ctx):
-    x="Minions Victim"
-    for i in range(0,40):
-        for j in ctx.guild.members:
-            if j.nick==x+" #"+str(i):
-                await j.edit(nick=None)
-    await ctx.send("Let the Mistakes of one god, never haunt you anymore")
+##@client.command()
+##@commands.check(Kami_check)
+##async def heal(ctx):
+##    x="Minions Victim"
+##    for i in range(0,40):
+##        for j in ctx.guild.members:
+##            if j.nick==x+" #"+str(i):
+##                await j.edit(nick=None)
+##    await ctx.send("Let the Mistakes of one god, never haunt you anymore")
 
 
 
@@ -210,22 +211,6 @@ async def bad(ctx, *, args='1'):
         await asyncio.sleep(0.5)  ##        """The first command in the process of making it YUNo?"""
 
 
-@client.command()
-async def cat(ctx):
-    em = discord.Embed(title="Cat Pix")
-    async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
-        em.set_image(url=res.url)
-    res.close()
-    await ctx.send(embed= em)
-
-@client.command()
-async def dog(ctx):
-    em = discord.Embed(title="Doggo Pix")
-    async with aiohttp.get("https://dog.ceo/api/breeds/image/random") as res:
-        x= json.loads(await res.text())
-    res.close()
-    em.set_image(url=x['message'])
-    await ctx.send(embed= em)
 
 
 @client.command() 
@@ -401,37 +386,6 @@ async def ships(ctx):
         """
         await ctx.send(x)
 
-@client.command()
-async def status(ctx):
-        x="""
-SO a quicke from me since i know most of you are sleeping. 
-In the 11 months i've been here there have been sad times, happy times, Angry times, laughing times,
-
-Gay times ,straight times, Meem times, Serious times, 
-
-Times which made you Go all "FUCK THIS FUCK THAT FUCK EveRYTHING" and times which made you go "I will give you my BLOOOD"
-
-Times when you said stuff like "KAmi YOU B" or "Everyone Agree that hope is GOd" 
-
-All These times, i've cherished with you all
-
-So in that Note i wanna say
-
-
-
-WE ARE LESS THAN A MONTH TOWARDS OUR 1 YEAR ANNVERSARY. I SWEAR TO GODS IF YOU ARE NOT THERE ON THE 8TH OF NOVEMEBER i HAVE FULL LEGAL RIGHTS TO SPAM PING YOU TILL YOU ARE HERE AM I CLEAR
-
-In other News. We are still looking for a bot __slave__. Emphasis on Slave.
-
-If you have any cool commands Cc should have tell kami. Actually don't tell him, Pester HIm. He's a B and he's gonna be too lazy to do it
-
-So In conclusion
-我希望你的父母死亡
-你的奶奶吐血
-放屁
-<:dab:407026257969152031>
-"""
-        await ctx.send(x)
 
 
     
