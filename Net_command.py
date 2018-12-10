@@ -26,5 +26,11 @@ class Net_Commands:
         em.set_image(url=x['message'])
         await ctx.send(embed= em)
 
+##    @commands,command()
+##    async def search(self, ctx,args):
+##        x="https://www.google.co.in/search?q="+str(args)+"&rlz=1C1CHBF_enIN799IN799&oq=meems&aqs=chrome..69i57j0l5.806j0j7&sourceid=chrome&ie=UTF-8"
+##        
+        
+        
 def setup(bot):
     bot.add_cog(Net_Commands(bot))
