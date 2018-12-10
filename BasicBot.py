@@ -70,6 +70,7 @@ async def on_ready():
     client.load_extension("Role_command")
     client.load_extension("Magic")
     client.load_extension("Net_command")
+    client.load_extension("gtacha_cc")
 ##    client.load_extension("Cool_Point")
     
    #await home.send("I am REBORN")

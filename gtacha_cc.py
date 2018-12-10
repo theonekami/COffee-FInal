@@ -10,7 +10,7 @@ class Gatcha_cc:
         self.bot=bot
 
     @commands.command()
-    async def roll(self, ctx):
+    async def gatcha(self, ctx):
         current = gatchadata.gatchas[0]
         em = discord.Embed(title="###"+str(current.number)+current.name)
         em.add_field("Rarity:","Common",inline=False)
