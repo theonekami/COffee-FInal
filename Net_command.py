@@ -9,7 +9,7 @@ class Net_Commands:
         self.bot=bot
 
 
-    @client.command()
+    @commands.command()
     async def cat(ctx):
         em = discord.Embed(title="Cat Pix")
         async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
@@ -17,7 +17,7 @@ class Net_Commands:
         res.close()
         await ctx.send(embed= em)
 
-    @client.command()
+    @commands.command()
     async def dog(ctx):
         em = discord.Embed(title="Doggo Pix")
         async with aiohttp.get("https://dog.ceo/api/breeds/image/random") as res:
