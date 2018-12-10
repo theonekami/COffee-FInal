@@ -14,7 +14,7 @@ class Gatcha_cc:
         current = gatchadata.gatchas[0]
         em = discord.Embed(title="###"+str(current.number)+current.name)
         em.add_field(name="Rarity:",value=current.rarity,inline=False)
-        em,add_field(value=current.flavor)
+        em.add_field(value=current.flavor)
         em.set_image(current.img)
         await ctx.send(embed= em)
 
