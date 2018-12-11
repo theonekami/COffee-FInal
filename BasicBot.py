@@ -207,7 +207,7 @@ Shops:\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q
 
 @client.command() 
 async def calc(ctx, *, args):  
-    'Calcs a given expression, someone needs to see how far this goes tho
+    'Calcs a given expression, someone needs to see how far this goes tho'
     try:            
         x = eval(args) 
     except ZeroDivisionError :  
