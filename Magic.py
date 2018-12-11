@@ -14,7 +14,7 @@ class Magic:
         y=None
         z='https://api.magicthegathering.io/v1/cards?name="'+x+'"'
         print(z)
-        async with aiohttp.get('https://api.magicthegathering.io/v1/cards?name="'+x+'"') as res:
+        async with aiohttp.request("get",'https://api.magicthegathering.io/v1/cards?name="'+x+'"') as res:
             print(res.status)
             y=json.loads(await res.text())
         res.close()
