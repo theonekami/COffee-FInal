@@ -12,7 +12,7 @@ class Net_Commands:
     @commands.command()
     async def cat(self, ctx):
         em = discord.Embed(title="Cat Pix")
-        async with aiohttp.get("http://thecatapi.com/api/images/get") as res:
+        async with aiohttp.request("get","http://thecatapi.com/api/images/get") as res:
             em.set_image(url=res.url)
         res.close()
         await ctx.send(embed= em)
@@ -20,7 +20,7 @@ class Net_Commands:
     @commands.command()
     async def dog(self,ctx):
         em = discord.Embed(title="Doggo Pix")
-        async with aiohttp.get("https://dog.ceo/api/breeds/image/random") as res:
+        async with aiohttp.request("get","https://dog.ceo/api/breeds/image/random") as res:
             x= json.loads(await res.text())
         res.close()
         em.set_image(url=x['message'])
