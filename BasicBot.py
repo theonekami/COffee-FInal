@@ -41,10 +41,9 @@ def basic_check(ctx):  ##for funsies
 def show_check(ctx,args):
     return ((args=="Show" or args=="show" or args=="s"))
 
-client=commands.Bot( command_prefix=('?', '!','.', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
-
 home=None 
 
+client=commands.Bot( command_prefix=('?', '!','.', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 client.remove_command('help')
 
 
@@ -52,6 +51,7 @@ client.remove_command('help')
 async def on_ready():
     print('You are running BasicBot v2.1')
     print('Created by Kaminolucky')
+
     client.load_extension("Role_command")
     client.load_extension("Magic")
     client.load_extension("Net_command")
@@ -59,13 +59,15 @@ async def on_ready():
     client.load_extension("gtacha_cc")
 
     home=client.get_channel(id=522127036022521871)
+
     await home.send("I am REBORN")
+
     return await client.change_presence(activity=discord.Game(name='Am i Pretty yet?'))
 
 
 @client.event
 async def on_member_join(member):
-    x = None  #Do not change this. This will really help us support you, if you need support.
+    x = None .
     for i in member.guild.channels:
         if i.name == 'lobby':
             x = i

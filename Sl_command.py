@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import json
 import aiohttp
+import random
 
 races= ["Human","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","Tortle","Lizardfolk","Kobold","Kenku","Halfling","Goblin","Gensai","Elemental","aasimar","Tiefling,","Thrikeen","Void"]
 
