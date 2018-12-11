@@ -11,11 +11,6 @@ import math
 import requests
 import dat
 
-#once upon a time a NErd said "Nah your include will not be hbig....Please kill him for me"
-
-##to do:
-##    message delete
-##    discord stroage
 bot_admin_discriminators = [256390874848690176,131205596732063744] # These users have access to the bot's admin functions on all servers
 
 def value_in_list(ls, val): # ls: a list; val: a value
@@ -45,17 +40,13 @@ def basic_check(ctx):  ##for funsies
 
 
 def show_check(ctx,args):
-    return ((args=="Show" or args=="show" or args=="s")and(basic_check(ctx)))
-
-##def room_check(ctx):
-##    
-
+    return ((args=="Show" or args=="show" or args=="s"))
 
 client=commands.Bot( command_prefix=('?', '!','.', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 
-races= ["Human", "Dwarf","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","Tortle","Lizardfolk","Kobold","Kenku","Halfling","Goblin","Gensai","Elemental","aasimar","Tiefling,","Thrikeen","Void"]
+races= ["Human","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","Tortle","Lizardfolk","Kobold","Kenku","Halfling","Goblin","Gensai","Elemental","aasimar","Tiefling,","Thrikeen","Void"]
 
-patron= ["Warden","Maiden","Bard","BattleBorn","Satan","Leviathan","Beelzebub","Lillth","Gaia","Kronos","Prom","Atlas"]
+patron= ["Apollo","Bard","BattleBorn","Satan","Leviathan","Beelzebub","Gaia","Prom","Atlas"]
 
 home=None 
 
@@ -70,10 +61,9 @@ async def on_ready():
     client.load_extension("Magic")
     client.load_extension("Net_command")
     client.load_extension("gtacha_cc")
-##    client.load_extension("Cool_Point")
+
     home=client.get_channel(id=522127036022521871)
     await home.send("I am REBORN")
-##    await client.user.edit(username='Coffee Cat')
     return await client.change_presence(activity=discord.Game(name='Am i Pretty yet?'))
 
 
@@ -86,7 +76,6 @@ async def on_member_join(member):
     y="Hello" + member.mention+"It's a wonderful chance to meet you, welcome to this Rp Server. I am Coffee. use !help to see commands"
     em = discord.Embed(title="New Face")
     em.set_image(url=member.avatar_url)
-    #await member.addrole("Locked")
     await x.send(y)
     await x.send(embed=em)
 
@@ -96,33 +85,11 @@ async def hi(ctx):
     await ctx.send("Cest La Vie")
 
 @client.command()
-async def age(ctx):
-    x= ctx.guild.created_at
-    y= datetime.datetime.now()
-    z=y-x
-    s= "This server was created at " + x.strftime(("%d %m %y")) + "\nThat makes the age " +str(z.days) + " days"
-    await ctx.send(s)
-
-
-@client.command()
 async def pick(ctx, *, args):
     'A pick device. Uses a list so i think any number of arguments can work'
     y = str(args)
     x = random.choice(y.split(','))
     await ctx.send('Umm..I Picked: ' + x)
-
-
-##@client.command()
-##@commands.check(Kami_check)
-##async def heal(ctx):
-##    x="Minions Victim"
-##    for i in range(0,40):
-##        for j in ctx.guild.members:
-##            if j.nick==x+" #"+str(i):
-##                await j.edit(nick=None)
-##    await ctx.send("Let the Mistakes of one god, never haunt you anymore")
-
-
 
 @client.command()
 async def randrace(ctx,args=1):
@@ -172,24 +139,19 @@ async def Exit(ctx):
 @client.command()
 async def dab(ctx, *, args='1'):
     'Guess what this does'
-    #em=discord.Emoji(id=498126660546068482, name="dab")
-    print('dab')
-    try:
-        y = int(args)
-        if y > 13:
-            y = 13
-    except discord.ext.commands.errors.MissingRequiredArgument:
-        print('hey there')
-        y = 1 
-    for i in range(y):  ##@client.command(pass_context=True)
-        await ctx.send(" <:dab:407026257969152031>")  ##async def quote(ctx):
-        await asyncio.sleep(0.5)  ##        """The first command in the process of making it YUNo?"""
+
+    y = int(args)
+    if y > 13:
+        y = 13
+    for i in range(y): 
+        await ctx.send(" <:dab:407026257969152031>")  
+        await asyncio.sleep(0.5) 
 
 @client.command()
 async def bad(ctx, *, args='1'):
     'Guess what this does'
     bad=["<:dab:407026257969152031>",
-"<:hope:497948063973769256>",
+        "<:hope:497948063973769256>",
          "<:hypereyes:407028550752010241>",
          "<:sleazybarry:407031302555172884>",
          "<:dpengu:465824541663559680>",
@@ -199,16 +161,12 @@ async def bad(ctx, *, args='1'):
          "<:XD:407028977274978344>",
          "<:glass:417241088168820737>",
          ":thinking:"]
-    try:
-        y = int(args)
-        if y > 5:
-            y = 5
-    except discord.ext.commands.errors.MissingRequiredArgument:
-        print('hey there')
-        y = 1 
-    for i in range(y):  ##@client.command(pass_context=True)
-        await ctx.send(random.choice(bad))  ##async def quote(ctx):
-        await asyncio.sleep(0.5)  ##        """The first command in the process of making it YUNo?"""
+    y = int(args)
+    if y > 5:
+        y = 5
+    for i in range(y):
+        await ctx.send(random.choice(bad))  
+        await asyncio.sleep(0.5) 
 
 
 
@@ -238,19 +196,22 @@ Shops:\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q
 \n https://docs.google.com/document/d/1IieJwLf7mGsBjMlmEYO2A4J3lYNcHEEm7aZ-NQEscJY/edit 
 """
     em.add_field(name="Starless", value = s)
-    await ctx.author.send(embed=em)
-    await ctx.send("Look into your dms....")
+    if(show_check(ctx,args)):
+        await ctx.send(embed=em)
+    else:
+        await ctx.author.send(embed=em)
+        await ctx.send("Look into your dms....")
 
 
 
 
-@client.command()  ##        x=args.split(',')
-async def calc(ctx, *, args):  ##        y=""
-    'Calcs a given expression, someone needs to see how far this goes tho'  ##        for i in ctx.server.members:
-    try:  ##            if(i.mentioned_in(args)):
-        x = eval(args)  ##                y=i
-    except ZeroDivisionError :  ##        await client.send_message(y,x[0])
-        x = 'Bish , you just divided by zero'  ##
+@client.command() 
+async def calc(ctx, *, args):  
+    'Calcs a given expression, someone needs to see how far this goes tho
+    try:            
+        x = eval(args) 
+    except ZeroDivisionError :  
+        x = 'Bish , you just divided by zero'  
     await ctx.send('Result: ' + str(x))
 
 
@@ -274,6 +235,10 @@ async def deleterproom(ctx):
     await y.delete()
     await ctx.author.send("Channel Killed!")
 
+###
+### TIME COMMAND> MAKE IT...LOGICAL.. E W W W WITS UGLY I NEED HELP
+###
+
 @client.command()
 async def time(ctx):
     em=discord.Embed(title="Time")
@@ -296,8 +261,10 @@ async def time(ctx):
 
     await ctx.send(embed=em)
 
-
-
+##
+## WHAT IS THIS TRASH HELP
+## R E E E E
+##
 
 @client.command()
 async def help(ctx):
@@ -327,9 +294,6 @@ async def in_guilds(ctx):
 @client.command()
 @commands.check(Kami_check)
 async def test(ctx):
-##    await ctx.send("Input meem me")
-##    x= await client.wait_for("message",timeout=60.0, check=room)
-##    await ctx.send(x.content)
         for i in ctx.guild.roles:
             if( i.name=="Owner"):
                 x=i
@@ -359,35 +323,37 @@ async def avatar(ctx):
 @commands.check(basic_check)
 async def ban(ctx):
     x= "BeGONe THOT!!!!"
-    for i in ctx.message.mentions:
-        await ctx.guild.ban(i)
+##    for i in ctx.message.mentions:
+##        await ctx.guild.ban(i)
     await ctx.send(x)
     
+client.run(os.environ["TOKEN"])
 
-@client.command()
-@commands.check(basic_check)
-async def unban(ctx):
-    x= "BeGONe THOT!!!!"
-    y=client.get_user(id=225097558295445504)
 
-    await ctx.guild.unban(y)
-    await ctx.send("!!!!TOHT eNOGeB")
+
+##################################################################################
+##                                              NO ENTRY BEYOND THIS POINT
+################################################################################
+
+    
+##@client.command()
+##async def ships(ctx):
+##        x="""
+##    \nsilly mortals and thier fantasies. *throw doc* here
+##
+##    \nhttps://docs.google.com/document/d/1ZRUoxHeY8bKjp0eCOvo6ilu-7O03CwTd2ikRv2iUs9I/edit
+##        """
+##        await ctx.send(x)
 
 ##@client.command()
-##async def ask(ctx,*,args):
-##    picks= ["Yes","No","Maybe","Definte Maybe"]
-    
-@client.command()
-async def ships(ctx):
-        x="""
-    \nsilly mortals and thier fantasies. *throw doc* here
-
-    \nhttps://docs.google.com/document/d/1ZRUoxHeY8bKjp0eCOvo6ilu-7O03CwTd2ikRv2iUs9I/edit
-        """
-        await ctx.send(x)
-
+##async def age(ctx):
+##    x= ctx.guild.created_at
+##    y= datetime.datetime.now()
+##    z=y-x
+##    s= "This server was created at " + x.strftime(("%d %m %y")) + "\nThat makes the age " +str(z.days) + " days"
+##    await ctx.send(s)
 
 
     
 
-client.run(os.environ["TOKEN"])
+

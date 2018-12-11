@@ -2,8 +2,7 @@ import discord
 from discord.ext import commands
 import json
 import aiohttp
-import dat
-import re
+
 
 
 def basic_check(ctx):  ##for funsies
