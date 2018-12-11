@@ -55,6 +55,7 @@ async def on_ready():
     client.load_extension("Role_command")
     client.load_extension("Magic")
     client.load_extension("Net_command")
+    client.load_extension("Sl_command")
     client.load_extension("gtacha_cc")
 
     home=client.get_channel(id=522127036022521871)
