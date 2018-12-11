@@ -70,4 +70,4 @@ class SL_Stuffs:
 
 
 def setup(bot):
-    bot.add_cog((SL_Stuffsbot))
+    bot.add_cog(SL_Stuffs(bot))
