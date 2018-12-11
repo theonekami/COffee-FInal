@@ -21,7 +21,7 @@ class SL_Stuffs:
         self.bot=bot
         
     @commands.command()
-    async def randrace(ctx,args=1):
+    async def randrace(self,ctx,args=1):
         'A pick device. Uses a list so i think any number of arguments can work'
         x=""
         for i in range(0,args):
@@ -29,7 +29,7 @@ class SL_Stuffs:
         await ctx.send('Umm..I Picked: ' + x)
 
     @commands.command()
-    async def randpatron(ctx,args=1):
+    async def randpatron(self,ctx,args=1):
         'A pick device. Uses a list so i think any number of arguments can work'
         x=""
         for i in range(0,args):
@@ -37,7 +37,7 @@ class SL_Stuffs:
         await ctx.send('Umm..I Picked: ' + x)
         
     @commands.command() 
-    async def docs(ctx,args=None):
+    async def docs(self,ctx,args=None):
         em = discord.Embed(title="Docs")
         em.add_field(name="Starless" ,value="https://docs.google.com/document/d/1dYwKxoP0o1WVeSyb8ptrrmm7of73YHb7Ru97pGBJX9I/edit'")
         world= "https://docs.google.com/document/d/1NHoizFrN5MFiqWZKv1g7aHSiVfZbbT-NJAppnBj9e14/edit"
@@ -49,7 +49,7 @@ class SL_Stuffs:
             await ctx.send("Look into your dms....")
 
     @commands.command() 
-    async def sl(ctx):
+    async def sl(self,ctx):
         em = discord.Embed(title="Docs")
         s="""
     Main doc:\nhttps://docs.google.com/document/d/1dYwKxoP0o1WVeSyb8ptrrmm7of73YHb7Ru97pGBJX9I/edit
