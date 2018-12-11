@@ -57,8 +57,7 @@ races= ["Human", "Dwarf","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","T
 
 patron= ["Warden","Maiden","Bard","BattleBorn","Satan","Leviathan","Beelzebub","Lillth","Gaia","Kronos","Prom","Atlas"]
 
-home=client.get_channel(id=522127036022521871)
-
+home=None 
 
 client.remove_command('help')
 
@@ -72,7 +71,7 @@ async def on_ready():
     client.load_extension("Net_command")
     client.load_extension("gtacha_cc")
 ##    client.load_extension("Cool_Point")
-    
+    home=client.get_channel(id=522127036022521871)
     await home.send("I am REBORN")
 ##    await client.user.edit(username='Coffee Cat')
     return await client.change_presence(activity=discord.Game(name='Am i Pretty yet?'))
