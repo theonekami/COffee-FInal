@@ -9,7 +9,6 @@ import datetime, json
 import random
 import math
 import requests
-import dat
 
 bot_admin_discriminators = [256390874848690176,131205596732063744] # These users have access to the bot's admin functions on all servers
 
