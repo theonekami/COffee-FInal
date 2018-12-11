@@ -67,7 +67,7 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member):
-    x = None .
+    x = None 
     for i in member.guild.channels:
         if i.name == 'lobby':
             x = i
