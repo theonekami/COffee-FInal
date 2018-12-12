@@ -38,8 +38,7 @@ def basic_check(ctx):  ##for funsies
         return False
 
 
-def show_check(ctx,args):
-    return ((args=="Show" or args=="show" or args=="s"))
+
 
 home=None 
 
