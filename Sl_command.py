@@ -8,6 +8,8 @@ races= ["Human","Elf","Pixie","Arakora","Pureblood","Lycan","Triton","Tortle","L
 
 patron= ["Apollo","Bard","BattleBorn","Satan","Leviathan","Beelzebub","Gaia","Prom","Atlas"]
 
+def show_check(ctx,args):
+    return ((args=="Show" or args=="show" or args=="s"))
 
 
 def basic_check(ctx):  ##for funsies
