@@ -52,7 +52,7 @@ class SL_Stuffs:
             await ctx.send("Look into your dms....")
 
     @commands.command() 
-    async def sl(self,ctx):
+    async def sl(self,ctx,args=None):
         em = discord.Embed(title="Docs")
         s="""
     Main doc:\nhttps://docs.google.com/document/d/1dYwKxoP0o1WVeSyb8ptrrmm7of73YHb7Ru97pGBJX9I/edit
