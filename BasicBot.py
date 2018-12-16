@@ -178,7 +178,7 @@ async def deleterproom(ctx):
 
 
 @client.command()
-@commands.cooldown(rate=1,per=1,type=commands.BucketType.user)
+@commands.cooldown(rate=1,per=2,type=commands.BucketType.user)
 async def praise(ctx):
     l=["You are cute","You matter the most to me","My binary data sets predict that you are super cute.","I wub u uwu","You are a cute :tea: 3.1415926"]
     for i in ctx.message.mentions:
