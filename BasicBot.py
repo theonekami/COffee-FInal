@@ -91,7 +91,7 @@ async def pick(ctx, *, args):
     
 @client.command()
 async def roll(ctx, *, args):
-    'Rolls a dice. Formatted as  <no od dice>d<no of sides> eg. 3d10'
+    'Rolls a dice. Formatted as  <no of dice>d<no of sides> eg. 3d10'
     y = str(args).replace(' ', '')
     x = ''
     for i in y:
@@ -113,9 +113,7 @@ async def roll(ctx, *, args):
     res += str(eval(y))
     await ctx.send(res)
 
-@client.command()
-async def Exit(ctx):
-    await ctx.guild.leave()
+
 
 @client.command()
 async def dab(ctx, *, args='1'):
@@ -178,6 +176,13 @@ async def deleterproom(ctx):
             y=i
     await y.delete()
     await ctx.author.send("Channel Killed!")
+
+
+@client.command()
+async def praise(ctx):
+    l=["You are cute","You matter the most to me","My binary data sets predict that you are super cute.","I wub u uwu","You are a cute :tea: 3.1415926"]
+    for i in ctx.message.mentions:
+        await i.send(random.choice(l))
 
 ###
 ### TIME COMMAND> MAKE IT...LOGICAL.. E W W W WITS UGLY I NEED HELP
@@ -299,5 +304,7 @@ client.run(os.environ["TOKEN"])
 
 
     
-
+##@client.command()
+##async def Exit(ctx):
+##    await ctx.guild.leave()
 
