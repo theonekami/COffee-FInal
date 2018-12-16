@@ -50,7 +50,6 @@ client.remove_command('help')
 async def on_ready():
     print('You are running BasicBot v2.1')
     print('Created by Kaminolucky')
-
     client.load_extension("Role_command")
     client.load_extension("Magic")
     client.load_extension("Net_command")
@@ -179,10 +178,12 @@ async def deleterproom(ctx):
 
 
 @client.command()
+@commands.cooldown(rate=2,per=0.30,type=commands.BucketType.user)
 async def praise(ctx):
     l=["You are cute","You matter the most to me","My binary data sets predict that you are super cute.","I wub u uwu","You are a cute :tea: 3.1415926"]
     for i in ctx.message.mentions:
         await i.send(random.choice(l))
+    await ctx.send("I have praised them")
 
 ###
 ### TIME COMMAND> MAKE IT...LOGICAL.. E W W W WITS UGLY I NEED HELP
