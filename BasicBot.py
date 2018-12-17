@@ -199,6 +199,7 @@ async def time(ctx):
     b_time=dt+datetime.timedelta(hours=1)
     a_time=dt+datetime.timedelta(hours=11)
     est=dt-datetime.timedelta(hours=6)
+    utc=dt-datetime.timedelta(hours=8)
 
     em.add_field(name="GMT",value=dt.strftime("%T || %D"),inline=False)
     em.add_field(name="EST",value=est.strftime("%T || %D"),inline=False)
@@ -207,6 +208,7 @@ async def time(ctx):
     em.add_field(name="SINGAPORE AND PHILPPINES",value=singa_time.strftime("%T || %D"),inline=False)
     em.add_field(name="AUSTRALIA",value=a_time.strftime("%T || %D"),inline=False)
     em.add_field(name="TEXAS",value=x_time.strftime("%T || %D"),inline=False)
+    em.add_field(name="UTC",value=utc.strftime("%T || %D"),inline=False)
 
 
     await ctx.send(embed=em)
