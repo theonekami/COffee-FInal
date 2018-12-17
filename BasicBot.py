@@ -208,7 +208,7 @@ async def time(ctx):
     em.add_field(name="SINGAPORE AND PHILPPINES",value=singa_time.strftime("%T || %D"),inline=False)
     em.add_field(name="AUSTRALIA",value=a_time.strftime("%T || %D"),inline=False)
     em.add_field(name="TEXAS",value=x_time.strftime("%T || %D"),inline=False)
-    em.add_field(name="UTC",value=utc.strftime("%T || %D"),inline=False)
+    em.add_field(name="PST",value=utc.strftime("%T || %D"),inline=False)
 
 
     await ctx.send(embed=em)
