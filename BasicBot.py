@@ -115,6 +115,41 @@ async def roll(ctx, *, args):
 
 
 @client.command()
+async def ask(ctx, *,args=None):
+    if(args==None):
+        await ctx.send("The answer is. FUCK you for not asking a question.")
+        await ctx.send("Was that rude?")
+        return
+    args=args.lower()
+    
+    if "kms" or "kill" in args:
+        x+="Killing is bad, yet... "
+    y=["Sure",
+       "It checks out",
+       "Without a doubt",
+       "Yes - definitely",
+       "T R U S T",
+       "i can't see the future, but it's a yes",
+       "probabilty says..something, But you should TAKE THE CHANCE" ,
+       "Looks fair",
+       "Yes.",
+       "Sure.",
+       "I'd rather not answer it.",
+       "Ask again later.",
+       "Better not tell you now.",
+       "Cannot predict now.",
+       "50/50...wait no 49/51",
+       "50/50...wait no 51/49",
+       "No",
+       "Why tf?",
+       "I wouldn't do that",
+       "I have run many calcs, they all say no....So..."]
+    x+= random.choice(y)
+    await ctx.send('Umm..I Picked: ' + x)
+
+
+
+@client.command()
 async def dab(ctx, *, args='1'):
     'Guess what this does'
 
