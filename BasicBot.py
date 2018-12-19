@@ -121,6 +121,7 @@ async def ask(ctx, *,args=None):
         await ctx.send("Was that rude?")
         return
     args=args.lower()
+    x=""
     
     if "kms" or "kill" in args:
         x+="Killing is bad, yet... "
