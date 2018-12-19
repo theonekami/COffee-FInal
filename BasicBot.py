@@ -122,8 +122,7 @@ async def ask(ctx, *,args=None):
         return
     args=args.lower()
     x=""
-    
-    if "kms" or "kill" in args:
+    if ("kms" in args or "kill" in args):
         x+="Killing is bad, yet... "
     y=["Sure",
        "It checks out",
