@@ -145,7 +145,7 @@ async def ask(ctx, *,args=None):
        "I wouldn't do that",
        "I have run many calcs, they all say no....So..."]
     x+= random.choice(y)
-    await ctx.send('Umm..I Picked: ' + x)
+    await ctx.send(x)
 
 
 
