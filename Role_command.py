@@ -68,20 +68,20 @@ class Role_Commands:
         await ctx.send("Un h&f'd")
 
     @commands.command()
-    async def conquest(self,ctx):
+    async def ryan(self,ctx):
         for i in ctx.guild.roles:
-            if( i.name=="Conquest"):
+            if( i.name=="?"):
                 x=i
         await ctx.author.add_roles(x)
-        await ctx.send("You have the cq Role! have fun")
+        await ctx.send("You have the ? Role! have fun")
 
     @commands.command()
-    async def unconquest(self,ctx):
+    async def unryan(self,ctx):
         for i in ctx.guild.roles:
-            if( i.name=="Conquest"):
+            if( i.name=="?"):
                 x=i
         await ctx.author.remove_roles(x)
-        await ctx.send("Un cq'd")
+        await ctx.send("Un ?")
 
     @commands.command()
     @commands.check(basic_check)
@@ -104,7 +104,7 @@ class Role_Commands:
             if(i.mentioned_in(ctx.message)):
                 await i.remove_roles(x)
         await ctx.send("Unmuted")
-
+        
 
                 
 
