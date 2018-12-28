@@ -153,7 +153,7 @@ async def dab(ctx, *, args='1'):
     t=0
     if y > 14:
         y = 14
-    dab=["<:dab:407026257969152031>","<:pandab:528134712800313365>"]
+    dab=["<:dab:407026257969152031>","<:pandab:524980250170490892>"]
     for i in range(y):
         await ctx.send(dab[t])
         t=not(t)
