@@ -65,11 +65,9 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member):
-    x = None 
-    for i in member.guild.channels:
-        if i.name == 'lobby':
-            x = i
-    y="Hello" + member.mention+"It's a wonderful chance to meet you, welcome to this Rp Server. I am Coffee. use !help to see commands"
+    x = client.get_channel(id=377790511353692162)
+    """Hello @Hope . """
+    y="Hello" + member.mention+"I am Coffee Cat and it’s a pleasure to meet you. Welcome to this relaxed community server. Please read #rules-faq to get started and use !help for my commands."
     em = discord.Embed(title="New Face")
     em.set_image(url=member.avatar_url)
     await x.send(y)
@@ -151,13 +149,14 @@ async def ask(ctx, *,args=None):
 
 @client.command()
 async def dab(ctx, *, args='1'):
-    'Guess what this does'
-
     y = int(args)
-    if y > 13:
-        y = 13
-    for i in range(y): 
-        await ctx.send(" <:dab:407026257969152031>")  
+    t=0
+    if y > 14:
+        y = 14
+    dab=["<:dab:407026257969152031>","<:pandab:528134712800313365>"]
+    for i in range(y):
+        await ctx.send(dab[t])
+        t=not(t)
         await asyncio.sleep(0.5) 
 
 @client.command()
