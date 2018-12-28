@@ -112,6 +112,8 @@ async def roll(ctx, *, args):
 
 
 
+
+
 @client.command()
 async def ask(ctx, *,args=None):
     if(args==None):
@@ -157,7 +159,7 @@ async def dab(ctx, *, args='1'):
     for i in range(y):
         await ctx.send(dab[t])
         t=not(t)
-        await asyncio.sleep(0.5) 
+        await asyncio.sleep(0.5)
 
 @client.command()
 async def bad(ctx, *, args='1'):
@@ -314,6 +316,13 @@ async def ban(ctx):
     await ctx.send(x)
     
 client.run(os.environ["TOKEN"])
+
+
+@client.command()
+async def timer(ctx, *, args):
+    await ctx.send("Setting timer for " + str(args)+ "mins")
+    await ayncio.sleep(args*60)
+    await ctx.send("Timer over"+ ctx.message.author.mention) 
 
 
 
