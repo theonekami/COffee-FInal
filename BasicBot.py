@@ -318,7 +318,7 @@ async def ban(ctx):
 @client.command()
 async def timer(ctx, *, args):
     await ctx.send("Setting timer for " + str(args)+ " min(s)")
-    await asyncio.sleep(args*60)
+    await asyncio.sleep(float(args)*60)
     await ctx.send("Timer over"+ ctx.message.author.mention) 
 
     
