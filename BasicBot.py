@@ -314,15 +314,15 @@ async def ban(ctx):
 ##    for i in ctx.message.mentions:
 ##        await ctx.guild.ban(i)
     await ctx.send(x)
-    
-client.run(os.environ["TOKEN"])
-
 
 @client.command()
 async def timer(ctx, *, args):
     await ctx.send("Setting timer for " + str(args)+ "mins")
     await ayncio.sleep(args*60)
     await ctx.send("Timer over"+ ctx.message.author.mention) 
+
+    
+client.run(os.environ["TOKEN"])
 
 
 
