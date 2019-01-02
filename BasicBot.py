@@ -330,6 +330,13 @@ async def cc(ctx, *, args):
     if(x in args and a in args):
         await ctx.send("Hope is most alpha of them all")
 
+
+@client.command()
+async def alpha(ctx):
+    await ctx.send("Hope is most alpha of them all")
+
+
+
     
 client.run(os.environ["TOKEN"])
 
