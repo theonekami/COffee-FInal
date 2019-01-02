@@ -324,9 +324,10 @@ async def timer(ctx, *, args):
 
 @client.command()
 async def cc(ctx, *, args):
-    x="on the wall, who's the most alpha of them all"
+    x="on the wall"
+    a="alpha"
     args=args.lower()
-    if(x in args):
+    if(x in args and a in args):
         await ctx.send("Hope is most alpha of them all")
 
     
