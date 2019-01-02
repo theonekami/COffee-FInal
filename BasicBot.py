@@ -321,6 +321,14 @@ async def timer(ctx, *, args):
     await asyncio.sleep(float(args)*60)
     await ctx.send("Timer over"+ ctx.message.author.mention) 
 
+
+@client.command()
+async def cc(ctx, *, args):
+    x="on the wall, who's the most alpha of them all"
+    args=args.lower()
+    if(x in args):
+        await ctx.send("Hope is most alpha of them all")
+
     
 client.run(os.environ["TOKEN"])
 
