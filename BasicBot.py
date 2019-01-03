@@ -338,6 +338,10 @@ async def cc(ctx, *, args):
 async def alpha(ctx):
     await ctx.send("Hope is most alpha of them all")
 
+@client.command()
+async def git(ctx):
+    await ctx.send("https://github.com/theonekami/COffee-FInal")
+
 
 
     
