@@ -318,7 +318,7 @@ async def ban(ctx):
 @client.command()
 async def timer(ctx, *, args):
     await ctx.send("Setting timer for " + str(args)+ " min(s)")
-    if( not (args.isnum())):
+    if( not (args.isnumeric())):
         await ctx.send("Stfu and put an actual number u skrub")
         return
     await asyncio.sleep(float(args)*60)
