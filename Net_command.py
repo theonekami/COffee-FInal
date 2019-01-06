@@ -27,7 +27,7 @@ class Net_Commands:
         await ctx.send(embed= em)
 
     @commands.command()
-    async def dog(self,ctx):
+    async def fox(self,ctx):
         em = discord.Embed(title="Fox Pix")
         async with aiohttp.request("get","https://randomfox.ca/floof/") as res:
             x= json.loads(await res.text())
