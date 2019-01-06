@@ -35,6 +35,15 @@ class Net_Commands:
         em.set_image(url=x['image'])
         await ctx.send(embed= em)
 
+    @commands.command()
+    async def birb(self,ctx):
+        em = discord.Embed(title="birb pics")
+        async with aiohttp.request("get","http://shibe.online/api/birds") as res:
+            x= json.loads(await res.text())
+        res.close()
+        em.set_image(url=x[0])
+        await ctx.send(embed= em)
+
 ##    @commands,command()
 ##    async def search(self, ctx,args):
 ##        x="https://www.google.co.in/search?q="+str(args)+"&rlz=1C1CHBF_enIN799IN799&oq=meems&aqs=chrome..69i57j0l5.806j0j7&sourceid=chrome&ie=UTF-8"
