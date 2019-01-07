@@ -38,8 +38,7 @@ class Sudoku:
                 y+="________________________\n\n"
                 r=r+3              
         y+="```"
-
-    return y
+        return y
 
     
     @doku.command(name="start")
