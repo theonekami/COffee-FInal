@@ -50,12 +50,12 @@ class Sudoku:
             return
         self.boardlist=sudotest.set_board()
         self.board_img=self.boardlist[0]
-        await ctx.send(write())
+        await ctx.send(self.write())
 
     @doku.command(name="show")
     async def doku_show(self,ctx):
         if(self.running):
-            await ctx.send(write())
+            await ctx.send(self.write())
         else:
             await ctx.send("Sorry, no game is running.")
         
