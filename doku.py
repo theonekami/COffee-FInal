@@ -13,7 +13,7 @@ class Sudoku:
     async def doku(self,ctx):
         pass
 
-    async def write(self):
+    def write(self):
         y="```"
         u=0
         v=0
