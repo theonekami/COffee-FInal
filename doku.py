@@ -10,11 +10,11 @@ class Sudoku:
         self.running=False
 
     @commands.group()
-    async def doku(ctx):
+    async def doku(self,ctx):
         pass
 
     @doku.command(name="start")
-    async def doku_start(ctx):
+    async def doku_start(self,ctx):
         if(not (self.running)):
             self.running=True
         else:
