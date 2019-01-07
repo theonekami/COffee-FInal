@@ -23,6 +23,7 @@ class Sudoku:
         self.boardlist=sudotest.set_board()
         y="```"
         u=0
+        v=0
         for i in self.boardlist[0]:
             for j in i:
                 y+=str(j)+" "
@@ -31,6 +32,12 @@ class Sudoku:
                     y+="| "
                     u=0
             y+="\n"
+            v=v+1
+            if (v==3):
+                v=0
+                y+="____________________\n\n"
+                y+="____________________\n\n"
+                
         y+="```"
         self.board_img=self.boardlist[0]
         
