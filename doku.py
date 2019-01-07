@@ -21,11 +21,12 @@ class Sudoku:
             await ctx.send("Sorry, a game is already running")
             return
         self.boardlist=sudotest.set_board()
-        y=""
+        y="```"
         for i in self.boardlist[0]:
             for j in i:
                 y+=str(j)+" "
             y+="\n"
+        y+="```"
         self.board_img=self.boardlist[0]
         
 ##        self.board_img="""```

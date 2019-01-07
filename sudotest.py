@@ -37,6 +37,6 @@ def set_board():
             t=[random.randint(0,8),random.randint(0,8)]
         d.append(t)
     for i in d:
-        x[i[0]][i[1]]=" "
+        x[i[0]][i[1]]="X"
     y=[x,u]
     return y
