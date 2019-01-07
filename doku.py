@@ -18,7 +18,7 @@ class Sudoku:
         if(not (self.running)):
             self.running=True
         else:
-            ctx.send("Sorry, a game is already running")
+            await ctx.send("Sorry, a game is already running")
             return
         self.boardlist=sudotest.set_board()
         self.board_img="""```
@@ -41,7 +41,7 @@ class Sudoku:
  1 1 1 | 2 2 2 | 3 3 3
  1 1 1 | 2 2 2 | 3 3 3
 ```"""
-        ctx.send(self.board_img)
+        await ctx.send(self.board_img)
 
         
 #[":arrow_upper_left::one::two::three:\n"],
