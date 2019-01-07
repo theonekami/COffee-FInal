@@ -21,8 +21,7 @@ class Sudoku:
             ctx.send("Sorry, a game is already running")
             return
         self.boardlist=sudotest.set_board()
-        self.board_img=
-        """```
+        self.board_img="""```
  ____________________
    A       B      C
  ____________________
