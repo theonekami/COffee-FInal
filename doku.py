@@ -50,6 +50,7 @@ class Sudoku:
 ## 1 1 1 | 2 2 2 | 3 3 3
 ##```"""
         await ctx.send(y)
+        await ctx.send(self.boardlist[0])
 
         
 #[":arrow_upper_left::one::two::three:\n"],
