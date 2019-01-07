@@ -22,9 +22,14 @@ class Sudoku:
             return
         self.boardlist=sudotest.set_board()
         y="```"
+        u=0
         for i in self.boardlist[0]:
             for j in i:
                 y+=str(j)+" "
+                u=u+1
+                if(u==3):
+                    y+="| "
+                    u=0
             y+="\n"
         y+="```"
         self.board_img=self.boardlist[0]
@@ -50,7 +55,6 @@ class Sudoku:
 ## 1 1 1 | 2 2 2 | 3 3 3
 ##```"""
         await ctx.send(y)
-        await ctx.send(self.boardlist[0])
 
         
 #[":arrow_upper_left::one::two::three:\n"],
