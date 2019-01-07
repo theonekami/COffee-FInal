@@ -58,6 +58,16 @@ class Sudoku:
             await ctx.send(self.write())
         else:
             await ctx.send("Sorry, no game is running.")
+
+    @doku.command(name="sudoku")
+    async def doku_end(self,ctx):
+        if(self.running):
+            await ctx.send("Comiited Sudoku")
+            self.running=False
+        else:
+            await ctx.send("Sorry, no game is running.")
+
+    
         
 #[":arrow_upper_left::one::two::three:\n"],
 #[":one:",self.blank,self.blank,self.blank,"\n"],
