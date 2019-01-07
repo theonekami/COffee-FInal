@@ -24,6 +24,8 @@ class Sudoku:
         y="```"
         u=0
         v=0
+        y+="____________________\n\n"
+        y+="____________________\n\n"
         for i in self.boardlist[0]:
             for j in i:
                 y+=str(j)+" "
