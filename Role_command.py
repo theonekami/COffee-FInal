@@ -71,7 +71,7 @@ class Role_Commands:
     @commands.command()
     async def cruise(self,ctx):
         for i in ctx.guild.roles:
-            if( i.name=="mephistopheles"):
+            if( i.name=="Mephistopheles"):
                 x=i
         await ctx.author.add_roles(x)
         await ctx.send("You have the Mephistopheles Role! have fun")
@@ -79,7 +79,7 @@ class Role_Commands:
     @commands.command()
     async def uncruise(self,ctx):
         for i in ctx.guild.roles:
-            if( i.name=="mephistopheles"):
+            if( i.name=="Mephistopheles"):
                 x=i
         await ctx.author.remove_roles(x)
         await ctx.send("Un mephistopheles'd")
