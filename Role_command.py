@@ -67,6 +67,25 @@ class Role_Commands:
         await ctx.author.remove_roles(x)
         await ctx.send("Un h&f'd")
 
+
+    @commands.command()
+    async def cruise(self,ctx):
+        for i in ctx.guild.roles:
+            if( i.name=="h&f"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the Health and fitness Role! have fun")
+
+    @commands.command()
+    async def uncruise(self,ctx):
+        for i in ctx.guild.roles:
+            if( i.name=="h&f"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un h&f'd")
+
+
+  
     @commands.command()
     async def ryan(self,ctx):
         for i in ctx.guild.roles:
