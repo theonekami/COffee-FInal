@@ -20,7 +20,9 @@ class Magic:
         res.close()
         try:
             em = discord.Embed(title=y['cards'][0]['name'])
-            em.set_image(url=y['cards'][len(y['cards'])-1]["imageUrl"])
+            for i in y["cards"]:
+                if ("imageUrl" in i):
+                    em.set_image(url=i["imageUrl"])
             await ctx.send(embed= em)
         except:
             await ctx.send("Card name " + str(args) + " not found")
