@@ -65,7 +65,6 @@ class Sentience:
     
     @commands.command()
     @commands.cooldown(rate=1,per=2,type=commands.BucketType.user)
-    @commands.check(basic_check)
     async def roast(self,ctx):
         for i in ctx.message.mentions:
             await i.send(random.choice(self.insults))
