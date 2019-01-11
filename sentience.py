@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import json
 import aiohttp
+import random
 
 def basic_check(ctx):  ##for funsies
     p=ctx.author
