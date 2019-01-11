@@ -43,7 +43,7 @@ def basic_check(ctx):  ##for funsies
 home=None 
 
 client=commands.Bot( command_prefix=('?', '!','.', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
-client.remove_command('help')
+#client.remove_command('help')
 
 
 @client.event
@@ -245,22 +245,22 @@ async def time(ctx):
 ## R E E E E
 ##
 
-@client.command()
-async def help(ctx):
-    x= discord.Embed(title= "HELP")
-    x.add_field(name="Help",value="Syntax: !help \nUse: Displays this message", inline=False)
-    x.add_field(name="Hi",value="Syntax: !hi \nUse: To test if the bot is on or not", inline=False)
-    x.add_field(name="Pick",value="Syntax: !pick choice a, choice b....,choice n \nUse: To pick out of the given choices", inline=False)
-    x.add_field(name="Roll",value="Syntax: !roll <no of dice>d<no of sides> \nUse: To roll dice. \nEg !roll 1d20", inline=False)
-    x.add_field(name="Dab",value="Syntax: !dab \nUse: GUESS YOU BLOODY BISHES", inline=False)
-    x.add_field(name="Cat",value="Syntax: !cat \nUse: Cat Pix ^-^", inline=False)
-    x.add_field(name="Dog",value="Syntax: !dog \nUse: DOGGO", inline=False)
-    x.add_field(name="Docs",value="Syntax:!docs \nUse: Shows the docs of all the rps in this server", inline=False)
-    x.add_field(name="Starless",value="Syntax: !sl \nUse: Shows docs relavent to sl", inline=False)
-    x.add_field(name="Calc",value="Syntax: !calc <expresion> \nUse: Calculates yoru expression, us +, -, *, / \n Eg !calc 3+2*3", inline=False)
-    x.add_field(name="Time",value="Syntax: !time \nUse: tells time in diffrent regions, if you region is not there pm kami", inline=False)
-    x.add_field(name="role",value="Syntax: !<> \nUse: Assigns the said role. use !rolename to geet the role", inline=False)
-    await ctx.send(embed=x)
+##@client.command()
+##async def help(ctx):
+##    x= discord.Embed(title= "HELP")
+##    x.add_field(name="Help",value="Syntax: !help \nUse: Displays this message", inline=False)
+##    x.add_field(name="Hi",value="Syntax: !hi \nUse: To test if the bot is on or not", inline=False)
+##    x.add_field(name="Pick",value="Syntax: !pick choice a, choice b....,choice n \nUse: To pick out of the given choices", inline=False)
+##    x.add_field(name="Roll",value="Syntax: !roll <no of dice>d<no of sides> \nUse: To roll dice. \nEg !roll 1d20", inline=False)
+##    x.add_field(name="Dab",value="Syntax: !dab \nUse: GUESS YOU BLOODY BISHES", inline=False)
+##    x.add_field(name="Cat",value="Syntax: !cat \nUse: Cat Pix ^-^", inline=False)
+##    x.add_field(name="Dog",value="Syntax: !dog \nUse: DOGGO", inline=False)
+##    x.add_field(name="Docs",value="Syntax:!docs \nUse: Shows the docs of all the rps in this server", inline=False)
+##    x.add_field(name="Starless",value="Syntax: !sl \nUse: Shows docs relavent to sl", inline=False)
+##    x.add_field(name="Calc",value="Syntax: !calc <expresion> \nUse: Calculates yoru expression, us +, -, *, / \n Eg !calc 3+2*3", inline=False)
+##    x.add_field(name="Time",value="Syntax: !time \nUse: tells time in diffrent regions, if you region is not there pm kami", inline=False)
+##    x.add_field(name="role",value="Syntax: !<> \nUse: Assigns the said role. use !rolename to geet the role", inline=False)
+##    await ctx.send(embed=x)
 
 
 
