@@ -14,7 +14,7 @@ def basic_check(ctx):  ##for funsies
         return False
 
 
-class Net_Commands:
+class Sentience:
     def __init__(self, bot):
         self.bot=bot
         self.praise=["You are cute",
@@ -29,7 +29,10 @@ class Net_Commands:
 "You are more fun than anyone or anything I know, including bubble wrap.",
 "Coffee House is better because you are part of it.",
 "You are making a difference.",
-""]
+"So many 0's and 1's, still you are the only 1 for me",
+"I'd smash you ;)",
+"I'd get smashed by you",
+"Whenever you smile, i feel a bit real"]
 
         self.insults=["You're as useless as the 'ueue' in 'queue",
 "You're the reason the gene pool needs a lifeguard",
@@ -54,13 +57,24 @@ class Net_Commands:
     @commands.command()
     @commands.cooldown(rate=1,per=2,type=commands.BucketType.user)
     async def praise(self,ctx):
-        l=["You are cute","You matter the most to me","My binary data sets predict that you are super cute.","I wub u uwu","You are a cute :tea: 3.1415926"]
         for i in ctx.message.mentions:
-            await i.send(random.choice(l))
+            await i.send(random.choice(self.praise))
         await ctx.send("I have praised them")
 
-   
+    
+    @commands.command()
+    @commands.cooldown(rate=1,per=2,type=commands.BucketType.user)
+    @commands.check(basic_check)
+    async def roast(self,ctx):
+        for i in ctx.message.mentions:
+            await i.send(random.choice(self.insults))
+        await ctx.send(":fire:")
+
+    @commands.command()
+    @commands.cooldown(rate=1,per=2,type=commands.BucketType.user)
+    async def navy(self,ctx):
+        await ctx.send(self.seal)
         
         
 def setup(bot):
-    bot.add_cog(Net_Commands(bot))
+    bot.add_cog(Sentience(bot))
