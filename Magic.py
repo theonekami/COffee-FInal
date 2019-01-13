@@ -11,6 +11,7 @@ class Magic:
     async def card(self,ctx,*,args):
         x=str(args)
         x=x.replace(" ","%20")
+        x=x.replace("'","%27")        
         y=None
         z='https://api.magicthegathering.io/v1/cards?name="'+x+'"'
         print(z)
