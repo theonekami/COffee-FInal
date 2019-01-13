@@ -273,11 +273,9 @@ async def in_guilds(ctx):
 @client.command()
 @commands.check(Kami_check)
 async def test(ctx):
-        for i in ctx.guild.roles:
-            if( i.name=="Owner"):
-                x=i
-        await ctx.author.add_roles(x)
-        await ctx.send("ok")
+    m=client.get_channel(id="528254975726583818")
+    m.send("Placeholder Message of the day")
+    await ctx.send("ok")
 
 @client.command()
 async def rtfm(ctx):
