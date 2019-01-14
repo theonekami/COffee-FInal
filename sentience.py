@@ -34,7 +34,6 @@ class Sentience:
 "I'd smash you ;)",
 "I'd get smashed by you",
 "Whenever you smile, i feel a bit real"]
-
         self.insults=["You're as useless as the 'ueue' in 'queue",
 "You're the reason the gene pool needs a lifeguard",
 "If I had a face like yours, I'd sue my parents",
