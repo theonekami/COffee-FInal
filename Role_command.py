@@ -85,23 +85,6 @@ class Role_Commands:
         await ctx.send("Un mephistopheles'd")
 
 
-  
-    @commands.command()
-    async def ryan(self,ctx):
-        for i in ctx.guild.roles:
-            if( i.name=="?"):
-                x=i
-        await ctx.author.add_roles(x)
-        await ctx.send("You have the ? Role! have fun")
-
-    @commands.command()
-    async def unryan(self,ctx):
-        for i in ctx.guild.roles:
-            if( i.name=="?"):
-                x=i
-        await ctx.author.remove_roles(x)
-        await ctx.send("Un ?")
-
     @commands.command()
     @commands.check(basic_check)
     async def mute(self,ctx,args):

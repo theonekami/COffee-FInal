@@ -59,14 +59,12 @@ class Sentience:
             await i.send(random.choice(self.insults))
         await ctx.send(":fire:")
 
-    @commands.command()
+    @commands.command(alias="praise")
     @commands.cooldown(rate=1,per=2,type=commands.BucketType.user)
     async def cheer(self,ctx):
         for i in ctx.message.mentions:
             await i.send(random.choice(self.praise))
         await ctx.send("I have praised them")
-    
-
         
         
 def setup(bot):
