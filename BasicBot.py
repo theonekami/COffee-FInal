@@ -57,6 +57,7 @@ async def on_ready():
     client.load_extension("gtacha_cc")
     client.load_extension("doku")
     client.load_extension("sentience")
+    client.load_extension("copy")
 
     home=client.get_channel(id=522127036022521871)
 
@@ -68,7 +69,6 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
     x = client.get_channel(id=377790511353692162)
-    """Hello @Hope . """
     y="Hello" + member.mention+"I am Coffee Cat and it’s a pleasure to meet you. Welcome to this relaxed community server. Please read #rules-faq to get started and use !help for my commands."
     em = discord.Embed(title="New Face")
     em.set_image(url=member.avatar_url)
@@ -158,27 +158,6 @@ async def dab(ctx, *, args='1'):
     for i in range(y):
         await ctx.send(dab[t])
         t=not(t)
-        await asyncio.sleep(0.5)
-
-@client.command()
-async def bad(ctx, *, args='1'):
-    'Guess what this does'
-    bad=["<:dab:407026257969152031>",
-        "<:hope:497948063973769256>",
-         "<:hypereyes:407028550752010241>",
-         "<:sleazybarry:407031302555172884>",
-         "<:dpengu:465824541663559680>",
-         "<:beegod:407031365725454336>",
-         "<:ANIMEEDGE:415712134614220806>",
-         "<:anime:407038478212399114>",
-         "<:XD:407028977274978344>",
-         "<:glass:417241088168820737>",
-         ":thinking:"]
-    y = int(args)
-    if y > 5:
-        y = 5
-    for i in range(y):
-        await ctx.send(random.choice(bad))  
         await asyncio.sleep(0.5)
 
 @client.command() 
