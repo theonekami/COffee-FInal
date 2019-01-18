@@ -56,9 +56,9 @@ async def on_ready():
     client.load_extension("Sl_command")
     client.load_extension("gtacha_cc")
     client.load_extension("doku")
-    client.load_extension("sentience")
-    client.load_extension("copy")
-
+##    client.load_extension("sentience")
+##    client.load_extension("copy")
+##
     home=client.get_channel(id=522127036022521871)
 
     await home.send("I am REBORN")
