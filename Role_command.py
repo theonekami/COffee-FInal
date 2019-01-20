@@ -76,7 +76,7 @@ class Role_Commands:
         await ctx.author.add_roles(x)
         await ctx.send("You have the HEROES LEGENDARY BOOKS AND ARCANA MAGIC Role! have fun")
 
-        @commands.command()
+    @commands.command()
     async def unreader(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="HEROES LEGENDARY BOOKS AND ARCANA MAGIC"):
