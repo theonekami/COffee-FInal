@@ -69,6 +69,23 @@ class Role_Commands:
 
 
     @commands.command()
+    async def reader(self,ctx):
+        for i in ctx.guild.roles:
+            if( i.name=="HEROES LEGENDARY BOOKS AND ARCANA MAGIC"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the HEROES LEGENDARY BOOKS AND ARCANA MAGIC Role! have fun")
+
+        @commands.command()
+    async def unreader(self,ctx):
+        for i in ctx.guild.roles:
+            if( i.name=="HEROES LEGENDARY BOOKS AND ARCANA MAGIC"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un HEROES LEGENDARY BOOKS AND ARCANA MAGIC ;d")
+
+
+    @commands.command()
     async def cruise(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="Mephistopheles"):

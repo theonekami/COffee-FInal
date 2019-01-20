@@ -292,6 +292,7 @@ async def timer(ctx, *, args):
     await ctx.send("Timer over"+ ctx.message.author.mention) 
 
 
+
 @client.command()
 async def cc(ctx, *, args):
     x="on the wall"
@@ -299,6 +300,7 @@ async def cc(ctx, *, args):
     args=args.lower()
     if(x in args and a in args):
         await ctx.send("Hope is most alpha of them all")
+
 
 
 @client.command()
