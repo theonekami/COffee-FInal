@@ -56,7 +56,7 @@ async def on_ready():
     client.load_extension("Sl_command")
     client.load_extension("doku")
 ##    client.load_extension("sentience")
-##    client.load_extension("copy")
+##    client.load_extension("paste")
 ##
     home=client.get_channel(id=522127036022521871)
 
@@ -151,7 +151,7 @@ async def ask(ctx, *,args=None):
 async def dab(ctx, *, args='1'):
     y = int(args)
     t=0
-    if y > 14:
+    if y > 14 and not(basic_check(ctx)):
         y = 14
     dab=["<:dab:407026257969152031>","<:pandab:524980250170490892>"]
     for i in range(y):
@@ -301,6 +301,8 @@ async def cc(ctx, *, args):
     if(x in args and a in args):
         await ctx.send("Hope is most alpha of them all")
 
+
+    
 
 
 @client.command()
