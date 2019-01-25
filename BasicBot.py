@@ -56,7 +56,7 @@ async def on_ready():
     client.load_extension("Sl_command")
     client.load_extension("doku")
     client.load_extension("sentience")
-    client.load_extension("paste")
+    client.load_extension("pasta")
 ##
     home=client.get_channel(id=522127036022521871)
 
