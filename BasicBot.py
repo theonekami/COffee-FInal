@@ -56,7 +56,7 @@ async def on_ready():
     client.load_extension("Sl_command")
     client.load_extension("doku")
     client.load_extension("sentience")
-    client.load_extension("pasta")
+    client.load_extension("test")
 ##
     home=client.get_channel(id=522127036022521871)
 
@@ -308,6 +308,10 @@ async def cc(ctx, *, args):
 @client.command()
 async def alpha(ctx):
     await ctx.send("Hope is most alpha of them all")
+
+@client.command()
+async def god(ctx):
+    await ctx.send("Llama is our actual god")
 
 @client.command()
 async def git(ctx):
