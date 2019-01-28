@@ -42,9 +42,8 @@ class SL_Stuffs:
     @commands.command() 
     async def docs(self,ctx,args=None):
         em = discord.Embed(title="Docs")
-        em.add_field(name="Starless" ,value="https://docs.google.com/document/d/1dYwKxoP0o1WVeSyb8ptrrmm7of73YHb7Ru97pGBJX9I/edit'")
-        world= "https://docs.google.com/document/d/1NHoizFrN5MFiqWZKv1g7aHSiVfZbbT-NJAppnBj9e14/edit"
-        em.add_field(name="World Eaters" ,value = world)
+        world= "https://docs.google.com/document/d/1CtqNIBIx4RhXTlxJv1d15ZwPv3ntTWt00pX04NfqmPU/edit"
+        em.add_field(name="Heroes of Legend" ,value = world)
         if(show_check(ctx,args)):
             await ctx.send(embed=em)
         else:
@@ -55,13 +54,12 @@ class SL_Stuffs:
     async def sl(self,ctx,args=None):
         em = discord.Embed(title="Docs")
         s="""
-    Main doc:\nhttps://docs.google.com/document/d/1dYwKxoP0o1WVeSyb8ptrrmm7of73YHb7Ru97pGBJX9I/edit
+    Main doc:\nhttps://docs.google.com/document/d/1CtqNIBIx4RhXTlxJv1d15ZwPv3ntTWt00pX04NfqmPU/edit
+    
+    Inventory: \nhttps://docs.google.com/document/d/1N0ZzCGZk85GTmt8P2uZRuCOLmkIWS9xuFxuLmjM4URU/edit
+ 
+    HQ: \nhttps://docs.google.com/document/d/1ontKMMgFREqkas6YlOHe_DtU1DHWF8JyCbBQP1GXwn0/edit
 
-    Inventory: \nhttps://docs.google.com/document/d/1ULrJfzj9rd7Pd7SHX_0pgcrXLLR77q5qvGk04OSZteQ/edit 
-
-
-    Shops:\nhttps://docs.google.com/document/d/1k6ivv_ljadAuKqQ2st1kDrIt9x2-vHogqU5Q8S6n0yA/edit
-    \n https://docs.google.com/document/d/1IieJwLf7mGsBjMlmEYO2A4J3lYNcHEEm7aZ-NQEscJY/edit 
     """
         em.add_field(name="Starless", value = s)
         if(show_check(ctx,args)):
