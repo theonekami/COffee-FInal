@@ -18,7 +18,7 @@ def basic_check(ctx):  ##for funsies
 class Sentience:
     def __init__(self, bot):
         self.bot=bot
-        self.praise=["You are cute",
+        self.cheer=["You are cute",
 "You matter the most to me",
 "My binary data sets predict that you are super cute.",
 "I wub u uwu",
@@ -59,9 +59,9 @@ class Sentience:
             await i.send(random.choice(self.insults))
         await ctx.send(":fire:")
 
-    @commands.command(alias="praise")
+    @commands.command()
     @commands.cooldown(rate=1,per=2,type=commands.BucketType.user)
-    async def cheer(self,ctx):
+    async def prause(self,ctx):
         for i in ctx.message.mentions:
             await i.send(random.choice(self.praise))
         await ctx.send("I have praised them")
