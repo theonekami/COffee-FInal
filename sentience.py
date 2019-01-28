@@ -61,7 +61,7 @@ class Sentience:
 
     @commands.command()
     @commands.cooldown(rate=1,per=2,type=commands.BucketType.user)
-    async def prause(self,ctx):
+    async def praise(self,ctx):
         for i in ctx.message.mentions:
             await i.send(random.choice(self.praise))
         await ctx.send("I have praised them")
