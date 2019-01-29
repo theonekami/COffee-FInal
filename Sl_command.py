@@ -51,7 +51,7 @@ class SL_Stuffs:
             await ctx.send("Look into your dms....")
 
     @commands.command() 
-    async def sl(self,ctx,args=None):
+    async def hol(self,ctx,args=None):
         em = discord.Embed(title="Docs")
         s="""
     Main doc:\nhttps://docs.google.com/document/d/1CtqNIBIx4RhXTlxJv1d15ZwPv3ntTWt00pX04NfqmPU/edit
@@ -61,7 +61,7 @@ class SL_Stuffs:
     HQ: \nhttps://docs.google.com/document/d/1ontKMMgFREqkas6YlOHe_DtU1DHWF8JyCbBQP1GXwn0/edit
 
     """
-        em.add_field(name="Starless", value = s)
+        em.add_field(name="Heroes Of legend", value = s)
         if(show_check(ctx,args)):
             await ctx.send(embed=em)
         else:
