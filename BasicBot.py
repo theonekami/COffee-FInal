@@ -295,11 +295,11 @@ async def timer(ctx, *, args):
 async def reminder(ctx, *, args):
     args=args.split(',')
     x=args[1]
-    await ctx.send("Setting timer for " + str(args[0])+ " min(s) to remind you of" + x)
+    await ctx.send("Setting timer for " + str(args[0])+ " min(s) to remind you of '" + x + "'")
     if( not (args[0].isnumeric())):
         await ctx.send("Stfu and put an actual number u skrub")
         return
-    await asyncio.sleep(float(args)*60)
+    await asyncio.sleep(float(args[0])*60)
     await ctx.send("Timer over"+ ctx.message.author.mention + "\n" + x) 
 
 
