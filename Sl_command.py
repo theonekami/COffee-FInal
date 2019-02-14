@@ -38,6 +38,11 @@ class SL_Stuffs:
         for i in range(0,args):
             x += random.choice(patron)+","
         await ctx.send('Umm..I Picked: ' + x)
+
+    @commands.command()
+    async def map(self,ctx,args=1):
+        x="https://cdn.discordapp.com/attachments/534369484572590100/534371722330112001/1.PNG"
+        await ctx.send(x)
         
     @commands.command() 
     async def docs(self,ctx,args=None):
