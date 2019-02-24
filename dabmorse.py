@@ -52,7 +52,7 @@ class Converter(commands.Cog):
         x=""
         for i in parse:
             if i == ' ':
-                x+=' '
+                x+='   '
                 continue 
             for j in code_dict[i]:
                 if j==".":
