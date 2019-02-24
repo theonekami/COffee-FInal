@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 import json
 import aiohttp
-import asyncpg
+
 import os
 
 #items
