@@ -63,7 +63,7 @@ class Converter(commands.Cog):
                     x+=j
         await ctx.send(x)
         y="||"+args+"||" 
-        await ctx.send(
+        await ctx.send(y) 
 
 ##    @commands,command()
 ##    async def search(self, ctx,args):
