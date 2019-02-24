@@ -19,7 +19,7 @@ def basic_check(ctx):  ##for funsies
         return False
 
 
-class SL_Stuffs:
+class SL_Stuffs(commands.Cog):
     def __init__(self, bot):
         self.bot=bot
         

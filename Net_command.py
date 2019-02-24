@@ -4,7 +4,7 @@ import json
 import aiohttp
 
 
-class Net_Commands:
+class Net_Commands(commands.Cog):
     def __init__(self, bot):
         self.bot=bot
 

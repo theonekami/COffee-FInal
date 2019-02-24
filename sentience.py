@@ -15,7 +15,7 @@ def basic_check(ctx):  ##for funsies
         return False
 
 
-class Sentience:
+class Sentience(commands.Cog):
     def __init__(self, bot):
         self.bot=bot
         self.cheer=["You are cute",

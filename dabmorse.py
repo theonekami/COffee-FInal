@@ -36,7 +36,7 @@ code_dict = { 'A':'.-', 'B':'-...',
 
 
 
-class Converter:
+class Converter(commands.Cog):
     def __init__(self, bot):
         self.bot=bot
 
