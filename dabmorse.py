@@ -61,6 +61,7 @@ class Converter(commands.Cog):
                     x+="<:pandab:524980250170490892>"
                 else:
                     x+=j
+                x+='  ' 
         await ctx.send(x)
         y="||"+args+"||" 
         await ctx.send(y) 
