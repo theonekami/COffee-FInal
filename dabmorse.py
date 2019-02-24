@@ -51,6 +51,9 @@ class Converter(commands.Cog):
             parse.append(i)
         x=""
         for i in parse:
+            if i == ' ':
+                x+=' '
+                continue 
             for j in code_dict[i]:
                 if j==".":
                     x+="<:dab:407026257969152031>"
