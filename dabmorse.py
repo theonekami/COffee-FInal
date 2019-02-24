@@ -46,8 +46,8 @@ class Converter(commands.Cog):
         msg=args
         msg=msg.upper()
         parse=[]
-        ctx.send("- == <:pandab:524980250170490892>\n . == <:dab:407026257969152031>")
-        for i in args:
+        await ctx.send("- == <:pandab:524980250170490892>\n . == <:dab:407026257969152031>")
+        for i in msg:
             parse.append(i)
         x=""
         for i in parse:
@@ -58,7 +58,7 @@ class Converter(commands.Cog):
                     x+="<:pandab:524980250170490892>"
                 else:
                     x+=j
-        ctx.send(x)
+        await ctx.send(x)
 
 ##    @commands,command()
 ##    async def search(self, ctx,args):
