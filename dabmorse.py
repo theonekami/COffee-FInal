@@ -52,7 +52,7 @@ class Converter(commands.Cog):
         x=""
         for i in parse:
             if i == ' ':
-                x+='   '
+                x+='//'
                 continue 
             for j in code_dict[i]:
                 if j==".":
@@ -62,6 +62,8 @@ class Converter(commands.Cog):
                 else:
                     x+=j
         await ctx.send(x)
+        y="||"+args+"||" 
+        await ctx.send(
 
 ##    @commands,command()
 ##    async def search(self, ctx,args):
