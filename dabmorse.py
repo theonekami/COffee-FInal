@@ -61,7 +61,8 @@ class Converter(commands.Cog):
                     x+="<:pandab:524980250170490892>"
                 else:
                     x+=j
-                x+='/' 
+                x+='/'
+        await ctx.send(len(x))
         y=discord.Embed(description=x)
         await ctx.send(embed=y)
         await ctx.message.delete()
