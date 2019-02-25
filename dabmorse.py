@@ -64,7 +64,7 @@ class Converter(commands.Cog):
                 x+='/' 
         y=discord.Embed()
         y.add_field(name="Dabba dab dab",value=x)
-        await ctx.send(y)
+        await ctx.send(embed=y)
         await ctx.message.delete()
 
 ##    @commands,command()
