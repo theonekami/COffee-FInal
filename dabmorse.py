@@ -46,13 +46,18 @@ class Converter(commands.Cog):
         msg=args
         msg=msg.upper()
         parse=[]
+        t=0
+        lines=[]
         await ctx.send("- == <:pandab:524980250170490892>\n . == <:dab:407026257969152031>")
         for i in msg:
             parse.append(i)
         x=""
         for i in parse:
             if i == ' ':
+                if (len(x)>1000)
                 x+='||||'
+                line.append(x)
+                x=""
                 continue 
             for j in code_dict[i]:
                 if j==".":
@@ -62,8 +67,9 @@ class Converter(commands.Cog):
                 else:
                     x+=j
                 x+='/'
-        await ctx.send(len(x))
-        y=discord.Embed(description=x)
+        y=discord.Embed()
+        for i in line:
+            y.add_field(i)
         await ctx.send(embed=y)
         await ctx.message.delete()
 
