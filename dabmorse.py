@@ -62,9 +62,10 @@ class Converter(commands.Cog):
                 else:
                     x+=j
                 x+='  ' 
-        await ctx.send(x)
-        y="||"+args+"||" 
-        await ctx.send(y) 
+        y=discord.Embed()
+        y.add_field(name="Dabba dab dab",value=x)
+        z= await ctx.send(y)
+        await z.delete()
 
 ##    @commands,command()
 ##    async def search(self, ctx,args):
