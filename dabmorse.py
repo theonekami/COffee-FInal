@@ -64,8 +64,8 @@ class Converter(commands.Cog):
                 x+='  ' 
         y=discord.Embed()
         y.add_field(name="Dabba dab dab",value=x)
-        z= await ctx.send(y)
-        await z.delete()
+        await ctx.send(y)
+        await ctx.message.delete()
 
 ##    @commands,command()
 ##    async def search(self, ctx,args):
