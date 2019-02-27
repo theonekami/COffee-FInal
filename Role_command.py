@@ -52,6 +52,22 @@ class Role_Commands(commands.Cog):
         await ctx.send("Un dreamer'ed")
 
     @commands.command()
+    async def orbis(self,ctx):
+        for i in ctx.guild.roles:
+            if( i.name=="Orbis"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the Orbis Role! have fun")
+
+    @commands.command()
+    async def unorbis(self,ctx):
+        for i in ctx.guild.roles:
+            if( i.name=="Orbis"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un orbis'ed")
+
+    @commands.command()
     async def hnf(self,ctx):
         for i in ctx.guild.roles:
             if( i.name=="h&f"):
