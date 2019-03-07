@@ -19,8 +19,8 @@ class Magic(commands.Cog):
             y=json.loads(await res.text())
         res.close()
         try:
-            em = discord.Embed(title=y[0]['name'])
-            em.set_image(url=y[0]["image_uris"]['border_crop'])
+            em = discord.Embed(title=y['name'])
+            em.set_image(url=y["image_uris"]['border_crop'])
             await ctx.send(embed= em)
         except:
             await ctx.send("Card name " + str(args) + " not found")
