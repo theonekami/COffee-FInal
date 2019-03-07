@@ -18,12 +18,12 @@ class Magic(commands.Cog):
             print(res.status)
             y=json.loads(await res.text())
         res.close()
-        if(y['object']=="card")
+        if(y['object']=="card"):
             em = discord.Embed(title=y['name'])
             em.set_image(url=y["image_uris"]['border_crop'])
             await ctx.send(embed= em)
         elif(y['object']=="error"):
-            await ctx.send(["details"])
+            await ctx.send(y["details"])
 
 ##class Yugi:
 ##    def __init__(self, bot):
