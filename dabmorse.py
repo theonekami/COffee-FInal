@@ -67,7 +67,7 @@ class Converter(commands.Cog):
                 else:
                     x+=j
                 x+='/'
-        y=discord.Embed()
+        y=discord.Embed(title="MORSE")
         for i in line:
             y.add_field(i)
         await ctx.send(embed=y)
