@@ -14,16 +14,16 @@ class Magic(commands.Cog):
         y=None
         z='https://api.magicthegathering.io/v1/cards?name="'+x+'"'
         print(z)
-        async with aiohttp.request("get","https://api.scryfall.com/cards/named?fuzzy="+x+) as res:
+        async with aiohttp.request("get","https://api.scryfall.com/cards/named?fuzzy="+x) as res:
             print(res.status)
             y=json.loads(await res.text())
         res.close()
-        try:
+        if(y['object']=="card")
             em = discord.Embed(title=y['name'])
             em.set_image(url=y["image_uris"]['border_crop'])
             await ctx.send(embed= em)
-        except:
-            await ctx.send("Card name " + str(args) + " not found")
+        elif(y['object']=="error"):
+            await ctx.send(["details"])
 
 ##class Yugi:
 ##    def __init__(self, bot):
