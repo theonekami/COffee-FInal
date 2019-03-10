@@ -328,6 +328,12 @@ async def god(ctx):
 async def git(ctx):
     await ctx.send("https://github.com/theonekami/COffee-FInal")
 
+@client.command()
+async def rickroll(ctx):
+    await ctx.message.author.send("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    await asyncio.sleep(5*60)
+    await ctx.message.delete()
+
 
 
     
