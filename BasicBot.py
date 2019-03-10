@@ -329,6 +329,7 @@ async def git(ctx):
     await ctx.send("https://github.com/theonekami/COffee-FInal")
 
 @client.command()
+@commands.check(basic_check)
 async def rickroll(ctx):
     await ctx.message.mentions[0].send("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
     await ctx.message.delete()
