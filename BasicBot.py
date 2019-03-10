@@ -330,7 +330,7 @@ async def git(ctx):
 
 @client.command()
 async def rickroll(ctx):
-    await ctx.message.author.send("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    await ctx.message.mentions[0].send("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
     await asyncio.sleep(5*60)
     await ctx.message.delete()
 
