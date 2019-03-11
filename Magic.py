@@ -30,23 +30,41 @@ class Magic(commands.Cog):
     async def magic(self,ctx,*,args):
         pass
 
-    @magic.command(name="Art")
-    async def magic_art(self ,ctx, *,args):
+    @magic.command(name="commander")
+    async def magic_commn(self,ctx,*,args):
         x=str(args)
         x=x.replace(" ","%20")      
         y=None
         z='https://api.magicthegathering.io/v1/cards?name="'+x+'"'
         print(z)
-        async with aiohttp.request("get","https://api.scryfall.com/cards/named?fuzzy="+x) as res:
+        async with aiohttp.request("get","https://api.scryfall.com/cards/random?q=is%3Acommander") as res:
             print(res.status)
             y=json.loads(await res.text())
         res.close()
         if(y['object']=="card"):
             em = discord.Embed(title=y['name'])
-            em.set_image(url=y["image_uris"]['art_crop'])
+            em.set_image(url=y["image_uris"]['border_crop'])
             await ctx.send(embed= em)
         elif(y['object']=="error"):
             await ctx.send(y["details"])
+
+##    @magic.command(name="Art")
+##    async def magic_art(self ,ctx, *,args):
+##        x=str(args)
+##        x=x.replace(" ","%20")      
+##        y=None
+##        z='https://api.magicthegathering.io/v1/cards?name="'+x+'"'
+##        print(z)
+##        async with aiohttp.request("get","https://api.scryfall.com/cards/named?fuzzy="+x) as res:
+##            print(res.status)
+##            y=json.loads(await res.text())
+##        res.close()
+##        if(y['object']=="card"):
+##            em = discord.Embed(title=y['name'])
+##            em.set_image(url=y["image_uris"]['art_crop'])
+##            await ctx.send(embed= em)
+##        elif(y['object']=="error"):
+##            await ctx.send(y["details"])
     
 
         
