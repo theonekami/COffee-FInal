@@ -27,7 +27,7 @@ class Magic(commands.Cog):
 
 
     @commands.group()
-    async def magic(self,ctx):
+    async def magic(self,ctxm*,args):
         pass
 
     @magic.command(name="Art")
