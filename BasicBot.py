@@ -71,6 +71,8 @@ async def on_member_join(member):
     y="Hello" + member.mention+"I am Coffee Cat and it’s a pleasure to meet you. Welcome to this relaxed community server. Please read #rules-faq to get started and use !help for my commands."
     em = discord.Embed(title="New Face")
     em.set_image(url=member.avatar_url)
+    if member.bot:
+        return
     await x.send(y)
     await x.send(embed=em)
 
