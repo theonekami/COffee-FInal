@@ -68,7 +68,7 @@ class Magic(commands.Cog):
     
 
         
-class Yugi:
+class Yugi(commands.Cog):
     def __init__(self, bot):
         self.bot=bot
 
