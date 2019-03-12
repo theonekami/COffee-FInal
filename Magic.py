@@ -79,7 +79,7 @@ class Yugi(commands.Cog):
         y=None
         z="https://db.ygoprodeck.com/api/v3/cardinfo.php?name="+x
         print(z)
-        async with aiohttp.get(z) as res:
+        async with aiohttp.request("get",z) as res:
             print(res.status)
             y=json.loads(await res.text())
         res.close()
