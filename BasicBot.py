@@ -254,7 +254,7 @@ async def in_guilds(ctx):
 @commands.check(Kami_check)
 async def test(ctx):
     y=await ctx.send("Placeholder Message of the day")
-    y.add_reaction(":joy:")
+    await y.add_reaction(":joy:")
     
 @client.command()
 async def rtfm(ctx):

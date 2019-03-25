@@ -20,6 +20,8 @@ class Magic(commands.Cog):
         res.close()
         if(y['object']=="card"):
             em = discord.Embed(title=y['name'])
+##            if "card_faces" in y.keys():
+                
             em.set_image(url=y["image_uris"]['border_crop'])
             await ctx.send(embed= em)
         elif(y['object']=="error"):
