@@ -253,10 +253,9 @@ async def in_guilds(ctx):
 @client.command()
 @commands.check(Kami_check)
 async def test(ctx):
-    m=client.get_channel(id="528254975726583818")
-    m.send("Placeholder Message of the day")
-    await ctx.send("ok")
-
+    y=await ctx.send("Placeholder Message of the day")
+    y.add_reaction(":joy:")
+    
 @client.command()
 async def rtfm(ctx):
     await ctx.send("https://discordpy.readthedocs.org/en/rewrite")
