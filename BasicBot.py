@@ -312,7 +312,7 @@ async def cc(ctx, *, args):
     args=args.lower()
     if(x in args and a in args):
         await ctx.send("Hope is most alpha of them all")
-
+        await ctx.send("https://cdn.discordapp.com/attachments/404266499516268554/561082612819558400/image0.jpg")
 
     
 
@@ -320,6 +320,7 @@ async def cc(ctx, *, args):
 @client.command()
 async def alpha(ctx):
     await ctx.send("Hope is most alpha of them all")
+    await ctx.send("https://cdn.discordapp.com/attachments/404266499516268554/561082612819558400/image0.jpg")
 
 @client.command()
 async def god(ctx):
