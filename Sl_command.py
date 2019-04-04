@@ -54,7 +54,7 @@ class SL_Stuffs(commands.Cog):
         world =" https://docs.google.com/document/d/1Gtmtni5J_738VEJSc7aH1L3_fxoB1BRpPvaUTmMRxss"
         em.add_field(name="Under the Surface" ,value ="SCP inspired rp where you’re part of a secret agency trying to stop creatures from inhabiting our world\n" + world)
         world =" https://docs.google.com/document/d/1-rYrfoVzTCu13eQMPs96ZEJ1-I9Oq-Iek-A1EKD3XLY/edit"
-        em.add_field(name="Stea Blood fantasy" ,value ="Warhammer inspired RP with some anime where you're place in a war between humanity and the vampires before their known world becomes bigger.\n" + world)
+        em.add_field(name="Steam Blood fantasy" ,value ="Warhammer inspired RP with some anime where you're place in a war between humanity and the vampires before their known world becomes bigger.\n" + world)
         
         if(show_check(ctx,args)):
             await ctx.send(embed=em)
