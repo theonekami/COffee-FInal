@@ -45,23 +45,24 @@ class Magic(commands.Cog):
         elif(y['object']=="error"):
             await ctx.send(y["details"])
 
-##    @magic.command(name="Art")
-##    async def magic_art(self ,ctx, *,args):
-##        x=str(args)
-##        x=x.replace(" ","%20")      
-##        y=None
-##        z='https://api.magicthegathering.io/v1/cards?name="'+x+'"'
-##        print(z)
-##        async with aiohttp.request("get","https://api.scryfall.com/cards/named?fuzzy="+x) as res:
-##            print(res.status)
-##            y=json.loads(await res.text())
-##        res.close()
-##        if(y['object']=="card"):
-##            em = discord.Embed(title=y['name'])
-##            em.set_image(url=y["image_uris"]['art_crop'])
-##            await ctx.send(embed= em)
-##        elif(y['object']=="error"):
-##            await ctx.send(y["details"])
+    @magic.command(name="art")
+    async def magic_art(self ,ctx, *,args):
+        x=str(args)
+        x=x.replace(" ","%20")      
+        y=None
+        z='https://api.magicthegathering.io/v1/cards?name="'+x+'"'
+        print(z)
+        async with aiohttp.request("get","https://api.scryfall.com/cards/named?fuzzy="+x) as res:
+            print(res.status)
+            y=json.loads(await res.text())
+        res.close()
+        if(y['object']=="card"):
+            em = discord.Embed(title=y['name'])
+            em.add_field(name="Artist", value=y["artist"])
+            em.set_image(url=y["image_uris"]['art_crop'])
+            await ctx.send(embed= em)
+        elif(y['object']=="error"):
+            await ctx.send(y["details"])
     
 
         
