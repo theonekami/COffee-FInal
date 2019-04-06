@@ -29,11 +29,11 @@ class Magic(commands.Cog):
 
 
     @commands.group()
-    async def mg(self,ctx,*,args):
+    async def mg(self,ctx):
         pass
 
     @mg.command(name="commander")
-    async def magic_commn(self,ctx,*,args):
+    async def magic_commn(self,ctx):
         x=str(args)
         x=x.replace(" ","%20")      
         y=None
