@@ -45,7 +45,7 @@ class Magic(commands.Cog):
         elif(y['object']=="error"):
             await ctx.send(y["details"])
 
-    @magic.command(name="art")
+    @mg.command(name="art")
     async def magic_art(self ,ctx, *,args):
         x=str(args)
         x=x.replace(" ","%20")      
