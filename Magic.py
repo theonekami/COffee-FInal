@@ -42,9 +42,15 @@ class Magic(commands.Cog):
             y=json.loads(await res.text())
         res.close()
         if(y['object']=="card"):
+        if(y['object']=="card"):
             em = discord.Embed(title=y['name'])
-            em.set_image(url=y["image_uris"]['border_crop'])
-            await ctx.send(embed= em)
+            if "card_faces" in y.keys():
+                for i in y["card_faces"]:
+                    em.set_image(url=i["image_uris"]['border_crop'])
+                    await ctx.send(embed= em)
+            else:
+                em.set_image(url=y["image_uris"]['border_crop'])
+                await ctx.send(embed= em)
         elif(y['object']=="error"):
             await ctx.send(y["details"])
 
