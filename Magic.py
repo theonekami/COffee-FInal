@@ -21,9 +21,9 @@ class Magic(commands.Cog):
         if(y['object']=="card"):
             em = discord.Embed(title=y['name'])
             if "card_faces" in y.keys():
-                for i in y["card_faces"]
-                em.set_image(url=i["image_uris"]['border_crop'])
-                await ctx.send(embed= em)
+                for i in y["card_faces"]:
+                    em.set_image(url=i["image_uris"]['border_crop'])
+                    await ctx.send(embed= em)
             else:
                 em.set_image(url=y["image_uris"]['border_crop'])
                 await ctx.send(embed= em)
