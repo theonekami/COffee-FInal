@@ -1,4 +1,4 @@
-tiimport discord  #stuff to include lolz
+import discord  #stuff to include lolz
 import asyncio
 from discord.ext.commands import Bot
 from discord.ext import commands
