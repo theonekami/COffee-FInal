@@ -42,7 +42,6 @@ class Magic(commands.Cog):
             y=json.loads(await res.text())
         res.close()
         if(y['object']=="card"):
-        if(y['object']=="card"):
             em = discord.Embed(title=y['name'])
             if "card_faces" in y.keys():
                 for i in y["card_faces"]:
