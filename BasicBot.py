@@ -1,4 +1,4 @@
-import discord  #stuff to include lolz
+tiimport discord  #stuff to include lolz
 import asyncio
 from discord.ext.commands import Bot
 from discord.ext import commands
@@ -212,7 +212,7 @@ async def time(ctx):
     em.add_field(name="EST",value=est.strftime("%T || %D"),inline=False)
     em.add_field(name="BRITAIN",value=b_time.strftime("%T || %D"),inline=False)
     em.add_field(name="INDIA",value=i_time.strftime("%T || %D"),inline=False)
-    em.add_field(name="SINGAPORE AND PHILPPINES",value=singa_time.strftime("%T || %D"),inline=False)
+    em.add_field(name="SINGAPORE AND PHILIPPINES",value=singa_time.strftime("%T || %D"),inline=False)
     em.add_field(name="AUSTRALIA",value=a_time.strftime("%T || %D"),inline=False)
     em.add_field(name="TEXAS",value=x_time.strftime("%T || %D"),inline=False)
     em.add_field(name="PST",value=utc.strftime("%T || %D"),inline=False)
