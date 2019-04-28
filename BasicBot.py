@@ -67,7 +67,7 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member):
-    x = client.get_channel(id=377790511353692162)
+    x = client.get_channel(id=570139651138912287)
     y="Hello" + member.mention+"I am Coffee Cat and it’s a pleasure to meet you. Welcome to this relaxed community server. Please read #rules-faq to get started and use !help for my commands."
     em = discord.Embed(title="New Face")
     em.set_image(url=member.avatar_url)
