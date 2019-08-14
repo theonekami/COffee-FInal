@@ -356,6 +356,14 @@ async def react(ctx):
     await asyncio.sleep(0.5)
     await ctx.send(u)
  
+@client.command()
+@commands.check(basic_check)
+async def exec(ctx,*,args):
+    DATABASE_URL = os.environ['DATABASE_URL']
+    conn = await asyncpg.connect(DATABASE_URL)
+    x= await conn.fetch(args)
+    await ctx.send(x)
+    await conn.close()
 
     
 client.run(os.environ["TOKEN"])
