@@ -46,9 +46,8 @@ class SL_Stuffs(commands.Cog):
         
     @commands.command() 
     async def docs(self,ctx,args=None):
-            em.add_field(name="Under the Surface" ,value ="SCP inspired rp where you’re part of a secret agency trying to stop creatures from inhabiting our world\n" + world)
-        world =" https://docs.google.com/document/d/1-rYrfoVzTCu13eQMPs96ZEJ1-I9Oq-Iek-A1EKD3XLY/edit"
-        em.add_field(name="Steam Blood fantasy" ,value ="Warhammer inspired RP with some anime where you're place in a war between humanity and the vampires before their known world becomes bigger.\n" + world)
+        world =" https://docs.google.com/document/d/1Gtmtni5J_738VEJSc7aH1L3_fxoB1BRpPvaUTmMRxss/edit?usp=sharing"
+        em.add_field(name="Under the Surface" ,value ="SCP inspired rp where you’re part of a secret agency trying to stop creatures from inhabiting our world\n" + world)
         
         if(show_check(ctx,args)):
             await ctx.send(embed=em)
@@ -78,7 +77,7 @@ class SL_Stuffs(commands.Cog):
     async def pmd(self,ctx,args=None):
         em = discord.Embed(title="Docs")
         s="""
-    Main doc:\nhttps://docs.google.com/document/d/1LcozKEI-p345W1o_L6dyy83wRDPIk_y-N80zLY5SGqg/edit
+Main doc:\nhttps://docs.google.com/document/d/1LcozKEI-p345W1o_L6dyy83wRDPIk_y-N80zLY5SGqg/edit
     """
         em.add_field(name="Cryosis", value = s)
         if(show_check(ctx,args)):
