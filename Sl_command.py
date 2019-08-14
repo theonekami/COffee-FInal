@@ -74,7 +74,7 @@ class SL_Stuffs(commands.Cog):
 ##            await ctx.send("Look into your dms....")
 
     @commands.command() 
-    async def pmd(self,ctx,args=None):
+    async def cry(self,ctx,args=None):
         em = discord.Embed(title="Docs")
         s="""
 Main doc:\nhttps://docs.google.com/document/d/1LcozKEI-p345W1o_L6dyy83wRDPIk_y-N80zLY5SGqg/edit
