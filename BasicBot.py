@@ -345,6 +345,13 @@ async def age(ctx):
     s= "This server was created at " + x.strftime(("%d %m %y")) + "\nThat makes the age " +str(z.days) + " days"
     await ctx.send(s)
 
+@client.command()
+async def react(ctx):
+    s="""https://cdn.discordapp.com/attachments/377790511353692162/611193675690541086/20190814_083856.jpg\n
+https://cdn.discordapp.com/attachments/377790511353692162/611193675690541090/20190814_083828.jpg\n
+https://cdn.discordapp.com/attachments/377790511353692162/611193676286394368/20190814_083841.jpg"""
+    await ctx.send(s)
+
 
     
 client.run(os.environ["TOKEN"])
