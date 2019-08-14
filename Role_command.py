@@ -21,6 +21,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def gamenight(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.name=="GameNight!"):
                 x=i
@@ -29,6 +30,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def ungamenight(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.name=="GameNight!"):
                 x=i
@@ -37,6 +39,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def dreamers(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.name=="Dreamers"):
                 x=i
@@ -45,6 +48,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def undreamers(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.name=="Dreamers"):
                 x=i
@@ -53,6 +57,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def orbis(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.name=="Orbis"):
                 x=i
@@ -61,6 +66,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def unorbis(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.name=="Orbis"):
                 x=i
@@ -69,6 +75,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def hnf(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.name=="h&f"):
                 x=i
@@ -77,6 +84,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def unhnf(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.name=="h&f"):
                 x=i
@@ -85,6 +93,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def pmd(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.id=="543935339094474801"):
                 x=i
@@ -93,6 +102,7 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def unpmd(self,ctx):
+        x=None
         for i in ctx.guild.roles:
             if( i.id=="543935339094474801"):
                 x=i
@@ -100,39 +110,26 @@ class Role_Commands(commands.Cog):
         await ctx.send("Un h&f'd")
 
 
-    @commands.command()
-    async def reader(self,ctx):
-        for i in ctx.guild.roles:
-            if( i.name=="HEROES LEGENDARY BOOKS AND ARCANA MAGIC"):
-                x=i
-        await ctx.author.add_roles(x)
-        await ctx.send("You have the HEROES LEGENDARY BOOKS AND ARCANA MAGIC Role! have fun")
-
-    @commands.command()
-    async def unreader(self,ctx):
-        for i in ctx.guild.roles:
-            if( i.name=="HEROES LEGENDARY BOOKS AND ARCANA MAGIC"):
-                x=i
-        await ctx.author.remove_roles(x)
-        await ctx.send("Un HEROES LEGENDARY BOOKS AND ARCANA MAGIC ;d")
-
-
-    @commands.command()
-    async def cruise(self,ctx):
-        for i in ctx.guild.roles:
-            if( i.name=="Mephistopheles"):
-                x=i
-        await ctx.author.add_roles(x)
-        await ctx.send("You have the Mephistopheles Role! have fun")
-
-    @commands.command()
-    async def uncruise(self,ctx):
-        for i in ctx.guild.roles:
-            if( i.name=="Mephistopheles"):
-                x=i
-        await ctx.author.remove_roles(x)
-        await ctx.send("Un mephistopheles'd")
-
+##    @commands.command()
+##    async def reader(self,ctx):
+##        x=None
+##        for i in ctx.guild.roles:
+##            if( i.name=="HEROES LEGENDARY BOOKS AND ARCANA MAGIC"):
+##                x=i
+##        await ctx.author.add_roles(x)
+##        await ctx.send("You have the HEROES LEGENDARY BOOKS AND ARCANA MAGIC Role! have fun")
+##
+##    @commands.command()
+##    async def unreader(self,ctx):
+##        x=None
+##        for i in ctx.guild.roles:
+##            if( i.name=="HEROES LEGENDARY BOOKS AND ARCANA MAGIC"):
+##                x=i
+##        await ctx.author.remove_roles(x)
+##        await ctx.send("Un HEROES LEGENDARY BOOKS AND ARCANA MAGIC ;d")
+##
+##
+   
 
     @commands.command()
     @commands.check(basic_check)
