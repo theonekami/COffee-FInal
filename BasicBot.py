@@ -347,11 +347,15 @@ async def age(ctx):
 
 @client.command()
 async def react(ctx):
-    s="""https://cdn.discordapp.com/attachments/377790511353692162/611193675690541086/20190814_083856.jpg\n
-https://cdn.discordapp.com/attachments/377790511353692162/611193675690541090/20190814_083828.jpg\n
-https://cdn.discordapp.com/attachments/377790511353692162/611193676286394368/20190814_083841.jpg"""
+    s="https://cdn.discordapp.com/attachments/377790511353692162/611193675690541086/20190814_083856.jpg\n"
+t="https://cdn.discordapp.com/attachments/377790511353692162/611193675690541090/20190814_083828.jpg\n"
+u="https://cdn.discordapp.com/attachments/377790511353692162/611193676286394368/20190814_083841.jpg"
     await ctx.send(s)
-
+    await asyncio.sleep(0.5)
+    await ctx.send(t)
+    await asyncio.sleep(0.5)
+    await ctx.send(u)
+ 
 
     
 client.run(os.environ["TOKEN"])
