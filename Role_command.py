@@ -83,6 +83,22 @@ class Role_Commands(commands.Cog):
         await ctx.author.remove_roles(x)
         await ctx.send("Un h&f'd")
 
+    @commands.command()
+    async def pmd(self,ctx):
+        for i in ctx.guild.roles:
+            if( i.id=="543935339094474801"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the pmd Role! have fun")
+
+    @commands.command()
+    async def unpmd(self,ctx):
+        for i in ctx.guild.roles:
+            if( i.id=="543935339094474801"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un h&f'd")
+
 
     @commands.command()
     async def reader(self,ctx):
