@@ -46,13 +46,7 @@ class SL_Stuffs(commands.Cog):
         
     @commands.command() 
     async def docs(self,ctx,args=None):
-        em = discord.Embed(title="Docs")
-        world= "https://docs.google.com/document/d/1CtqNIBIx4RhXTlxJv1d15ZwPv3ntTWt00pX04NfqmPU/edit"
-        em.add_field(name="Heroes of Legend" ,value ="The world of Creata is as peaceful as it'll ever be. Your oc is a reader. A special person in this world of normal mages. What does that mean for you? will you be Silent  , or will you rise to the top. \n" + world)
-        world =" https://docs.google.com/document/d/1-rYrfoVzTCu13eQMPs96ZEJ1-I9Oq-Iek-A1EKD3XLY/edit"
-        em.add_field(name="Darkest Dungeons Second chance" ,value ="Darkest Dungeons inspired DND. Uses unique combat mechanics and challenges teamwork.\n" + world)
-        world =" https://docs.google.com/document/d/1Gtmtni5J_738VEJSc7aH1L3_fxoB1BRpPvaUTmMRxss"
-        em.add_field(name="Under the Surface" ,value ="SCP inspired rp where you’re part of a secret agency trying to stop creatures from inhabiting our world\n" + world)
+            em.add_field(name="Under the Surface" ,value ="SCP inspired rp where you’re part of a secret agency trying to stop creatures from inhabiting our world\n" + world)
         world =" https://docs.google.com/document/d/1-rYrfoVzTCu13eQMPs96ZEJ1-I9Oq-Iek-A1EKD3XLY/edit"
         em.add_field(name="Steam Blood fantasy" ,value ="Warhammer inspired RP with some anime where you're place in a war between humanity and the vampires before their known world becomes bigger.\n" + world)
         
@@ -62,18 +56,31 @@ class SL_Stuffs(commands.Cog):
             await ctx.author.send(embed=em)
             await ctx.send("Look into your dms....")
 
+##    @commands.command() 
+##    async def hol(self,ctx,args=None):
+##        em = discord.Embed(title="Docs")
+##        s="""
+##    Main doc:\nhttps://docs.google.com/document/d/1CtqNIBIx4RhXTlxJv1d15ZwPv3ntTWt00pX04NfqmPU/edit
+##    
+##    Inventory: \nhttps://docs.google.com/document/d/1N0ZzCGZk85GTmt8P2uZRuCOLmkIWS9xuFxuLmjM4URU/edit
+## 
+##    HQ: \nhttps://docs.google.com/document/d/1ontKMMgFREqkas6YlOHe_DtU1DHWF8JyCbBQP1GXwn0/edit
+##
+##    """
+##        em.add_field(name="Heroes Of legend", value = s)
+##        if(show_check(ctx,args)):
+##            await ctx.send(embed=em)
+##        else:
+##            await ctx.author.send(embed=em)
+##            await ctx.send("Look into your dms....")
+
     @commands.command() 
-    async def hol(self,ctx,args=None):
+    async def pmd(self,ctx,args=None):
         em = discord.Embed(title="Docs")
         s="""
-    Main doc:\nhttps://docs.google.com/document/d/1CtqNIBIx4RhXTlxJv1d15ZwPv3ntTWt00pX04NfqmPU/edit
-    
-    Inventory: \nhttps://docs.google.com/document/d/1N0ZzCGZk85GTmt8P2uZRuCOLmkIWS9xuFxuLmjM4URU/edit
- 
-    HQ: \nhttps://docs.google.com/document/d/1ontKMMgFREqkas6YlOHe_DtU1DHWF8JyCbBQP1GXwn0/edit
-
+    Main doc:\nhttps://docs.google.com/document/d/1LcozKEI-p345W1o_L6dyy83wRDPIk_y-N80zLY5SGqg/edit
     """
-        em.add_field(name="Heroes Of legend", value = s)
+        em.add_field(name="Cryosis", value = s)
         if(show_check(ctx,args)):
             await ctx.send(embed=em)
         else:
