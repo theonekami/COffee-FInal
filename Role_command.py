@@ -109,7 +109,7 @@ class Role_Commands(commands.Cog):
         await ctx.author.remove_roles(x)
         await ctx.send("Un pmd'd")
 
-   @commands.command()
+    @commands.command()
     async def monotour(self,ctx):
         x=None
         for i in ctx.guild.roles:
