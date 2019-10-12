@@ -26,6 +26,7 @@ class Role_Commands(commands.Cog):
         for i in x.members:
             y+=i.name+"\n"
         await ctx.author.send(y)
+        await ctx.send("Sent dm")
 
     @commands.command()
     async def gamenight(self,ctx):
