@@ -20,6 +20,14 @@ class Role_Commands(commands.Cog):
         self.bot=bot
 
     @commands.command()
+    async def lin(self,ctx):
+        x= ctx.message.mentions[0]
+        y=""
+        for i in x.members:
+            y+=i.name()+"\n"
+        await ctx.author.send()
+
+    @commands.command()
     async def gamenight(self,ctx):
         x=None
         for i in ctx.guild.roles:
