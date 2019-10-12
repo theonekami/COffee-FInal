@@ -127,6 +127,25 @@ class Role_Commands(commands.Cog):
         await ctx.author.remove_roles(x)
         await ctx.send("Un toured. What a loser")
 
+    @commands.command()
+    async def writing(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="WritingComp"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the Writing competetiton Role! have fun")
+
+    @commands.command()
+    async def unwriting(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="WritingComp"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un writered. What a loser")
+
+
 
 ##    @commands.command()
 ##    async def reader(self,ctx):
