@@ -24,7 +24,7 @@ class Role_Commands(commands.Cog):
         x= ctx.message.role_mentions[0]
         y=""
         for i in x.members:
-            y+=i.name()+"\n"
+            y+=i.name+"\n"
         await ctx.author.send(y)
 
     @commands.command()
