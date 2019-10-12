@@ -21,11 +21,11 @@ class Role_Commands(commands.Cog):
 
     @commands.command()
     async def lin(self,ctx):
-        x= ctx.message.mentions[0]
+        x= ctx.message.role_mentions[0]
         y=""
         for i in x.members:
             y+=i.name()+"\n"
-        await ctx.author.send()
+        await ctx.author.send(y)
 
     @commands.command()
     async def gamenight(self,ctx):

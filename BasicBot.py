@@ -79,7 +79,7 @@ async def on_member_join(member):
             
 @client.command()
 async def hi(ctx):
-    await ctx.send("Approching the tagwo year mark. I feel old")
+    await ctx.send("Approching the two year mark. I feel old")
 
 @client.command()
 async def pick(ctx, *, args):
