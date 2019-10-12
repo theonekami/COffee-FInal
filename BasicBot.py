@@ -79,7 +79,7 @@ async def on_member_join(member):
             
 @client.command()
 async def hi(ctx):
-    await ctx.send("Cest La Vie")
+    await ctx.send("Approching the tagwo year mark. I feel old")
 
 @client.command()
 async def pick(ctx, *, args):
@@ -342,7 +342,7 @@ async def age(ctx):
     x= ctx.guild.created_at
     y= datetime.datetime.now()
     z=y-x
-    s= "This server was created at " + x.strftime(("%d %m %y")) + "\nThat makes the age " +str(z.days) + " days"
+    s= "This server was created at " + x.strftime(("%d %m %y")) + "\nThat makes the age " +str(int(str(z.days))-365) + " days"
     await ctx.send(s)
 
 @client.command()
