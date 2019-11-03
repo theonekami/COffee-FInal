@@ -78,6 +78,9 @@ class SL_Stuffs(commands.Cog):
         em = discord.Embed(title="Docs")
         s="""
 Main doc:\nhttps://docs.google.com/document/d/1LcozKEI-p345W1o_L6dyy83wRDPIk_y-N80zLY5SGqg/edit
+\n Players:\nhttps://docs.google.com/spreadsheets/d/1JfU3WyXdj2qHG1nnrE3atWxtYypHBQBL6zSQ-BZUHHE/edit#gid=0
+\n Town:\n https://docs.google.com/document/d/1-R3fVpMidh2b8ekPuf8dDY4A1bOyXrOu6B6Ym5w1D_o/edit
+\n Map:\n https://docs.google.com/document/d/1I1DpCQWvQVY_TgzDyRLKpbwB536b7n2QP7sEJD2RG0A/edit
     """
         em.add_field(name="Cryosis", value = s)
         if(show_check(ctx,args)):
