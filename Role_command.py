@@ -125,7 +125,7 @@ class Role_Commands(commands.Cog):
             if( i.name=="Tournaments"):
                 x=i
         await ctx.author.add_roles(x)
-        await ctx.send("You have the mono type tour Role! have fun")
+        await ctx.send("You have the tour Role! have fun")
 
     @commands.command()
     async def untournaments(self,ctx):
