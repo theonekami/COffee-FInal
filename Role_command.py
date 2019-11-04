@@ -119,19 +119,19 @@ class Role_Commands(commands.Cog):
         await ctx.send("Un pmd'd")
 
     @commands.command()
-    async def monotour(self,ctx):
+    async def tournaments(self,ctx):
         x=None
         for i in ctx.guild.roles:
-            if( i.name=="MonotypeTour"):
+            if( i.name=="Tournaments"):
                 x=i
         await ctx.author.add_roles(x)
         await ctx.send("You have the mono type tour Role! have fun")
 
     @commands.command()
-    async def unmonotour(self,ctx):
+    async def untournaments(self,ctx):
         x=None
         for i in ctx.guild.roles:
-            if( i.name=="MonotypeTour"):
+            if( i.name=="Tournaments"):
                 x=i
         await ctx.author.remove_roles(x)
         await ctx.send("Un toured. What a loser")
