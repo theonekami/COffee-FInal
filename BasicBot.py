@@ -326,6 +326,8 @@ async def alpha(ctx):
 async def god(ctx):
     await ctx.send("Llama is our actual god")
 
+
+
 @client.command()
 async def git(ctx):
     await ctx.send("https://github.com/theonekami/COffee-FInal")
@@ -335,6 +337,10 @@ async def git(ctx):
 async def rickroll(ctx):
     await ctx.message.mentions[0].send("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
     await ctx.message.delete()
+
+@client.command()
+async def cog(ctx):
+    await ctx.send("ok boomer.")
 
 
 @client.command()
