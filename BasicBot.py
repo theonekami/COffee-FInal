@@ -342,6 +342,10 @@ async def rickroll(ctx):
 async def cog(ctx):
     await ctx.send("ok boomer.")
 
+@client.command()
+async def jean(ctx):
+    await ctx.send("https://cdn.discordapp.com/attachments/377790511353692162/641145071357657129/wack_funeral_1.gif")
+
 
 @client.command()
 async def age(ctx):
