@@ -29,7 +29,12 @@ class Cool_Point(commands.Cog):
 
     @cf.command(name="Challenge")
     async def cf_register(self, ctx):
-        await self.rf.send(str(ctx.message.mentions[0]) + "|" + "1" + "|"+ "Dummy1")
+        new=ctx.message.mentions[0]
+        for i in self.rf.history(limit=100):
+            if new.id in i:
+                ctx.send("User already in!")
+                return
+        await self.rf.send(str(new) +"|" + str(new.id)+ "|" + "1" + "|"+ "Dummy1")
         await ctx.send("Added "+ str(ctx.message.mentions[0]))
 
 def setup(bot):
