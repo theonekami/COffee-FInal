@@ -31,7 +31,7 @@ class Cool_Point(commands.Cog):
     async def cf_register(self, ctx):
         new=ctx.message.mentions[0]
         async for i in self.rf.history(limit=100):
-            if new.id in i.content:
+            if str(new.id) in i.content:
                 ctx.send("User already in!")
                 return
         await self.rf.send(str(new) +"|" + str(new.id)+ "|" + "1" + "|"+ "Dummy1")
