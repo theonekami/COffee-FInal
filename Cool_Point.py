@@ -12,7 +12,7 @@ def basic_check(ctx):  ##for funsies
         return False
 
 
-class Cool_Point:
+class Cool_Point(commands.Cog):
     def __init__(self, bot):
         self.bot=bot
         self.channel_id=642950089719021629
