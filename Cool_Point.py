@@ -27,10 +27,10 @@ class Cool_Point(commands.Cog):
     async def cf(self,ctx):
         pass
 
-    @cf.command(name="Challenge")
+    @cf.command(name="reg")
     async def cf_register(self, ctx):
         new=ctx.message.mentions[0]
-        for i in self.rf.history(limit=100):
+        async for i in self.rf.history(limit=100):
             if new.id in i:
                 ctx.send("User already in!")
                 return
