@@ -30,7 +30,7 @@ class Cool_Point:
     @battle.command(name="Challenge")
     async def cf_register(self, ctx):
         await self.rf.send(str(ctx.message.mentions[0]) + "|" + "1" + "|"+ "Dummy1")
-        await ctx.send("Added "+ str(ctx.message.mentions[0])s)
+        await ctx.send("Added "+ str(ctx.message.mentions[0]))
 
 def setup(bot):
     bot.add_cog(Cool_Point(bot))
