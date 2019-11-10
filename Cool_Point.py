@@ -27,7 +27,7 @@ class Cool_Point:
     async def cf(self,ctx):
         pass
 
-    @battle.command(name="Challenge")
+    @cf.command(name="Challenge")
     async def cf_register(self, ctx):
         await self.rf.send(str(ctx.message.mentions[0]) + "|" + "1" + "|"+ "Dummy1")
         await ctx.send("Added "+ str(ctx.message.mentions[0]))
