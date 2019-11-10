@@ -32,7 +32,7 @@ class Cool_Point(commands.Cog):
         new=ctx.message.mentions[0]
         async for i in self.rf.history(limit=100):
             if str(new.id) in i.content:
-                ctx.send("User already in!")
+                await ctx.send("User already in!")
                 return
         await self.rf.send(str(new) +"|" + str(new.id)+ "|" + "1" + "|"+ "Dummy1")
         await ctx.send("Added "+ str(ctx.message.mentions[0]))
