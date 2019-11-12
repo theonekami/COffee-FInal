@@ -9,6 +9,7 @@ import datetime, json
 import random
 import math
 import requests
+import inspect
 
 bot_admin_discriminators = [256390874848690176,131205596732063744] # These users have access to the bot's admin functions on all servers
 
@@ -88,6 +89,12 @@ async def pick(ctx, *, args):
     y = str(args)
     x = random.choice(y.split(','))
     await ctx.send('Umm..I Picked: ' + x)
+
+@client.command()
+async def roles(ctx, *, args):
+    for i in ctx.bot.get_cog(Role_Command):
+        for x in i.get_commands():
+            async ctx.send(x)
 
     
 @client.command()
