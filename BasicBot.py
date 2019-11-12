@@ -91,7 +91,7 @@ async def pick(ctx, *, args):
     await ctx.send('Umm..I Picked: ' + x)
 
 @client.command()
-async def help(ctx):
+async def role(ctx):
     x= discord.Embed(title= "Role List")
     x.add_field(name="pmd",value="test", inline=False)
     x.add_field(name="gamenight",value="test", inline=False)
