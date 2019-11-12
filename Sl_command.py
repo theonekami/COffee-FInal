@@ -55,23 +55,18 @@ class SL_Stuffs(commands.Cog):
             await ctx.author.send(embed=em)
             await ctx.send("Look into your dms....")
 
-##    @commands.command() 
-##    async def hol(self,ctx,args=None):
-##        em = discord.Embed(title="Docs")
-##        s="""
-##    Main doc:\nhttps://docs.google.com/document/d/1CtqNIBIx4RhXTlxJv1d15ZwPv3ntTWt00pX04NfqmPU/edit
-##    
-##    Inventory: \nhttps://docs.google.com/document/d/1N0ZzCGZk85GTmt8P2uZRuCOLmkIWS9xuFxuLmjM4URU/edit
-## 
-##    HQ: \nhttps://docs.google.com/document/d/1ontKMMgFREqkas6YlOHe_DtU1DHWF8JyCbBQP1GXwn0/edit
-##
-##    """
-##        em.add_field(name="Heroes Of legend", value = s)
-##        if(show_check(ctx,args)):
-##            await ctx.send(embed=em)
-##        else:
-##            await ctx.author.send(embed=em)
-##            await ctx.send("Look into your dms....")
+    @commands.command() 
+    async def hol(self,ctx,args=None):
+        em = discord.Embed(title="Docs")
+        s="""
+    Main doc:\nhttps://docs.google.com/document/d/1CtqNIBIx4RhXTlxJv1d15ZwPv3ntTWt00pX04NfqmPU/edit
+    """
+        em.add_field(name="Heroes Of legend", value = s)
+        if(show_check(ctx,args)):
+            await ctx.send(embed=em)
+        else:
+            await ctx.author.send(embed=em)
+            await ctx.send("Look into your dms....")
 
     @commands.command() 
     async def cry(self,ctx,args=None):

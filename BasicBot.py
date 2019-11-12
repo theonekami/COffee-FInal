@@ -103,9 +103,8 @@ async def roles(ctx):
 @client.command()
 async def rps(ctx):
     x= discord.Embed(title= "Role List")
-    x.add_field(name="Cryosis",value="!cry", inline=False)
-    x.add_field(name="Orbis",value="!orbis", inline=False)
-    x.add_field(name="Heroes of legend",value="!hol", inline=False)
+    x.add_field(name="Cryosis",value="!cry, !pmd: A post apocalyptic Pokemon Mystery Dungeon styled RP with grimdark elements.", inline=False)
+    x.add_field(name="Heroes of legend",value="!hol,!reader: A world in turmoil, you join a rag tag group of people who try to fix it", inline=False)
     await ctx.send(embed=x)
 
     
