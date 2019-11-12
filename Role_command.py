@@ -146,7 +146,7 @@ class Role_Commands(commands.Cog):
         await ctx.send("You have the mtg role. You are also a 3/3 Elk. have fun")
 
     @commands.command()
-    async def unlol(self,ctx):
+    async def unmtg(self,ctx):
         x=None
         for i in ctx.guild.roles:
             if( i.name=="MTG"):
@@ -154,23 +154,6 @@ class Role_Commands(commands.Cog):
         await ctx.author.remove_roles(x)
         await ctx.send("Un MTG'd. Sent to the exile")
 
-    @commands.command()
-    async def mtg(self,ctx):
-        x=None
-        for i in ctx.guild.roles:
-            if( i.name=="MTG"):
-                x=i
-        await ctx.author.add_roles(x)
-        await ctx.send("You have the mtg role. You are also a 3/3 Elk. have fun")
-
-    @commands.command()
-    async def unlol(self,ctx):
-        x=None
-        for i in ctx.guild.roles:
-            if( i.name=="MTG"):
-                x=i
-        await ctx.author.remove_roles(x)
-        await ctx.send("Un MTG'd. Sent to the exile")
 
 
     @commands.command()
