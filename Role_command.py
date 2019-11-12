@@ -118,6 +118,59 @@ class Role_Commands(commands.Cog):
         await ctx.author.remove_roles(x)
         await ctx.send("Un toured. What a loser")
 
+    @commands.command()
+    async def lol(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="Epic League Gamers"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You are an Epic League Gamer! have fun")
+
+    @commands.command()
+    async def unlol(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="Epic League Gamers"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un Epic League Gamer'd. Ur worse than Faker")
+
+    @commands.command()
+    async def mtg(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="MTG"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the mtg role. You are also a 3/3 Elk. have fun")
+
+    @commands.command()
+    async def unlol(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="MTG"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un MTG'd. Sent to the exile")
+
+    @commands.command()
+    async def mtg(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="MTG"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the mtg role. You are also a 3/3 Elk. have fun")
+
+    @commands.command()
+    async def unlol(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="MTG"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un MTG'd. Sent to the exile")
 
 
     @commands.command()
@@ -139,29 +192,25 @@ class Role_Commands(commands.Cog):
         await ctx.send("Un HEROES LEGENDARY BOOKS AND ARCANA MAGIC ;d")
 
 
-   
+    @commands.command()
+    async def writing(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="Writing Advice"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("May your words flow true.")
 
     @commands.command()
-    @commands.check(basic_check)
-    async def mute(self,ctx,args):
+    async def unwriting(self,ctx):
+        x=None
         for i in ctx.guild.roles:
-            if( i.name=="Locked"):
+            if( i.name=="Writing Advice"):
                 x=i
-        for i in ctx.guild.members:
-            if(i.mentioned_in(ctx.message)):
-                await i.add_roles(x)
-        await ctx.send("Muted Get REKT")
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un writing'd. Your words will not be forgotten")
 
-    @commands.command()
-    @commands.check(basic_check)
-    async def unmute(self,ctx,args):
-        for i in ctx.guild.roles:
-            if( i.name=="Locked"):
-                x=i
-        for i in ctx.guild.members:
-            if(i.mentioned_in(ctx.message)):
-                await i.remove_roles(x)
-        await ctx.send("Unmuted")
+
         
 
                 
