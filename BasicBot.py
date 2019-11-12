@@ -92,7 +92,7 @@ async def pick(ctx, *, args):
 
 @client.command()
 async def roles(ctx):
-    i= client.get_cog("Role_commands")
+    i= ctx.client.get_cog("Role_commands")
     for x in i.get_commands():
         await ctx.send(x)
 
