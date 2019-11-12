@@ -93,13 +93,19 @@ async def pick(ctx, *, args):
 @client.command()
 async def roles(ctx):
     x= discord.Embed(title= "Role List")
-    x.add_field(name="!pmd",value="test", inline=False)
-    x.add_field(name="!gamenight",value="test", inline=False)
-    x.add_field(name="!hnf",value="test", inline=False)
-    x.add_field(name="!tournament",value="test", inline=False)
-    x.add_field(name="!lol",value="test", inline=False)
-    x.add_field(name="!mtg",value="test", inline=False)
-    x.add_field(name="!wriitng",value="test", inline=False)
+    x.add_field(name="Roleplays",value="!rps - lets you view all documents for current hosted RP's", inline=False)
+    x.add_field(name="Gamenight",value="!gamenight - be notified when people run party games", inline=False)
+    x.add_field(name="Health and Fitness",value="!hnf If your hobbies include health and fitness, assign this role for discussions in the relevant room.", inline=False)
+    x.add_field(name="Gaming Roles",value="!lol, !mtg and !pokemon assign the roles specific to those games.", inline=False)
+    x.add_field(name="Writing",value="!writing - be notified of writing discussions and workshops.", inline=False)
+    await ctx.send(embed=x)
+
+@client.command()
+async def rps(ctx):
+    x= discord.Embed(title= "Role List")
+    x.add_field(name="Cryosis",value="!cry", inline=False)
+    x.add_field(name="Orbis",value="!orbis", inline=False)
+    x.add_field(name="Heroes of legend",value="!hol", inline=False)
     await ctx.send(embed=x)
 
     
