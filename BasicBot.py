@@ -91,8 +91,8 @@ async def pick(ctx, *, args):
     await ctx.send('Umm..I Picked: ' + x)
 
 @client.command()
-async def roles(ctx, *, args):
-    i= ctx.bot.get_cog("Role_command")
+async def roles(ctx):
+    i= ctx.bot.get_cog("Role_commands")
     for x in i.get_commands():
         await ctx.send(x)
 
