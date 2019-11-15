@@ -3,7 +3,7 @@ from discord.ext import commands
 import json
 import aiohttp
 
-class Help(commands.Cog):
+class Helpe(commands.Cog):
     def __init__(self, bot):
         self.bot=bot
 
@@ -20,4 +20,4 @@ class Help(commands.Cog):
 
     
 def setup(bot):
-    bot.add_cog(Help(bot))
+    bot.add_cog(Helpe(bot))
