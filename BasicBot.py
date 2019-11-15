@@ -58,7 +58,7 @@ async def on_ready():
     client.load_extension("sentience")
     client.load_extension("test")
     client.load_extension("Cool_Point")
-    client.load_extension("Help")
+    client.load_extension("help")
     
     home=client.get_channel(id=522127036022521871)
 
