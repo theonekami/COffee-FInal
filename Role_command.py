@@ -146,6 +146,25 @@ class Role_Commands(commands.Cog):
         await ctx.send("You have the mtg role. You are also a 3/3 Elk. have fun")
 
     @commands.command()
+    async def pokemon(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="Pokemon"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the pokemon Role! Sword and shield HYPE")
+
+    @commands.command()
+    async def unpokemon(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="Pokemon"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un pokemon'd. You couldn't survive dexit")
+
+
+    @commands.command()
     async def unmtg(self,ctx):
         x=None
         for i in ctx.guild.roles:
