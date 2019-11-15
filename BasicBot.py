@@ -58,8 +58,8 @@ async def on_ready():
     client.load_extension("sentience")
     client.load_extension("test")
     client.load_extension("Cool_Point")
-#    client.load_extension("dabmorse")
-##
+    client.load_extension("Help")
+    
     home=client.get_channel(id=522127036022521871)
 
     await home.send("I am REBORN")
