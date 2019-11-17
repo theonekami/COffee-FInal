@@ -11,10 +11,10 @@ class Helpe(commands.Cog):
     async def help(self,ctx):
         x= discord.Embed(title= "Help Subcommands")
         x.add_field(name="Utility",value="For your Rp , or just general life needs use !help utility", inline=False)
-        x.add_field(name="Gaming",value="Syntax: !hi \nUse: To test if the bot is on or not", inline=False)
-        x.add_field(name="Magic",value="Syntax: !pick choice a, choice b....,choice n \nUse: To pick out of the given choices", inline=False)
-        x.add_field(name="Picture",value="Syntax: !roll <no of dice>d<no of sides> \nUse: To roll dice. \nEg !roll 1d20", inline=False)
-        x.add_field(name="Copypasta",value="Syntax: !dab \nUse: GUESS YOU BLOODY BISHES", inline=False)
+        x.add_field(name="Gaming",value="For your EPIC GAMING needs, use !help game", inline=False)
+        x.add_field(name="Magic",value="For your Magic the gathering needs, use !help magic", inline=False)
+        x.add_field(name="Image",value="For your cuteness needs, use !help img", inline=False)
+        x.add_field(name="Meme",value="For some SUPER SECRET COMMANDS use !help img", inline=False)
         await ctx.send(embed=x)
     
 
