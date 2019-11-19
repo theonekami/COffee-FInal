@@ -18,7 +18,7 @@ class Helpe(commands.Cog):
         await ctx.send(embed=x)
 
     
-    @help.command(name="Utilty")
+    @help.command(name="Utility")
     async def utility(self,ctx):
         x= discord.Embed(title= "Utility")
         x.add_field(name="Roll",value="To roll x di(c)e of y sides use !roll xdy", inline=False)
