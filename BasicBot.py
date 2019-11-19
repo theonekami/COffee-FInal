@@ -344,7 +344,7 @@ async def rickroll(ctx):
 
 @client.command()
 async def cog(ctx):
-    await ctx.send("ok boomer.")
+    await ctx.send("https://cdn.discordapp.com/attachments/377790511353692162/646215280967680020/maxresdefault.png")
 
 @client.command()
 async def jean(ctx):
