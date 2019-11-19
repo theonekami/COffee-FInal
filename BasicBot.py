@@ -352,6 +352,12 @@ async def jean(ctx):
 
 
 @client.command()
+async def Kami(ctx):
+    await ctx.send("https://cdn.discordapp.com/attachments/377790511353692162/646219857645273098/image0.jpg")
+
+
+
+@client.command()
 async def age(ctx):
     x= ctx.guild.created_at
     y= datetime.datetime.now()
