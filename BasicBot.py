@@ -58,7 +58,7 @@ async def on_ready():
     client.load_extension("sentience")
     client.load_extension("test")
     client.load_extension("Cool_Point")
-    client.load_extension("help")
+##    client.load_extension("help")
     
     home=client.get_channel(id=522127036022521871)
 
@@ -258,7 +258,7 @@ async def in_guilds(ctx):
 @commands.check(Kami_check)
 async def test(ctx):
     y=await ctx.send("Placeholder Message of the day")
-    await y.add_reaction(":joy:")
+
     
 @client.command()
 async def rtfm(ctx):
