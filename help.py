@@ -14,9 +14,20 @@ class Helpe(commands.Cog):
         x.add_field(name="Gaming",value="For your EPIC GAMING needs, use !help game", inline=False)
         x.add_field(name="Magic",value="For your Magic the gathering needs, use !help magic", inline=False)
         x.add_field(name="Image",value="For your cuteness needs, use !help img", inline=False)
-        x.add_field(name="Meme",value="For some SUPER SECRET COMMANDS use !help img", inline=False)
+        x.add_field(name="Meme",value="For some SUPER SECRET COMMANDS use !help meme", inline=False)
         await ctx.send(embed=x)
+
     
+    @help.command(name="Utilty")
+    async def utility(self,ctx):
+        x= discord.Embed(title= "Utility")
+        x.add_field(name="Roll",value="To roll x di(c)e of y sides use !roll xdy", inline=False)
+        x.add_field(name="Pick",value="To pick from a set options use !pick a,b,c", inline=False)
+        x.add_field(name="Calc",value="To calculate an equation use !calc 1+2*3/4-5", inline=False)
+        x.add_field(name="",value="For your cuteness needs, use !help img", inline=False)
+        x.add_field(name="Meme",value="For some SUPER SECRET COMMANDS use !help meme", inline=False)
+        await ctx.send(embed=x)
+
 
     
 def setup(bot):
