@@ -179,19 +179,19 @@ class Role_Commands(commands.Cog):
     async def reader(self,ctx):
         x=None
         for i in ctx.guild.roles:
-            if( i.name=="HEROES LEGENDARY BOOKS AND ARCANA MAGIC"):
+            if( i.name=="Heroes of Legend "):
                 x=i
         await ctx.author.add_roles(x)
-        await ctx.send("You have the HEROES LEGENDARY BOOKS AND ARCANA MAGIC Role! have fun")
+        await ctx.send("You have the Heroes of Legend  Role! have fun")
 
     @commands.command()
     async def unreader(self,ctx):
         x=None
         for i in ctx.guild.roles:
-            if( i.name=="HEROES LEGENDARY BOOKS AND ARCANA MAGIC"):
+            if( i.name=="Heroes of Legend "):
                 x=i
         await ctx.author.remove_roles(x)
-        await ctx.send("Un HEROES LEGENDARY BOOKS AND ARCANA MAGIC ;d")
+        await ctx.send("Un Heroes of Legend  ;d")
 
 
     @commands.command()
