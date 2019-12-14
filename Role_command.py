@@ -100,6 +100,25 @@ class Role_Commands(commands.Cog):
         await ctx.author.remove_roles(x)
         await ctx.send("Un pmd'd")
 
+
+    @commands.command()
+    async def eye(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="The Third Eye"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the Third eye Role! Good luck detective")
+
+    @commands.command()
+    async def uneye(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="The Third Eye"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un un eye'd)
+        
     @commands.command()
     async def tournaments(self,ctx):
         x=None
