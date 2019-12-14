@@ -174,7 +174,6 @@ class Role_Commands(commands.Cog):
         await ctx.send("Un MTG'd. Sent to the exile")
 
 
-
     @commands.command()
     async def reader(self,ctx):
         x=None
