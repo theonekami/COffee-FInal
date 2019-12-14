@@ -117,7 +117,7 @@ class Role_Commands(commands.Cog):
             if( i.name=="The Third Eye"):
                 x=i
         await ctx.author.remove_roles(x)
-        await ctx.send("Un un eye'd)
+        await ctx.send("Uneye'd")
         
     @commands.command()
     async def tournaments(self,ctx):
