@@ -231,6 +231,24 @@ class Role_Commands(commands.Cog):
         await ctx.send("Un writing'd. Your words will not be forgotten")
 
 
+    @commands.command()
+    async def trainer(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="18Types"):
+                x=i
+        await ctx.author.add_roles(x)
+        await ctx.send("You have the Health and fitness Role! have fun")
+
+    @commands.command()
+    async def untrainer(self,ctx):
+        x=None
+        for i in ctx.guild.roles:
+            if( i.name=="18Types"):
+                x=i
+        await ctx.author.remove_roles(x)
+        await ctx.send("Un h&f'd")
+
         
 
                 
