@@ -238,7 +238,7 @@ class Role_Commands(commands.Cog):
             if( i.name=="18Types"):
                 x=i
         await ctx.author.add_roles(x)
-        await ctx.send("You have the Health and fitness Role! have fun")
+        await ctx.send("You have the Trainer role! Shout out to claw for making 18 teams")
 
     @commands.command()
     async def untrainer(self,ctx):
@@ -247,7 +247,7 @@ class Role_Commands(commands.Cog):
             if( i.name=="18Types"):
                 x=i
         await ctx.author.remove_roles(x)
-        await ctx.send("Un h&f'd")
+        await ctx.send("Un trainer Ed loser")
 
         
 
