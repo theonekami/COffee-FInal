@@ -257,7 +257,8 @@ async def in_guilds(ctx):
 @client.command()
 @commands.check(Kami_check)
 async def test(ctx):
-    y=await ctx.send("Placeholder Message of the day")
+    y=await ctx.send("Placeholder")
+    await y.add_reaction(<:dab:407026257969152031>)
 
     
 @client.command()
