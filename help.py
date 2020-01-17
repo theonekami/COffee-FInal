@@ -16,7 +16,7 @@ class Helpe(commands.Cog):
         x.add_field(name="Meme",value="For some SUPER SECRET COMMANDS use !help meme", inline=False)
         y=await ctx.send(embed=x)
         await y.add_reaction("<:arrow_forward:>")
-        await y.add_reaction(":<arrow_backward>:")
+        await y.add_reaction("<:arrow_backward:>")
 
     
 ##    @help.command(name="utility")
