@@ -258,8 +258,7 @@ async def in_guilds(ctx):
 @commands.check(Kami_check)
 async def test(ctx):
     y=await ctx.send("React to get the Lor role")
-    await y.add_reaction("<:lor:682599982267629644>")
-    
+    await y.add_reaction("<:lor:682599982267629644>")    
     await ctx.send("sup")
 
     
@@ -324,7 +323,7 @@ async def cc(ctx, *, args):
     
 
 
-@client.command()test
+@client.command()
 async def alpha(ctx):
     await ctx.send("Hope is most alpha of them all")
     await ctx.send("https://cdn.discordapp.com/attachments/404266499516268554/561082612819558400/image0.jpg")
