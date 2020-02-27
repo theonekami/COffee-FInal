@@ -259,6 +259,7 @@ async def in_guilds(ctx):
 async def test(ctx):
     y=await ctx.send("Placeholder")
     await y.add_reaction("<:dice:670157773064896522>")
+    await ctx.send("sup")
 
     
 @client.command()
