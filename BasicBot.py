@@ -395,7 +395,7 @@ async def mtgr(ctx):
     for i in range(0,4):
         x=random.choice(color)
         color.remove(x)
-        c+=random.choice(x)+" || "
+        c+=random.choice(x)+" \\ "
     await ctx.send(c)
 
 
