@@ -360,35 +360,35 @@ async def kami(ctx):
 
 @client.command()
 async def mtgr(ctx):
-    w=[	"Basri","Unicorns","Angels 1","Angels 2","Dogs 1","Dogs 2","Enchanted 1","Enchanted 2",
-        "Doctor 1","Doctor 2","Doctor 3","Doctor 4",
-        "Feathered Friends 1","Feathered Friends 2","Feathered Friends 3","Feathered Friends 4",
-        "Heavily Armored 1","Heavily Armored 2","Heavily Armored 3","Heavily Armored 4",
-        "Legion 1","Legion 2","Legion 3","Legion 4"]
+    w=["Basri[w]","Unicorns[w]","Angels 1[w]","Angels 2[w]","Dogs 1[w]","Dogs 2[w]","Enchanted 1[w]","Enchanted 2[w]",
+        "Doctor 1[w]","Doctor 2[w]","Doctor 3[w]","Doctor 4[w]",
+        "Feathered Friends 1[w]","Feathered Friends 2[w]","Feathered Friends 3[w]","Feathered Friends 4[w]",
+        "Heavily Armored 1[w]","Heavily Armored 2[w]","Heavily Armored 3[w]","Heavily Armored 4[w]",
+        "Legion 1[w]","Legion 2[w]","Legion 3[w]","Legion 4[w]"]
     
-    u=["Teferi","Mill","Pirates 1","Pirates 2","Spirits 1","Spirits 2","Under the Sea 1","Under the Sea 2",
-       "Above the Clouds1","Above the Cloud 2","Above the Cloud 3","Above the Cloud 4",
-       "Archaeology 1","Archaeology 2","Archaeology 3","Archaeology 4",
-       "Well-Read 1","Well-Read 2","Well-Read 3","Well-Read 4",
-       "Wizards 1","Wizards 2", "Wizards 3","Wizards 4"]
+    u=["Teferi[u]","Mill[u]","Pirates 1[u]","Pirates 2[u]","Spirits 1[u]","Spirits 2[u]","Under the Sea 1[u]","Under the Sea 2[u]",
+       "Above the Clouds1[u]","Above the Cloud 2[u]","Above the Cloud 3[u]","Above the Cloud 4[u]",
+       "Archaeology 1[u]","Archaeology 2[u]","Archaeology 3[u]","Archaeology 4[u]",
+       "Well-Read 1[u]","Well-Read 2[u]","Well-Read 3[u]","Well-Read 4[u]",
+       "Wizards 1[u]","Wizards 2[u]", "Wizards 3[u]","Wizards 4[u]"]
     
-    b=["Liliana","Phyrexian","Discarding 1","Discarding 2","Rogues 1","Rouges 2","Witchcraft 1","Witchcrafy 2",
-       "Minions 1","Minions 2","Minons 3","Minions 4",
-       "Reanimated 1","Reanimated 2","Reanimated 3","Reanimated 4",
-       "Spooky 1","Spooky 2","Spooky 3","Spooky 4",
-       "Vampires 1","Vampires 2","Vampires 3","Vampires 4"]
+    b=["Liliana[b]","Phyrexian[b]","Discarding 1[b]","Discarding 2[b]","Rogues 1[b]","Rouges 2[b]","Witchcraft 1[b]","Witchcrafy 2[b]",
+       "Minions 1[b]","Minions 2[b]","Minons 3[b]","Minions 4[b]",
+       "Reanimated 1[b]","Reanimated 2[b]","Reanimated 3[b]","Reanimated 4[b]",
+       "Spooky 1[b]","Spooky 2[b]","Spooky 3[b]","Spooky 4[b]",
+       "Vampires 1[b]","Vampires 2[b]","Vampires 3[b]","Vampires 4[b]"]
     
-    r=["Chandra","Seismic","Dragons 1","Dragons 2","Lightning 1","Lightning 2","Minotaurs 1","Minotaur 2",
-       "Devilish 1","Devilish 2","Devilish 3","Devilish 4",
-       "Goblins 1","Goblin 2","Goblin 3","Goblin 4",
-       "Smashing 1","Smashing 2","Smashing 3","Smashing 4"
-       "Spellcasting 1","Spellcastin 2","Spellcasting 3","Spellcasting 4"]
+    r=["Chandra[r]","Seismic[r]","Dragons 1[r]","Dragons 2[r]","Lightning 1[r]","Lightning 2[r]","Minotaurs 1[r]","Minotaur 2[r]",
+       "Devilish 1[r]","Devilish 2[r]","Devilish 3[r]","Devilish 4[r]",
+       "Goblins 1[r]","Goblin 2[r]","Goblin 3[r]","Goblin 4[r]",
+       "Smashing 1[r]","Smashing 2[r]","Smashing 3[r]","Smashing 4[r]",
+       "Spellcasting 1[r]","Spellcastin 2[r]","Spellcasting 3[r]","Spellcasting 4[r]"]
     
-    g=["Garruk","Walls","Cats 1","Cats 2","Elves 1","Elves 2","Lands 1","Lands 2",
-       "Dinosaurs 1","Dinosaurs 2","Dinosaurs 3","Dinosaurs 4",
-       "Plus One 1","Plus One 2","Plus One 3","Plus One 4",
-       "Predatory 1","Predatory 2","Predatory 3","Predatory 4",
-       "Tree-Hugging 1","Tree-Hugging 2","Tree-Hugging 3","Tree-Hugging 4"]
+    g=["Garruk[g]","Walls[g]","Cats 1[g]","Cats 2[g]","Elves 1[g]","Elves 2[g]","Lands 1[g]","Lands 2[g]",
+       "Dinosaurs 1[g]","Dinosaurs 2[g]","Dinosaurs 3[g]","Dinosaurs 4[g]",
+       "Plus One 1[g]","Plus One 2[g]","Plus One 3[g]","Plus One 4[g]",
+       "Predatory 1[g]","Predatory 2[g]","Predatory 3[g]","Predatory 4[g]",
+       "Tree-Hugging 1[g]","Tree-Hugging 2[g]","Tree-Hugging 3[g]","Tree-Hugging 4[g]"]
 
     color=[w,w,u,u,b,b,r,r,g,g]
     c=""
