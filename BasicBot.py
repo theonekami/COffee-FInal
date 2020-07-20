@@ -358,6 +358,46 @@ async def kami(ctx):
     await ctx.send("https://cdn.discordapp.com/attachments/377790511353692162/646219857645273098/image0.jpg")
 
 
+@client.command()
+async def rolldeck(ctx):
+    w=[	"Basri","Unicorns","Angels 1","Angels 2","Dogs 1","Dogs 2","Enchanted 1","Enchanted 2",
+        "Doctor 1","Doctor 2","Doctor 3","Doctor 4",
+        "Feathered Friends 1","Feathered Friends 2","Feathered Friends 3","Feathered Friends 4",
+        "Heavily Armored 1","Heavily Armored 2","Heavily Armored 3","Heavily Armored 4",
+        "Legion 1","Legion 2","Legion 3","Legion 4"]
+    
+    u=["Teferi","Mill","Pirates 1","Pirates 2","Spirits 1","Spirits 2","Under the Sea 1","Under the Sea 2",
+       "Above the Clouds1","Above the Cloud 2","Above the Cloud 3","Above the Cloud 4",
+       "Archaeology 1","Archaeology 2","Archaeology 3","Archaeology 4",
+       "Well-Read 1","Well-Read 2","Well-Read 3","Well-Read 4",
+       "Wizards 1","Wizards 2", "Wizards 3","Wizards 4"]
+    
+    b=["Liliana","Phyrexian","Discarding 1","Discarding 2","Rogues 1","Rouges 2","Witchcraft 1","Witchcrafy 2",
+       "Minions 1","Minions 2","Minons 3","Minions 4",
+       "Reanimated 1","Reanimated 2","Reanimated 3","Reanimated 4",
+       "Spooky 1","Spooky 2","Spooky 3","Spooky 4",
+       "Vampires 1","Vampires 2","Vampires 3","Vampires 4"]
+    
+    r=["Chandra","Seismic","Dragons 1","Dragons 2","Lightning 1","Lightning 2","Minotaurs 1","Minotaur 2",
+       "Devilish 1","Devilish 2","Devilish 3","Devilish 4",
+       "Goblins 1","Goblin 2","Goblin 3","Goblin 4",
+       "Smashing 1","Smashing 2","Smashing 3","Smashing 4"
+       "Spellcasting 1","Spellcastin 2","Spellcasting 3","Spellcasting 4"]
+    
+    g=["Garruk","Walls","Cats 1","Cats 2","Elves 1","Elves 2","Lands 1","Lands 2",
+       "Dinosaurs 1","Dinosaurs 2","Dinosaurs 3","Dinosaurs 4",
+       "Plus One 1","Plus One 2","Plus One 3","Plus One 4",
+       "Predatory 1","Predatory 2","Predatory 3","Predatory 4",
+       "Tree-Hugging 1","Tree-Hugging 2","Tree-Hugging 3","Tree-Hugging 4"]
+
+    color=[w,w,u,u,b,b,r,r,g,g]
+    c=""
+    for i in range(0,4):
+        x=random.choice(color)
+        color.pop(x)
+        c+=random.choice(x)+" || "
+    await ctx.send(c)
+
 
 @client.command()
 async def age(ctx):
