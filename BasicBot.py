@@ -359,7 +359,7 @@ async def kami(ctx):
 
 
 @client.command()
-async def rolldeck(ctx):
+async def mtgr(ctx):
     w=[	"Basri","Unicorns","Angels 1","Angels 2","Dogs 1","Dogs 2","Enchanted 1","Enchanted 2",
         "Doctor 1","Doctor 2","Doctor 3","Doctor 4",
         "Feathered Friends 1","Feathered Friends 2","Feathered Friends 3","Feathered Friends 4",
