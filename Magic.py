@@ -29,7 +29,7 @@ class Magic(commands.Cog):
                 await ctx.send(embed= em)
         elif(y['object']=="error"):
             await ctx.send(y["details"])
-        print("done')
+        print("done")
 
 
     @commands.group()
