@@ -81,7 +81,7 @@ async def on_member_join(member):
 
 @client.event
 async def on_raw_reaction_add(payload):
-    if payload.message_id==753746682574798948:
+    if payload.message_id==753764595058999408:
         print("y")
     else:
         print("n")
