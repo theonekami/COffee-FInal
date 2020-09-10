@@ -265,7 +265,8 @@ async def in_guilds(ctx):
 @client.command()
 @commands.check(Kami_check)
 async def test(ctx):
-    y= await fetch_message_fast(753746682574798948)
+    z=client.get_channel(id=753742549574746113)
+    y= await z.fetch_message_fast(753746682574798948)
     await y.add_reaction("<:lor:682599982267629644>")    
     
     
