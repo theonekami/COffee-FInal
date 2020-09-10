@@ -266,9 +266,9 @@ async def in_guilds(ctx):
 @commands.check(Kami_check)
 async def test(ctx):
     z=client.get_channel(id=753742549574746113)
-    y=await z.send("For getting to magic react with <:mtg:753755564017975307>")
+    y=await z.send("For getting to magic react with <:mtg:753755414310420489>")
 ##    y= await z.fetch_message_fast(753746682574798948)
-    await y.add_reaction("<:mtg:753755564017975307>")    
+    await y.add_reaction("<:mtg:753755414310420489>")    
     
     
 @client.command()
