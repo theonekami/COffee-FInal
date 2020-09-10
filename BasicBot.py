@@ -78,6 +78,13 @@ async def on_member_join(member):
     await x.send(y)
     await x.send(embed=em)
 
+
+@client.event
+async def on_reaction_add(reaction,user):
+    if reaction.message.id==753746682574798948:
+        print("y")
+        
+
             
 @client.command()
 async def hi(ctx):
@@ -357,46 +364,6 @@ async def jean(ctx):
 async def kami(ctx):
     await ctx.send("https://cdn.discordapp.com/attachments/377790511353692162/646219857645273098/image0.jpg")
 
-
-@client.command()
-async def mtgr(ctx):
-    w=["Basri[w]","Unicorns[w]","Angels 1[w]","Angels 2[w]","Dogs 1[w]","Dogs 2[w]","Enchanted 1[w]","Enchanted 2[w]",
-        "Doctor 1[w]","Doctor 2[w]","Doctor 3[w]","Doctor 4[w]",
-        "Feathered Friends 1[w]","Feathered Friends 2[w]","Feathered Friends 3[w]","Feathered Friends 4[w]",
-        "Heavily Armored 1[w]","Heavily Armored 2[w]","Heavily Armored 3[w]","Heavily Armored 4[w]",
-        "Legion 1[w]","Legion 2[w]","Legion 3[w]","Legion 4[w]"]
-    
-    u=["Teferi[u]","Mill[u]","Pirates 1[u]","Pirates 2[u]","Spirits 1[u]","Spirits 2[u]","Under the Sea 1[u]","Under the Sea 2[u]",
-       "Above the Clouds1[u]","Above the Cloud 2[u]","Above the Cloud 3[u]","Above the Cloud 4[u]",
-       "Archaeology 1[u]","Archaeology 2[u]","Archaeology 3[u]","Archaeology 4[u]",
-       "Well-Read 1[u]","Well-Read 2[u]","Well-Read 3[u]","Well-Read 4[u]",
-       "Wizards 1[u]","Wizards 2[u]", "Wizards 3[u]","Wizards 4[u]"]
-    
-    b=["Liliana[b]","Phyrexian[b]","Discarding 1[b]","Discarding 2[b]","Rogues 1[b]","Rouges 2[b]","Witchcraft 1[b]","Witchcrafy 2[b]",
-       "Minions 1[b]","Minions 2[b]","Minons 3[b]","Minions 4[b]",
-       "Reanimated 1[b]","Reanimated 2[b]","Reanimated 3[b]","Reanimated 4[b]",
-       "Spooky 1[b]","Spooky 2[b]","Spooky 3[b]","Spooky 4[b]",
-       "Vampires 1[b]","Vampires 2[b]","Vampires 3[b]","Vampires 4[b]"]
-    
-    r=["Chandra[r]","Seismic[r]","Dragons 1[r]","Dragons 2[r]","Lightning 1[r]","Lightning 2[r]","Minotaurs 1[r]","Minotaur 2[r]",
-       "Devilish 1[r]","Devilish 2[r]","Devilish 3[r]","Devilish 4[r]",
-       "Goblins 1[r]","Goblin 2[r]","Goblin 3[r]","Goblin 4[r]",
-       "Smashing 1[r]","Smashing 2[r]","Smashing 3[r]","Smashing 4[r]",
-       "Spellcasting 1[r]","Spellcastin 2[r]","Spellcasting 3[r]","Spellcasting 4[r]"]
-    
-    g=["Garruk[g]","Walls[g]","Cats 1[g]","Cats 2[g]","Elves 1[g]","Elves 2[g]","Lands 1[g]","Lands 2[g]",
-       "Dinosaurs 1[g]","Dinosaurs 2[g]","Dinosaurs 3[g]","Dinosaurs 4[g]",
-       "Plus One 1[g]","Plus One 2[g]","Plus One 3[g]","Plus One 4[g]",
-       "Predatory 1[g]","Predatory 2[g]","Predatory 3[g]","Predatory 4[g]",
-       "Tree-Hugging 1[g]","Tree-Hugging 2[g]","Tree-Hugging 3[g]","Tree-Hugging 4[g]"]
-
-    color=[w,w,u,u,b,b,r,r,g,g]
-    c=""
-    for i in range(0,4):
-        x=random.choice(color)
-        color.remove(x)
-        c+=random.choice(x)+" \\ "
-    await ctx.send(c)
 
 
 @client.command()
