@@ -83,7 +83,8 @@ async def on_member_join(member):
 async def on_reaction_add(reaction,user):
     if reaction.message.id==753746682574798948:
         print("y")
-        
+    else:
+        print("n")
 
             
 @client.command()
