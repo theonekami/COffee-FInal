@@ -93,6 +93,7 @@ async def on_raw_reaction_add(payload):
         #bad idea
         print("y")
     else:
+        await payload.message.remove_reaction(payload.emoji,e)
         print("n")
 
             
