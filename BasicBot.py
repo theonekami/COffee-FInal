@@ -86,8 +86,8 @@ async def on_raw_reaction_add(payload):
     t=client.get_guild(ch_id)
     e=t.get_member(payload.user_id)
     if payload.message_id==753764595058999408: #mtg
-        e.add_roles(t.get_role(643733493968535552))
-        e.send("Given the mtg role")
+        await e.add_roles(t.get_role(643733493968535552))
+        await e.send("Given the mtg role")
         #bad idea
         print("y")
     else:
