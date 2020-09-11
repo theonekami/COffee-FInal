@@ -104,7 +104,7 @@ async def on_raw_reaction_remove(payload):
         return
     t=client.get_guild(ch_id)
     z=t.get_channel(753742549574746113)
-    e=payload.member
+    e=t.get_member(payload.user_id)
     y=await z.fetch_message_fast(753932030668046377)
     if payload.emoji.id==753755414310420489: #mtg
         await e.remove_roles(t.get_role(643733493968535552))
