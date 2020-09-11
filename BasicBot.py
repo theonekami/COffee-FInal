@@ -288,14 +288,28 @@ async def in_guilds(ctx):
     for i in client.guilds:
         await ctx.send(i.name)
 
+@client.command()
+@commands.check(Kami_check)
+async def roleload(ctx):
+    z=client.get_channel(id=753742549574746113)
+    y= await z.fetch_message_fast(753746682574798948)
+    r="""For getting the magic role react with <:mtg:753755414310420489>
+
+For getting the event role react with <:dice:670157311217762324>"""
+    await y.edit(content=r)
+    await y.add_reaction("<:mtg:753755414310420489>")
+    await y.add_reaction("<:dice:670157311217762324>")    
+
 
 @client.command()
 @commands.check(Kami_check)
 async def test(ctx):
     z=client.get_channel(id=753742549574746113)
-    y=await z.send("For getting to magic react with <:mtg:753755414310420489>")
-##    y= await z.fetch_message_fast(753746682574798948)
-    await y.add_reaction("<:mtg:753755414310420489>")    
+    
+  # y=await z.send("For getting to magic react with <:mtg:753755414310420489>")
+
+    
+
     
     
 @client.command()
