@@ -13,6 +13,8 @@ import inspect
 
 bot_admin_discriminators = [256390874848690176,131205596732063744] # These users have access to the bot's admin functions on all servers
 
+ch_id=377790510582071299
+
 def value_in_list(ls, val): # ls: a list; val: a value
     for test_value in ls:
         if (test_value == val):
@@ -82,7 +84,7 @@ async def on_member_join(member):
 @client.event
 async def on_raw_reaction_add(payload):
     if payload.message_id==753764595058999408: #mtg
-        client.get_user(payload.user_id).add_roles(get_role(643733493968535552))  #bad idea
+        client.get_guild(ch_id).get_memeber(payload.user_id).add_roles(get_role(643733493968535552))  #bad idea
         print("y")
     else:
         print("n")
