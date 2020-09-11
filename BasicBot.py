@@ -83,8 +83,12 @@ async def on_member_join(member):
 
 @client.event
 async def on_raw_reaction_add(payload):
+    t=client.get_guild(ch_id)
+    e=t.get_member(payload.user_id)
     if payload.message_id==753764595058999408: #mtg
-        client.get_guild(ch_id).get_member(payload.user_id).add_roles(get_role(643733493968535552))  #bad idea
+        e.add_roles(t.get_role(643733493968535552))
+        e.send("Given the mtg role")
+        #bad idea
         print("y")
     else:
         print("n")
