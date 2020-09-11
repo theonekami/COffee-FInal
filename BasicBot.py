@@ -86,8 +86,9 @@ async def on_raw_reaction_add(payload):
     if not(payload.message_id==753764595058999408):
         return
     t=client.get_guild(ch_id)
+    z=t.get_channel(753742549574746113)
     e=payload.member
-    y=t.fetch_message_fast(753764595058999408)
+    y=z.fetch_message_fast(753764595058999408)
     if payload.emoji.id==753755414310420489: #mtg
         await e.add_roles(t.get_role(643733493968535552))
         await e.send("Given the mtg role")
