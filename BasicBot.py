@@ -116,9 +116,18 @@ async def on_raw_reaction_remove(payload):
     z=t.get_channel(753742549574746113)
     e=t.get_member(payload.user_id)
     y=await z.fetch_message_fast(753932030668046377)
+    r=None
+    s=None
+    
     if payload.emoji.id==753755414310420489: #mtg
-        await e.remove_roles(t.get_role(643733493968535552))
-        await e.send("taken away the mtg role")
+        r=643733493968535552
+        s="mtg"
+    elif payload.emoji.id==670157311217762324:
+        r=460853900090540043
+        s="gamenight"
+    if r and s:
+        await e.remove_roles(t.get_role(r))
+        await e.send("Removed the "+s+" role")
         #bad idea
         print("y")
 
@@ -309,7 +318,7 @@ For getting the event role react with <:dice:670157311217762324>"""
     await y.edit(content=r)
     await y.add_reaction("<:mtg:753755414310420489>")
     await y.add_reaction("<:dice:670157311217762324>")
-    ctx.mem
+    ctx.send("Roles updated")
     print("k")
 
 
