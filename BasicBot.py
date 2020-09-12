@@ -43,7 +43,6 @@ def basic_check(ctx):  ##for funsies
 
 
 
-home=None 
 
 client=commands.Bot( command_prefix=('?', '!','.', 'cc ', 'Cc ','CC ', 'Coffee ','Coffee Cat '),description='Alright a little something i did for both expertimentaion and Hapiness. This is Yuno')
 client.remove_command('help')
