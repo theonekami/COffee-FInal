@@ -292,7 +292,7 @@ async def in_guilds(ctx):
 @commands.check(Kami_check)
 async def roleload(ctx):
     z=client.get_channel(id=753742549574746113)
-    y= await z.fetch_message_fast(753746682574798948)
+    y= await z.fetch_message_fast(753932030668046377)
     r="""For getting the magic role react with <:mtg:753755414310420489>
 
 For getting the event role react with <:dice:670157311217762324>"""
