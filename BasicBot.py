@@ -322,7 +322,9 @@ async def roleload(ctx):
     y= await z.fetch_message_fast(753932030668046377)
     r="""For getting the magic role react with <:mtg:753755414310420489>
 
-For getting the event role react with <:dice:670157311217762324>"""
+For getting the event role react with <:dice:670157311217762324>
+
+For getting the dnd role react with <:dnd:754390023750811670>"""
     await y.edit(content=r)
     await y.add_reaction("<:mtg:753755414310420489>")
     await y.add_reaction("<:dice:670157311217762324>")
