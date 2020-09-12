@@ -85,18 +85,28 @@ async def on_member_join(member):
 async def on_raw_reaction_add(payload):
     if not(payload.message_id==753932030668046377):
         return
+    if payload.member.bot:
+        return
     t=client.get_guild(ch_id)
     z=t.get_channel(753742549574746113)
     e=payload.member
     y=await z.fetch_message_fast(753932030668046377)
+    r=None
+    s=None
     if payload.emoji.id==753755414310420489: #mtg
-        await e.add_roles(t.get_role(643733493968535552))
-        await e.send("Given the mtg role")
-        #bad idea
-        print("y")
+        r=643733493968535552
+        s="mtg"
+    elif payload.emoji.id==670157311217762324:
+        r=460853900090540043
+        s="gamenight"
     else:
         await y.remove_reaction(payload.emoji,e)
         print("n")
+    if r and s:
+        await e.add_roles(t.get_role(r))
+        await e.send("Given the "+s+" role")
+        #bad idea
+        print("y")
 
 @client.event
 async def on_raw_reaction_remove(payload):
@@ -298,7 +308,9 @@ async def roleload(ctx):
 For getting the event role react with <:dice:670157311217762324>"""
     await y.edit(content=r)
     await y.add_reaction("<:mtg:753755414310420489>")
-    await y.add_reaction("<:dice:670157311217762324>")    
+    await y.add_reaction("<:dice:670157311217762324>")
+    ctx.mem
+    print("k")
 
 
 @client.command()
