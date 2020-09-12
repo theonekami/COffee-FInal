@@ -102,6 +102,14 @@ async def on_raw_reaction_add(payload):
     elif payload.emoji.id==754390023750811670:
         r=682600245619982366
         s="dnd"
+    elif payload.emoji.id==754393996440371211:
+        r=643743977727721495
+        s="poke"
+    elif payload.emoji.id==754395260192555068:
+        r=643733562134102026
+        s="writer"
+
+    
     else:
         await y.remove_reaction(payload.emoji,e)
         print("n")
@@ -132,6 +140,12 @@ async def on_raw_reaction_remove(payload):
     elif payload.emoji.id==754390023750811670:
         r=682600245619982366
         s="dnd"
+    elif payload.emoji.id==754393996440371211:
+        r=643743977727721495
+        s="poke"
+    elif payload.emoji.id==754395260192555068:
+        r=643733562134102026
+        s="writer"
     
     if r and s:
         await e.remove_roles(t.get_role(r))
@@ -140,6 +154,28 @@ async def on_raw_reaction_remove(payload):
         print("y")
 
 
+@client.command()
+@commands.check(Kami_check)
+async def roleload(ctx):
+    z=client.get_channel(id=753742549574746113)
+    y= await z.fetch_message_fast(753932030668046377)
+    r="""For getting the MTG role react with <:mtg:753755414310420489>
+
+For getting the EVENT role react with <:dice:670157311217762324>
+
+For getting the DND  role react with <:dnd:754390023750811670>
+
+For getting the Pokemon role react with <:poke:754393996440371211>
+
+For getting the Writer role react with <:pen:754395260192555068>"""
+    await y.edit(content=r)
+    await y.add_reaction("<:mtg:753755414310420489>")
+    await y.add_reaction("<:dice:670157311217762324>")
+    await y.add_reaction("<:dnd:754390023750811670>")
+    await y.add_reaction("<:poke:754393996440371211>")
+    await y.add_reaction("<:pen:754395260192555068>")
+    await ctx.send("Roles updated")
+    print("k")
             
 @client.command()
 async def hi(ctx):
@@ -315,22 +351,7 @@ async def in_guilds(ctx):
     for i in client.guilds:
         await ctx.send(i.name)
 
-@client.command()
-@commands.check(Kami_check)
-async def roleload(ctx):
-    z=client.get_channel(id=753742549574746113)
-    y= await z.fetch_message_fast(753932030668046377)
-    r="""For getting the magic role react with <:mtg:753755414310420489>
 
-For getting the event role react with <:dice:670157311217762324>
-
-For getting the dnd role react with <:dnd:754390023750811670>"""
-    await y.edit(content=r)
-    await y.add_reaction("<:mtg:753755414310420489>")
-    await y.add_reaction("<:dice:670157311217762324>")
-    await y.add_reaction("<:dnd:754390023750811670>")
-    ctx.send("Roles updated")
-    print("k")
 
 
 @client.command()
