@@ -99,9 +99,13 @@ async def on_raw_reaction_add(payload):
     elif payload.emoji.id==670157311217762324:
         r=460853900090540043
         s="gamenight"
+    elif payload.emoji.id==754390023750811670:
+        r=682600245619982366
+        s="dnd"
     else:
         await y.remove_reaction(payload.emoji,e)
         print("n")
+
     if r and s:
         await e.add_roles(t.get_role(r))
         await e.send("Given the "+s+" role")
@@ -125,6 +129,10 @@ async def on_raw_reaction_remove(payload):
     elif payload.emoji.id==670157311217762324:
         r=460853900090540043
         s="gamenight"
+    elif payload.emoji.id==754390023750811670:
+        r=682600245619982366
+        s="dnd"
+    
     if r and s:
         await e.remove_roles(t.get_role(r))
         await e.send("Removed the "+s+" role")
@@ -318,6 +326,7 @@ For getting the event role react with <:dice:670157311217762324>"""
     await y.edit(content=r)
     await y.add_reaction("<:mtg:753755414310420489>")
     await y.add_reaction("<:dice:670157311217762324>")
+    await y.add_reaction("<:dnd:754390023750811670>")
     ctx.send("Roles updated")
     print("k")
 
