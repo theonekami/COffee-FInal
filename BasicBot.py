@@ -94,19 +94,19 @@ async def on_raw_reaction_add(payload):
     s=None
     if payload.emoji.id==753755414310420489: #mtg
         r=643733493968535552
-        s="mtg"
+        s="MTG"
     elif payload.emoji.id==670157311217762324:
-        r=460853900090540043
-        s="gamenight"
+        r=694695508576436334
+        s="Event"
     elif payload.emoji.id==754390023750811670:
         r=682600245619982366
-        s="dnd"
+        s="DND"
     elif payload.emoji.id==754393996440371211:
         r=643743977727721495
-        s="poke"
+        s="POkemon"
     elif payload.emoji.id==754395260192555068:
         r=643733562134102026
-        s="writer"
+        s="Writer"
 
     
     else:
@@ -132,19 +132,19 @@ async def on_raw_reaction_remove(payload):
     
     if payload.emoji.id==753755414310420489: #mtg
         r=643733493968535552
-        s="mtg"
+        s="MTG"
     elif payload.emoji.id==670157311217762324:
-        r=460853900090540043
-        s="gamenight"
+        r=694695508576436334
+        s="Event"
     elif payload.emoji.id==754390023750811670:
         r=682600245619982366
-        s="dnd"
+        s="DND"
     elif payload.emoji.id==754393996440371211:
         r=643743977727721495
-        s="poke"
+        s="Pokemon"
     elif payload.emoji.id==754395260192555068:
         r=643733562134102026
-        s="writer"
+        s="Writer"
     
     if r and s:
         await e.remove_roles(t.get_role(r))
