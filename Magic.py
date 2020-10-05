@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import json
 import aiohttp
+import random
 
 class Magic(commands.Cog):
     def __init__(self, bot):
@@ -76,6 +77,14 @@ class Magic(commands.Cog):
                 await ctx.send(embed= em)
         elif(y['object']=="error"):
             await ctx.send(y["details"])
+            
+    @mg.command(name="swap")
+    async def magic_swp(self ,ctx):
+        x=["""How mch would you pay , to rule the world. [Power for blood], a demon tribal list with Rakdos the Showstopper \n https://deckstats.net/deck-22298411-f8587d0b5bf631d05b2f77e8ba6012b8.html""",
+           """Do you dare to ask what the Reaperking sows, for he shall reap havoc and DEATH.[c c c r a c k ] Scarecrow tribal featuring Reaper king \n https://deckstats.net/deck-22298442-5576b511cad4b5638fd936094907a3cd.html""",
+           """Those who come from the skies might just [ascend from heaven]. Angels who protected you might be your undoing. Angel tribal with Bruna The faded light\n https://deckstats.net/deck-22294482-9ece70fdccf573091a8f5243897be4c7.html""",
+           """The spirts call for you. Do not get lost upon crosing the bridge, or you might just e [Spirited away]\n https://deckstats.net/deck-22298489-953c8ee1f9ddd1d68288fdc6e3a44ce8.html"""]
+        await ctx.send(random.choice(x))
     
 
         
