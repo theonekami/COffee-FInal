@@ -84,7 +84,9 @@ class Magic(commands.Cog):
            """Do you dare to ask what the Reaperking sows, for he shall reap havoc and DEATH.\n[c c c r a c k ] Scarecrow tribal featuring Reaper king \n https://deckstats.net/deck-22298442-5576b511cad4b5638fd936094907a3cd.html""",
            """Those who come from the skies might just [ascend from heaven]. \nAngels who protected you might be your undoing. Angel tribal with Bruna The faded light\n https://deckstats.net/deck-22294482-9ece70fdccf573091a8f5243897be4c7.html""",
            """The spirts call for you. Do not get lost upon crosing the bridge, or you might just be [Spirited away]\n https://deckstats.net/deck-22298489-953c8ee1f9ddd1d68288fdc6e3a44ce8.html""",
-           """<The bargling>. \n YARRRRRGGGGGGGLLLLLEEEE. YARGLE YARGLE YARGLE. YARGLEEEEEEEEEEE\n https://deckstats.net/deck-22299373-2a4ca4f756bc370fb0d329a74bd8fe8f.html"""]
+           """<The bargling>. \n YARRRRRGGGGGGGLLLLLEEEE. YARGLE YARGLE YARGLE. YARGLEEEEEEEEEEE\n https://deckstats.net/deck-22299373-2a4ca4f756bc370fb0d329a74bd8fe8f.html""",
+           """It is said that the Qalasima has a beast. The beast hunts hearts and kills when you look back. <Gorey Death> with Gore claw The terror of Qalasima\n https://deckstats.net/deck-22299499-a6ec9b0decbbf063f310a7833beadaea.html""",
+           """When emotionally drained zombies are bought back from the deck, they stay forever. <Brokken zombies> with Brokko Apex of Forever\n https://deckstats.net/deck-22299496-78941b8c8fa9588dd1e1ebfbe214d381.html"""]
         await ctx.send(random.choice(x))
     
 
