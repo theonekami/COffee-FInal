@@ -86,7 +86,10 @@ class Magic(commands.Cog):
            """The spirts call for you. Do not get lost upon crosing the bridge, or you might just be [Spirited away]\n https://deckstats.net/deck-22298489-953c8ee1f9ddd1d68288fdc6e3a44ce8.html""",
            """<The bargling>. \n YARRRRRGGGGGGGLLLLLEEEE. YARGLE YARGLE YARGLE. YARGLEEEEEEEEEEE\n https://deckstats.net/deck-22299373-2a4ca4f756bc370fb0d329a74bd8fe8f.html""",
            """It is said that the Qalasima has a beast. The beast hunts hearts and kills when you look back. <Gorey Death> with Gore claw The terror of Qalasima\n https://deckstats.net/deck-22299499-a6ec9b0decbbf063f310a7833beadaea.html""",
-           """When emotionally drained zombies are bought back from the deck, they stay forever. <Brokken zombies> with Brokko Apex of Forever\n https://deckstats.net/deck-22299496-78941b8c8fa9588dd1e1ebfbe214d381.html"""]
+           """When emotionally drained zombies are bought back from the deck, they stay forever. <Brokken zombies> with Brokko Apex of Forever\n https://deckstats.net/deck-22299496-78941b8c8fa9588dd1e1ebfbe214d381.html""",
+           """At the edge of day and night, those who crave for blood appear. <Twilight trouble> with Edgar markov""",
+           """The tower. Representing disaster, and a calamity. Yet , at times like these, you <discard, and disregard>. If you don't , the haunt of  hightower might just take you over""",
+           """What you think is real, might not be. For she shall walk this plane, and ruin it all. <Eldr(itch)razi Horror> beckons to coming of Emrakul the Promised end https://deckstats.net/deck-22301583-e2e6ac7382dc28a45a106411918a5b7d.html"""]
         await ctx.send(random.choice(x))
     
 
