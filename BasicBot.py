@@ -178,7 +178,7 @@ For getting the Writer role react with <:pen:754395260192555068>"""
             
 @client.command()
 async def hi(ctx):
-    await ctx.send("Check out the Nuzlock! I am a bot who can't participate. #stopbotracism")
+    await ctx.send("New pic new me. Credit to rei, and the gremlin i almost ate")
 
 @client.command()
 async def pick(ctx, *, args):
