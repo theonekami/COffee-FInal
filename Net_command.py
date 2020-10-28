@@ -12,38 +12,39 @@ class Net_Commands(commands.Cog):
     @commands.command()
     async def cat(self, ctx):
         em = discord.Embed(title="Cat Pix")
-        async with aiohttp.request("get","http://thecatapi.com/api/images/get") as res:
+        async with aiohttp.request("get","https://some-random-api.ml/img/cat") as res:
             em.set_image(url=res.url)
         res.close()
-        await ctx.send(embed= em)
+        em.set_image(url=x["link"])
+        await ctx.send(embed=em)
 
     @commands.command()
     async def dog(self,ctx):
         em = discord.Embed(title="Doggo Pix")
-        async with aiohttp.request("get","https://dog.ceo/api/breeds/image/random") as res:
+        async with aiohttp.request("get","https://some-random-api.ml/img/dog") as res:
             x= json.loads(await res.text())
         res.close()
-        em.set_image(url=x['message'])
-        await ctx.send(embed= em)
+        em.set_image(url=x["link"])
+        await ctx.send(embed=em)
 
     @commands.command()
     async def fox(self,ctx):
         em = discord.Embed(title="Fox Pix")
-        async with aiohttp.request("get","https://randomfox.ca/floof/") as res:
+        async with aiohttp.request("https://some-random-api.ml/img/fox") as res:
             x= json.loads(await res.text())
         res.close()
-        em.set_image(url=x['image'])
-        await ctx.send(embed= em)
+        em.set_image(url=x["link"])
+        await ctx.send(embed=em)
 
     @commands.command()
     async def birb(self,ctx):
         em = discord.Embed(title="birb pics")
-        async with aiohttp.request("get","http://shibe.online/api/birds") as res:
+        async with aiohttp.request("get","https://some-random-api.ml/img/birb") as res:
             x= json.loads(await res.text())
         res.close()
-        em.set_image(url=x[0])
-        await ctx.send(embed= em)
-
+        em.set_image(url=x["link"])
+        await ctx.send(embed=em)
+        
     @commands.command()
     async def hug(self,ctx):
         em=em = discord.Embed(title="HUGGGSSSSS!!!!")
