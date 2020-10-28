@@ -13,7 +13,7 @@ class Net_Commands(commands.Cog):
     async def cat(self, ctx):
         em = discord.Embed(title="Cat Pix")
         async with aiohttp.request("get","https://some-random-api.ml/img/cat") as res:
-            em.set_image(url=res.url)
+            x= json.loads(await res.text())
         res.close()
         em.set_image(url=x["link"])
         await ctx.send(embed=em)
