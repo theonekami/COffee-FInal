@@ -30,7 +30,7 @@ class Net_Commands(commands.Cog):
     @commands.command()
     async def fox(self,ctx):
         em = discord.Embed(title="Fox Pix")
-        async with aiohttp.request("https://some-random-api.ml/img/fox") as res:
+        async with aiohttp.request("get","https://some-random-api.ml/img/fox") as res:
             x= json.loads(await res.text())
         res.close()
         em.set_image(url=x["link"])
