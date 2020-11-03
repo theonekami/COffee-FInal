@@ -89,7 +89,7 @@ async def on_raw_reaction_add(payload):
     t=client.get_guild(ch_id)
     z=t.get_channel(753742549574746113)
     e=payload.member
-    y=await z.fetch_message_fast(753932030668046377)
+    y=await z.fetch_message(id=753932030668046377)
     r=None
     s=None
     if payload.emoji.id==753755414310420489: #mtg
