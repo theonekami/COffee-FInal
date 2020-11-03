@@ -126,7 +126,7 @@ async def on_raw_reaction_remove(payload):
     t=client.get_guild(ch_id)
     z=t.get_channel(753742549574746113)
     e=t.get_member(payload.user_id)
-    y=await z.fetch_message_fast(753932030668046377)
+    y=await z.fetch_message(753932030668046377)
     r=None
     s=None
     
