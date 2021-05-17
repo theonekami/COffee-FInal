@@ -333,7 +333,6 @@ async def time(ctx):
     em.add_field(name="TEXAS",value=x_time.strftime("%T || %D"),inline=False)
     em.add_field(name="PST",value=utc.strftime("%T || %D"),inline=False)
 
-
     await ctx.send(embed=em)
 
 ##
@@ -349,7 +348,7 @@ async def time(ctx):
 async def in_guilds(ctx):
     for i in client.guilds:
         await ctx.send(i.name)
-        await ctx.send(i.owner)
+        await ctx.send(i.owner.name)
 
 
 
