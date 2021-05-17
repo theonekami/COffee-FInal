@@ -358,7 +358,7 @@ async def in_guilds(ctx):
 async def test(ctx):
     for i in client.guilds:
         await ctx.send(i.name)
-    ctx.send("Leaving"+ str(client.guilds[3].name))
+    await ctx.send("Leaving"+ str(client.guilds[3].name))
     
   # y=await z.send("For getting to magic react with <:mtg:753755414310420489>")
 
