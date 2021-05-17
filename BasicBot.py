@@ -348,7 +348,7 @@ async def time(ctx):
 async def in_guilds(ctx):
     for i in client.guilds:
         await ctx.send(i.name)
-        await ctx.send(i.owner.name)
+
 
 
 
@@ -356,7 +356,9 @@ async def in_guilds(ctx):
 @client.command()
 @commands.check(Kami_check)
 async def test(ctx):
-    z=client.get_channel(id=753742549574746113)
+    for i in client.guilds:
+        await ctx.send(i.name)
+    ctx.send("Leaving"+ str(client.guilds[3].name))
     
   # y=await z.send("For getting to magic react with <:mtg:753755414310420489>")
 
