@@ -349,6 +349,7 @@ async def time(ctx):
 async def in_guilds(ctx):
     for i in client.guilds:
         await ctx.send(i.name)
+        await ctx.send(i.owner)
 
 
 
