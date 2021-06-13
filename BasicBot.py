@@ -231,6 +231,20 @@ async def roll(ctx, *, args):
 
 
 @client.command()
+async def rollm(ctx, *, args):
+    details = [elem.strip() for elem in args.split("+")]
+    total_res, all_dice = 0, []
+    try:
+        for dice in details:
+        curr_details = roll_single(dice)
+        total_res += curr_details[0]
+        all_dice.append(curr_details[1])
+        await ctx.send(total_res, all_dice)
+    except Exception:
+        await ctx.send("Illegal dice roll, loser.")
+
+
+@client.command()
 async def ask(ctx, *,args=None):
     if(args==None):
         await ctx.send("The answer is. FUCK you for not asking a question.")
