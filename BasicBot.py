@@ -262,7 +262,7 @@ async def rollm(ctx, *, args):
         curr_details = roll_single(dice)
         total_res += curr_details[0]
         all_dice.append(curr_details[1])
-    await ctx.send(total_res, all_dice)
+    await ctx.send(total_res)
 
 
 @client.command()
