@@ -248,7 +248,7 @@ def roll_single(msg):
 
 	curr_sum, all_rolls = 0, []
 	for _ in range(nums_dice[0]):
-		rolled_dice = randint(1, nums_dice[1])
+		rolled_dice = random.randint(1, nums_dice[1])
 		curr_sum += rolled_dice
 		all_rolls.append(rolled_dice)
 
