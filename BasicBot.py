@@ -229,6 +229,30 @@ async def roll(ctx, *, args):
     res += str(eval(y))
     await ctx.send(res)
 
+def roll_single(msg):
+	dice = msg.split("d")
+
+	# checking for d usage
+	if len(dice) > 2:
+		return "Illegal dice roll, the 'd' term has been used improperly."
+
+	# checking for correct numbers
+	try:
+		nums_dice = [int(elem) for elem in dice]
+	except Exception:
+		return "Illegal dice roll, the numbers used are invalid."
+
+	# checking for static number
+	if len(nums_dice) == 1:
+		return nums_dice[0], nums_dice
+
+	curr_sum, all_rolls = 0, []
+	for _ in range(nums_dice[0]):
+		rolled_dice = randint(1, nums_dice[1])
+		curr_sum += rolled_dice
+		all_rolls.append(rolled_dice)
+
+	return curr_sum, all_rolls
 
 @client.command()
 async def rollm(ctx, *, args):
