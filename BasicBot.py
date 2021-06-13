@@ -258,13 +258,18 @@ def roll_single(msg):
 async def rollm(ctx, *, args):
     details = [elem.strip() for elem in args.split("+")]
     total_res, all_dice = 0, []
-
+    x=""
     for dice in details:
         curr_details = roll_single(dice)
         total_res += curr_details[0]
         all_dice.append(curr_details[1])
+    x+="Rollls: "+
+    for i in all_dice[0]:
+        x+=str(i)+" "
+    x+="| "+str(total_res)
     
-    await ctx.send(all_dice)
+    
+    await ctx.send(x)
 
 
 @client.command()
