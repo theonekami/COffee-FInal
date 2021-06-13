@@ -263,10 +263,10 @@ async def rollm(ctx, *, args):
         curr_details = roll_single(dice)
         total_res += curr_details[0]
         all_dice.append(curr_details[1])
-    x+="Rollls: "+
+    x=x+"Rollls: "+
     for i in all_dice[0]:
         x+=str(i)+" "
-    x+="| "+str(total_res)
+    x=x+"| "+str(total_res)
     
     
     await ctx.send(x)
