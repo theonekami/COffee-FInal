@@ -258,7 +258,7 @@ def roll_single(msg):
 async def rollm(ctx, *, args):
     details = [elem.strip() for elem in args.split("+")]
     total_res, all_dice = 0, []
-    x+=""
+
     for dice in details:
         curr_details = roll_single(dice)
         total_res += curr_details[0]
