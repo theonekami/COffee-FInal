@@ -509,9 +509,7 @@ async def kami(ctx):
 @client.command()
 async def age(ctx):
     x= ctx.guild.created_at
-    y= datetime.datetime.now()
-    z=y-x
-    s= "This server was created at " + x.strftime(("%d %m %y")) + "\nThat makes the age " +str(int(str(z.days))-365) + " days"
+    s= "This server was created at " + x.strftime(("%d %m %y")) 
     await ctx.send(s)
 
 @client.command()
