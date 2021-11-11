@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>COG</name>
+    <longname>COG</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Razan, Blinded Visionary</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/dnkn92.jpg">COG</set>
+      <color>W</color>
+      <color>U</color>
+      <color>B</color>
+      <manacost>1UBW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Human Warlock</type>
+      <pt>1/3</pt>
+      <tablerow>1</tablerow>
+      <text>&lt;i&gt;Inspired&lt;/i&gt; - Whenever Razan, Blinded Visionary becomes untapped, you may pay {W}. If you do, create a 1/1 black and white Spirit token with flying  and vigilance for each experience counter you have.  
+{U}:  Razan, Blinded Visionary investigates. Activate this ability only if a creature died this turn.
+{B}, {T}, Sacrifice 3 artifacts and/or creatures: You gain an experience counter. Razan, Blinded Visionary gets -1/-1 until end of turn. </text>
+    </card>
+    <card>
+      <name>The Ultimate Betrayal</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/xdgx88.jpg">COG</set>
+      <manacost>0</manacost>
+      <cmc>0</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Target opponent wins the game. </text>
+    </card>
+    <card>
+      <name>Konami</name>
+      <set rarity="Common" picURL="https://mtg.design/i/opza52.jpg">COG</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>U/PU/PR/PUU</manacost>
+      <cmc>5</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Split second
+Tap two creatures you control, then untap two creatures you control.
+Exile two creatures you control, then return them to the battlefield under your control.
+Target creature you control gains hexproof and reach until end of turn.
+Target creature you control gains trample and double strike until end of turn. </text>
+    </card>
+    <card>
+      <name>Simian Mayhem</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nihj61.jpg">COG</set>
+      <color>R</color>
+      <manacost>5R</manacost>
+      <cmc>6</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, each opponent creates a  red artifact token named "Barrel" with "At the beginning of your upkeep, you may pay {2}. If you don't, this artifact deals 1 damage to you." </text>
+    </card>
+    <card>
+      <name>Impressionable Duckling</name>
+      <set rarity="Common" picURL="https://mtg.design/i/lacp00.jpg">COG</set>
+      <color>G</color>
+      <manacost>2G</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Duck</type>
+      <pt>0/1</pt>
+      <tablerow>1</tablerow>
+      <text>&lt;i&gt;Imprint&lt;/i&gt; - When Impressionable Duckling enters the battlefield, you may exile a creature card from your hand.
+
+Impressionable Duckling has the text of the creature card exiled with it. </text>
+    </card>
+    <card>
+      <name>Tetromino Assembly</name>
+      <set rarity="Common" picURL="https://mtg.design/i/aovi38.jpg">COG</set>
+      <color>U</color>
+      <manacost>4U</manacost>
+      <cmc>5</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, create a colorless artifact token named "Tetromino". Then roll a d8. You may sacrifice that many tokens. If you do, draw half that many cards, rounded down. </text>
+    </card>
+    <card>
+      <name>Tilt</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/uzww32.jpg">COG</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>UR</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Venture into the dungeon. You may goad X target creatures you control, where X is the number of times you've cast Tilt this game. If you do, exile Tilt with one time counter on it.
+
+Suspend 1—{U} </text>
+    </card>
+    <card>
+      <name>Aisafi</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/iuyf23.jpg">COG</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Snow Land</type>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {B} or {R}.
+{4}, {T}: Put a -1/-1 counter on target creature.
+{12}, {T}: Put an infect counter on target player. </text>
+    </card>
+    <card>
+      <name>Ancestral Guidance</name>
+      <set rarity="Common" picURL="https://mtg.design/i/tbwb17.jpg">COG</set>
+      <color>G</color>
+      <manacost>2G</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Create two 1/1 green Spirit creature tokens with vigilance.
+Flashback {1}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.) </text>
+    </card>
+    <card>
+      <name>Neon Gamehub</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/okwo28.jpg">COG</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {U} or {R}.
+{T}: Add {U}{R} for each differently named dungeon you've completed. </text>
+    </card>
+    <card>
+      <name>Monstrosity Melder</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/dxyw14.jpg">COG</set>
+      <color>B</color>
+      <color>G</color>
+      <manacost>1BG</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Human Wizard</type>
+      <pt>0/3</pt>
+      <tablerow>1</tablerow>
+      <text>{3}{B}{G}, {T}, Exile two creature cards from graveyards: Create a 1/1 black and green Horror creature token with the full text of both cards. </text>
+    </card>
+    <card>
+      <name>Diviner of the Tower</name>
+      <set rarity="Common" picURL="https://mtg.design/i/eymk71.jpg">COG</set>
+      <color>G</color>
+      <manacost>3G</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Human Shaman Artificer</type>
+      <pt>1/4</pt>
+      <tablerow>1</tablerow>
+      <text>Escape—{5}{G}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
+
+Diviner of the Tower gets +1/+1 for each card you own in exile. </text>
+    </card>
+    <card>
+      <name>Reckless Vigor</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/nohv41.jpg">COG</set>
+      <color>G</color>
+      <manacost>3G/PG/P</manacost>
+      <cmc>5</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+
+Enchanted creature has first strike, trample and menace.
+
+If a source would deal damage to enchanted creature, it deals double that damage to that creature instead. </text>
+    </card>
+    <card>
+      <name>Whispers of the Dead</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/zdkr55.jpg">COG</set>
+      <color>B</color>
+      <manacost>3B</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+
+Create a 1/1 black Spirit token with soulbond and "As long as this creature is paired with another creature, both creatures have deathtouch." </text>
+    </card>
+    <card>
+      <name>Tax the Poor</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/hmsz29.jpg">COG</set>
+      <color>B</color>
+      <manacost>4B</manacost>
+      <cmc>5</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>For each token target opponent controls, create a Gold token unless its controller sacrifices it.
+
+Overload {9}{B} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.") </text>
+    </card>
+    <card>
+      <name>Eat the Rich</name>
+      <set rarity="Common" picURL="https://mtg.design/i/fxlj16.jpg">COG</set>
+      <color>R</color>
+      <manacost>3R</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>For each permanent of mana value 3 or greater target opponent controls, create a 1/1 red Human token with haste unless its controller sacrifices it.
+
+Overload {7}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.") </text>
+    </card>
+    <card>
+      <name>Sonic Shatter</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/gbrw64.jpg">COG</set>
+      <color>R</color>
+      <manacost>3R</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Destroy target land.
+
+Draw a card. </text>
+    </card>
+    <card>
+      <name>Arcane Lock</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/oofa77.jpg">COG</set>
+      <color>U</color>
+      <manacost>2U</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>1</tablerow>
+      <text>Enchant land
+Enchanted land has ward {5} and vigilance.
+Tap target untapped creature you control: Untap enchanted land. Activate only once each turn. </text>
+    </card>
+    <card>
+      <name>Saran, Horizon Walker</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/fjmo42.jpg">COG</set>
+      <color>B</color>
+      <color>G</color>
+      <manacost>3BG</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Creature — Gith Ranger</type>
+      <pt>3/3</pt>
+      <tablerow>1</tablerow>
+      <text>Devoid (This card has no color.)
+
+Vigilance
+
+You may cast cards you have in exile that don't have counters on them. (You still pay card costs. Timing rules still apply.) </text>
+    </card>
+    <card>
+      <name>Currents at Sea</name>
+      <set rarity="Common" picURL="https://mtg.design/i/uvbi62.jpg">COG</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {U}.
+
+{3}{U}{U}, {T}: Destroy target tapped creature. </text>
+    </card>
+    <card>
+      <name>Blade from Beyond</name>
+      <set rarity="Common" picURL="https://mtg.design/i/esck91.jpg">COG</set>
+      <manacost>4</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +X/+0, where X is the number of cards you have in exile.
+
+{2}: Damage done by equipped creature cannot be prevented until end of turn.
+
+Equip legendary creature {3}, Equip {6} </text>
+    </card>
+    <card>
+      <name>Sage Woods</name>
+      <set rarity="Common" picURL="https://mtg.design/i/samg04.jpg">COG</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land — Forest</type>
+      <tablerow>1</tablerow>
+      <text>({T}: Add {G}.)
+
+Sage Woods enters the battlefield tapped unless you control three or more other Forests.
+
+When Sage Woods enters the battlefield untapped, support 2. </text>
+      <cipt>1</cipt>
+    </card>
+    <card>
+      <name>Hookshot</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/ypkz66.jpg">COG</set>
+      <manacost>5</manacost>
+      <cmc>5</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Hookshot enters the battlefield with a charge counter on it.
+
+Equipped creature gets +1/+0.
+
+Remove a charge counter from Hookshot: Do 3 damage to target creature and tap it. It doesn't untap during its controller's next untap step.
+
+Equip {1} </text>
+    </card>
+    <card>
+      <name>Mind Sharpener</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dcjs22.jpg">COG</set>
+      <manacost>2</manacost>
+      <cmc>2</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Mind Sharpener enters the battlefield with two charge counters on it.
+
+Remove a charge counter from Mind Sharpener: Equipped creature has "{2}, {Q}: This creature gets +2/+1 until end of turn." until end of turn. ({Q} is the untap symbol.)
+
+Equip {0} </text>
+    </card>
+    <card>
+      <name>Hivemind's Helm</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qkqb87.jpg">COG</set>
+      <manacost>3</manacost>
+      <cmc>3</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets vigilance and +X/+X, where X is the number of creatures equipped with Hivemind's Helm. Equipped creature cannot attack a player that controls a nontoken Hivemind's Helm.
+
+{3}: Create a token copy of Hivemind's Helm and attach it to target creature you control. Any player may activate this ability. 
+
+Equip {1} </text>
+    </card>
+    <card>
+      <name>Price of Love</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vega23.jpg">COG</set>
+      <color>R</color>
+      <manacost>3R</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment — Aura Curse</type>
+      <tablerow>2</tablerow>
+      <text>Enchant player
+
+Creatures enchanted player control enter the battlefield tapped. When enchanted player is attacked, Price of Love deals 2 damage to that player. </text>
+    </card>
+    <card>
+      <name>Power of Love</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/qepp85.jpg">COG</set>
+      <color>R</color>
+      <manacost>3R</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+
+Enchanted creature has soulbond and "As long as this creature is paired with another creature, both creatures gain flying and haste."
+
+(You may pair enchanted creature with another unpaired creature when either enters the battlefield. They remain paired as long as you control both of them.) </text>
+    </card>
+    <card>
+      <name>Curse of Control</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gufp54.jpg">COG</set>
+      <color>U</color>
+      <manacost>5U</manacost>
+      <cmc>6</cmc>
+      <type>Enchantment Artifact — Aura Curse</type>
+      <tablerow>1</tablerow>
+      <text>Enchant player
+
+When Curse of Control enters the battlefield, exile target creature you control.  If you don't, sacrifice it.
+
+{3}: Gain control of target creature enchanted player controls until end of turn. Activate only once each turn.
+
+When Curse of Control leaves the battlefield, if it wasn't put into a graveyard or exile, return the exiled card to the battlefield under its owner's control. </text>
+    </card>
+    <card>
+      <name>Sjyrdaak, Spark of Creation</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/cdrg55.jpg">COG</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>2UR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Genasi Artificer</type>
+      <pt>2/5</pt>
+      <tablerow>1</tablerow>
+      <text>&lt;i&gt;Artificer's Infusion&lt;/i&gt; - {3}, {T}:  Choose target permanent. For each kind of counter on that permanent, put two of that counter on it. If that permanent is an artifact, it also gains indestructible until end of turn. </text>
+    </card>
+    <card>
+      <name>Ritual Practitioner</name>
+      <set rarity="Common" picURL="https://mtg.design/i/zblj86.jpg">COG</set>
+      <color>U</color>
+      <manacost>1UU</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Human Wizard Advisor</type>
+      <pt>1/4</pt>
+      <tablerow>1</tablerow>
+      <text>{U}, {T}:  Create a blue enchantment artifact Illusion token named "Runes" with "Noncreature spells you cast cost {1} more to cast."
+
+Noncreature spells you control cannot be targeted by spells or abilities an opponent controls as long as you control a token named "Runes". </text>
+    </card>
+    <card>
+      <name>Eigen, Nova Engineer</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/hrog45.jpg">COG</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>1UR</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Planeswalker — Eigen</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>1: Venture into the dungeon. (Enter the first room or advance to the next room.) </text>
+    </card>
+    <card>
+      <name>"The Red Sword"</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/nyzl93.jpg">COG</set>
+      <color>R</color>
+      <manacost>2RR</manacost>
+      <cmc>4</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +4/+0 and menace. When equipped creature attacks, "The Red Sword" deals 4 damage to each creature. Sacrifice "The Red Sword" at end of combat.
+
+&lt;i&gt;Lootbox&lt;/i&gt; - At the beginning of your upkeep, if "The Red Sword" is in your graveyard, you may roll a d20. 
+•	1-5        | "The Red Sword" remains in your graveyard.
+•	6-18    | Return "The Red Sword" to your hand.
+•	19-20 | Return "The Red Sword" to the battlefield.
+
+Equip {R}{R} </text>
+    </card>
+    <card>
+      <name>Planar Shock</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hgsp71.jpg">COG</set>
+      <color>B</color>
+      <manacost>B</manacost>
+      <cmc>1</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Buyback {2}{B} (You may pay an additional {2}{B} as you cast this spell. If you do, put this card into your hand as it resolves.)
+
+Regenerate target creature. It gains fear until the end of your next turn. </text>
+    </card>
+    <card>
+      <name>Trinket Thief</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/fmyf35.jpg">COG</set>
+      <color>U</color>
+      <manacost>1U</manacost>
+      <cmc>2</cmc>
+      <type>Creature — Human Wizard Rogue</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>{1}{U}, {T}: Create a colorless Illusion enchantment artifact token with "Cumulative upkeep {1}".
+
+{3}{U}, {T}: Target player gains control of Illusion you control. Gain control of target artifact that player controls with mana value 2 or less. </text>
+    </card>
+    <card>
+      <name>Muted Visions</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/dqam17.jpg">COG</set>
+      <manacost>5</manacost>
+      <cmc>5</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Scry 5, then draw a card.
+
+Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.) </text>
+    </card>
+    <card>
+      <name>Visions of Rebound</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wlwj54.jpg">COG</set>
+      <color>W</color>
+      <color>U</color>
+      <color>B</color>
+      <color>R</color>
+      <manacost>WURB</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Surveil 5, then draw a card. 
+
+If you've cast another spell named Visions of Rebound this game, you lose 5 life. All creatures get -5/-5 until end of turn.
+
+Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.) </text>
+    </card>
+    <card>
+      <name>Flames of the Altar</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/domb83.jpg">COG</set>
+      <color>W</color>
+      <color>R</color>
+      <manacost>XWWR</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Flames of the Altar deals X damage to each creature, each planeswalker and each opponent. </text>
+    </card>
+    <card>
+      <name>Hivemind's Lair</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/qhwq76.jpg">COG</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{T}: Choose target nontoken creature. Add {1} for each creature you control with the same name as that creature. </text>
+    </card>
+    <card>
+      <name>Chromatic Dragon</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vpbt78.jpg">COG</set>
+      <manacost>6</manacost>
+      <cmc>6</cmc>
+      <type>Creature — Dragon</type>
+      <pt>5/5</pt>
+      <tablerow>1</tablerow>
+      <text>Flying
+
+&lt;i&gt;Lieutenant&lt;/i&gt; — As long as you control your commander, Chromatic Dragon gets +1/+1, vigilance and has "{T}: Add two mana of any color in your commander's color identity." </text>
+    </card>
+    <card>
+      <name>Protector's Ward</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/gzhn51.jpg">COG</set>
+      <color>G</color>
+      <manacost>4G</manacost>
+      <cmc>5</cmc>
+      <type>Creature — Elf Shaman</type>
+      <pt>3/5</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever a spell or ability a player controls targets you and/or one or more permanents you control, choose one -
+• That player gains 1 life.
+• That player creates a 1/1 green Plant creature token.
+• That player puts a +1/+1 counter on target creature of their choice. </text>
+    </card>
+    <card>
+      <name>Fanatical Scientist</name>
+      <set rarity="Common" picURL="https://mtg.design/i/pamb76.jpg">COG</set>
+      <color>B</color>
+      <manacost>5B</manacost>
+      <cmc>6</cmc>
+      <type>Creature — Human Wizard Advisor</type>
+      <pt>2/3</pt>
+      <tablerow>1</tablerow>
+      <text>When Fanatical Scientist enters the battlefield,  each opponent reveals their hand. For each opponent, exile an instant or sorcery card they revealed this way until Fanatical Scientist leaves the battlefield.
+Sacrifice Fanatical Scientist: Cast a card exiled with Fanatical Scientist without paying its mana cost. </text>
+    </card>
+    <card>
+      <name>Servant to the Masses</name>
+      <set rarity="Common" picURL="https://mtg.design/i/irln69.jpg">COG</set>
+      <color>W</color>
+      <manacost>3W</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Human Priest</type>
+      <pt>0/4</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature enters the battlefield under your control, put a service counter on Servant to the Masses.
+
+When Servant to the Masses dies, it deals damage equal to the number of service counters on it to any target. </text>
+    </card>
+    <card>
+      <name>Punisher Acolyte</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/gzqm38.jpg">COG</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Human Shaman</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>&lt;i&gt;Magecraft&lt;/i&gt; - Whenever you cast or copy an instant or sorcery spell, Punisher Acolyte deals 2 damage to any target. </text>
+    </card>
+    <card>
+      <name>Communing Magic</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/tdwi71.jpg">COG</set>
+      <color>R</color>
+      <color>G</color>
+      <manacost>2RG</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment</type>
+      <tablerow>2</tablerow>
+      <text>Creature spells cost {1} less to cast.
+
+You may cast creature spells as though they had flash. </text>
+    </card>
+    <card>
+      <name>Ritual Magic</name>
+      <set rarity="Common" picURL="https://mtg.design/i/tsji90.jpg">COG</set>
+      <color>W</color>
+      <color>U</color>
+      <manacost>2UW</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Noncreature spells cost {1} more to cast.
+
+Noncreature spells you cast can't be countered. </text>
+    </card>
+    <card>
+      <name>Anya, Assimilated Aberration</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/pnpa95.jpg">COG</set>
+      <color>B</color>
+      <color>G</color>
+      <manacost>BBGG</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Planeswalker — Anya</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>: As long as it's your turn, Anya, Assimilated Aberration is a 4/2 Eldrazi Horror creature with indestructible that's still a planeswalker. </text>
+    </card>
+    <card>
+      <name>Shattered Oracle</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jaem67.jpg">COG</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose three. Each mode of Shattered Oracle must target a different player.
+• Choose target player. Shattered Oracle deals 3 damage to any target of their choice. 
+• Target player draws a card and loses 2 life.
+• Target player creates a 0/3 white Crystal Light creature token with defender. </text>
+    </card>
+    <card>
+      <name>Supernova</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/jgps74.jpg">COG</set>
+      <color>R</color>
+      <manacost>1R</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Supernova deals 4 damage to any target. If a permanent dealt damage this way would die, exile it instead. </text>
+    </card>
+    <card>
+      <name>Final Stand</name>
+      <set rarity="Common" picURL="https://mtg.design/i/afun59.jpg">COG</set>
+      <color>G</color>
+      <manacost>2G</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Create a legendary 4/2 green and black Eldrazi Horror creature token named "Anya Unleashed" with indestructible, defender and reach that's blocking target creature attacking you or a planeswalker you control. </text>
+    </card>
+    <card>
+      <name>Realized Light</name>
+      <set rarity="Common" picURL="https://mtg.design/i/trkh20.jpg">COG</set>
+      <color>W</color>
+      <manacost>1W</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>2</tablerow>
+      <text>You and permanents you control gain hexproof until end of turn.  Creatures you control gain +0/+2 until end of turn. </text>
+    </card>
+    <card>
+      <name>Black Hole Gaze</name>
+      <set rarity="Common" picURL="https://mtg.design/i/obgd36.jpg">COG</set>
+      <color>U</color>
+      <manacost>1U</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Change the target of target spell or activated ability to you or a permanent you control. </text>
+    </card>
+    <card>
+      <name>S. S. Mephistopheles</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/zzhb13.jpg">COG</set>
+      <color>U</color>
+      <manacost>5U</manacost>
+      <cmc>6</cmc>
+      <type>Legendary Artifact — Vehicle</type>
+      <pt>0/12</pt>
+      <tablerow>1</tablerow>
+      <text>When another creature you control is tapped, exile that creature. Return that creature to the battlefield under your control at the beginning of the next end step.
+
+Crew 6 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.) </text>
+    </card>
+    <card>
+      <name>Maur</name>
+      <set rarity="Common" picURL="https://mtg.design/i/pnzs88.jpg">COG</set>
+      <color>B</color>
+      <color>G</color>
+      <manacost>2BG</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Elf Rogue Warrior</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Bloodthirst 3, first strike
+
+When Maur attacks, create a 1/1 white and black Spirit token that blocks each turn if able.
+
+Sacrifice a Spirit: Maur gets double strike until end of turn. </text>
+    </card>
+    <card>
+      <name>Crackling Scythe</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/gopx96.jpg">COG</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Enchantment Artifact</type>
+      <tablerow>1</tablerow>
+      <text>If a card or token would be put into a graveyard from anywhere, exile it instead. 
+
+{2}: Crackling Scythe becomes a 1/5 enchantment artifact creature with shadow and shroud until end of turn. </text>
+    </card>
+    <card>
+      <name>Guardian of Destinies</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/ccxx71.jpg">COG</set>
+      <color>G</color>
+      <manacost>7GG</manacost>
+      <cmc>9</cmc>
+      <type>Legendary Creature — Spirit Avatar</type>
+      <pt>4/6</pt>
+      <tablerow>1</tablerow>
+      <text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.) 
+
+When Guardian of Destinies leaves the battlefield, create a legendary 2/4 blue Spirit Faerie token named "Intellect", a legendary 3/3 green Spirit Faerie token named "Compassion" and a legendary 4/2 red Spirit Faerie token named "Resolve". </text>
+    </card>
+    <card>
+      <name>Marked by Death</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nhdm04.jpg">COG</set>
+      <color>U</color>
+      <manacost>5UUU</manacost>
+      <cmc>8</cmc>
+      <type>Legendary Instant</type>
+      <tablerow>1</tablerow>
+      <text>(You may cast a legendary instant only if you control a legendary creature or planeswalker.)
+
+This spell costs {1} less to cast for each instant and sorcery card in your graveyard and can't be countered.
+You may cast target instant or sorcery card from your graveyard without paying its mana cost. If an instant or sorcery spell cast this way would be put into your graveyard this turn, exile it instead. </text>
+    </card>
+    <card>
+      <name>Victory Incarnate</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/cuzd07.jpg">COG</set>
+      <color>R</color>
+      <manacost>6RRR</manacost>
+      <cmc>9</cmc>
+      <type>Legendary Artifact</type>
+      <tablerow>1</tablerow>
+      <text>Hexproof, indestructible 
+
+{2}{R}: The next time you'd lose life this turn, draw a card then discard a card. Activate this only once per turn.
+
+{4}{R}{R}: The next time you'd lose the game this turn, instead draw seven cards and your life total becomes 1. Activate this only once per turn.
+
+Miracle {2}{R} </text>
+    </card>
+    <card>
+      <name>War-torn Wanderlust</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/tvfg22.jpg">COG</set>
+      <color>W</color>
+      <manacost>8W</manacost>
+      <cmc>9</cmc>
+      <type>Legendary Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Affinity for tokens (This spell costs {1} less to cast for each token you control.)
+
+When War-torn Wanderlust enters the battlefield, populate.
+
+The first nonlegendary spell you cast each turn has convoke. </text>
+    </card>
+    <card>
+      <name>The Sacrifice</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/sffr12.jpg">COG</set>
+      <color>B</color>
+      <manacost>B/PB/PB/PB/PB/PB/P</manacost>
+      <cmc>6</cmc>
+      <type>Legendary Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+
+Draw 7 cards. For every 2 life paid in the casting of this spell, discard a card. </text>
+    </card>
+    <card>
+      <name>Wilhelm Graves, Legendary</name>
+      <set rarity="Common" picURL="https://mtg.design/i/xqri64.jpg">COG</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>4BR</manacost>
+      <cmc>6</cmc>
+      <type>Legendary Creature — Elemental Berserker</type>
+      <pt>6/6</pt>
+      <tablerow>2</tablerow>
+      <text>Intimidate, menace, trample
+
+Creatures you control get +2/-2 and vigilance. </text>
+    </card>
+    <card>
+      <name>Alias Hunter</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/rfoh61.jpg">COG</set>
+      <manacost>5</manacost>
+      <cmc>5</cmc>
+      <type>Creature — Shapeshifter</type>
+      <pt>3/3</pt>
+      <tablerow>1</tablerow>
+      <text>Changeling, skulk
+
+When Alias Hunter deals combat damage to a creature, exile that creature and put a face counter on it. Put a +1/+1 counter on  Alias Hunter. 
+
+Alias Hunter has the full text of all cards in exile with face counters. You may spend mana as though it were of any color to pay activation costs of its abilities.
+
+When Alias Hunter leaves the battlefield, return all exiled cards with face counters to their owners' graveyards. </text>
+    </card>
+    <card>
+      <name>Keeping the Peace</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/sfex79.jpg">COG</set>
+      <color>W</color>
+      <manacost>1W</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>This spell can't be countered.
+
+Put three charm counters on target creature you do not control. That creature cannot attack or use activated abilities for as long as it has a charm counter on it. 
+
+At the beginning of its owner's upkeep, they may remove a charm counter from that creature. </text>
+    </card>
+    <card>
+      <name>Lucid, Dreamt by Fate</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gxbk78.jpg">COG</set>
+      <color>W</color>
+      <color>R</color>
+      <manacost>R/WR/WR/W</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Planeswalker — Lucid</type>
+      <loyalty>3</loyalty>
+      <tablerow>2</tablerow>
+      <text>1: Target opponent gets a red and white enchantment token named "Affinity" with "Creatures you control get +0/+2." </text>
+    </card>
+    <card>
+      <name>Sending Stone</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dgud84.jpg">COG</set>
+      <manacost>2</manacost>
+      <cmc>2</cmc>
+      <type>Artifact — Vehicle</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>When Sending Stone enters the battlefield, create a 0/1 green Squirrel token. Target opponent creates a token copy of Sending Stone.
+
+{1}, {T}: Each player who controls an artifact named Sending Stone may scry 1.
+
+Crew 1 </text>
+    </card>
+    <card>
+      <name>Cavern of Twisted Fates</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/yyrj56.jpg">COG</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {U}.
+{T}: Add {B}{U}. Activate this ability only if you control a nonland permanent you do not own.
+{T}: Add {1}{B}{U}. Activate  only if you control a nonland permanent you do not own and an opponent controls a nonland permanent you own. </text>
+    </card>
+    <card>
+      <name>Desolate Ruin</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/gvmr86.jpg">COG</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {B}.
+{4}, {T}: Create a 0/2 green Plant token with defender. </text>
+    </card>
+    <card>
+      <name>Serial Prankster</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nuns69.jpg">COG</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Artifact Creature — Spirit Construct</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Possess (When this creature dies, exile it possessing target artifact.)
+
+When Serial Prankster enters the battlefield or the artifact it possesses is put into a graveyard,  target artifact becomes an artifact creature with power and toughness each equal to its mana value until end of turn. </text>
+    </card>
+    <card>
+      <name>Repulsion Shield</name>
+      <set rarity="Common" picURL="https://mtg.design/i/robh07.jpg">COG</set>
+      <manacost>3</manacost>
+      <cmc>3</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Repulsion Shield enters the battlefield with 2 charge counters on it. Equipped creature gets +0/+2.
+
+Whenever a creature becomes blocked by equipped creature, remove a charge counter from Repulsion Shield. If you do, tap attacking creature. That creature does not untap during its controller's next untap phase.
+
+Equip {2} </text>
+    </card>
+    <card>
+      <name>Deus, the Deceitful</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/eaez04.jpg">COG</set>
+      <color>U</color>
+      <color>B</color>
+      <manacost>3UB</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Creature — Bird Rogue</type>
+      <pt>1/3</pt>
+      <tablerow>1</tablerow>
+      <text>Partner with Wyei, the Vengeful
+
+Flying
+
+When Deus, the Deceitful enters the battlefield, gain control of target artifact with mana value less than or equal to its power. 
+
+Deus, the Deceitful gets +1/+1 for each nonland permanent you control but don't own.
+
+Sacrifice a creature: Exile Deus, the Deceitful, then return it to the battlefield under its owner's control. </text>
+    </card>
+    <card>
+      <name>Inert Tower</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/udwo24.jpg">COG</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>Indestructible, shroud
+
+Inert Tower enters the battlefield tapped.
+
+{T}: Add one mana of any color. </text>
+      <cipt>1</cipt>
+    </card>
+    <card>
+      <name>Wyei, the Vengeful</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/lhoi86.jpg">COG</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>2WB</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Bird Ranger</type>
+      <pt>3/1</pt>
+      <tablerow>1</tablerow>
+      <text>Partner with Deus, the Deceitful
+
+Flying
+
+When a player sacrifices a creature, goad Wyei, the Vengeful and put a +1/+1 counter on them.
+
+{4}{W}{B}: Put target creature card from a graveyard onto the battlefield under your control, except it gains haste and decayed, and is goaded. </text>
+    </card>
+    <card>
+      <name>Eldritch Automaton</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/aobo80.jpg">COG</set>
+      <manacost>31/P</manacost>
+      <cmc>4</cmc>
+      <type>Artifact Creature — Beholder Construct</type>
+      <pt>3/4</pt>
+      <tablerow>1</tablerow>
+      <text>Vigilance
+
+Vanishing 3
+
+At the beginning of each combat, choose first strike, lifelink or trample. Eldritch Automaton gains that ability until end of turn. </text>
+    </card>
+    <card>
+      <name>Cog, Gameshow Host</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/avmp13.jpg">COG</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>1W/BW/B</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Planeswalker — Cog</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>: When a creature you control dies,  you gain 1 life. </text>
+    </card>
+    <card>
+      <name>Spectral Cover</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/fuxr61.jpg">COG</set>
+      <color>B</color>
+      <manacost>1B</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>If you control a creature with vigilance as you cast this spell, you may place a blindsight counter on target creature with vigilance.
+
+Prevent all combat damage that would be dealt this turn by creatures that do not have blindsight counters on them. </text>
+    </card>
+    <card>
+      <name>Cassandra's Challenge</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/ooav70.jpg">COG</set>
+      <color>U</color>
+      <manacost>3U</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Create two 2/2 black Zombie creature tokens. If this spell was cast from a graveyard, create a 5/5 green Manticore artifact creature token with haste, trample and vanishing 2 instead.
+
+Flashback {5}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.) </text>
+    </card>
+    <card>
+      <name>Araha, the Mindful</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/xcqo88.jpg">COG</set>
+      <manacost>3</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Artifact Creature — Nose</type>
+      <pt>0/6</pt>
+      <tablerow>1</tablerow>
+      <text>Defender
+
+When Araha, the Mindful enters the battlefield, each player creates a 2/2 colorless Nose artifact creature token with vigilance.
+
+{3}: Look at target player's hand. Activate this ability only if that player controls a Nose.
+{6}: Create a token copy of target artifact. Activate this ability only if that artifact's controller controls a Nose. </text>
+    </card>
+    <card>
+      <name>Castle of Gears</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/ygpt82.jpg">COG</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Artifact Land</type>
+      <tablerow>1</tablerow>
+      <text>{T}: Add {C}.
+{T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.
+{1}: Castle of Gears becomes a 2/2 colorless Knight Construct artifact creature with first strike until end of turn. It's still a land. </text>
+    </card>
+    <card>
+      <name>Death by Chance</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/kvbm67.jpg">COG</set>
+      <color>B</color>
+      <manacost>2BB</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment — Aura Curse</type>
+      <tablerow>1</tablerow>
+      <text>Enchant player
+
+At the beginning of enchanted player's upkeep, if that player controls one or less creatures, that player creates a Treasure token. They may attach Death by Chance to  target opponent other than Death by Chance's owner.
+
+At the beginning of enchanted player's end step, if that player controls more than one creature, that player chooses two creatures they control at random. The chosen creatures fight each other. </text>
+    </card>
+    <card>
+      <name>Metamagic Adept</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/sggi24.jpg">COG</set>
+      <color>U</color>
+      <manacost>4UU</manacost>
+      <cmc>6</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose one or more -
+•	&lt;i&gt;Subtle Spell:&lt;/i&gt; The next instant or sorcery spell you cast this turn can't be countered.
+•	&lt;i&gt;Twinned Spell:&lt;/i&gt; When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
+•	&lt;i&gt;Quickened Spell:&lt;/i&gt; You may cast sorcery spells as though they had flash until end of turn. </text>
+    </card>
+    <card>
+      <name>Mischievous Cat</name>
+      <set rarity="Common" picURL="https://mtg.design/i/imfm81.jpg">COG</set>
+      <color>W</color>
+      <manacost>1W</manacost>
+      <cmc>2</cmc>
+      <type>Creature — Cat</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>{1}, {T}: Tap target creature.
+{1}, {T}:  Untap target creature. </text>
+    </card>
+    <card>
+      <name>Jonathan, Forlorn Artisan</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/dwux65.jpg">COG</set>
+      <color>W</color>
+      <manacost>1W</manacost>
+      <cmc>2</cmc>
+      <type>Legendary Creature — Human Artificer</type>
+      <pt>1/2</pt>
+      <tablerow>1</tablerow>
+      <text>{T}: Create a  colorless Equipment artifact token named Sculpture with "Equipped creature gets +0/+1",  and equip {0}.
+{T}, Exert Jonathan, Forlorn Artisan: Create a 3/3 colorless Golem artifact creature token with vigilance and reach. </text>
+    </card>
+    <card>
+      <name>Viola, Death's Herald</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/suts07.jpg">COG</set>
+      <color>U</color>
+      <color>B</color>
+      <manacost>2UB</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Human Sorcerer</type>
+      <pt>4/1</pt>
+      <tablerow>1</tablerow>
+      <text>Vigilance, menace
+
+{2}: Up to two target creatures you control gain haste until end of turn.
+{2}{B}, {T}: Untap target creature and gain control of it until end of turn. If {U} was spent to activate this ability, this ability cannot be countered. </text>
+    </card>
+    <card>
+      <name>Cog, "Heaven's Apostle"</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/evka18.jpg">COG</set>
+      <color>W</color>
+      <color>U</color>
+      <color>B</color>
+      <manacost>2WUB</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Planeswalker — Cog</type>
+      <loyalty>6</loyalty>
+      <tablerow>1</tablerow>
+      <text>2: Create a colorless artifact token named Divine Shard. It has, "{T}, Pay 1 life: Scry 1." </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

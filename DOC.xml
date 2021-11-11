@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>DOC</name>
+    <longname>DOC</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Barbatos, The Forgotten Arms</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/ijsk92.jpg">DOC</set>
+      <manacost>10</manacost>
+      <cmc>10</cmc>
+      <type>Legendary Artifact Creature — Construct</type>
+      <pt>9/9</pt>
+      <tablerow>1</tablerow>
+      <text>Trample
+
+When this creature enters the battlefield, you may destroy a target nonland permanents for each time you've casted your commander.</text>
+    </card>
+    <card>
+      <name>Gamma Model</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gwcc81.jpg">DOC</set>
+      <manacost>8</manacost>
+      <cmc>8</cmc>
+      <type>Artifact Creature — Construct</type>
+      <pt>4/3</pt>
+      <tablerow>1</tablerow>
+      <text>This artifact cost {1} less for each opponent.
+
+Whenever a token enters the battlefield, you may that player destroy it. Otherwise, Gamma Model deals 1 damage to that player. </text>
+    </card>
+    <card>
+      <name>Spell  Burst</name>
+      <set rarity="Common" picURL="https://mtg.design/i/pgav32.jpg">DOC</set>
+      <color>U</color>
+      <manacost>2U/PU/P</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose an instant or sorcery card in your graveyard. You may cast that card in this turn. If that card would be put into your graveyard this turn, exile it instead.
+
+Whenever you cast a card from a graveyard, if Spell  Burst is in your graveyard, exile cards from the top of your library equal to the total mana value of that card.
+</text>
+    </card>
+    <card>
+      <name>Dynamic Discharge</name>
+      <set rarity="Common" picURL="https://mtg.design/i/otfu73.jpg">DOC</set>
+      <color>U</color>
+      <manacost>2UU</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose two--
+• You may choose new targets for target spell or ability. 
+• The next spell you cast has flash until end of turn.
+• Scry 2 then draw a card. </text>
+    </card>
+    <card>
+      <name>Ragnarok</name>
+      <set rarity="Common" picURL="https://mtg.design/i/yaup55.jpg">DOC</set>
+      <color>R</color>
+      <manacost>6RR</manacost>
+      <cmc>8</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Deal damage equal to the number of cards exiled this way, divided as you choose among any number of targets.
+Kicker - Exile all permanents you control.
+
+As an additional cost, exile your graveyard.
+
+Deal damage equal to the number of cards exiled this way, divided as you choose among any number of targets. If this spell was kicked, damage dealt this way cannot be prevented.</text>
+    </card>
+    <card>
+      <name>Tenacious Resolve</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jasf89.jpg">DOC</set>
+      <color>U</color>
+      <manacost>2UU</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Surge {1}{U}{U}
+
+Target instant or sorcery from your graveyard gains flashback equal to its converted mana cost until end of turn. If its surge cost was not paid you lose life equal to its converted mana cost. </text>
+    </card>
+    <card>
+      <name>Uncharted Journey</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/eqkn40.jpg">DOC</set>
+      <color>U</color>
+      <manacost>3UU</manacost>
+      <cmc>5</cmc>
+      <type>Enchantment Saga</type>
+      <tablerow>1</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Encryption Magic</name>
+      <set rarity="Common" picURL="https://mtg.design/i/lkwm41.jpg">DOC</set>
+      <color>U</color>
+      <color>B</color>
+      <manacost>UB</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>You may copy target card with cipher from your exile.
+
+&lt;i&gt;Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.&lt;/i&gt; </text>
+    </card>
+    <card>
+      <name>Binding Contract</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bmgb86.jpg">DOC</set>
+      <color>B</color>
+      <manacost>2BB</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>As an additional cost, sacrifice a creature.
+
+Return target creature equal or less than the total converted mana cost from a graveyard to the battlefield. </text>
+    </card>
+    <card>
+      <name>Volume of Magic</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/qbqx47.jpg">DOC</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>3UR</manacost>
+      <cmc>5</cmc>
+      <type>Artifact</type>
+      <tablerow>1</tablerow>
+      <text>{U}{R}, {T}: Target instant or sorcery spell in the graveyard gains flashback equal to its converted mana cost.
+
+Whenever you cast an instant or sorcery spell untap Touch of Knowledge.</text>
+    </card>
+    <card>
+      <name>Pumpkin Hearth</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gjdv83.jpg">DOC</set>
+      <color>B</color>
+      <color>G</color>
+      <manacost>BG</manacost>
+      <cmc>2</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature dies, you may reveal the top card of your library. If it is a land card put it to your hand. Otherwise, you may put it to the graveyard.</text>
+    </card>
+    <card>
+      <name>Hard Bargain</name>
+      <set rarity="Common" picURL="https://mtg.design/i/aliw38.jpg">DOC</set>
+      <color>B</color>
+      <manacost>B</manacost>
+      <cmc>1</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Until end of turn, you may pay 2 life rather than the {B}.</text>
+    </card>
+    <card>
+      <name>Frost Spark</name>
+      <set rarity="Common" picURL="https://mtg.design/i/riqo58.jpg">DOC</set>
+      <color>U</color>
+      <manacost>2UU</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Destroy all tap creatures then tap all creatures.
+</text>
+    </card>
+    <card>
+      <name>Blue Bolt</name>
+      <set rarity="Common" picURL="https://mtg.design/i/adoj26.jpg">DOC</set>
+      <color>U</color>
+      <manacost>U</manacost>
+      <cmc>1</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Return target creature to its owner's hand.  That creature's owner can't cast spells with the same name as that creature until your next turn.</text>
+    </card>
+    <card>
+      <name>Eternity Agent</name>
+      <set rarity="Common" picURL="https://mtg.design/i/spoo85.jpg">DOC</set>
+      <color>W</color>
+      <manacost>4WWW</manacost>
+      <cmc>7</cmc>
+      <type>Creature — Lizard Soldier</type>
+      <pt>3/2</pt>
+      <tablerow>1</tablerow>
+      <text>When this creature enters the battlefield, exile up to three other creatures from the battlefield. For each exiled creature, you create Light Blade enchantment token with "{1}, Sacrifice this enchantment: Deal 1 damage to any target." 
+
+When this creature leaves the battlefield, return the exiled cards to the battlefield under their owner's control.</text>
+    </card>
+    <card>
+      <name>Captain of Roaring Lights</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/atov79.jpg">DOC</set>
+      <color>W</color>
+      <manacost>2WW</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Cat Warrior</type>
+      <pt>4/3</pt>
+      <tablerow>1</tablerow>
+      <text>Vigilance, Trample
+
+Whenever an opponent draws a card that isn't the first card they drawn this turn, Samson, Roaring Light deals 1 damage to target creature of that opponent. </text>
+    </card>
+    <card>
+      <name>Domain Light Bearer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/eqio20.jpg">DOC</set>
+      <color>W</color>
+      <manacost>1W</manacost>
+      <cmc>2</cmc>
+      <type>Creature — Kor</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Exalted
+
+Whenever a Light Blade enchantment token is created, you may pay {1} to tap target creature an opponent controls.</text>
+    </card>
+    <card>
+      <name>Thief of Spells</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cufk38.jpg">DOC</set>
+      <color>U</color>
+      <color>B</color>
+      <manacost>UB</manacost>
+      <cmc>2</cmc>
+      <type>Creature — Elf Rogue</type>
+      <pt>1/2</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever you cast a spell you don't own, draw a card</text>
+    </card>
+    <card>
+      <name>Pale Assembly</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vxdn95.jpg">DOC</set>
+      <color>W</color>
+      <manacost>3WW</manacost>
+      <cmc>5</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature you control dies, you may make Light Blade enchantment token with "{1}, Sacrifice this enchantment: Deal 1 damage to any target." </text>
+    </card>
+    <card>
+      <name>Seer of Truth</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qmwk30.jpg">DOC</set>
+      <color>W</color>
+      <manacost>1W</manacost>
+      <cmc>2</cmc>
+      <type>Creature — Elf Wizard</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever an opponent draws a card except the first one they draw in each of their draw steps, you may scry 1. </text>
+    </card>
+    <card>
+      <name>Banishment Order</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ibnc94.jpg">DOC</set>
+      <color>W</color>
+      <manacost>2W</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>The next time one or more creatures enter the battlefield this turn, exile them instead.</text>
+    </card>
+    <card>
+      <name>Dreamshape</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ygml39.jpg">DOC</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>5UR</manacost>
+      <cmc>7</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Exile all creatures you control. For each creature exiled, reveal the top cards of your library until you reveal a creature card. For each instant or sorcery revealed this way, deal 1 damage to any target, then shuffle the rest into your library.</text>
+    </card>
+    <card>
+      <name>Feathered Serpent</name>
+      <set rarity="Common" picURL="https://mtg.design/i/sida12.jpg">DOC</set>
+      <color>W</color>
+      <manacost>3WW</manacost>
+      <cmc>5</cmc>
+      <type>Creature — Bird Serpent</type>
+      <pt>5/4</pt>
+      <tablerow>1</tablerow>
+      <text>Flying
+
+When this creature dies, you may create Light Blade enchantment token with "{1}, Sacrifice this enchantment: Deal 1 damage to any target." equal to the number of players. </text>
+    </card>
+    <card>
+      <name>Adept Luminomancer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jvjg64.jpg">DOC</set>
+      <color>W</color>
+      <manacost>3W</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Human Wizard</type>
+      <pt>3/2</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever another creature enters the battlefield, you may pay {1} to create a Light Blade enchantment token with "{1}, Sacrifice this enchantment: Deal 1 damage to any target." </text>
+    </card>
+    <card>
+      <name>Knight of Luminescience</name>
+      <set rarity="Common" picURL="https://mtg.design/i/urtc53.jpg">DOC</set>
+      <color>W</color>
+      <manacost>4WW</manacost>
+      <cmc>6</cmc>
+      <type>Creature — Human Knight</type>
+      <pt>4/3</pt>
+      <tablerow>1</tablerow>
+      <text>When this creature enters the battlefield, you may create Light Blade enchantment token with "{1}, Sacrifice this enchantment: Deal 1 damage to any target." equal to the number of creatures you control.</text>
+    </card>
+    <card>
+      <name>Crystallization</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/gafv80.jpg">DOC</set>
+      <color>B</color>
+      <manacost>1BB</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Destroy target creature. If that creature had any +1/+1 counters, you may put them to target creature you control.</text>
+    </card>
+    <card>
+      <name>Crackle of The Stars</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ndef23.jpg">DOC</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>1UR</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Deal X damage to any target where X is equal to the number of cards drawn by you this turn. </text>
+    </card>
+    <card>
+      <name>Flash Lightning</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ulqh35.jpg">DOC</set>
+      <color>U</color>
+      <manacost>3U</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Surge {2}{U}
+
+Draw three cards then put two cards at the top of your library. If the surge cost was paid, the next spell you cast has flash until the end of this turn. </text>
+    </card>
+    <card>
+      <name>Arcana Marking</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vrio80.jpg">DOC</set>
+      <color>U</color>
+      <color>B</color>
+      <manacost>1UB</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Select a card type. Reveal the top four cards of your library, put cards of the chosen type to your hand.  The rest put them to the graveyard.</text>
+    </card>
+    <card>
+      <name>Prime Directive</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qqqb21.jpg">DOC</set>
+      <manacost>6</manacost>
+      <cmc>6</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Sacrifice a nonland permanent you control. Deal damage equal to its converted mana cost to any target.</text>
+    </card>
+    <card>
+      <name>Lux, Proprietor of Light</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/trae61.jpg">DOC</set>
+      <color>W</color>
+      <manacost>2WW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Human Warrior</type>
+      <pt>3/3</pt>
+      <tablerow>1</tablerow>
+      <text>Flying
+
+Whenever this creature or another creature enters the battlefield, create a Light Blade enchantment token with "{1}, Sacrifice this enchantment: Deal 1 damage to any target." </text>
+    </card>
+    <card>
+      <name>Chains of Arrow</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ufip14.jpg">DOC</set>
+      <color>U</color>
+      <manacost>UUU</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Cipher
+
+Tap target permanent. That creature doesn't untap during its controller's next untap step. As long as the permanent is tapped, it loses all abilities.</text>
+    </card>
+    <card>
+      <name>Storm Step</name>
+      <set rarity="Common" picURL="https://mtg.design/i/xhus21.jpg">DOC</set>
+      <color>U</color>
+      <manacost>4UUU</manacost>
+      <cmc>7</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Surge {3}{U}{U}
+
+Exile all creatures in the battlefield , then return those cards under their owners control at the beginning of next upkeep.</text>
+    </card>
+    <card>
+      <name>Frost Strike</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ytib39.jpg">DOC</set>
+      <color>U</color>
+      <manacost>1UU</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Surge {U}{U}
+
+Tap target creature. If the creature is already tapped, destroy it.</text>
+    </card>
+    <card>
+      <name>Soul Shot</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dxev01.jpg">DOC</set>
+      <manacost>XX</manacost>
+      <cmc>0</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Soul Shot deals X damage to any target.</text>
+    </card>
+    <card>
+      <name>Spectral Daggers</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wyio55.jpg">DOC</set>
+      <color>B</color>
+      <manacost>1BB</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>All creatures get -2/-2 until end of turn.
+
+Cycling {2}</text>
+    </card>
+    <card>
+      <name>Untitled</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ghwj64.jpg">DOC</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Creature</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Flicker Cat</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bltw13.jpg">DOC</set>
+      <color>W</color>
+      <manacost>1WW</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Cat</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Flash
+
+Exile target creature you control, return it to the battlefield at the beginning of your next upkeep.</text>
+    </card>
+    <card>
+      <name>Aspect of Light</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kjrf58.jpg">DOC</set>
+      <color>W</color>
+      <manacost>2WW</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+
+When enchanted creature dies, put X Light Blade enchantment tokens with "{1}, Sacrifice this enchantment: deal 1 damage to any target.", where X is enchanted creature's power. </text>
+    </card>
+    <card>
+      <name>Blaze Disciple</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nzpt41.jpg">DOC</set>
+      <color>W</color>
+      <manacost>2W</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Human Wizard</type>
+      <pt>3/2</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever  another nontoken creature enters the battlefield, you may pay {1}. If you do, target creature get -1/-1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Living Reconstruction</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jcrw02.jpg">DOC</set>
+      <color>U</color>
+      <manacost>1U</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Until end of turn, target creature an opponent controls loses all abilities and becomes 5/5 blue Golem.</text>
+    </card>
+    <card>
+      <name>Twist The Strings</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ktdx06.jpg">DOC</set>
+      <color>U</color>
+      <manacost>1UU</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>You may choose new targets for target instant or sorcery.</text>
+    </card>
+    <card>
+      <name>Undying Resolve</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kfgf02.jpg">DOC</set>
+      <color>R</color>
+      <manacost>1R</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose target creature. Until end of turn, that creature gains "When this creature dies, you may pay {2}{R} to return it in the battlefield at the beginning of combat. That creature gains haste until end of turn." </text>
+    </card>
+    <card>
+      <name>Storm Conduit</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dhjg17.jpg">DOC</set>
+      <color>U</color>
+      <manacost>2U</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>3</tablerow>
+      <text>Splice onto Instant {1}{U} 
+
+The next spell you cast has flash.</text>
+    </card>
+    <card>
+      <name>Face Reaping</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/tjof71.jpg">DOC</set>
+      <color>B</color>
+      <manacost>1BB</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Exile a card from a graveyard, you may cast that card for as long as it remains exile, and you may spend mana as though it were any color to cast that spell.</text>
+    </card>
+    <card>
+      <name>Leaving Home</name>
+      <set rarity="Common" picURL="https://mtg.design/i/eeum21.jpg">DOC</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>The next spell you cast you may pay two life for each {B} in a cost.</text>
+    </card>
+    <card>
+      <name>The Lord of Darkness Falls</name>
+      <set rarity="Special" picURL="https://mtg.design/i/szwp08.jpg">DOC</set>
+      <color>B</color>
+      <manacost>4BBB</manacost>
+      <cmc>7</cmc>
+      <type>Legendary Creature — Shade Knight</type>
+      <pt>6/6</pt>
+      <tablerow>1</tablerow>
+      <text>&lt;i&gt;Eminence&lt;/i&gt; Whenever you cast a black spell, exile the top card from your library.
+
+As long as The Lord  of Darkness Falls is in the battlefield, you may cast spells exiled by this creature. </text>
+    </card>
+    <card>
+      <name>Decker Dreams, Arcana Adept</name>
+      <set rarity="Uncommon" picURL="https://mtg.design/i/bpic01.jpg">DOC</set>
+      <color>U</color>
+      <color>B</color>
+      <manacost>2UB</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Human Archer</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever another nontoken creature activates or triggers an ability, that player exiles the top card of their library. Until end of turn, you may cast nonland cards exiled cards this way as though it were mana of any color.  When this creature leaves the battlefield, each owner returns the exiled cards by this creature then shuffles. </text>
+    </card>
+    <card>
+      <name>Vrynn, Vessel of Shadows</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/zztd03.jpg">DOC</set>
+      <color>B</color>
+      <manacost>1B</manacost>
+      <cmc>2</cmc>
+      <type>Legendary Creature — Sorcerer Warlock</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>When Vrynn, Vessel of Shadows enters the battlefield, you gain an experience counter.
+
+{B}{B}{B}: Exile target nonland card from your graveyard. You may cast it without paying its mana cost equal to the number of experience counters you have.</text>
+    </card>
+    <card>
+      <name>Theo, Talents Unnoticed</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qaof36.jpg">DOC</set>
+      <color>U</color>
+      <manacost>1UU</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Creature — Human Wizard</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Surge {1}{U}{U}
+
+If the surge cost was paid, when Theo, Talents Unnoticed enters the battlefield, you may draw cards equal to the number of spells cast this turn.   </text>
+    </card>
+    <card>
+      <name>Denny Dreams, Dreamshaper</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/nesy98.jpg">DOC</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>1UR</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Creature — Human Sorcerer</type>
+      <pt>2/3</pt>
+      <tablerow>1</tablerow>
+      <text>&lt;i&gt;Magecraft&lt;/i&gt; -- Whenever you cast or copy an instant or sorcery spell, reveal the top card of your library. If it is an instant or sorcery spell deal 1 damage to any target then draw the card.</text>
+    </card>
+    <card>
+      <name>Faust, Oreli Physician</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/guug62.jpg">DOC</set>
+      <color>W</color>
+      <manacost>3WW</manacost>
+      <cmc>5</cmc>
+      <type>Planeswalker — Faust</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text> 1: Until the next turn, prevent all  damage that would be dealt to target creature you control. </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

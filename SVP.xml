@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>SVP</name>
+    <longname>SVP</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Sunken Ruin, Voice of Chaos</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/ypcv91.jpg">SVP</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>1BR</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Creature — Cat Cleric</type>
+      <pt>1/5</pt>
+      <tablerow>1</tablerow>
+      <text>Lifelink
+
+{r}, {t}: Flip a coin. If you win the flip, Sunken Ruin, Voice of Chaos deals 3 damage to a target of your choice. If you lose the flip, Sunken Ruin, Voice of Chaos deals damage to a target of your opponent's choice. 
+
+{3}{b}, {t}: Flip a coin. If you win the flip, destroy target creature of your choice. If you lose the flip, destroy target creature of your opponent's choice. </text>
+    </card>
+    <card>
+      <name>Aster, Companion Adept</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/gtkq26.jpg">SVP</set>
+      <color>W</color>
+      <color>U</color>
+      <color>G</color>
+      <manacost>1GWU</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Elemental Fox Demigod</type>
+      <pt>1/6</pt>
+      <tablerow>3</tablerow>
+      <text>Defender
+
+Instant and sorcery spells cost {1} less to cast.
+
+Whenever a player casts an instant or sorcery spell, that player creates an X/X green and blue Elemental creature token, where X is that spell's mana value. </text>
+    </card>
+    <card>
+      <name>Baron Alabaster Sagaxus</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/hvzn97.jpg">SVP</set>
+      <color>W</color>
+      <color>G</color>
+      <manacost>1G/W</manacost>
+      <cmc>2</cmc>
+      <type>Legendary Creature — Bird Druid</type>
+      <pt>0/4</pt>
+      <tablerow>1</tablerow>
+      <text>Defender
+
+Whenever a creature enters the battlefield under your control, untap Baron Alabaster Sagaxus and it loses defender until end of turn.
+
+{1}{g/w}, {t}: Put a +0/+1 counter on target creature. You gain 1 life. </text>
+    </card>
+    <card>
+      <name>Call Lightning</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wcdz19.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Call Lightning deals 3 damage to any target. Exile Call Lightning with one time counter on it.
+
+Suspend 3 -- {3}{r} (Rather than cast this card from your hand, you may {3}{r} and exile it with three time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its cost.) </text>
+    </card>
+    <card>
+      <name>Catnip Vial</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wnhd39.jpg">SVP</set>
+      <manacost>2</manacost>
+      <cmc>2</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +0/+1 and has protection from Cats.
+
+{t}, Sacrifice Catnip Vial: Create a 1/1 white Cat token.
+
+Equip {0} </text>
+    </card>
+    <card>
+      <name>Chocolate Milk Thermos</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kqqh91.jpg">SVP</set>
+      <manacost>4</manacost>
+      <cmc>4</cmc>
+      <type>Artifact</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of each end step, if you gained life, create a Food token. (It's an artifact with "{2}, {t}, Sacrifice this artifact: You gain 3 life.") </text>
+    </card>
+    <card>
+      <name>Coffee Cat</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/ukmt76.jpg">SVP</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>UUURRR</manacost>
+      <cmc>6</cmc>
+      <type>Legendary Creature — Cat</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Flash
+
+When Coffee Cat enters the battlefield, choose one or both:
+•Counter target instant or sorcery spell.
+•Copy target instant or sorcery spell. You may choose new targets for the copy.
+
+When Coffee Cat dies or is put into exile from the battlefield, you may put it in into its owner's library seventh from the top. </text>
+    </card>
+    <card>
+      <name>Chris, Playful Prankster</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gmfp63.jpg">SVP</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>2BR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Weasel</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Hexproof
+
+{1}{B}{R}: Create a black Aura curse enchantment token named Prank attached to target opponent. The token has enchant player and "At the beginning of enchanted player's upkeep, they lose 1 life and you gain 1 life." </text>
+    </card>
+    <card>
+      <name>Dynamite</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vhsr17.jpg">SVP</set>
+      <color>R</color>
+      <manacost>R</manacost>
+      <cmc>1</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, if Dynamite is in your graveyard, you may {2}{r}. If you do, return Dynamite to your hand.
+
+Whenever equipped creature is dealt damage, sacrifice Dynamite and it deals 4 damage to equipped creature.
+
+Equipped creature has "{t}, Sacrifice Dynamite: Dynamite deals 4 damage to any target."
+
+Equip {1} </text>
+    </card>
+    <card>
+      <name>Harmonious Repetition</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/panb25.jpg">SVP</set>
+      <color>W</color>
+      <color>U</color>
+      <color>G</color>
+      <manacost>GWU</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>{3}: Copy target instant or sorcery spell you control. You may choose new targets for it. Any player may activate this ability. </text>
+    </card>
+    <card>
+      <name>Gambling Addiction</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kuku12.jpg">SVP</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>2B/R</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+
+Whenever enchanted creature would deal damage to a permanent or player, flip a coin. If you win the flip, it deals double that damage to that permanent or player instead. If you lose the flip, prevent all damage enchanted creature would deal. </text>
+    </card>
+    <card>
+      <name>Kitsune, God of Illusions</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/mobd82.jpg">SVP</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>4BR</manacost>
+      <cmc>6</cmc>
+      <type>Legendary Enchantment Creature — God Fox</type>
+      <pt>5/5</pt>
+      <tablerow>1</tablerow>
+      <text>Indestructible
+
+As long as your devotion to black and red is less than seven, Kitsune isn't a creature.
+
+At the beginning of your upkeep, flip two coins. For each flip you win, each opponent either discards a card or loses 3 life. </text>
+    </card>
+    <card>
+      <name>Holly, Liberator of Neelai</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/iyyd88.jpg">SVP</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>2RB</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Wolf Assassin</type>
+      <pt>3/4</pt>
+      <tablerow>1</tablerow>
+      <text>Partner with Procyon, Faithful Companion
+
+Whenever Holly, Liberator of Neelai attacks, you may have your creatures assign their combat damage as though they weren't blocked. </text>
+    </card>
+    <card>
+      <name>Procyon, Faithful Companion</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/cjrd35.jpg">SVP</set>
+      <color>W</color>
+      <color>G</color>
+      <manacost>2GW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Hyena</type>
+      <pt>4/3</pt>
+      <tablerow>1</tablerow>
+      <text>Partner with Holly, Liberator of Neelai
+
+Whenever a creature you control deals combat damage to a player, draw a card. </text>
+    </card>
+    <card>
+      <name>Desensitization</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bdux33.jpg">SVP</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>2UR</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose one:
+
+•&lt;i&gt;Blindness&lt;/i&gt; -- Target creature gets -2/-0 until end of turn. Whenever that creature is dealt damage this turn, that creature is dealt double that damage instead.
+
+•&lt;i&gt;Deafness&lt;/i&gt; -- Tap target creature. It doesn't untap during its controller's next untap step. Draw a card. </text>
+    </card>
+    <card>
+      <name>Temple of Kitsune</name>
+      <set rarity="Basic Land" picURL="https://mtg.design/i/mfwz89.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Flip a coin. If you win the flip, you gain {B}{R}. If you lose the flip, target opponent gains {B}{R} at their next precombat main phase. </text>
+    </card>
+    <card>
+      <name>Wrath of the Storm</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vgje29.jpg">SVP</set>
+      <color>R</color>
+      <manacost>2RR</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose target creature you control. Whenever that creature is dealt damage from a creature source until end of turn, Wrath of the Storm deals that much damage to that creature. Whenever that creature is dealt damage from a noncreature source until end of turn, Wrath of the Storm deals that much damage to that source's controller. </text>
+    </card>
+    <card>
+      <name>Stabilization</name>
+      <set rarity="Common" picURL="https://mtg.design/i/eznj24.jpg">SVP</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Regenerate target creature. Draw a card. </text>
+    </card>
+    <card>
+      <name>Induction to the Fox God</name>
+      <set rarity="Common" picURL="https://mtg.design/i/mmnv14.jpg">SVP</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>XBR</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Flip X coins. For each flip you win, gain control of target creature until end of turn. It gains haste until end of turn. </text>
+    </card>
+    <card>
+      <name>Dani, Mythbusting Chemist</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/rhfc16.jpg">SVP</set>
+      <manacost>2</manacost>
+      <cmc>2</cmc>
+      <type>Legendary Creature — Human</type>
+      <pt>0/3</pt>
+      <tablerow>1</tablerow>
+      <text>If Dani, Mythbusting Chemist is your commander, choose any number of colors before the game begins. Dani, Mythbusting Chemist are those chosen colors.
+
+{t}:Add one mana of any color in your commander's color identity.
+{t}: Draw a card. Activate only if you created a token this turn. </text>
+    </card>
+    <card>
+      <name>Fellyr Infestation</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ykak85.jpg">SVP</set>
+      <color>W</color>
+      <color>G</color>
+      <manacost>X1GW</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Create X green and white Cat tokens called Fellyr with "This creature's power and toughness are equal to the number of cats you control." </text>
+    </card>
+    <card>
+      <name>Digital Deluge</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kybq53.jpg">SVP</set>
+      <color>B</color>
+      <manacost>BBBB</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment — Curse</type>
+      <tablerow>1</tablerow>
+      <text>Enchant Player
+
+At the beginning of enchanted player's upkeep, that  player creates three 0/1 colorless Pixels tokens with "When this creature dies, it deals 1 damage to you."
+
+If enchanted player has no creatures, sacrifice Digital Deluge and enchanted player loses 10 life. </text>
+    </card>
+    <card>
+      <name>Winnow the Weak</name>
+      <set rarity="Common" picURL="https://mtg.design/i/szoa75.jpg">SVP</set>
+      <color>B</color>
+      <manacost>1BB</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Each player chooses a creature with the greatest power amongst creatures they control. Each player sacrifices all creatures except the chosen creature. </text>
+    </card>
+    <card>
+      <name>Gambler's Coins</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/umdc81.jpg">SVP</set>
+      <manacost>1</manacost>
+      <cmc>1</cmc>
+      <type>Legendary Artifact</type>
+      <tablerow>1</tablerow>
+      <text>Whenever you win a coin flip, put a luck counter on Gambler's Coins. Then if it has seven or more luck counters on it, remove them and transform Gambler's Coins.
+
+{t}: Flip a coin. If you win the flip, add {c}.</text>
+    </card>
+    <card>
+      <name>Gambler's Vault</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/cqrb78.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add one mana of any color. 
+{2}, {t}: Double the amount of each type of unspent mana you have. </text>
+    </card>
+    <card>
+      <name>The Prisoner's Dilemma</name>
+      <set rarity="Common" picURL="https://mtg.design/i/rwhv38.jpg">SVP</set>
+      <color>B</color>
+      <manacost>3B</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose target opponent. You select a nonland permanent you control and they control.
+
+Both of you simultaneously vote for split or steal. If steal has more votes, exile both permanents. If the vote is tied, the player who voted steal takes control of the other's permanent. If split has more votes, each player loses life equal to their selected permanent's mana cost. </text>
+    </card>
+    <card>
+      <name>Organ Donation</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hajt93.jpg">SVP</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Sacrifice a creature: Draw a card. Any player may activate this ability. </text>
+    </card>
+    <card>
+      <name>Stubborn Bet</name>
+      <set rarity="Common" picURL="https://mtg.design/i/uidk96.jpg">SVP</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Flip a coin. If you win the flip, copy target instant or sorcery spell twice. You may choose new targets for the copy. If you lose the flip, Stubborn Bet deals 3 damage to you. </text>
+    </card>
+    <card>
+      <name>Recruiting of the Dragon... Guild</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vfrf12.jpg">SVP</set>
+      <color>B</color>
+      <manacost>3B</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>&lt;i&gt;Tempting Offer&lt;/i&gt; -- Create a Treasure token and draw a card. Each opponent may create a Treasure token and draw a card. For each opponent who does, create a Treasure token and draw a card. </text>
+    </card>
+    <card>
+      <name>Las Vanitas</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/cdpp07.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {c}.
+{t}: Flip a coin. If you win the flip, gain {3}. If you lose the flip, target opponent gains control of Las Vanitas. Untap it. </text>
+    </card>
+    <card>
+      <name>Mikhail, Scholar of the Dark Arts</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/frva23.jpg">SVP</set>
+      <color>B</color>
+      <manacost>2BB</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Human</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>When Mikhail, Scholar of the Dark Arts enters the battlefield, you may search your library for a card named The Forbidden Codex, reveal it, put it in your hand, then shuffle.
+
+Whenever you lose life for the first time on your turn, you may sacrifice a creature. If you do, exile target creature. </text>
+    </card>
+    <card>
+      <name>The Forbidden Codex</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/zilz15.jpg">SVP</set>
+      <color>B</color>
+      <manacost>1B</manacost>
+      <cmc>2</cmc>
+      <type>Legendary Artifact</type>
+      <tablerow>1</tablerow>
+      <text>{t}, Pay 1 life: Create a 1/1 black Rat creature token.
+{t}, Sacrifice a creature: Draw a card.
+{6}, {t}, Pay 6 life, Sacrifice 6 creatures: Create a 13/13 black legendary Demon creature called Baphomet with flying, indestructible, and haste. </text>
+    </card>
+    <card>
+      <name>Multipli-Cats</name>
+      <set rarity="Common" picURL="https://mtg.design/i/zian66.jpg">SVP</set>
+      <color>W</color>
+      <color>G</color>
+      <manacost>3GW</manacost>
+      <cmc>5</cmc>
+      <type>Creature — Cat</type>
+      <pt>*/*</pt>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, create a token that's a copy of Multipli-Cats.
+
+This creature's power and toughness are equal to the number of cats you control. </text>
+    </card>
+    <card>
+      <name>Meire, Playful Jackal</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/fncc41.jpg">SVP</set>
+      <color>R</color>
+      <manacost>R</manacost>
+      <cmc>1</cmc>
+      <type>Legendary Planeswalker — Meire</type>
+      <loyalty>1</loyalty>
+      <tablerow>1</tablerow>
+      <text>1: Each player creates a Treasure token. </text>
+    </card>
+    <card>
+      <name>Final Gambit</name>
+      <set rarity="Common" picURL="https://mtg.design/i/asuf77.jpg">SVP</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Each player may discard their hand, then each who discarded their hand this way searches their library for a card, reveals it, puts it in their hand, and shuffles. </text>
+    </card>
+    <card>
+      <name>Felimorph</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bmri46.jpg">SVP</set>
+      <color>G</color>
+      <manacost>2G</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Target creature loses all its abilities and becomes a green Cat creature with power and toughness equal to its mana value.
+
+Draw a card. </text>
+    </card>
+    <card>
+      <name>Draconic Greed</name>
+      <set rarity="Common" picURL="https://mtg.design/i/fzvg10.jpg">SVP</set>
+      <color>R</color>
+      <manacost>4R</manacost>
+      <cmc>5</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Affinity for artifacts (This spell costs {1} less for each artifact you control.)
+
+Gain control of target artifact you don’t own. Untap it. </text>
+    </card>
+    <card>
+      <name>Echollector Sonarch III</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/iqec79.jpg">SVP</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>2BR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Bat Dragon Noble</type>
+      <pt>5/5</pt>
+      <tablerow>1</tablerow>
+      <text>Flying
+
+Whenever Echollector Sonarch III deals combat damage, put a greed counter on Echollector Sonarch III. 
+
+Remove a greed counter on Echollector Sonarch III, choose one:
+•Make two treasure tokens. 
+•Exile the top card of target opponent’s library. If it’s a noncreature card, you may play that card this turn, and you may spend mana as though it were mana of any color to cast this spell. </text>
+    </card>
+    <card>
+      <name>High Stakes Auction</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qqtz95.jpg">SVP</set>
+      <color>B</color>
+      <manacost>4B</manacost>
+      <cmc>5</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, exile the top card of each player's library. You bid any amount of life. In turn order, each player may top the high bid. The bidding ends if the high bid stands. The high bidder loses life equal to the high bid and may play the exiled cards without paying its mana cost. </text>
+    </card>
+    <card>
+      <name>Kartoon, Game Boy</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/iept85.jpg">SVP</set>
+      <color>U</color>
+      <manacost>2UU</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Pixel Artificer</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Flash
+
+Whenever Kartoon, Game Boy enters the battlefield, choose one:
+•&lt;i&gt;Buffer&lt;/i&gt; -- Exile target permanent with three time counters. If it doesn't have suspend, it gains suspend.
+•&lt;i&gt;Disconnect&lt;/i&gt; -- Counter target spell.</text>
+    </card>
+    <card>
+      <name>Take Hostage</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nhug31.jpg">SVP</set>
+      <color>R</color>
+      <manacost>1R</manacost>
+      <cmc>2</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>You can’t cast this spell unless you dealt combat damage this turn. 
+
+Enchant creature owned by target opponent that was dealt combat damage
+
+You control enchanted creature. Tap it. That creature doesn’t untap during its controller’s untap phase. 
+
+If you are dealt combat damage, sacrifice Take Hostage. </text>
+    </card>
+    <card>
+      <name>Take No Prisoners</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jlju19.jpg">SVP</set>
+      <color>B</color>
+      <manacost>4BB</manacost>
+      <cmc>6</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>You can’t cast this spell unless you dealt combat damage this turn. 
+
+Destroy all creatures target opponent controls if they were dealt combat damage this turn. </text>
+    </card>
+    <card>
+      <name>Hour Devourer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/mqac60.jpg">SVP</set>
+      <manacost>1</manacost>
+      <cmc>1</cmc>
+      <type>Artifact Creature — Construct</type>
+      <pt>0/1</pt>
+      <tablerow>1</tablerow>
+      <text>If there are 12 cards named Hour Devourer in your graveyard, shuffle those cards into your library. 
+
+A deck can have any number of cards named Hour Devourer. 
+
+Cycling {2} ({2}, Discard this card: Draw a card.) </text>
+    </card>
+    <card>
+      <name>Meowlligan</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vncw43.jpg">SVP</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Each player may shuffle their hand into their library. Each player that shuffled their hand this way draws cards equal to the cards they had in hand plus one. Each player that did not shuffle their hand into their library draws a card. </text>
+    </card>
+    <card>
+      <name>Bag of Kittens</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dvgp86.jpg">SVP</set>
+      <manacost>1</manacost>
+      <cmc>1</cmc>
+      <type>Artifact</type>
+      <tablerow>1</tablerow>
+      <text>{2}: Put a Yarn counter on Bag of Kittens.
+{t}, Remove X Yarn counters: create X 1/1 green and white Cat creature tokens. 
+{t}, Remove X Yarn counters, Sacrifice Bag of Kittens: Cast any number of Cat creature spells from your hand  with X mana value or less. </text>
+    </card>
+    <card>
+      <name>Luck Loaded</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nrnt14.jpg">SVP</set>
+      <color>R</color>
+      <manacost>R</manacost>
+      <cmc>1</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Buyback {3} (You may pay an addition {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
+
+All other players may draw a card.  If majority of the others players do, redo a coin flip or a dice roll and choose one of the outcomes. </text>
+    </card>
+    <card>
+      <name>Swamp</name>
+      <set rarity="Basic Land" picURL="https://mtg.design/i/aihd69.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Basic Land — Swamp</type>
+      <tablerow>1</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Mountain</name>
+      <set rarity="Basic Land" picURL="https://mtg.design/i/czvk72.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Basic Land — Mountain</type>
+      <tablerow>1</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Plains</name>
+      <set rarity="Basic Land" picURL="https://mtg.design/i/whme98.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Basic Land — Plains</type>
+      <tablerow>1</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Island</name>
+      <set rarity="Basic Land" picURL="https://mtg.design/i/dkvn06.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Basic Land — Island</type>
+      <tablerow>1</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Forest</name>
+      <set rarity="Basic Land" picURL="https://mtg.design/i/ojfe73.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Basic Land — Forest</type>
+      <tablerow>1</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Kioshi Signis, Abyss Agent</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jxsf99.jpg">SVP</set>
+      <color>B</color>
+      <manacost>3B</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Fox Rogue</type>
+      <pt>3/1</pt>
+      <tablerow>1</tablerow>
+      <text>Undying (When a creature with undying dies, if it had no +1/+1 counters on it,  return it to the battlefield under the owner's control with a +1/+1 counter on it.)
+
+When Kioshi Signis, Abyss Agent dies with one or more +1/+1 counters, return it to it’s owner hand during the end step. </text>
+    </card>
+    <card>
+      <name>Decimation of Aag</name>
+      <set rarity="Common" picURL="https://mtg.design/i/svux86.jpg">SVP</set>
+      <color>R</color>
+      <manacost>3R</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment Saga</type>
+      <tablerow>1</tablerow>
+      <text>Search your library for an equipment artifact, put it in your hand, reveal it, then shuffle. </text>
+    </card>
+    <card>
+      <name>Utter Prohibition</name>
+      <set rarity="Common" picURL="https://mtg.design/i/lzru22.jpg">SVP</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Exile target creature or planeswalker that dealt damage to you or a permanent you control or targeted you or a permanent you control. 
+
+Draw a card. </text>
+    </card>
+    <card>
+      <name>Race for Treasure Island</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/qnal75.jpg">SVP</set>
+      <manacost>4</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Artifact</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of each upkeep, each player flips a coin. If that player wins the flip, that player creates a Treasure token. 
+
+At each end step, if a player has five or more Treasure tokens, transform Race for Treasure Island under player’s control with the most amount of treasures. </text>
+    </card>
+    <card>
+      <name>Aureisse, Treasure Island</name>
+      <set rarity="Common" picURL="https://mtg.design/i/eahb93.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>Shroud
+
+{t}: Add one mana of any color. 
+{2}, Sacrifice a Treasure token: Add a Treasure counter on Aureisse, Treasure Island. 
+{t}: Add X mana in any combination of colors, where X is the amount of Treasure counters on Aureisse, Treasure Island. </text>
+    </card>
+    <card>
+      <name>Continuous Pilferage</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/pnwy84.jpg">SVP</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>BRRR</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment — Aura Curse</type>
+      <tablerow>1</tablerow>
+      <text>Enchant Player
+
+Whenever enchanted player creates a Treasure or Food token, you create those tokens instead. </text>
+    </card>
+    <card>
+      <name>Astral Puzzle Orb</name>
+      <set rarity="Common" picURL="https://mtg.design/i/yjnr53.jpg">SVP</set>
+      <manacost>3</manacost>
+      <cmc>3</cmc>
+      <type>Artifact</type>
+      <tablerow>2</tablerow>
+      <text>{1}, {t}: Investigate. (Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)
+
+Sacrifice three Clue tokens and Astral Puzzle Orb: Search your library for an Enchantment Creature card, reveal it, put it in your hand, then shuffle. </text>
+    </card>
+    <card>
+      <name>Death Keeper</name>
+      <set rarity="Common" picURL="https://mtg.design/i/unmj77.jpg">SVP</set>
+      <color>B</color>
+      <manacost>3B</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Spirit</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Indestructible
+
+All other creatures have Cumulative Upkeep {1}. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)</text>
+    </card>
+    <card>
+      <name>Dragon of the Pillow Fort</name>
+      <set rarity="Common" picURL="https://mtg.design/i/zdkr72.jpg">SVP</set>
+      <color>R</color>
+      <manacost>3RR</manacost>
+      <cmc>5</cmc>
+      <type>Creature — Dragon</type>
+      <pt>3/5</pt>
+      <tablerow>1</tablerow>
+      <text>Defender
+
+Whenever this creature blocks, creatures it blocked loses first strike, double strike, and trample until end of turn. </text>
+    </card>
+    <card>
+      <name>Feline Cataclysm</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cvon90.jpg">SVP</set>
+      <color>W</color>
+      <manacost>2WW</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Destroy all creatures. For each creature destroyed this way, its controller creates a 1/1 white Cat creature token with Lifelink. </text>
+    </card>
+    <card>
+      <name>Cat Doll</name>
+      <set rarity="Common" picURL="https://mtg.design/i/tagp62.jpg">SVP</set>
+      <color>W</color>
+      <manacost>W</manacost>
+      <cmc>1</cmc>
+      <type>Artifact Creature — Cat</type>
+      <pt>0/1</pt>
+      <tablerow>1</tablerow>
+      <text>Lifelink
+
+When you cast this spell,  it gets a +1/+1 counter and cost {1} more for each time you've cast Cat Doll. 
+
+At the beginning of your upkeep, if Cat Doll is in your graveyard, return it to your hand. 
+
+If Cat Doll would die with 9 or more +1/+1 counters, exile it instead. </text>
+    </card>
+    <card>
+      <name>The Tower</name>
+      <set rarity="Common" picURL="https://mtg.design/i/oafe34.jpg">SVP</set>
+      <manacost>3</manacost>
+      <cmc>3</cmc>
+      <type>Artifact</type>
+      <tablerow>1</tablerow>
+      <text>You can only cast The Tower if your life total is half of the starting life total.
+
+{t}, Add a Chaos counter: Tap all your lands, then lose all unspent mana. Destroy all other nonland permanents you control.  Activate only as sorcery. 
+
+{t}, Remove all Chaos counters from The Tower:  Tap all lands target opponent controls, then they lose all unspent mana. Destroy all nonland permanents they control. </text>
+    </card>
+    <card>
+      <name>Paid Hunting</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wlad50.jpg">SVP</set>
+      <color>G</color>
+      <manacost>4G</manacost>
+      <cmc>5</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>2</tablerow>
+      <text>Enchant Creature
+
+Enchanted creature gets +2/+0. 
+
+Whenever a creature is destroyed by combat damage from enchanted creature, draw a card. </text>
+    </card>
+    <card>
+      <name>Mother Signis</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/iuea34.jpg">SVP</set>
+      <color>W</color>
+      <manacost>3WW</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Creature — Fox Angel</type>
+      <pt>4/7</pt>
+      <tablerow>2</tablerow>
+      <text>Lifelink, defender
+
+Creatures you control with toughness less than Mother Signis have hexproof. 
+
+When Mother Signis dies, return it to its owner’s hand at the beginning of the next end step. </text>
+    </card>
+    <card>
+      <name>Prank</name>
+      <set rarity="Token" picURL="https://mtg.design/i/uwgr41.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Token Enchantment — Aura Curse</type>
+      <color>B</color>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>Enchant Player
+
+At the beginning of enchanted player’s upkeep, enchanted player loses 1 life and you gain 1 life. 
+</text>
+    </card>
+    <card>
+      <name>Fellyr</name>
+      <set rarity="Common" picURL="https://mtg.design/i/srff92.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Token Creature — Cat</type>
+      <pt>*/*</pt>
+      <color>GW</color>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>This creature's power and toughness are equal to the number of cats you control. </text>
+    </card>
+    <card>
+      <name>Pixel</name>
+      <set rarity="Token" picURL="https://mtg.design/i/tegj78.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Token Creature — Pixel</type>
+      <pt>1/1</pt>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>When this creature dies, it deals 1 damage to you. </text>
+    </card>
+    <card>
+      <name>Baphomet</name>
+      <set rarity="Token" picURL="https://mtg.design/i/eunu42.jpg">SVP</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Token Creature — Demon</type>
+      <pt>13/13</pt>
+      <color>B</color>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>Flying, indestructible, haste </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

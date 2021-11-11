@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>TRI</name>
+    <longname>TRI</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Joseph, The Dark Prince</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/tozw70.jpg">TRI</set>
+      <color>W</color>
+      <color>B</color>
+      <color>R</color>
+      <manacost>1W/BW/BR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Human Spectre</type>
+      <pt>3/4</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever Joseph, The Dark Prince deals damage, you may pay {W} or {B}. If you paid {W}, place a Reconciliation counter on Joseph, The Dark Prince. If you paid {B}, place an Ascension counter on Joseph, The Dark Prince.
+
+{1}{R}{R}: Gain double strike until the start of your next turn.
+
+Remove 3 Reconciliation counters: Transform Joseph, The Dark Prince into The Forgiven.
+
+Remove 3 Ascension counters: Transform Joseph, The Dark Prince into Aaron, The Dark Knight </text>
+    </card>
+    <card>
+      <name>Aaron, The Dark Knight</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/ssza92.jpg">TRI</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Creature — Spectre</type>
+      <pt>5/5</pt>
+      <tablerow>1</tablerow>
+      <text>Deathtouch, Intimidate
+Whenever Aaron, The Dark Knight attacks, place a -1/-1 counter on Aaron, The Dark Knight.
+
+{B}: Remove one -1/-1 counter from Aaron, The Dark Knight.
+{R}: Add a +1/+1 counter to Aaron, The Dark Knight</text>
+    </card>
+    <card>
+      <name>The Forgiven</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/ghrj24.jpg">TRI</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Creature — God</type>
+      <pt>4/7</pt>
+      <tablerow>1</tablerow>
+      <text>Indestructible.
+Whenever the Forgiven has an anger counter, The Forgiven gains +3/-3 and intimidate.
+{R}{R}: Sacrifice a creature you control. The Forgiven gains an anger counter. Cannot be used when there is an anger counter.
+{W}{W}: Regenerate target creature. Remove an anger counter from The Forgiven.</text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

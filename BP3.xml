@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>BP3</name>
+    <longname>BP3</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Speedrunning</name>
+      <set rarity="Common" picURL="https://mtg.design/i/zyaf65.jpg">BP3</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Vanishing 3
+
+Each creature card in your hand has Dash equal to its casting cost and flash. 
+
+Whenever a creature you control dies, exile it instead. </text>
+    </card>
+    <card>
+      <name>Blackpaw</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/wdyh51.jpg">BP3</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>BR</manacost>
+      <cmc>2</cmc>
+      <type>Legendary Creature — Cat</type>
+      <pt>0/2</pt>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, discard a card. If you can't, sacrifice Blackpaw.
+
+Whenever you discard a card, create a Book token.
+
+Blackpaw gets +1/+1 for each Book token you control. </text>
+    </card>
+    <card>
+      <name>Book</name>
+      <set rarity="Token" picURL="https://mtg.design/i/qdcf16.jpg">BP3</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>token Artifact — Book</type>
+      <tablerow>1</tablerow>
+      <text>Sacrifice three Book tokens: Draw a card. </text>
+    </card>
+    <card>
+      <name>Undying Experiment</name>
+      <set rarity="Common" picURL="https://mtg.design/i/unwx14.jpg">BP3</set>
+      <color>U</color>
+      <color>G</color>
+      <manacost>1UG</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Insect</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Mutate {3}{U}{G}
+
+Whenever this creature dies, return it and all creatures mutated with it to your hand. </text>
+    </card>
+    <card>
+      <name>Cruel Combination</name>
+      <set rarity="Common" picURL="https://mtg.design/i/sjcb02.jpg">BP3</set>
+      <color>B</color>
+      <manacost>2BBBB</manacost>
+      <cmc>6</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Destroy all Human creatures.
+
+Each player chooses a creature they control. They put all other creatures they control under the chosen creature. These creatures mutate into the creature on top, plus all abilities from under it. </text>
+    </card>
+    <card>
+      <name>Thinking Big</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jkps44.jpg">BP3</set>
+      <color>R</color>
+      <manacost>RRRR</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Change each instance of “target” to “each” on the text of target instant or sorcery that targets a single permanent or player. 
+
+Exile Thinking Big. </text>
+    </card>
+    <card>
+      <name>Thinking Small</name>
+      <set rarity="Common" picURL="https://mtg.design/i/sllf65.jpg">BP3</set>
+      <color>U</color>
+      <manacost>UUU</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Change each instance of “each” to “target” on the text of target instant or sorcery. 
+
+Exile Thinking Small. </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

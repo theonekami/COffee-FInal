@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>SEX</name>
+    <longname>SEX</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>The burning Ocean</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hbqf75.jpg">SEX</set>
+      <color>R</color>
+      <manacost>2RR</manacost>
+      <cmc>4</cmc>
+      <type>World Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature enters the battlefield, The burning Ocean deals X to that creature's controller where X is equal to the number of spells cast this turn </text>
+    </card>
+    <card>
+      <name>Olma, The Last Necromancer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/akrp90.jpg">SEX</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>2BW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Human</type>
+      <pt>1/4</pt>
+      <tablerow>1</tablerow>
+      <text>Indestructible, Hexproof, Haste
+Daybound
+Whenever Olma, The Last Necromancer enters the battlefield or transforms, each opponent loses 3 life and you gain 3 life </text>
+    </card>
+    <card>
+      <name>Olma, The Obsessed</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qzmb29.jpg">SEX</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Creature — Human</type>
+      <pt>4/4</pt>
+      <tablerow>1</tablerow>
+      <text>Nightbound
+Whenever Olma, The Obsessed transforms, sacrifice him unless he has 2 life counters, then remove those  counters
+Whenever a player casts a spell, you gain 2 life and remove a life counter from Olma, The Obsessed
+Whenever you cast a spell, each opponent loses 2 life and put a life counter on Olma, The Obsessed </text>
+    </card>
+    <card>
+      <name>Blemishine, Radiant Knight</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ezgd17.jpg">SEX</set>
+      <color>W</color>
+      <manacost>3WW</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Creature — Human</type>
+      <pt>3/7</pt>
+      <tablerow>1</tablerow>
+      <text>Defender
+{W}{W}: Blemishine, Radiant Knight loses defender and swaps power and toughness </text>
+    </card>
+    <card>
+      <name>Klinton Fullblast</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/lgoz58.jpg">SEX</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>3UR</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Creature — Gnome</type>
+      <pt>3/4</pt>
+      <tablerow>1</tablerow>
+      <text>As an additional cost to cast Klinton Fullblast,  discard  a card
+
+when Klinton Fullblast enters the battlefield,  he deals X damage to up to three targets where X is the number of cards discarded this turn </text>
+    </card>
+    <card>
+      <name>Revilos, Lone Slayer</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/ybjw15.jpg">SEX</set>
+      <color>W</color>
+      <color>R</color>
+      <manacost>2RW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Human</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Exalted, Protection from Dragons
+When Revilos, Lone Slayer attacks alone, double his power and toughness
+When Revilos, Lone Slayeris equipped, gains  Indestructible </text>
+    </card>
+    <card>
+      <name>Exarch Magnus</name>
+      <set rarity="Common" picURL="https://mtg.design/i/epnk17.jpg">SEX</set>
+      <color>W</color>
+      <color>R</color>
+      <manacost>2WR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +2/+2, vigilance and trample.
+
+Equipped creature can only attack each player once per turn.
+
+When equipped creature attacks alone, after this phase, there is an additional combat phase.
+Equip {4}</text>
+    </card>
+    <card>
+      <name>Arcane Chaos</name>
+      <set rarity="Common" picURL="https://mtg.design/i/krud53.jpg">SEX</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>2RB</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Each player may draw 2, then each opponent that drew must discard 2  cards at random</text>
+    </card>
+    <card>
+      <name>Plagiarist</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dqhq59.jpg">SEX</set>
+      <color>W</color>
+      <color>U</color>
+      <manacost>2WU</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Human Rogue Wizard</type>
+      <pt>1/2</pt>
+      <tablerow>1</tablerow>
+      <text>Flash
+When Plagiarist enters the battlefield, you may copy target spell or ability</text>
+    </card>
+    <card>
+      <name>Plagiarism</name>
+      <set rarity="Common" picURL="https://mtg.design/i/lbrz99.jpg">SEX</set>
+      <color>W</color>
+      <color>U</color>
+      <manacost>3WU</manacost>
+      <cmc>5</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Flash
+Copy Target ability or spell
+{3}{W}{U}: Copy Target ability or spell then return up to one target nonland permanent to its owner's hand. Activate this ability only once per turn
+"I just need to change it a bit right?" </text>
+    </card>
+    <card>
+      <name>Against The World</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ulgl74.jpg">SEX</set>
+      <color>W</color>
+      <color>G</color>
+      <manacost>3WG</manacost>
+      <cmc>5</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Target creature's base power and toughness become 20/1 and loses and cannot gain indestructible or unblockable
+Toughness cannot be increased  regardless of +1/+1 counters, equipments, enchantments, or until end of turn effects </text>
+    </card>
+    <card>
+      <name>Zentreya, The Gecko</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wgqk15.jpg">SEX</set>
+      <color>R</color>
+      <manacost>1RR</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Creature — Gecko Dragon</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Cannot be countered
+Haste, Menace
+{X}{X}{T}: deal X to any target then deal half that damage rounded down to 2 other targets.</text>
+    </card>
+    <card>
+      <name>Blemishine's Longsword</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hozz91.jpg">SEX</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>2/BWW</manacost>
+      <cmc>3</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>2</tablerow>
+      <text>Equipped Creature gets +2/+2, Trample, and Liifelink
+{W/B}{W/B} Unattach Blemishine's Longsword:  put a Blemishine, The Fallen Knight from your hand, library, or graveyard onto the battlefield and attach this card to it
+Equip 2 </text>
+    </card>
+    <card>
+      <name>Blemishine's Platemail</name>
+      <set rarity="Common" picURL="https://mtg.design/i/yeeu95.jpg">SEX</set>
+      <manacost>3</manacost>
+      <cmc>3</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +0/+2
+Sacrifice Blemishine's Platemail and Blemishine's Shield:  Put a Blemishine, Radiant Knight from your hand, library, or graveyard onto the battlefield 
+Equip {2} </text>
+    </card>
+    <card>
+      <name>Blemishine's Shield</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ckfc12.jpg">SEX</set>
+      <manacost>2</manacost>
+      <cmc>2</cmc>
+      <type>Artifact — Equipment</type>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +0/+2,  Vigilance, and Hexproof
+Equip {1} </text>
+    </card>
+    <card>
+      <name>Confused Mind</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gqvj57.jpg">SEX</set>
+      <color>B</color>
+      <manacost>BB</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>target player draws 2 cards then discards 1 card and loses 2 life </text>
+    </card>
+    <card>
+      <name>Fiery Evocation</name>
+      <set rarity="Common" picURL="https://mtg.design/i/grwf28.jpg">SEX</set>
+      <color>W</color>
+      <color>U</color>
+      <color>R</color>
+      <manacost>2/W2/U2/R</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>deal 4 damage to any target, then draw 2 or target player gains 4 life </text>
+    </card>
+    <card>
+      <name>Klinton's Trickery</name>
+      <set rarity="Common" picURL="https://mtg.design/i/esdt04.jpg">SEX</set>
+      <color>W</color>
+      <color>U</color>
+      <manacost>2WU</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Prevent opponents from gaining life, if life gain would be prevented this way it deals damage to the player instead
+
+Whenever you discard a card, each opponent gains 2 life </text>
+    </card>
+    <card>
+      <name>Klinton's Logic Class</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cwad53.jpg">SEX</set>
+      <color>W</color>
+      <color>U</color>
+      <manacost>2WU</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, each player draws a card
+whenever a player draws a card , except for the first one they draw in each of their draw steps, they discard a card </text>
+    </card>
+    <card>
+      <name>Reweave</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/fqgt70.jpg">SEX</set>
+      <color>U</color>
+      <manacost>UU</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Counter target spell
+Each player may draw a card, then each player discards a card </text>
+    </card>
+    <card>
+      <name>Invisibility</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nlko13.jpg">SEX</set>
+      <color>W</color>
+      <color>U</color>
+      <manacost>2WU</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Return target creature you control to its owner's hand
+Draw a card, then each opponent discards a card </text>
+    </card>
+    <card>
+      <name>Paranoid Warden</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vlcs77.jpg">SEX</set>
+      <color>G</color>
+      <manacost>2GG</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Elf</type>
+      <pt>2/3</pt>
+      <tablerow>1</tablerow>
+      <text>spells you control cannot be countered
+{T}: Add {G}
+Sacrifice Paranoid Warden:permanents you control gain Hexproof and Indestructible </text>
+    </card>
+    <card>
+      <name>Blemishine, The Fallen Knight</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bgjv52.jpg">SEX</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>2WB</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Human</type>
+      <pt>3/3</pt>
+      <tablerow>1</tablerow>
+      <text>When Blemishine, The Fallen Knight enters the battlefield or attacks, each player discards a card
+Boast {W}{B}: Exile Blemishine, The Fallen Knight, then return her to the battlefield under your control </text>
+    </card>
+    <card>
+      <name>Varena, Queen of the Arachnids</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dztl75.jpg">SEX</set>
+      <color>B</color>
+      <color>G</color>
+      <manacost>5BG</manacost>
+      <cmc>7</cmc>
+      <type>Legendary Creature — Elf</type>
+      <pt>4/6</pt>
+      <tablerow>2</tablerow>
+      <text>When Varena, Queen of the Arachnids enters the battlefield, create X 1/2 Black Green Spider Tokens with deathtouch and reach where X is the number of creatures in each graveyard and on the battlefield.
+{G}{G}: Varena, Queen of the Arachnids gains "creatures you control get +1/+1" until end of turn
+{2}{B}{G}: Creatures you control gain Infect until end of turn </text>
+    </card>
+    <card>
+      <name>Painting Nothing</name>
+      <set rarity="Common" picURL="https://mtg.design/i/mypu00.jpg">SEX</set>
+      <color>W</color>
+      <color>U</color>
+      <manacost>2WU</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Devoid
+create a 4/4 colorless Eldrazi Token
+Scry 2 </text>
+    </card>
+    <card>
+      <name>Klinton, The Feywild Abomination</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/zngz00.jpg">SEX</set>
+      <color>W</color>
+      <color>U</color>
+      <color>B</color>
+      <color>R</color>
+      <manacost>WUBR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Planeswalker — Klinton</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text>1: Deal 3 damage to any target, then gain 3 life </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

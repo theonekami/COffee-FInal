@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>KAY</name>
+    <longname>KAY</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Inspired by Annihilation</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/wlpy03.jpg">KAY</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Creature — Incarnation</type>
+      <pt>7/7</pt>
+      <tablerow>1</tablerow>
+      <text>Protection from custom.
+When Inspired by Annihilation attacks, each opponent sacrifices a custom nonland permanent.
+Remove 3 inspiration counters from this card: Exile target custom nonland permanent. </text>
+    </card>
+    <card>
+      <name>Inspired by Nullity</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/obkj59.jpg">KAY</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>Whenever a custom spell is cast, put an inspiration counter on this card.
+{t}: add {c}. If 7 or more inspiration counters are on this card, transform this card. </text>
+    </card>
+    <card>
+      <name>Inspired by Inspiration</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/lysn83.jpg">KAY</set>
+      <color>W</color>
+      <color>U</color>
+      <color>B</color>
+      <color>R</color>
+      <manacost>WUBR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Incarnation</type>
+      <pt>0/7</pt>
+      <tablerow>1</tablerow>
+      <text>&lt;i&gt;Eminence&lt;/i&gt; - Whenever a custom permanent you don't control enters the battlefield,  It enters with an inspiration counter.
+If 5 different permanents with inspiration counters are on the battlefield, transform this card. </text>
+    </card>
+    <card>
+      <name>Inspired by Creation</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/teuq58.jpg">KAY</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Creature — Incarnation</type>
+      <pt>7/7</pt>
+      <tablerow>1</tablerow>
+      <text>Protection from permanents and spells with inspiration counters on them.
+This card gains the abilities of all permanents with an inspiration counter on them. 
+{2}: Place an inspiration counter on target spell or permanent. </text>
+    </card>
+    <card>
+      <name>Inspired by Creativity</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/hqro00.jpg">KAY</set>
+      <color>U</color>
+      <manacost>3U</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Incarnation</type>
+      <pt>2/5</pt>
+      <tablerow>1</tablerow>
+      <text>Flash
+When Inspired by Creativity or a custom spell you don't control is cast,  you may exile this card;  copy target custom spell. You may choose new targets. </text>
+    </card>
+    <card>
+      <name>Inspired by Violence</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/spji88.jpg">KAY</set>
+      <color>R</color>
+      <manacost>3R</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Incarnation</type>
+      <pt>5/2</pt>
+      <tablerow>1</tablerow>
+      <text>Haste
+When Inspired by Violence or another custom creature attacks, you may exile this card. All opponents take doubled combat damage until the end of this turn. </text>
+    </card>
+    <card>
+      <name>Inspired by Decay</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/ryrm40.jpg">KAY</set>
+      <color>B</color>
+      <manacost>3B</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Incarnation</type>
+      <pt>4/3</pt>
+      <tablerow>1</tablerow>
+      <text>Deathtouch
+When Inspired by Decay or another custom creature dies, you may exile this card. Return target custom permanent from an opponent's graveyard onto the battlefield under your control. </text>
+    </card>
+    <card>
+      <name>Inspired by Martyrdom</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/gqnk19.jpg">KAY</set>
+      <color>W</color>
+      <manacost>3W</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Incarnation</type>
+      <pt>3/4</pt>
+      <tablerow>1</tablerow>
+      <text>Vigilance
+When Inspired by Heroism or another custom creature you don't control blocks,  you may exile this card; Each player chooses a custom permanent. Destroy all other nonland permanents. </text>
+    </card>
+    <card>
+      <name>Power Word: Bear</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/cgze47.jpg">KAY</set>
+      <color>G</color>
+      <manacost>GGGG</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>{1}{g}: Create a 2/2 Bear creature token. You may activate this ability only once each turn. </text>
+    </card>
+    <card>
+      <name>Inspired by Perseverance</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/azwm37.jpg">KAY</set>
+      <color>G</color>
+      <manacost>3G</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Incarnation</type>
+      <pt>1/6</pt>
+      <tablerow>1</tablerow>
+      <text>Reach
+When Inspired by Perseverance or a custom permanent you don't control enters the battlefield, you may exile this card; you and permanents you control gain protection from everything until your next turn. </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

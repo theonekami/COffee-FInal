@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>FUR</name>
+    <longname>FUR</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Steampunk Tinkerer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kbwi09.jpg">FUR</set>
+      <color>W</color>
+      <manacost>2W</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Dog Artificer</type>
+      <pt>1/4</pt>
+      <tablerow>1</tablerow>
+      <text>3{W}: Put a Repair counter on target artifact. 
+
+As long as that artifact has a Repair counter and Steampunk Tinkerer is on the battlefield, it has indestructible. </text>
+    </card>
+    <card>
+      <name>Draconic Scholar</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kesd42.jpg">FUR</set>
+      <color>U</color>
+      <manacost>2U</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Dragon Wizard</type>
+      <pt>1/3</pt>
+      <tablerow>1</tablerow>
+      <text>Flying
+
+&lt;i&gt; Magecraft &lt;/i&gt; — Whenever you cast or copy an instant or sorcery spell, Investigate. (Create a colorless Clue artifact token onto the battlefield with “{2}, Sacrifice this artifact: Draw a card.”)
+
+{t}, Sacrifice three Clues: Draw 2 cards. </text>
+    </card>
+    <card>
+      <name>Arrogant Necromancer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/lnhu24.jpg">FUR</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Devil Wolf</type>
+      <pt>1/4</pt>
+      <tablerow>1</tablerow>
+      <text>At the beginning of each end step, if you have dealt damage to an opponent, create a 2/2 Zombie token. </text>
+    </card>
+    <card>
+      <name>Enthusiastic Firedancer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/omcn11.jpg">FUR</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Fox</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>All you red instant and sorcery spells have cycling {R}.  ({R}, Discard this card: Draw a card)
+
+Whenever you cycle or discard a card, deal 1 damage to any target. </text>
+    </card>
+    <card>
+      <name>Glowshroom Gatherer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/yxys58.jpg">FUR</set>
+      <color>G</color>
+      <manacost>2G</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Cat</type>
+      <pt>3/2</pt>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, put a spore counter on Glowshroom Gatherer.
+
+Remove three spore counters from Glowshroom Gatherer: Create a Food token. (It’s an artifact with “{2}, {t}, Sacrifice this artifact: You gain 3 life.”) </text>
+    </card>
+    <card>
+      <name>Hopes Alight</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gwre78.jpg">FUR</set>
+      <color>W</color>
+      <manacost>1W</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Choose an opponent. You and that player draws a card. 
+
+Choose an opponent. You and that player gains 4 life. </text>
+    </card>
+    <card>
+      <name>Mysterious Rune</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qbqz29.jpg">FUR</set>
+      <color>U</color>
+      <manacost>U</manacost>
+      <cmc>1</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Each player reveals the top card of their library. Draw a card. </text>
+    </card>
+    <card>
+      <name>Awaken the Sleeping</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qyqi04.jpg">FUR</set>
+      <color>B</color>
+      <manacost>2BB</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Return two target creatures from your graveyard to your battlefield. Then, each opponent returns a target creature from their graveyard to their battlefield. </text>
+    </card>
+    <card>
+      <name>Channel the Flames</name>
+      <set rarity="Common" picURL="https://mtg.design/i/rwvz08.jpg">FUR</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Add {R} to your mana pool equal to your devotion to red. </text>
+    </card>
+    <card>
+      <name>Howling Thunder</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jtac97.jpg">FUR</set>
+      <color>G</color>
+      <manacost>XGG</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Destroy target creature with X mana value. Create X 2/2 green Wolf creature tokens. </text>
+    </card>
+    <card>
+      <name>Runic Sanctuary</name>
+      <set rarity="Common" picURL="https://mtg.design/i/smqu71.jpg">FUR</set>
+      <color>W</color>
+      <manacost>2W</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Target creature gains indestructible and hexproof until end of turn and can't attack this turn.
+
+Draw a card. </text>
+    </card>
+    <card>
+      <name>Against all Odds</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wnmk86.jpg">FUR</set>
+      <color>U</color>
+      <manacost>3UUU</manacost>
+      <cmc>6</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Cast this spell only if an opponent attacks with more than double the creatures you control. 
+
+Destroy all attacking creatures. </text>
+    </card>
+    <card>
+      <name>Deadly Infection</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hxst57.jpg">FUR</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Cast this spell only during the precombat main phase.
+
+Target creature gains "Whenever this creature deals damage to a creature, that creature gets decayed." and "At the beginning of your end step, sacrifice this creature." </text>
+    </card>
+    <card>
+      <name>Maddened Charge</name>
+      <set rarity="Common" picURL="https://mtg.design/i/iwbz00.jpg">FUR</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Target creature gains trample, goaded, and its power is doubled until end of turn. 
+
+Draw a card. </text>
+    </card>
+    <card>
+      <name>Herbalism</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nyvz76.jpg">FUR</set>
+      <color>G</color>
+      <manacost>1GG</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Search your library for a basic Forest card, put it onto the battlefield tapped, then shuffle. 
+
+Regenerate target creature. </text>
+    </card>
+    <card>
+      <name>Soft Lullaby</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ebhd87.jpg">FUR</set>
+      <color>W</color>
+      <manacost>3W</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>2</tablerow>
+      <text>Tap all creatures. Creatures your opponents control don’t untap on their next untap step. </text>
+    </card>
+    <card>
+      <name>Icy Petrification</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cnra71.jpg">FUR</set>
+      <color>U</color>
+      <manacost>1U</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Target tapped creature loses all abilities and becomes a 0/1 blue Construct with Defender until end of turn. </text>
+    </card>
+    <card>
+      <name>All in Due Time</name>
+      <set rarity="Common" picURL="https://mtg.design/i/yvqr00.jpg">FUR</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Target creature gets 2 time counters and "At the beginning of your upkeep, remove a time counter from this creature.  Then if this creature has no time counters, sacrifice it."
+
+Draw a card. Lose 1 life. </text>
+    </card>
+    <card>
+      <name>Gambler's Greed</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ocbc52.jpg">FUR</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Starting with you, each player may draw a card. If they do, they lose 2 life. Repeat this process until no one draws a card. Each player loses life equal to the amount of cards in their hand. </text>
+    </card>
+    <card>
+      <name>Wanderlust</name>
+      <set rarity="Common" picURL="https://mtg.design/i/athi20.jpg">FUR</set>
+      <color>G</color>
+      <manacost>XXGG</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Search your library for X basic lands plus one, put them on the battlefield tapped, then shuffle. 
+
+If X is 5 or greater, untap all your lands. </text>
+    </card>
+    <card>
+      <name>Blacksmith Badger</name>
+      <set rarity="Common" picURL="https://mtg.design/i/tpxf56.jpg">FUR</set>
+      <color>W</color>
+      <manacost>3W</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Badger Artificer</type>
+      <pt>2/3</pt>
+      <tablerow>1</tablerow>
+      <text>When Blacksmith Badger enters the battlefield, search your library for a non-legendary equipment card, exile it, then shuffle.
+
+{X}{W}, {t}: Create a token copy of an equipment with mana value {X} exiled with Blacksmith Badger. </text>
+    </card>
+    <card>
+      <name>Young Frigomancer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/lene54.jpg">FUR</set>
+      <color>U</color>
+      <manacost>2U</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Fox</type>
+      <pt>1/2</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever you cast an instant or sorcery spell, tap target creature. If that creature is already tapped, it doesn’t untap during its controller’s untap step. </text>
+    </card>
+    <card>
+      <name>Shady Merchant</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wfxq05.jpg">FUR</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Fox</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)
+
+At the end step, if you gained life and an opponent lost life, create a Treasure token. </text>
+    </card>
+    <card>
+      <name>Flareblazer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vdtn66.jpg">FUR</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Cat</type>
+      <pt>1/2</pt>
+      <tablerow>1</tablerow>
+      <text>Haste
+
+Flareblazer can't be blocked.
+
+Whenever Flareblazer deals combat damage, deal 1 damage to all creatures that blocked this turn. </text>
+    </card>
+    <card>
+      <name>Fern Wolk</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cyma60.jpg">FUR</set>
+      <color>G</color>
+      <manacost>2GG</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Wolf Elk</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>Flash
+
+Protection from Blue and Black
+
+Whenever Fern Wolk enters the battlefield, target creature gains hexproof until end of turn. </text>
+    </card>
+    <card>
+      <name>Solitary Exile</name>
+      <set rarity="Common" picURL="https://mtg.design/i/oikv05.jpg">FUR</set>
+      <color>W</color>
+      <manacost>2W</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>2</tablerow>
+      <text>Enchant Creature
+
+Target creature loses all abilities, can’t block, can’t attack, and gains shroud. </text>
+    </card>
+    <card>
+      <name>Ninja Senses</name>
+      <set rarity="Common" picURL="https://mtg.design/i/htnv61.jpg">FUR</set>
+      <color>U</color>
+      <manacost>2UU</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>1{U}: Return target creature to your hand. Put a 0/1 colorless construct token called Dummy with “At the beginning of the end step, sacrifice this creature.” onto the battlefield. </text>
+    </card>
+    <card>
+      <name>Gluttonous Feast</name>
+      <set rarity="Common" picURL="https://mtg.design/i/pkcq71.jpg">FUR</set>
+      <manacost>0</manacost>
+      <cmc>0</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>As an additional cost to cast this spell, sacrifice a creature. 
+
+Cumulative Upkeep — sacrifice a creature, create a Food token. 
+
+At the beginning of the postcombat main phase, add {B} for each creature you sacrificed this turn. </text>
+    </card>
+    <card>
+      <name>Blazing Bonfire</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vccd85.jpg">FUR</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Whenever a nonred creature enters the battlefield or attacks you, Blazing Bonfire deals 1 damage to that creature. </text>
+    </card>
+    <card>
+      <name>Spiritual Help</name>
+      <set rarity="Common" picURL="https://mtg.design/i/rohs90.jpg">FUR</set>
+      <color>G</color>
+      <manacost>2GG</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment</type>
+      <tablerow>2</tablerow>
+      <text>Creature spells you cast cost {1} less. 
+
+Whenever a nontoken creature enters the battlefield under your control, choose one: 
+• Target creature gains hexproof until end of turn. 
+• Target creature gains trample until end of turn. </text>
+    </card>
+    <card>
+      <name>Rattician Royalty</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ohqi60.jpg">FUR</set>
+      <color>B</color>
+      <manacost>4BB</manacost>
+      <cmc>6</cmc>
+      <type>Creature — Rat Noble</type>
+      <pt>2/5</pt>
+      <tablerow>1</tablerow>
+      <text>Deathtouch
+
+{3}: Create a Treasure token. (It's an artifact with "{t}, Sacrifice this artifact: Add one mana of any color.")
+
+Sacrifice X Treasure tokens: Exile target legendary creature with mana value X. </text>
+    </card>
+    <card>
+      <name>Furry Crane</name>
+      <set rarity="Common" picURL="https://mtg.design/i/icjo89.jpg">FUR</set>
+      <manacost>10</manacost>
+      <cmc>10</cmc>
+      <type>Legendary Artifact</type>
+      <tablerow>1</tablerow>
+      <text>Affinity for tokens (This spell costs {1} less for each token you control.)
+
+Sacrifice a Clue, Food or Treasure token: Roll a d6. 
+1-2 | Add one mana of any color. 
+3-4 | Gain 3 life. 
+5-6 | Draw a card. </text>
+    </card>
+    <card>
+      <name>Dummy</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gbvv56.jpg">FUR</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Token Creature — Construct</type>
+      <pt>0/1</pt>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>At the beginning of the end step, sacrifice this creature. </text>
+    </card>
+    <card>
+      <name>Waltz, Doctor-In-Training</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/tmrk93.jpg">FUR</set>
+      <color>W</color>
+      <manacost>2W</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Creature — Hyena</type>
+      <pt>1/3</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever you gain life, you may pay {2}. If you do, draw a card.
+
+{W}, {t}: Gain 1 life. Regenerate another target creature. </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

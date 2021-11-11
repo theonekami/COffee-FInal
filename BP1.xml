@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>BP1</name>
+    <longname>BP1</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Peaceful Prairie</name>
+      <set rarity="Common" picURL="https://mtg.design/i/stqx13.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {W} to your mana pool. 
+{2}, {t}: Tap target blocking creature and target attacking creature. Prevent all combat damage that would be dealt to and dealt by those creatures this turn. </text>
+    </card>
+    <card>
+      <name>Moonlit Lake</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kgmd10.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {U} to your mana pool.
+{1}, {t}: Each player may scry 1. </text>
+    </card>
+    <card>
+      <name>Murky Marshtide</name>
+      <set rarity="Common" picURL="https://mtg.design/i/genr14.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {B} to your mana pool.
+{4}, {t}:  Draw a card. Each card you exile from your graveyard while activating this ability pays for {1}. </text>
+    </card>
+    <card>
+      <name>Volatile Lava Pool</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gddi58.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {R} to your mana pool.
+{1}, {t}: Deal 1 damage to target attacking creature. </text>
+    </card>
+    <card>
+      <name>Mysterious Temple</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jenn20.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {G} to your mana pool. 
+{3}, {t}: Tap target creature. That creature explores. </text>
+    </card>
+    <card>
+      <name>Comfy Snow Fort</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bxgy20.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Snow Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {c} to your mana pool.
+{3}, {t}:  Target nonattacking creature's toughness is doubled and gains defender until end of turn. </text>
+    </card>
+    <card>
+      <name>Darkspace</name>
+      <set rarity="Common" picURL="https://mtg.design/i/pqzu11.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>Whenever another land enters your battlefield, exile Darkspace.
+
+Whenever a basic land’s ability causes you to add one or more mana, add one additional mana that land can produce. 
+
+{t}: Add {c} to you mana pool. </text>
+    </card>
+    <card>
+      <name>Grand Casino</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wkmu15.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>Shroud
+
+When Grand Casino enters the battlefield, sacrifice it unless you return an untapped basic land you control to its owner's hand. Grand Casino enters with 2 luck counters.
+
+{t}: Add {X} to your mana pool, where {X} is the number of luck counters on Grand Casino.
+
+{t}: Flip a coin. If you win the flip, add a luck counter to Grand Casino. If you lose the flip, halve the number of luck counters to Grand Casino, rounded down. </text>
+    </card>
+    <card>
+      <name>Bestial Woods</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hbek22.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {G} to your mana pool. 
+{G}{G}, {t}: You may cast nonhuman creature spells this turn as though they had flash. </text>
+    </card>
+    <card>
+      <name>Wonderland</name>
+      <set rarity="Common" picURL="https://mtg.design/i/aamk70.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>Whenever you discard the first card per turn, if it’s a spell, it gains madness. The madness cost is equal to its mana cost. 
+
+{t}: Add {c} to your mana pool. </text>
+    </card>
+    <card>
+      <name><Name></name>
+      <set rarity="Common" picURL="https://mtg.design/i/fbbf86.jpg">BP1</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>As &lt;Name&gt; enters the battlefield, exile cards from the top of your library until you exile a land card. You may have &lt;Name&gt; enter as a copy of that card. Put all other exiled cards on the bottom of your library in a random order. </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>BER</name>
+    <longname>BER</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Wa'shi, One with Ascension</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/escz81.jpg">BER</set>
+      <color>W</color>
+      <manacost>WW</manacost>
+      <cmc>2</cmc>
+      <type>Legendary Land Creature — Plains Bear Shaman</type>
+      <pt>2/2</pt>
+      <tablerow>0</tablerow>
+      <text>Vigilance
+{T}: Add {{W}} to your mana pool
+Whenever you play your first planeswalker each turn, choose one —
+• Target Land gains {{T}} add {{W}}{{W}}.
+• Proliferate
+• Target permanent you control gain protection from any colour you choose until end of turn.</text>
+    </card>
+    <card>
+      <name>True Bear Archon</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/tfkj97.jpg">BER</set>
+      <manacost>14</manacost>
+      <cmc>14</cmc>
+      <type>Legendary Creature — Bear God</type>
+      <pt>7/7</pt>
+      <tablerow>1</tablerow>
+      <text>Eminence - When you cast a Bear, create a 2/2 bear token of the card’s casted colours.
+Trample, Indestructible, Reach
+This spell costs {2} less for every bear shaman you control
+When True Bear Archon attacks, create 5 2/2 enchantment bear tokens one of each colour tapped and attacking the target True Bear Archon is attacking
+{W}{U}{B}{R}{G}  Search your library for 3 Bears, reveal those cards. put one on top of the library, one onto the battlefield with a +1/+1 counter  and another in the graveyard. </text>
+    </card>
+    <card>
+      <name>Chu'fi, Waves Calling</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/hikt55.jpg">BER</set>
+      <color>U</color>
+      <manacost>U</manacost>
+      <cmc>1</cmc>
+      <type>Legendary Creature — Bear Shaman</type>
+      <pt>1/2</pt>
+      <tablerow>1</tablerow>
+      <text>Ward 2
+Whenever you play the first blue creature spell each turn, choose one —
+• Target nonland permanent won’t untap next turn
+• Place a delay counter on a non-
+land non creature permanent
+• Counter target noncreature spell</text>
+    </card>
+    <card>
+      <name>Mhro'xa, Spirit-Alligned</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/lsvb42.jpg">BER</set>
+      <color>B</color>
+      <manacost>B</manacost>
+      <cmc>1</cmc>
+      <type>Legendary Creature — Bear Shaman</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Afterlife 1
+Whenever you play the first black instant or sorcery each turn, choose one—
+• Target creature gains Afterlife 2 until end of turn
+• Target card in graveyard gains Escape, where the escape cost is it’s mana cost and exiling 4 cards
+• Target creature gains lifelink or deathtouch until end of turn</text>
+    </card>
+    <card>
+      <name>Cha'ke, Mouth of Lava</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/byot99.jpg">BER</set>
+      <color>R</color>
+      <manacost>R</manacost>
+      <cmc>1</cmc>
+      <type>Legendary Enchantment Creature — Bear Shaman</type>
+      <pt>2/1</pt>
+      <tablerow>1</tablerow>
+      <text>Haste
+Whenever you play the first red artifact or enchantment each turn, choose one —
+• Target player gets a Chandra Awakened Inferno emblem
+ • Target land becomes a basic mountain until the start of next turn
+• Deal 1 damage to any target </text>
+    </card>
+    <card>
+      <name>Ta'er, Bear Mystic</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/wotl34.jpg">BER</set>
+      <color>G</color>
+      <manacost>G</manacost>
+      <cmc>1</cmc>
+      <type>Legendary Creature — Bear Shaman</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Defender
+When you cast the first green noncreature spell each turn, choose one—
+• Make a 1/1 Bear token
+• Give a Bear a +0/+1 counter
+• Give Bears you control shroud until end of turn </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

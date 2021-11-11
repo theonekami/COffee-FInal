@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>BP2</name>
+    <longname>BP2</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Synthesizer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/inxs72.jpg">BP2</set>
+      <manacost>5</manacost>
+      <cmc>5</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>If {W} was used to cast this spell, gain 5 life. 
+If {U} was used to cast this spell, scry 5. 
+If {B} was used to cast this spell, target opponent loses 5 life. 
+If {R} was used to cast this spell, deal 5 damage to target creature.
+If {G} was used to cast this spell, create a 5/5 colorless pixel token. </text>
+    </card>
+    <card>
+      <name>Animated Moon</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jnok36.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Enchantment Creature — God</type>
+      <pt>1/5</pt>
+      <tablerow>1</tablerow>
+      <text>Indestructible, Flying
+
+At the beginning of your upkeep or when Animated Moon transforms, return all creatures with toughness less than Animated Moon. 
+
+Whenever you cast a blue spell, return target nonland permanent with mana value one or less to that player’s hand. 
+
+Nightbound </text>
+    </card>
+    <card>
+      <name>Animated Sun</name>
+      <set rarity="Common" picURL="https://mtg.design/i/zikv37.jpg">BP2</set>
+      <color>R</color>
+      <manacost>8RR</manacost>
+      <cmc>10</cmc>
+      <type>Legendary Enchantment Creature — God</type>
+      <pt>5/1</pt>
+      <tablerow>1</tablerow>
+      <text>Indestructible, Flying
+
+At the beginning of your upkeep or when Animated Sun transforms, Animated Sun deals 5 damage to target creature. 
+
+Whenever you cast a red spell, Animated Sun deals 1 damage to any target. 
+
+Daybound </text>
+    </card>
+    <card>
+      <name>Corrupt Data</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vved33.jpg">BP2</set>
+      <color>U</color>
+      <manacost>2UU</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>1</tablerow>
+      <text>Flash 
+
+Enchant creature 
+
+Target creature loses all abilities and becomes a 0/1 colorless Pixel creature token. 
+{X}{X}: Sacrifice Corrupt Data, where {X} is the enchanted creature’s mana value. The player who controls the enchanted creature may activate this ability. </text>
+    </card>
+    <card>
+      <name>Save Scum</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wdig33.jpg">BP2</set>
+      <color>U</color>
+      <manacost>2U</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>All creatures phase out, then phase in at the end step. (While they are phased out, treat them and anything attached to them as though they don’t exist.) </text>
+    </card>
+    <card>
+      <name>Tactical Sniper</name>
+      <set rarity="Common" picURL="https://mtg.design/i/runr39.jpg">BP2</set>
+      <color>R</color>
+      <manacost>2RR</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Dragon Archer</type>
+      <pt>3/1</pt>
+      <tablerow>1</tablerow>
+      <text>Tactical Sniper is unblockable. 
+
+Whenever deals combat damage to a player, you may nullify that damage and assign it to a creature that player controls. 
+
+You may exert Tactical Sniper as it attacks. If you do, it gains deathtouch until end of turn.</text>
+    </card>
+    <card>
+      <name>Surprise Airstrike</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ccfx98.jpg">BP2</set>
+      <color>R</color>
+      <manacost>3RR</manacost>
+      <cmc>5</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Surprise Airstrike deals 5 damage to all nonflying creatures and planeswalkers. </text>
+    </card>
+    <card>
+      <name>Encrypt</name>
+      <set rarity="Common" picURL="https://mtg.design/i/roaq41.jpg">BP2</set>
+      <color>U</color>
+      <manacost>2U</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Target creature gains hexproof and +0/+6 until end of turn. 
+
+Draw a card. </text>
+    </card>
+    <card>
+      <name>Magical 8 Ball</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/iepw39.jpg">BP2</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>U/RU/R</manacost>
+      <cmc>2</cmc>
+      <type>Legendary Enchantment Artifact</type>
+      <tablerow>1</tablerow>
+      <text>Whenever you cast an instant or sorcery spell, you may roll a d20. 
+1-2  | Counter that spell. 
+3-4 | Return that spell to its owner’s hand. 
+5-8 | Copy that spell. You may choose new targets for the copy.</text>
+    </card>
+    <card>
+      <name>Decrypt</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nzjo16.jpg">BP2</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Target creature loses indestructible until end of turn. 
+
+Draw a card. </text>
+    </card>
+    <card>
+      <name>Copy and Paste</name>
+      <set rarity="Common" picURL="https://mtg.design/i/giqr06.jpg">BP2</set>
+      <color>U</color>
+      <manacost>3UUU</manacost>
+      <cmc>6</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose one or more —
+• Copy target instant or sorcery. You may choose new targets for the copy. 
+• Create a token that’s a copy of target creature you control. 
+• Create a token that’s a copy of target creature an opponent controls. </text>
+    </card>
+    <card>
+      <name>Magician's Box</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nkhp46.jpg">BP2</set>
+      <manacost>1</manacost>
+      <cmc>1</cmc>
+      <type>Artifact</type>
+      <tablerow>1</tablerow>
+      <text>If an instant or sorcery spell would be put in your graveyard, exile it instead. 
+
+{2}, {t}, Discard an instant or sorcery from your hand: Draw a card. 
+{4}, {t}, Sacrifice Magician’s Box: Return all cards exiled with Magician’s Box to their owner’s hands. </text>
+    </card>
+    <card>
+      <name>Temporary Enhancement</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hlsq74.jpg">BP2</set>
+      <color>R</color>
+      <manacost>2RR</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Two target creatures you control randomly get either menace, trample or vigilance until end of turn.  
+
+Draw a card.</text>
+    </card>
+    <card>
+      <name>360 noscope</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jsbl19.jpg">BP2</set>
+      <color>R</color>
+      <manacost>1R</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Tap target creature you control. That creature doesn’t untap during its controller’s next untap step and deals damage equal to its power to another creature. If that creature dies, exile it. </text>
+    </card>
+    <card>
+      <name>Mozilla, the Firefox</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/yeno62.jpg">BP2</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>3UR</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Creature — Elemental Fox</type>
+      <pt>2/5</pt>
+      <tablerow>1</tablerow>
+      <text>Companion — Your starting deck does not contain colorless spells. 
+
+Whenever you cast your first spell with one or more colors each turn, reveal the top card of your library. If it’s an instant or sorcery spell, you may put it in your hand.</text>
+    </card>
+    <card>
+      <name>Biscuit Bait</name>
+      <set rarity="Common" picURL="https://mtg.design/i/uymn39.jpg">BP2</set>
+      <manacost>1</manacost>
+      <cmc>1</cmc>
+      <type>Artifact</type>
+      <tablerow>1</tablerow>
+      <text>When Biscuit Bait enters the battlefield, scry 1. 
+
+{t}: Add a biscuit counter on Biscuit Bait. 
+
+{t}: Add three mana of any one color. Activate only if there are three or more biscuit counters on Biscuit Bait. </text>
+    </card>
+    <card>
+      <name>Substitute Doll</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qnzu26.jpg">BP2</set>
+      <color>U</color>
+      <manacost>2U</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Create a 0/1 colorless construct token called Dummy. As it enters, it gains hexproof and champion a creature. </text>
+    </card>
+    <card>
+      <name>Overclock</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qbjr10.jpg">BP2</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Target creature’s power is tripled and gains “When this creature dies, exile it instead.” until end of turn. </text>
+    </card>
+    <card>
+      <name>Glitchy Code</name>
+      <set rarity="Common" picURL="https://mtg.design/i/uzzy10.jpg">BP2</set>
+      <color>U</color>
+      <manacost>3UU</manacost>
+      <cmc>5</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+
+Whenever enchanted creature is targeted the first time each turn by a spell or an ability, exile  target creature, then return the exiled card to the battlefield with Glitchy Code attached to it. </text>
+    </card>
+    <card>
+      <name>Intense Plagiarism</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dnvr22.jpg">BP2</set>
+      <color>U</color>
+      <manacost>3U</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Target player reveals cards from the top of his library until he reveals a creature. Make a token copy of that creature, then that player shuffles  all revealed cards into their library.</text>
+    </card>
+    <card>
+      <name>Code of Konami</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wbxu01.jpg">BP2</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>XU/RU/R</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Exile the top X cards of your library. Until the end of your next turn, you may play those cards. If X is 20 or more, you can play those  cards without paying their mana costs. </text>
+    </card>
+    <card>
+      <name>Combo Maker</name>
+      <set rarity="Common" picURL="https://mtg.design/i/mdau51.jpg">BP2</set>
+      <color>U</color>
+      <manacost>3UU</manacost>
+      <cmc>5</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Spells you cast cost {1} more to cast.
+
+Each instant and sorcery spell cost {1} less to cast for each other spell you cast this turn. </text>
+    </card>
+    <card>
+      <name>Mass Modification</name>
+      <set rarity="Common" picURL="https://mtg.design/i/sqdl34.jpg">BP2</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>2UR</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment</type>
+      <tablerow>2</tablerow>
+      <text>As Mass Modification enters the battlefield, choose flying, hexproof or shroud. 
+
+Creatures enter the battlefield with a counter corresponding to your choice.</text>
+    </card>
+    <card>
+      <name>The Ouroboros</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/icnk79.jpg">BP2</set>
+      <color>U</color>
+      <color>G</color>
+      <manacost>2GU</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Serpent</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your end step, if The Ouroboros is in your graveyard, you may pay {4}{G}{U}. If you do, shuffle your graveyard and hand into your library and draw cards equal to the number of cards you had in hand. </text>
+    </card>
+    <card>
+      <name>Voracious Lizard</name>
+      <set rarity="Common" picURL="https://mtg.design/i/pnni08.jpg">BP2</set>
+      <color>U</color>
+      <color>G</color>
+      <manacost>4GU</manacost>
+      <cmc>6</cmc>
+      <type>Creature — Lizard</type>
+      <pt>3/3</pt>
+      <tablerow>1</tablerow>
+      <text>Devour 1
+
+Whenever one or more creature tokens enters the battlefield under your opponent's control, destroy those token. Put a +1/+1 counter on Voracious Lizard. </text>
+    </card>
+    <card>
+      <name>The Transformationalist</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/aqyi64.jpg">BP2</set>
+      <color>U</color>
+      <color>G</color>
+      <manacost>2GU</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Wolf</type>
+      <pt>1/4</pt>
+      <tablerow>1</tablerow>
+      <text>All your creature spells have mutate {x}{G}{U}, where X is their mana value.
+
+Whenever you mutate, morph, or transform, draw a card. </text>
+    </card>
+    <card>
+      <name>Convoluted Experiment</name>
+      <set rarity="Common" picURL="https://mtg.design/i/aldc36.jpg">BP2</set>
+      <color>U</color>
+      <color>G</color>
+      <manacost>2GU</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Search your library for a creature card with mana value 1 or less. If you control a creature, you may mutate it. </text>
+    </card>
+    <card>
+      <name>Replicating the Experiment</name>
+      <set rarity="Common" picURL="https://mtg.design/i/eawk99.jpg">BP2</set>
+      <color>U</color>
+      <color>G</color>
+      <manacost>2GU</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Look at the top three cards of your library. You may reveal an instant or sorcery card from them. If you do, put that card into your hand and put X 1/2 green Spider creature tokens with reach, where X is that card's mana value.</text>
+    </card>
+    <card>
+      <name>Rigged Trap</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kybd98.jpg">BP2</set>
+      <manacost>2</manacost>
+      <cmc>2</cmc>
+      <type>Artifact</type>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature with toughness 2 or less attacks you or a planeswalker you control, you may pay {1} and sacrifice Rigged Trap. If you do, destroy that creature. </text>
+    </card>
+    <card>
+      <name>Totemic Forest</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dust70.jpg">BP2</set>
+      <color>G</color>
+      <manacost>4GG</manacost>
+      <cmc>6</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>As Totemic Forest enters the battlefield, choose a creature type.
+
+Whenever a creature of the chosen type enters the battlefield, put a link counter on it. Whenever a creature you control with a link counter would die, instead regenerate it and remove a link counter.</text>
+    </card>
+    <card>
+      <name>Canine Performer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jgak39.jpg">BP2</set>
+      <color>G</color>
+      <manacost>2GG</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Dog Bard</type>
+      <pt>1/5</pt>
+      <tablerow>1</tablerow>
+      <text>{G}, {t}: Look at the top card of your library. You may reveal that card. If a creature card or land card is revealed this way, put it into your hand. </text>
+    </card>
+    <card>
+      <name>The Rainbow Serpent</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/whla68.jpg">BP2</set>
+      <color>U</color>
+      <color>G</color>
+      <manacost>GGGUUU</manacost>
+      <cmc>6</cmc>
+      <type>Legendary Creature — Serpent</type>
+      <pt>4/6</pt>
+      <tablerow>1</tablerow>
+      <text>Companion -- All your lands are basic lands.
+
+Islandwalk, Forestwalk
+
+Each Forest is an Island in addition to its other land types,and each Island is a Forest in addition to its other land types. </text>
+    </card>
+    <card>
+      <name>Kessig Traders</name>
+      <set rarity="Common" picURL="https://mtg.design/i/btrj64.jpg">BP2</set>
+      <color>G</color>
+      <manacost>2GG</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Human</type>
+      <pt>4/3</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature an opponent controls with power less than Kessig Traders dies, put a pelt counter on Kessig Traders. 
+
+Remove X pelt counters from Kessig Traders: You may put a creature card from your hand onto the battlefield with mana value X.</text>
+    </card>
+    <card>
+      <name>Innocent Curiousity</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ybqw01.jpg">BP2</set>
+      <color>G</color>
+      <manacost>2G</manacost>
+      <cmc>3</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Look at the top two cards of your library. Put one of those cards into your hand, and the other to the bottom of your library. If both of those cards share a card type, put both of them into your hand instead. </text>
+    </card>
+    <card>
+      <name>Thalassaphobia</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gpic61.jpg">BP2</set>
+      <color>U</color>
+      <manacost>2UUUU</manacost>
+      <cmc>6</cmc>
+      <type>Enchantment — Aura Curse</type>
+      <tablerow>1</tablerow>
+      <text>Enchant Player
+
+Each land enchanted player controls is an island in additional to its other land types. Whenever enchanted player is attacked with a blue creature, that creature gains islandwalk until end of turn. </text>
+    </card>
+    <card>
+      <name>Wildlife Recorder</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ynuq58.jpg">BP2</set>
+      <color>G</color>
+      <manacost>2G</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Human</type>
+      <pt>2/3</pt>
+      <tablerow>2</tablerow>
+      <text>Creature spells you cast cost {1} less.
+
+Whenever you cast a creature spell, you may pay {G}{G}. If you do, draw a card.</text>
+    </card>
+    <card>
+      <name>World Sculptor</name>
+      <set rarity="Common" picURL="https://mtg.design/i/trxh12.jpg">BP2</set>
+      <color>U</color>
+      <manacost>2UU</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Human</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever you cast a custom spell, draw a card. </text>
+    </card>
+    <card>
+      <name>Spotlight Effect</name>
+      <set rarity="Common" picURL="https://mtg.design/i/yyef73.jpg">BP2</set>
+      <color>U</color>
+      <manacost>1UU</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of each opponent's upkeep, they reveal their hand and the top card of their library. 
+
+Each player can't attack with only one creature. </text>
+    </card>
+    <card>
+      <name>Token Economy</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qshz52.jpg">BP2</set>
+      <color>U</color>
+      <color>G</color>
+      <manacost>3GU</manacost>
+      <cmc>5</cmc>
+      <type>Sorcery</type>
+      <tablerow>2</tablerow>
+      <text>Create X Treasure tokens, where X is the number of Creature tokens you control. </text>
+    </card>
+    <card>
+      <name>Cactus Cat</name>
+      <set rarity="Common" picURL="https://mtg.design/i/davf64.jpg">BP2</set>
+      <color>G</color>
+      <manacost>1G</manacost>
+      <cmc>2</cmc>
+      <type>Creature — Cat</type>
+      <pt>1/2</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever Cactus Cat blocks a creature, it deals 1 damage to that creature. 
+
+{1}{G}: Cactus Cat deals 1 damage to target creature. </text>
+    </card>
+    <card>
+      <name>Storm Crow, Unleashed</name>
+      <set rarity="Common" picURL="https://mtg.design/i/sare94.jpg">BP2</set>
+      <color>U</color>
+      <manacost>3UUU</manacost>
+      <cmc>6</cmc>
+      <type>Creature — Bird</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>Flying
+
+Whenever Storm Crow, Unleashed deals combat damage to a player, your next spell gain Storm.</text>
+    </card>
+    <card>
+      <name>Homing Birds</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wxmp91.jpg">BP2</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>X1UR</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Create X 1/1 colorless Bird Construct creature tokens with flying and "Sacrifice this creature: Deal 1 damage to any target." </text>
+    </card>
+    <card>
+      <name>Bird</name>
+      <set rarity="Token" picURL="https://mtg.design/i/fncu34.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>token Token Creature — Bird Construct</type>
+      <pt>1/1</pt>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>Flying
+
+Sacrifice this creature: Deal 1 damage to any target. </text>
+    </card>
+    <card>
+      <name>Amalgam</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gymz00.jpg">BP2</set>
+      <color>U</color>
+      <color>G</color>
+      <manacost>GGUU</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Horror</type>
+      <pt>3/3</pt>
+      <tablerow>1</tablerow>
+      <text>Changeling
+
+At the beginning of your upkeep, choose a creature you control. Amalgam gains all abilities of target creature in addition to this ability until end of turn. </text>
+    </card>
+    <card>
+      <name>Bottle Lightning</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wmlb03.jpg">BP2</set>
+      <color>U</color>
+      <manacost>2UUU</manacost>
+      <cmc>5</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Counter all other spells. Draw a card for each spell countered this way. </text>
+    </card>
+    <card>
+      <name>Psittatic Griffin</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dzcr65.jpg">BP2</set>
+      <color>W</color>
+      <manacost>2W</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Griffin</type>
+      <pt>1/3</pt>
+      <tablerow>1</tablerow>
+      <text>Flying, Lifelink
+
+Whenever an opponent gains life, you gain 1 life. </text>
+    </card>
+    <card>
+      <name>Crystalline Fox</name>
+      <set rarity="Common" picURL="https://mtg.design/i/brpy18.jpg">BP2</set>
+      <color>W</color>
+      <manacost>2WW</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Fox</type>
+      <pt>3/4</pt>
+      <tablerow>1</tablerow>
+      <text>{1}{W}: Target opponent gains 5 life. Crystalline Fox gains indestructible until end of turn. </text>
+    </card>
+    <card>
+      <name>Royal Procession</name>
+      <set rarity="Common" picURL="https://mtg.design/i/trus87.jpg">BP2</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>1WB</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>If a legendary creature you control would die this turn, you may put a legendary creature that shares a creature type from your hand to the battlefield. </text>
+    </card>
+    <card>
+      <name>Matagot</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nnfd74.jpg">BP2</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>2WB</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Cat</type>
+      <pt>1/4</pt>
+      <tablerow>1</tablerow>
+      <text>Hexproof, Lifelink
+
+Sacrifice a nontoken creature: Create a token copy of Matagot.</text>
+    </card>
+    <card>
+      <name>Cath Palug</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cqfk23.jpg">BP2</set>
+      <color>B</color>
+      <manacost>3B</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Cat</type>
+      <pt>3/4</pt>
+      <tablerow>1</tablerow>
+      <text>Flash
+
+Whenever 3 or more creatures you don't control dies, you can pay {B}{B}{B}{B}. If you do, you may cast Cath Palug without paying its mana cost. 
+
+Cath Palug gains a +1/+1 counter for each creature you don't control that  died this turn. </text>
+    </card>
+    <card>
+      <name>Cat Heaven</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qxxr10.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {1} to your mana pool. 
+
+{2}, {t}: Regenerate target non-Angel Cat. It gains flying and is an Angel in addition to its creature types. </text>
+    </card>
+    <card>
+      <name>Inlean Rabbit</name>
+      <set rarity="Common" picURL="https://mtg.design/i/tnpu54.jpg">BP2</set>
+      <color>B</color>
+      <manacost>1B</manacost>
+      <cmc>2</cmc>
+      <type>Creature — Rabbit</type>
+      <pt>1/2</pt>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, sacrifice a creature you control with the lowest toughness or tied.
+
+Whenever a creature you control would be sacrificed on your turn, scry 1. </text>
+    </card>
+    <card>
+      <name>The First Rabbit</name>
+      <set rarity="Common" picURL="https://mtg.design/i/spsb05.jpg">BP2</set>
+      <color>W</color>
+      <manacost>1W</manacost>
+      <cmc>2</cmc>
+      <type>Creature — Rabbit</type>
+      <pt>2/1</pt>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, return a creature you control with the lowest power or tied. 
+
+Whenever a creature you control would be returned to your hand on your turn, scry 1. </text>
+    </card>
+    <card>
+      <name>Leonin Warmonger</name>
+      <set rarity="Common" picURL="https://mtg.design/i/frdy68.jpg">BP2</set>
+      <color>W</color>
+      <manacost>2WW</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Cat</type>
+      <pt>4/4</pt>
+      <tablerow>1</tablerow>
+      <text>As long as it's your turn, Leonin Warmonger has indestructible. 
+
+{W}{W}: Leonin Warmonger gains vigilance until end of turn. </text>
+    </card>
+    <card>
+      <name>Obsessive Magpie</name>
+      <set rarity="Common" picURL="https://mtg.design/i/rntm07.jpg">BP2</set>
+      <color>B</color>
+      <manacost>3B</manacost>
+      <cmc>4</cmc>
+      <type>Creature</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>Flying
+
+When Obsessive Magpie enters the battlefield, make a treasure token. 
+
+Whenever Obsessive Magpie deals combat damage to a player, scry 1 and create a treasure token. If you have no treasures, sacrifice Obsessive Magpie. </text>
+    </card>
+    <card>
+      <name>Keep at Watch</name>
+      <set rarity="Common" picURL="https://mtg.design/i/oszv53.jpg">BP2</set>
+      <color>W</color>
+      <manacost>2W</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Put X 1/1 Dog creature tokens with reach onto the battlefield, where X is the number of nonflying creatures attacking you.  Prevent all combat damage that would be dealt this turn by non-Dog and non-flying creatures. </text>
+    </card>
+    <card>
+      <name>Sacred Tiger</name>
+      <set rarity="Common" picURL="https://mtg.design/i/klms52.jpg">BP2</set>
+      <color>W</color>
+      <manacost>WWW</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Cat</type>
+      <pt>3/3</pt>
+      <tablerow>1</tablerow>
+      <text>Flying, Lifelink, Vigilance</text>
+    </card>
+    <card>
+      <name>The 13th Child</name>
+      <set rarity="Common" picURL="https://mtg.design/i/pxbh72.jpg">BP2</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>2WB</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Devil  Bat Goat</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>Flying, Shroud
+
+When The 13th Child enters the battlefield, you lose 3 life. 
+
+Sacrifice this creature: Return The 13th Child to your hand at the beginning of the next end step. </text>
+    </card>
+    <card>
+      <name>Undying Cat</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dibc30.jpg">BP2</set>
+      <color>B</color>
+      <manacost>BBBB</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Cat</type>
+      <pt>0/4</pt>
+      <tablerow>1</tablerow>
+      <text>When Undying Cat is sacrificed the first time on each of your turns, return it to your battlefield tapped. 
+
+When it enters the battlefield from a graveyard, if it has entered the battlefield nine times, create a 4/8 black Demon Cat creature token called Vengeful Cat with menace. </text>
+    </card>
+    <card>
+      <name>Vengeful Cat</name>
+      <set rarity="Token" picURL="https://mtg.design/i/euyd42.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>token Creature — Demon Cat</type>
+      <pt>4/8</pt>
+      <tablerow>1</tablerow>
+      <text>Menace </text>
+    </card>
+    <card>
+      <name>Shekhinah</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/ywkw07.jpg">BP2</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>3WB</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Creature — Human Spirit</type>
+      <pt>0/2</pt>
+      <tablerow>1</tablerow>
+      <text>Companion -- All your creatures have power less than their toughness.
+
+{t}: Each creature you control with power less than their toughness gains protection from a color of your choice until end of turn. </text>
+    </card>
+    <card>
+      <name>Nekomata the Twin-Tailed</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/qjed28.jpg">BP2</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>4W/BW/B</manacost>
+      <cmc>6</cmc>
+      <type>Legendary Creature — Spirit Cat</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever you get to choose modes or targets, you may choose that many modes or targets plus one. </text>
+    </card>
+    <card>
+      <name>Myths Returned</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gvvn54.jpg">BP2</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>2WB</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Return all creatures in your graveyard that were put there from the battlefield this turn. </text>
+    </card>
+    <card>
+      <name>Wulver</name>
+      <set rarity="Common" picURL="https://mtg.design/i/zzfs41.jpg">BP2</set>
+      <color>W</color>
+      <color>B</color>
+      <manacost>WB</manacost>
+      <cmc>2</cmc>
+      <type>Creature — Wolf Human</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Vigilance
+
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</text>
+    </card>
+    <card>
+      <name>Sudden Appearance</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cknv41.jpg">BP2</set>
+      <color>W</color>
+      <manacost>3W</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Put a creature card from your hand onto the battlefield. Return thar creature to your hand at the beginning of the next end step. </text>
+    </card>
+    <card>
+      <name>Meowllow</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ggpv65.jpg">BP2</set>
+      <color>B</color>
+      <manacost>3B</manacost>
+      <cmc>4</cmc>
+      <type>Creature — Cat Spirit</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>Whenever you deal damage the first time each turn, create a Food token. 
+
+Sacrifice a food token: Choose a player, then flip a coin. If you win the flip, that player gains 3 life. If you lose the flip, Meowllow deals 3 damage to that player. </text>
+    </card>
+    <card>
+      <name>Tomb of a Hero</name>
+      <set rarity="Common" picURL="https://mtg.design/i/fngd15.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>Whenever Tomb of a Hero enters the battlefield, you may exile a legendary creature card in your graveyard. 
+
+{t}: Add {1} to your mana pool.
+
+{t}: Add one mana of any color in the exiled card's identity. </text>
+    </card>
+    <card>
+      <name>Mary, Bloody Apparition</name>
+      <set rarity="Common" picURL="https://mtg.design/i/tsav26.jpg">BP2</set>
+      <color>B</color>
+      <manacost>3BBB</manacost>
+      <cmc>6</cmc>
+      <type>Legendary Creature — Demon Spirit</type>
+      <pt>3/3</pt>
+      <tablerow>1</tablerow>
+      <text>When Mary, Bloody Apparition enters the battlefield, you may exile any number of cards from your graveyard to your exile. Mary, Bloody Apparition gets X +1/+1 counters, where X is the number of cards you have in exile.</text>
+    </card>
+    <card>
+      <name>Deadly Incantation</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jgmz57.jpg">BP2</set>
+      <color>B</color>
+      <manacost>1B</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Copy this spell for each card named Deadly Incantation in your graveyard.
+
+You draw a card and you lose 1 life. You may exile Deadly Incantation and five cards named Deadly Incantation from your graveyard. If you do, search your library for a Demon creature card, put it onto the battlefield, then shuffle. 
+
+A deck can have any number of cards named Deadly Incantation.</text>
+    </card>
+    <card>
+      <name>Crazed Prospector</name>
+      <set rarity="Common" picURL="https://mtg.design/i/escp56.jpg">BP2</set>
+      <color>R</color>
+      <manacost>2RRR</manacost>
+      <cmc>5</cmc>
+      <type>Creature — Human</type>
+      <pt>4/2</pt>
+      <tablerow>1</tablerow>
+      <text>When Crazed Prospector enters the battlefield,  deal 1 damage to all other creatures. For each creature that dies, create a gold token. </text>
+    </card>
+    <card>
+      <name>The Hidden Temple</name>
+      <set rarity="Common" picURL="https://mtg.design/i/umbq69.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Land</type>
+      <tablerow>1</tablerow>
+      <text>{t}: Add {c} to your mana pool. 
+
+{3}, {t}: Create a Treasure token. </text>
+    </card>
+    <card>
+      <name>Growing Plague</name>
+      <set rarity="Common" picURL="https://mtg.design/i/nlfm03.jpg">BP2</set>
+      <color>B</color>
+      <manacost>1B</manacost>
+      <cmc>2</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Cumulative Upkeep -- Create a 1/1 black Rat creature token. 
+
+Whenever an opponent has 10 or more creatures in the battlefield, they sacrifice all creatures they control. 
+
+Whenever you have 10 or more creatures in the battlefield, sacrifice all creatures you control. </text>
+    </card>
+    <card>
+      <name>Nyctophobia</name>
+      <set rarity="Common" picURL="https://mtg.design/i/oqoq98.jpg">BP2</set>
+      <color>B</color>
+      <manacost>1B</manacost>
+      <cmc>2</cmc>
+      <type>Enchantment — Aura Curse</type>
+      <tablerow>1</tablerow>
+      <text>Enchant Player
+
+Whenever a creature enchanted player controls is tapped, that player loses 1 life and you gain 1 life. </text>
+    </card>
+    <card>
+      <name>Pick Your Poison</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hdaa65.jpg">BP2</set>
+      <color>B</color>
+      <manacost>1B</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Each player searches their library for a card and put that card into exile, then shuffle. 
+
+&lt;i&gt;Will of the council&lt;/i&gt; -- Starting with you, each player votes for knowledge or ignorance. If knowledge gets more votes, each player puts the exiled card into their hand. If ignorance gets more votes or tied, the card remains exiled and each player loses life equal to the mana value of all the cards exiled this way. </text>
+    </card>
+    <card>
+      <name>Rat Swarm</name>
+      <set rarity="Common" picURL="https://mtg.design/i/afyk96.jpg">BP2</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Creature — Rat</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>At the end of each step, if an opponent lost life, create a 1/1 black Rat creature token. If each opponent lost life, create a copy of Rat Swarm instead. 
+</text>
+    </card>
+    <card>
+      <name>Decaydence</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qbgb27.jpg">BP2</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>All creatures get decayed. (A creature with decayed can't block. When it attacks, sacrifice it at end of combat.)</text>
+    </card>
+    <card>
+      <name>Control the World</name>
+      <set rarity="Common" picURL="https://mtg.design/i/jzac62.jpg">BP2</set>
+      <color>B</color>
+      <manacost>2BBB</manacost>
+      <cmc>5</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Each player plays a card face down. Choose a card type, then each player reveals their card. If a card of the chosen card type is revealed, put that card into the graveyard. If not, return it to that player's hand. Repeat this process until no cards of the chosen type are revealed or no more cards are played face down. </text>
+    </card>
+    <card>
+      <name>Demand Equality</name>
+      <set rarity="Common" picURL="https://mtg.design/i/rokj63.jpg">BP2</set>
+      <color>W</color>
+      <manacost>3W</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Cast this spell only at an end step when an player has three or more cards than another player. 
+
+Each player draws cards or put cards on top of their library until they have seven cards in hand. 
+
+</text>
+    </card>
+    <card>
+      <name>Keeper of Bones</name>
+      <set rarity="Rare" picURL="https://mtg.design/i/akgu88.jpg">BP2</set>
+      <color>B</color>
+      <color>R</color>
+      <manacost>3RB</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Creature — Dragon</type>
+      <pt>4/5</pt>
+      <tablerow>1</tablerow>
+      <text>Companion -- All your non-Basic cards are custom cards.
+
+Whenever a nontoken creature you control dies, create a colorless token Artifact called Bone.
+
+Your custom spells have improvise. </text>
+    </card>
+    <card>
+      <name>Repurpose the Dead</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kpqc12.jpg">BP2</set>
+      <color>B</color>
+      <manacost>2BB</manacost>
+      <cmc>4</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, return target creature from your graveyard to your hand. </text>
+    </card>
+    <card>
+      <name>Minesweeper</name>
+      <set rarity="Common" picURL="https://mtg.design/i/devu16.jpg">BP2</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, play the top card of your library face down. Any player may choose to send that card to the graveyard and lose life equal to that card’s mana value. If no one does, exile that card and you may play it until the end of your turn. </text>
+    </card>
+    <card>
+      <name>Dangerous Mimic</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hcjg56.jpg">BP2</set>
+      <color>R</color>
+      <manacost>3RR</manacost>
+      <cmc>5</cmc>
+      <type>Instant — Trap</type>
+      <tablerow>1</tablerow>
+      <text>If an opponent had three or more artifacts enter the battlefield this turn, you may pay {R}{R} rather than pay this spell’s mana cost. 
+
+Destroy all artifacts you don’t own. </text>
+    </card>
+    <card>
+      <name>Overwhelming Hubris</name>
+      <set rarity="Common" picURL="https://mtg.design/i/gccr97.jpg">BP2</set>
+      <color>R</color>
+      <manacost>2R</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Counter target spell with mana value 7 or greater unless its controller loses life equal to that spell’s mana value.</text>
+    </card>
+    <card>
+      <name>The Jigsaw Puzzle Murders</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bxev20.jpg">BP2</set>
+      <color>B</color>
+      <manacost>2B</manacost>
+      <cmc>3</cmc>
+      <type>Enchantment Saga</type>
+      <tablerow>1</tablerow>
+      <text>Destroy target creature. That creature's owner investigates twice. </text>
+    </card>
+    <card>
+      <name>Rock the Night</name>
+      <set rarity="Common" picURL="https://mtg.design/i/zauh82.jpg">BP2</set>
+      <color>R</color>
+      <manacost>1R</manacost>
+      <cmc>2</cmc>
+      <type>Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>Choose a color. All creatures of that color gain haste. </text>
+    </card>
+    <card>
+      <name>Demonic Sight</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cgnk73.jpg">BP2</set>
+      <color>B</color>
+      <manacost>1B</manacost>
+      <cmc>2</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>2</tablerow>
+      <text>Enchant Creature
+
+Whenever enchanted creature deals combat damage to an opponent, you draw a card and lose 1 life. </text>
+    </card>
+    <card>
+      <name>Insanity</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ojpm98.jpg">BP2</set>
+      <color>R</color>
+      <manacost>4RR</manacost>
+      <cmc>6</cmc>
+      <type>Creature — Incarnation</type>
+      <pt>4/4</pt>
+      <tablerow>1</tablerow>
+      <text>Madness {2}{R}{R}
+
+Whenever you discard a card, roll a d6. If you get a 6, you may play the discarded card instead and it costs {2} less to play if it's a spell. </text>
+    </card>
+    <card>
+      <name>Bone</name>
+      <set rarity="Token" picURL="https://mtg.design/i/znzo05.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>token Artifact</type>
+      <tablerow>1</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Food</name>
+      <set rarity="Common" picURL="https://mtg.design/i/xqrc77.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Token Artifact — Food</type>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>{2}, {T}, Sacrifice this artifact: You gain 3 life.</text>
+    </card>
+    <card>
+      <name>Gold</name>
+      <set rarity="Common" picURL="https://mtg.design/i/smtw16.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Token Artifact — Gold</type>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>Sacrifice this artifact: Add one mana of any color.</text>
+    </card>
+    <card>
+      <name>Treasure</name>
+      <set rarity="Common" picURL="https://mtg.design/i/yfha01.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Token Artifact — Treasure</type>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+    </card>
+    <card>
+      <name>Clue</name>
+      <set rarity="Common" picURL="https://mtg.design/i/hgsz38.jpg">BP2</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Token Artifact — Clue</type>
+      <token>1</token>
+      <tablerow>1</tablerow>
+      <text>{2}, Sacrifice this artifact: Draw a card.</text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

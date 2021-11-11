@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+  <sets>
+    <set>
+    <name>SET</name>
+    <longname>SET</longname>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Convergent Future</name>
+      <set rarity="Common" picURL="https://mtg.design/i/mjjz58.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>4UR</manacost>
+      <cmc>6</cmc>
+      <type>Legendary Enchantment</type>
+      <tablerow>1</tablerow>
+      <text>When you cast your first spell on your turn, you may choose another card from your hand with the same mana value. If you do, exile it. Put a number of time counters on it equal to 1/3 of its mana value, rounded up. If it did not have suspend, it gains suspend.</text>
+    </card>
+    <card>
+      <name>Time Paradox</name>
+      <set rarity="Common" picURL="https://mtg.design/i/grdn17.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>2UUR</manacost>
+      <cmc>5</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>It you cast Time Paradox from your hand, you lose the game.
+Deal 4 damage to target creature. 
+Exile Time Paradox, then roll a d4. Put that many time counters on it.
+Suspend 3 - {U}{R}</text>
+    </card>
+    <card>
+      <name>Marvin, Timewalker</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/drvi37.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>4UUR</manacost>
+      <cmc>7</cmc>
+      <type>Legendary Planeswalker — Marvin</type>
+      <loyalty>8</loyalty>
+      <tablerow>1</tablerow>
+      <text>2: Choose target permanent or suspended card. If that permanent or card has a time counter on it, you may remove or put a time counter on it. </text>
+    </card>
+    <card>
+      <name>Time Ravage</name>
+      <set rarity="Common" picURL="https://mtg.design/i/pqlt64.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>4UR</manacost>
+      <cmc>6</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Exile all nonland permanents and put time counters on them equal to the number of permanents exiled this way. They gain suspend. </text>
+    </card>
+    <card>
+      <name>Time Loop</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wnmk02.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>2UR</manacost>
+      <cmc>4</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>As you cast this spell, choose an instant or sorcery card name not named Time Loop.
+
+Spells you cast with the chosen name gain suspend and "Exile this spell with three time counters on it." 
+
+Exile Time Loop.</text>
+    </card>
+    <card>
+      <name>Reality Break</name>
+      <set rarity="Common" picURL="https://mtg.design/i/tfcz87.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>4UUR</manacost>
+      <cmc>7</cmc>
+      <type>Legendary Enchantment</type>
+      <tablerow>2</tablerow>
+      <text>Reality Break enters the battlefield under the control of an opponent of your choice.
+At the beginning of your upkeep, roll a d4. Reroll the d4 if an effect has happened once. Exile Reality Break once all effects have occurred. -
+• 1 | Tap all creatures that you control.
+• 2 | All creatures you control take 8 damage.
+• 3 | Other nonland permanents you control are exiled with one time counter and gains suspend.
+• 4 | Creatures you control get -10/-0 until your next turn.</text>
+    </card>
+    <card>
+      <name>Gift of Alacrity</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ybwn52.jpg">SET</set>
+      <color>U</color>
+      <manacost>U</manacost>
+      <cmc>1</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+{R}: Enchanted creature gains first strike until end of turn.</text>
+    </card>
+    <card>
+      <name>Momentary Stasis</name>
+      <set rarity="Common" picURL="https://mtg.design/i/uacc07.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>UR</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Exile and put two time counters on target spell you don't control. If it doesn't have suspend, it gains suspend. 
+Overload {1}{U}{R}</text>
+    </card>
+    <card>
+      <name>Tagus, The Merciful</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cjym26.jpg">SET</set>
+      <color>W</color>
+      <color>U</color>
+      <manacost>WWUU</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Bird Cleric</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>Flying
+When Tagus, The Merciful dies, return it to its owner's hand.
+Your other creatures get +0/+1.
+{W}{U}: Regenerate target creature.</text>
+    </card>
+    <card>
+      <name>Tagus, Chaotic Spellslinger</name>
+      <set rarity="Common" picURL="https://mtg.design/i/kvti61.jpg">SET</set>
+      <color>W</color>
+      <color>U</color>
+      <manacost>WWUU</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Bird Demigod</type>
+      <pt>6/6</pt>
+      <tablerow>1</tablerow>
+      <text>Flying
+
+Spells you cast cannot share any colors with spells you've cast earlier in the turn.
+When you cast a spell, you may copy it. You may choose new targets for the copy. (Copied permanent spells are tokens.)</text>
+    </card>
+    <card>
+      <name>Wandering Soul</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bvpu04.jpg">SET</set>
+      <manacost>4</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — ???</type>
+      <pt>0/6</pt>
+      <tablerow>1</tablerow>
+      <text>Defender 
+
+If a creature is blocked by Wandering Soul, the controller of the creature gains control of Wandering Soul. Wandering Soul gains a wandering counter.
+
+{X}: Wandering Soul deals X damage to its controller, where X is the amount of wandering counters.</text>
+    </card>
+    <card>
+      <name>Lost Soul</name>
+      <set rarity="Common" picURL="https://mtg.design/i/opdj80.jpg">SET</set>
+      <manacost>2</manacost>
+      <cmc>2</cmc>
+      <type>Legendary Creature — ???</type>
+      <pt>0/7</pt>
+      <tablerow>1</tablerow>
+      <text>Defender
+
+If a creature is blocked by Lost Soul, the controller of the creature gains control of Lost Soul.
+
+{X}: Return Lost Soul to its owner, where X is the number of times this ability has been used. This ability can be used by anyone. </text>
+    </card>
+    <card>
+      <name>Time Control</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ydjm65.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>8URR</manacost>
+      <cmc>11</cmc>
+      <type>Legendary Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Destroy all nonland permanents. 
+Exile every card from every graveyard. Place a time counter on every sorcery and instant spell exiled this way. If it doesn't have suspend, it gains suspend. You may pay {2} less for cards suspended this way.</text>
+    </card>
+    <card>
+      <name>Chronal Shift</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wcjk46.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>1UR</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Choose one -
+• Counter target spell.
+• Return target creature that died this turn to the battlefield.</text>
+    </card>
+    <card>
+      <name>Time Travel</name>
+      <set rarity="Common" picURL="https://mtg.design/i/xwsr68.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>UURR</manacost>
+      <cmc>4</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Return all nonland permanents to their owner's hand.</text>
+    </card>
+    <card>
+      <name>Maximillian's Earthern Ball Crusher</name>
+      <set rarity="Common" picURL="https://mtg.design/i/cybq66.jpg">SET</set>
+      <color>U</color>
+      <manacost>U</manacost>
+      <cmc>1</cmc>
+      <type>Enchantment — Aura</type>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+
+Enchanted creature cannot attack. </text>
+    </card>
+    <card>
+      <name>Scorching Ray</name>
+      <set rarity="Common" picURL="https://mtg.design/i/mzzv63.jpg">SET</set>
+      <color>R</color>
+      <manacost>1RR</manacost>
+      <cmc>3</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Deal 3 damage to 3 different creatures.</text>
+    </card>
+    <card>
+      <name>Telekinetic</name>
+      <set rarity="Common" picURL="https://mtg.design/i/wjuy93.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>UR</manacost>
+      <cmc>2</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Return target creature to its owner's hand.
+
+You may pay {1} more than the last time to recast this spell from the graveyard.</text>
+    </card>
+    <card>
+      <name>Flanders Fields</name>
+      <set rarity="Common" picURL="https://mtg.design/i/sqyy59.jpg">SET</set>
+      <manacost></manacost>
+      <cmc>0</cmc>
+      <type>Legendary Land</type>
+      <tablerow>1</tablerow>
+      <text>When a Soldier you control dies, put a memoriam counter on Flanders Fields.
+
+{T}: Add {R} to your mana pool.
+{T}: Add {R}{W} to your mana pool. Activate only if Flanders Fields has at least 5 memoriam counters.</text>
+    </card>
+    <card>
+      <name>Nikon, Unending Flame</name>
+      <set rarity="Mythic Rare" picURL="https://mtg.design/i/plhx54.jpg">SET</set>
+      <color>W</color>
+      <color>R</color>
+      <manacost>RRRW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Planeswalker — Nikon</type>
+      <loyalty>7</loyalty>
+      <tablerow>1</tablerow>
+      <text>1: Grant mentor to a target creature with 4 power or more. </text>
+    </card>
+    <card>
+      <name>Nikolas, Smouldering Flame</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bfzc71.jpg">SET</set>
+      <color>W</color>
+      <color>R</color>
+      <manacost>RRWW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Pixie Demigod</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>As long as you control other creatures, Nikolas, Smouldering Flame cannot attack or block.
+All other creatures get +1/+1.
+At each end step, if a creature you controlled died this turn and you control no creatures other than Nikolas, Smouldering Flame, Nikolas, Smouldering Flame deals damage equal to its power to target creature. </text>
+    </card>
+    <card>
+      <name>Nikon, Nascent Flame</name>
+      <set rarity="Common" picURL="https://mtg.design/i/eqma34.jpg">SET</set>
+      <color>W</color>
+      <color>R</color>
+      <manacost>RRWW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Pixie Soldier</type>
+      <pt>4/4</pt>
+      <tablerow>2</tablerow>
+      <text>Partner with Francois, Old Guard
+{W}, {T}: Creatures you control get +2/+0 until end of turn. Activate this ability only during combat.
+If Francois, Old Guard is killed while Nikon, Nascent Flame is tapped, untap Nikon, Nascent Flame. </text>
+    </card>
+    <card>
+      <name>Cum</name>
+      <set rarity="Common" picURL="https://mtg.design/i/qvsm64.jpg">SET</set>
+      <color>W</color>
+      <manacost>W</manacost>
+      <cmc>1</cmc>
+      <type>Creature</type>
+      <pt>1/1</pt>
+      <tablerow>1</tablerow>
+      <text>Target gains 3 life. </text>
+    </card>
+    <card>
+      <name>Piss</name>
+      <set rarity="Common" picURL="https://mtg.design/i/meko64.jpg">SET</set>
+      <color>R</color>
+      <manacost>R</manacost>
+      <cmc>1</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Target loses 3 life.</text>
+    </card>
+    <card>
+      <name>Pythagoras' Conjecture</name>
+      <set rarity="Common" picURL="https://mtg.design/i/amad52.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>XUR</manacost>
+      <cmc>2</cmc>
+      <type>Sorcery</type>
+      <tablerow>1</tablerow>
+      <text>Let Y be the number of sorceries and instants you have casted this turn.
+Deal Z damage a target creature, rounded up, where Z × Z = X × X + Y × Y.</text>
+    </card>
+    <card>
+      <name>Nikolas, Nascent Spark</name>
+      <set rarity="Common" picURL="https://mtg.design/i/dfxf33.jpg">SET</set>
+      <color>W</color>
+      <color>R</color>
+      <manacost>RRWW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Planeswalker — Nikolas</type>
+      <loyalty>4</loyalty>
+      <tablerow>1</tablerow>
+      <text> 1: Grant vigilance a target creature with 3 power or less. </text>
+    </card>
+    <card>
+      <name>Godfrey, Conqueror of Fields</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vubt90.jpg">SET</set>
+      <color>R</color>
+      <manacost>1RR</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Planeswalker — Godfrey</type>
+      <loyalty>3</loyalty>
+      <tablerow>1</tablerow>
+      <text>1: Create a 1/1 red Soldier token named "Conscript". You may attach an Equipment you control to it. </text>
+    </card>
+    <card>
+      <name>Godfrey, Extradimensional Tinkerer</name>
+      <set rarity="Common" picURL="https://mtg.design/i/klgc79.jpg">SET</set>
+      <color>W</color>
+      <color>R</color>
+      <manacost>2RRW</manacost>
+      <cmc>5</cmc>
+      <type>Legendary Planeswalker — Godfrey</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text>1: Create a colorless artifact token named "F1 Grenade" with "At the beginning of your upkeep, sacrifice this artifact and it deals 3 damage to you." Target player gains control of F1 Grenade. </text>
+    </card>
+    <card>
+      <name>Francois, Old Guard</name>
+      <set rarity="Common" picURL="https://mtg.design/i/bjno83.jpg">SET</set>
+      <color>R</color>
+      <manacost>1RRR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Soldier Construct</type>
+      <pt>4/2</pt>
+      <tablerow>1</tablerow>
+      <text>Partner with Nikon, Nascent Flame
+{R}: Tap Nikon, Nascent Flame. Francois, Old Guard gains +3/+1 and trample for a turn and is goaded.
+If Francois, Old Guard dies while Nikon, Nascent Flame is tapped, deal 4 damage to any creature. </text>
+    </card>
+    <card>
+      <name>Marvin, Paragon of Time</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ruzx02.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>UURR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Wizard</type>
+      <pt>3/3</pt>
+      <tablerow>1</tablerow>
+      <text>Haste
+Whenever you cast a sorcery or an instant, you may pay {2} less for its mana cost. Exile and put one time counter on it. If it doesn't have suspend, it gains suspend.</text>
+    </card>
+    <card>
+      <name>Minho, Bringer of Light</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ovrz99.jpg">SET</set>
+      <color>W</color>
+      <manacost>1WWW</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Bird</type>
+      <pt>0/4</pt>
+      <tablerow>1</tablerow>
+      <text>Flash, Flying, Defender.
+When Minho, Bringer of Light enters the battlefield, all nonland permanents phase out. </text>
+    </card>
+    <card>
+      <name>John, Slayer of Gods</name>
+      <set rarity="Common" picURL="https://mtg.design/i/vaqg47.jpg">SET</set>
+      <color>U</color>
+      <color>B</color>
+      <manacost>1BU</manacost>
+      <cmc>3</cmc>
+      <type>Legendary Creature — Human</type>
+      <pt>2/2</pt>
+      <tablerow>1</tablerow>
+      <text>Deathtouch.
+When John, Slayer of Gods is blocked by or blocking a creature with indestructible, that creature loses indestructible till end of turn. Put five +1/+1 counters on John, Slayer of Gods. </text>
+    </card>
+    <card>
+      <name>Crash.exe</name>
+      <set rarity="Common" picURL="https://mtg.design/i/ttmq06.jpg">SET</set>
+      <manacost>1</manacost>
+      <cmc>1</cmc>
+      <type>Instant</type>
+      <tablerow>1</tablerow>
+      <text>Replicate {U}
+Tap target creature.</text>
+    </card>
+    <card>
+      <name>Tagus, The Determined</name>
+      <set rarity="Common" picURL="https://mtg.design/i/xtun78.jpg">SET</set>
+      <color>U</color>
+      <color>R</color>
+      <manacost>UUUR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Creature — Bird Wizard</type>
+      <pt>2/4</pt>
+      <tablerow>1</tablerow>
+      <text>Flying 
+For each permanent your spells destroy or exile, Tagus gains +1/+1 until the end of your next turn.</text>
+    </card>
+    <card>
+      <name>John, Arcana Unleashed</name>
+      <set rarity="Special" picURL="https://mtg.design/i/aktw03.jpg">SET</set>
+      <color>W</color>
+      <color>U</color>
+      <color>B</color>
+      <color>R</color>
+      <manacost>WUBR</manacost>
+      <cmc>4</cmc>
+      <type>Legendary Planeswalker — John</type>
+      <loyalty>5</loyalty>
+      <tablerow>1</tablerow>
+      <text> 1: For each unique token you control, deal 1 damage to a target creature. </text>
+    </card>
+  </cards>
+</cockatrice_carddatabase>
