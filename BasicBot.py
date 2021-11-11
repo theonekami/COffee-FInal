@@ -61,7 +61,7 @@ async def on_ready():
 
     client.load_extension("help")
     
-    home=client.get_channel(id=522127036022521871)
+    home=client.get_channel(522127036022521871)
 
     await home.send("I am REBORN")
 
