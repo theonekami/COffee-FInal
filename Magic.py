@@ -95,21 +95,21 @@ def return_image(user_string):
 			name = elem[0]
 			if name not in to_suggest:
 				to_suggest.append(name)
-				ret= ret+" "+name
+				ret= ret+" , "+name
 
 	if len(all_links) <= 3:
 		for elem in all_links:
 			name = elem[0]
 			if name not in to_suggest:
 				to_suggest.append(name)
-				ret= ret+" "+name
+				ret= ret+" , "+name
 
 	if len(single) <= 3:
 		for elem in single:
 			name = elem[0]
 			if name not in to_suggest:
 				to_suggest.append(name)
-				ret= ret+" "+name
+				ret= ret+" , "+name
 	return ret
 
 
