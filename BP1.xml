@@ -117,7 +117,7 @@ When Grand Casino enters the battlefield, sacrifice it unless you return an unta
 {t}: Add {c} to your mana pool. </text>
     </card>
     <card>
-      <name><Name></name>
+      <name>&lt;Name&lt;</name>
       <set rarity="Common" picURL="https://mtg.design/i/fbbf86.jpg">BP1</set>
       <manacost></manacost>
       <cmc>0</cmc>

@@ -1,7 +1,7 @@
 import difflib
 import xml.etree.ElementTree as ET
 
-file_lst = ["BER", "02.WOT", "BP1", "BP2", "BP3", "COG", "DOC", "FUR", "KAY", "MAD", "SET", "SVP", "TRI"]
+file_lst = ["BER", "WOT", "BP1", "BP2", "BP3", "COG", "DOC", "FUR", "KAY", "MAD", "SET", "SVP", "TRI"]
 
 # full name dict
 card_dict = {}
