@@ -84,12 +84,12 @@ def return_image(user_string):
 				return card_dict[difflib.get_close_matches(user_string, card_dict.keys())[0]]
 			except Exception:
 				print()
-				print("No matches. Please try again!")
+				ret="No matches. Please try again!"
 
 	print()
 
 	to_suggest = []
-	print("Did you mean: ")
+	ret= ret+"\nDid you mean: "
 	if len(all_links_s) <= 3:
 		for elem in all_links_s:
 			name = elem[0]
@@ -110,6 +110,7 @@ def return_image(user_string):
 			if name not in to_suggest:
 				to_suggest.append(name)
 				print(name)
+	return ret
 
 
 
@@ -144,9 +145,12 @@ class Magic(commands.Cog):
     @commands.command()
     async def custom(self,ctx,*,args):
         y=return_image(args)
-        em=discord.Embed(title=y[0])
-        em.set_image(url=y[1])
-        await ctx.send(embed=em)
+        if isinstance(y,str):
+            await ctx.send(y)
+        else:
+            em=discord.Embed(title=y[0])
+            em.set_image(url=y[1])
+            await ctx.send(embed=em)
     
     
     @commands.group()
