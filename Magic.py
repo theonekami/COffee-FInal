@@ -144,7 +144,9 @@ class Magic(commands.Cog):
     @commands.command()
     async def custom(self,ctx,*,args):
         y=return_image(args)
-        await ctx.send(y)
+        em=discord.Embed(title=y[0])
+        em.set_image(url=y[1])
+        await ctx.send(embed=em)
     
     
     @commands.group()
